@@ -82,3 +82,24 @@ Publish full prompts, raw responses, per-question input/output CSVs, analysis,
 source code, and an honest report to the existing isolated repository. Do not
 publish credentials. Repetitions are stability measurements; no claim of 1,899
 independent reasoning problems or population-level confidence intervals.
+
+## Adaptive follow-up after the first phase
+
+The first phase produced ceiling results in all three difficulty panels. Before
+running the next calls we add 126 requests with separately frozen inputs:
+
+- 54 scrambled-chain calls: depth 8/32/128 × two seeded code-name assignments ×
+  yes/no/unknown × three repetitions. Rules are shuffled, category codes are
+  opaque and there is a disjoint distractor chain. Unknown cases have a missing
+  link. This changes structure as well as length, so compare within this panel.
+- 18 carry/drop tracking calls: 8/16/32 people and items × two seeded event
+  histories × three repetitions. People carry held items but leave dropped
+  items behind. The queried item is finally dropped in one history and carried
+  in the other. Each person handles one item; there are no handoffs.
+- 54 dispersed-record calls: 128/512/1024 other records × winning record at
+  start/middle/end × two color rotations × three repetitions. Lower target
+  versions are dispersed at quarter positions. The highest version is uniquely
+  correct regardless of its location. Two color rotations are not fully balanced.
+
+Total planned calls including this adaptive extension: 2,025. This is a bounded
+search for failures, not a promise to determine the largest possible input size.

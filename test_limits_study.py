@@ -47,4 +47,67 @@ class LimitsTests(unittest.TestCase):
                 records=[(int(v),color) for v,color in re.findall(r'Asset TARGET, version (\d+), color (\w+)',text)]
                 self.assertEqual(c['expected']['answer'],max(records)[1])
 
+class PipelineTests(unittest.TestCase):
+    def test_actual_answer_is_forwarded_without_correction(self):
+        import tempfile
+        from pathlib import Path
+        from limits_study import pipeline_cases
+        suite=cases()
+        rows=[]
+        for c in suite:
+            if c['group']!='decision' or c['factors']['mode']!='check':continue
+            for rep in range(3):
+                rows.append(dict(trial=len(rows)+1,case_id=c['id'],repetition=rep,
+                    response={'answers':{'answer':{'choice':'cannot_be_determined'}}},all_correct=False))
+        with tempfile.TemporaryDirectory() as tmp:
+            path=Path(tmp)
+            (path/'manifest.json').write_text(json.dumps({'cases':suite}))
+            (path/'results.jsonl').write_text('\n'.join(json.dumps(r) for r in rows))
+            derived=pipeline_cases(path)
+        self.assertEqual(len(derived),288)
+        self.assertEqual(len({c['factors']['source_trial'] for c in derived}),288)
+        for c in derived:
+            self.assertIn('selected answer was: cannot_be_determined.',c['payload']['state'])
+            self.assertFalse(c['factors']['check_correct'])
+            self.assertEqual(set(c['payload']),{'model','state','questions'})
+
+class StressTests(unittest.TestCase):
+    def test_independent_oracles(self):
+        from stress_followup import cases as stress
+        suite=stress()
+        self.assertEqual(sum(c['repetitions'] for c in suite),126)
+        for c in suite:
+            state=c['payload']['state']; question=c['payload']['questions']['answer']['instructions']
+            if c['group']=='scrambled_logic':
+                edges=re.findall(r'If Z has (T\d+), then Z has (T\d+)',state)
+                negative='Fact: Z does not have' in state
+                fact=re.search(r'Fact: Z (?:has|does not have) (T\d+)',state)[1]
+                target=re.search(r'have (T\d+)',question)[1]
+                if negative:edges=[(b,a) for a,b in edges]
+                known={fact}
+                while True:
+                    more=known|{b for a,b in edges if a in known}
+                    if more==known:break
+                    known=more
+                expected=('no' if negative else 'yes') if target in known else 'cannot_be_determined'
+                self.assertEqual(expected,c['expected']['answer'])
+            elif c['group']=='carry_tracking':
+                actor={};obj={};held={}
+                for person,room,item in re.findall(r'Person (P\d+) is in the (\w+) holding item (I\d+)',state):
+                    actor[person]=room;obj[item]=room;held[person]=item
+                pattern=r'(P\d+) (?:goes to the (\w+)(?: and picks up (I\d+))?|puts down (I\d+) there)\.'
+                for person,room,pick,drop in re.findall(pattern,state):
+                    if room:
+                        actor[person]=room
+                        if held.get(person):obj[held[person]]=room
+                    if pick:
+                        self.assertEqual(obj[pick],actor[person]);held[person]=pick
+                    if drop:
+                        self.assertEqual(held[person],drop);held[person]=None
+                target=re.search(r'item (I\d+)',question)[1]
+                self.assertEqual(obj[target],c['expected']['answer'])
+            else:
+                records=[(int(v),color) for v,color in re.findall(r'Asset TARGET, version (\d+), color (\w+)',state)]
+                self.assertEqual(max(records)[1],c['expected']['answer'])
+
 if __name__=='__main__':unittest.main()

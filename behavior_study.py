@@ -122,7 +122,7 @@ def cases():
     return out
 
 
-def run(suite_factory=cases, run_name='behavior-study', seed=20260916, hypotheses=None):
+def run(suite_factory=cases, run_name='behavior-study', seed=20260916, hypotheses=None, method=None):
     parser = argparse.ArgumentParser()
     parser.add_argument('--plan-only',action='store_true')
     parser.add_argument('--workers',type=int,default=4)
@@ -141,6 +141,8 @@ def run(suite_factory=cases, run_name='behavior-study', seed=20260916, hypothese
     manifest={'model':MODEL,'seed':seed,'workers':args.workers,'cases':suite,
               'method':'Predeclared labels and cases; shuffled interleaved requests; fresh opener; no retries; no response reuse. Repetitions measure conditional stability, not independent task coverage.',
               'hypotheses':['Context placement changes direct-choice accuracy.','Goal-focused instructions improve choice.','Option order, uncertainty option or descriptions affect answers.','Batching alone does not fix a direct choice.','Prerequisite checking transfers to balanced new cases.','Length, irrelevant walking cues and fact position affect performance.','Explicit counting or spaced text improves exact letter counting.']}
+    if method is not None:
+        manifest['method'] = method
     if hypotheses is not None:
         manifest['hypotheses'] = hypotheses
     (out/'manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
