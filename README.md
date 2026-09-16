@@ -4,18 +4,38 @@ An independent, AI-assisted investigation of **Jev 1.13.0**: how wording,
 context placement, answer descriptions, prerequisite questions, and text
 length affect its structured decisions.
 
-**[Read the full report](JEV_BEHAVIOR_REPORT.md)** ·
+**[Read the original report](JEV_BEHAVIOR_REPORT.md)** ·
+**[Read the new everyday reasoning report](EVERYDAY_REASONING_REPORT.md)** ·
 [Main study evidence](results/20260916T075659560245Z-behavior-study/) ·
 [Follow-up evidence](results/20260916T080433683304Z-behavior-followup/)
 
 The report covers **2,805 new requests across 251 configurations**, plus five
-earlier 1,000-request tests. All 7,805 successful requests are preserved.
+earlier 1,000-request tests. The new extension adds **1,791 requests** testing
+logic, arithmetic, counting, tracking, prerequisites and retrieval. All **9,596
+successful requests** are preserved.
 Two failed startup attempts are included separately and produced no answers.
 Inputs are synthetic; outputs are recorded live API responses from September
 16, 2026. This is not an official TypeSafe benchmark or a representative
 measurement of general model ability.
 
-## Findings
+## New extension findings
+
+- Explicit conditional truth-status questions passed 576/576 requests across
+  eight rule templates; structured retrieval passed 243/243 up to 512 records.
+- Exact character counting passed 117/216. Spacing and generic evidence-only
+  instructions did not make it reliable.
+- Multi-step arithmetic passed 72/108. Reversing choices reduced its matched
+  result from 29/36 to 18/36; irrelevant numbers also affected performance.
+- The report discloses and excludes a 72-request pilot family with ambiguous
+  grading semantics. All raw responses and original automatic scores remain.
+- Both new runs include a `per_question.csv` with exact input/output token usage
+  for each question, and offline label and evidence verification.
+
+See the [research protocol](EXTENSION_PROTOCOL.md) for sources, hypotheses,
+matched controls, limitations and reproduction commands. These are original
+synthetic tests, not official benchmark scores.
+
+## Original findings
 
 - On 12 balanced travel scenarios, direct choices were correct in 65/120
   requests (54.2%); two explicit prerequisite checks were jointly correct in

@@ -1,0 +1,44 @@
+{
+  "scope": "Everyday reasoning extension; offline checks, not independent human review",
+  "runs": [
+    "20260916T083425766606Z-everyday-study",
+    "20260916T085918297474Z-reasoning-followup"
+  ],
+  "requests": 1791,
+  "score_excluded_requests": 72,
+  "checks": [
+    "All raw responses verified against saved payload hashes, schedule and choice labels",
+    "Generated cases exactly match frozen manifests",
+    "Five offline design/label tests pass",
+    "Per-question token accounting and matched prefix costs verified",
+    "Report relative links resolve",
+    "No private workspace paths or recognized credential patterns in extension files"
+  ],
+  "sha256": {
+    "EVERYDAY_REASONING_REPORT.md": "2d0089b49c92f8710131513a5250bd6771297894249dc8a4c6e95f4e459916b5",
+    "EXTENSION_PROTOCOL.md": "b85a7b64611aaf6d2e60cc90e54948df66664f78019817f0df83f24d695cc5a8",
+    "everyday_study.py": "6e6a738a077a500ac16ccab49808ac499b5e111d07b5fc476ac1627b36d94ecc",
+    "reasoning_followup.py": "abcc4185419b26ea96e8a35e36808d58cceec7dd48f3054970264890ae2ad6e4",
+    "analyze_everyday_study.py": "da1665648c7e5a66df8eefc352e7cac5bc276daf19200f2ef05e73a360cc582d",
+    "build_everyday_report.py": "89936e9ead2d3d66278c5c307e2d6fd3f44a62f4a961d0cbb09ac31a998d82e9",
+    "test_everyday_study.py": "618603853d99c7ac6afa6bba2da11e10ae7d26883d2d62728dbb2e61abdb6df6",
+    "results/20260916T083425766606Z-everyday-study/extension_metrics.json": "283cb4077942bf3771c3847955d42b27d7d10692883159475ac002ea748316f6",
+    "results/20260916T083425766606Z-everyday-study/schedule.json": "36ad46b816b31937b1eb2caead635b2fc2780c63e2bdef6b1d5824595574043b",
+    "results/20260916T083425766606Z-everyday-study/manifest.json": "8f61d0df3b43c27b92a665e4b6d1dc6b49df4de105120b30bc4d44ccc887f1ce",
+    "results/20260916T083425766606Z-everyday-study/per_question.csv": "e12fc3df085ab9abf89e213a7771e9bb654a1ee37d3b278ed7328ae41478a86e",
+    "results/20260916T083425766606Z-everyday-study/answers.csv": "0b07e9ff4de76768d64f7a3a03aec60994b162cab7b875a0dfdaf74f0eb875f4",
+    "results/20260916T083425766606Z-everyday-study/completion.json": "19ab3d426f8a9915c35f62a78ceadc192274b1e6f4002de02e2aee69f07b5ceb",
+    "results/20260916T083425766606Z-everyday-study/results.jsonl": "1faa4d5b7dba4ba71257a43bd0d0c1b09368a04a9df04cf0ffaba33e0cbee79d",
+    "results/20260916T083425766606Z-everyday-study/conditions.csv": "c1c7b3efb4e4f25d72d66da6ba4093816a810bea32d9eebf016c35a2075eee7e",
+    "results/20260916T083425766606Z-everyday-study/analysis.json": "3481279b85f1f7bc7204775d54f585d83a1d04e2ac52b609552e14a59e6e2e2a",
+    "results/20260916T085918297474Z-reasoning-followup/extension_metrics.json": "ec1decd5b0475e43251b529ff96f1f49faf8d1d396c38334b7e0f7539f8d9e04",
+    "results/20260916T085918297474Z-reasoning-followup/schedule.json": "cf976edbb6bf3b7f27fe58bb6bacb8460099340542205abed7796306ce514cd2",
+    "results/20260916T085918297474Z-reasoning-followup/manifest.json": "9a369fc165e34832a4de0a69af18df22eae8d33fafcf6985bc192e95bc0acf52",
+    "results/20260916T085918297474Z-reasoning-followup/per_question.csv": "638b6e11b60727eed9ca06637f60b5fc85a6e8a6ab90559b86511522a242b202",
+    "results/20260916T085918297474Z-reasoning-followup/answers.csv": "ee0279222464b39f9e8cf3d291861b4a4556b2a378ae54ab458b9e84b9559847",
+    "results/20260916T085918297474Z-reasoning-followup/completion.json": "393279f9e21265f1fd9ce206508099623c28e4ad035663af3ee83a97030c0325",
+    "results/20260916T085918297474Z-reasoning-followup/results.jsonl": "5e9ebde7b148a2a7fc4bbaf2296956a5cb7c8575b1fd1904635c065a62a4e74a",
+    "results/20260916T085918297474Z-reasoning-followup/conditions.csv": "0dc82037c55a9c85cf72f789e2bf2a746848b9d249cb4a2140194c3774ef012c",
+    "results/20260916T085918297474Z-reasoning-followup/analysis.json": "71d43f4bd31c8d2e1ad64951804306f8faac60b57df5f924c968242dcd3ebecf"
+  }
+}

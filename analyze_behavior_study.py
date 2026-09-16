@@ -64,7 +64,7 @@ def analyze(path):
     def tab(name,group,fields):
         buckets=defaultdict(list)
         for c in case_rows:
-            if c['group']==group:buckets[tuple(c['factors'][f] for f in fields)].append(c)
+            if c['group']==group and all(f in c['factors'] for f in fields):buckets[tuple(c['factors'][f] for f in fields)].append(c)
         table=[]
         for key,cs in buckets.items():
             n=sum(c['requests'] for c in cs); k=sum(c['correct'] for c in cs)

@@ -1,0 +1,299 @@
+[
+  {
+    "family": "ALL",
+    "mode": "explicit",
+    "score_eligible": true,
+    "correct": 255,
+    "n": 255,
+    "mean_input_tokens": 1283.270588235294,
+    "mean_output_tokens": 49.72941176470588
+  },
+  {
+    "family": "ALL",
+    "mode": "plain",
+    "score_eligible": true,
+    "correct": 255,
+    "n": 255,
+    "mean_input_tokens": 1258.270588235294,
+    "mean_output_tokens": 49.72941176470588
+  },
+  {
+    "family": "ALL",
+    "mode": "reversed",
+    "score_eligible": true,
+    "correct": 255,
+    "n": 255,
+    "mean_input_tokens": 1258.270588235294,
+    "mean_output_tokens": 49.72941176470588
+  },
+  {
+    "family": "arithmetic",
+    "mode": "explicit",
+    "score_eligible": true,
+    "correct": 36,
+    "n": 36,
+    "mean_input_tokens": 396,
+    "mean_output_tokens": 50.166666666666664
+  },
+  {
+    "family": "arithmetic",
+    "mode": "plain",
+    "score_eligible": true,
+    "correct": 36,
+    "n": 36,
+    "mean_input_tokens": 371,
+    "mean_output_tokens": 50.166666666666664
+  },
+  {
+    "family": "arithmetic",
+    "mode": "reversed",
+    "score_eligible": true,
+    "correct": 36,
+    "n": 36,
+    "mean_input_tokens": 371,
+    "mean_output_tokens": 50.166666666666664
+  },
+  {
+    "family": "conditional",
+    "mode": "explicit",
+    "score_eligible": false,
+    "correct": 23,
+    "n": 24,
+    "mean_input_tokens": 373.5,
+    "mean_output_tokens": 42.833333333333336
+  },
+  {
+    "family": "conditional",
+    "mode": "plain",
+    "score_eligible": false,
+    "correct": 21,
+    "n": 24,
+    "mean_input_tokens": 348.5,
+    "mean_output_tokens": 42.5
+  },
+  {
+    "family": "conditional",
+    "mode": "reversed",
+    "score_eligible": false,
+    "correct": 21,
+    "n": 24,
+    "mean_input_tokens": 348.5,
+    "mean_output_tokens": 42.5
+  },
+  {
+    "family": "decimal",
+    "mode": "explicit",
+    "score_eligible": true,
+    "correct": 18,
+    "n": 18,
+    "mean_input_tokens": 365.8333333333333,
+    "mean_output_tokens": 38
+  },
+  {
+    "family": "decimal",
+    "mode": "plain",
+    "score_eligible": true,
+    "correct": 18,
+    "n": 18,
+    "mean_input_tokens": 340.8333333333333,
+    "mean_output_tokens": 38
+  },
+  {
+    "family": "decimal",
+    "mode": "reversed",
+    "score_eligible": true,
+    "correct": 18,
+    "n": 18,
+    "mean_input_tokens": 340.8333333333333,
+    "mean_output_tokens": 38
+  },
+  {
+    "family": "evidence",
+    "mode": "explicit",
+    "score_eligible": true,
+    "correct": 18,
+    "n": 18,
+    "mean_input_tokens": 363,
+    "mean_output_tokens": 43.333333333333336
+  },
+  {
+    "family": "evidence",
+    "mode": "plain",
+    "score_eligible": true,
+    "correct": 18,
+    "n": 18,
+    "mean_input_tokens": 338,
+    "mean_output_tokens": 43.333333333333336
+  },
+  {
+    "family": "evidence",
+    "mode": "reversed",
+    "score_eligible": true,
+    "correct": 18,
+    "n": 18,
+    "mean_input_tokens": 338,
+    "mean_output_tokens": 43.333333333333336
+  },
+  {
+    "family": "negation",
+    "mode": "explicit",
+    "score_eligible": true,
+    "correct": 12,
+    "n": 12,
+    "mean_input_tokens": 360,
+    "mean_output_tokens": 42
+  },
+  {
+    "family": "negation",
+    "mode": "plain",
+    "score_eligible": true,
+    "correct": 12,
+    "n": 12,
+    "mean_input_tokens": 335,
+    "mean_output_tokens": 42
+  },
+  {
+    "family": "negation",
+    "mode": "reversed",
+    "score_eligible": true,
+    "correct": 12,
+    "n": 12,
+    "mean_input_tokens": 335,
+    "mean_output_tokens": 42
+  },
+  {
+    "family": "object_tracking",
+    "mode": "explicit",
+    "score_eligible": true,
+    "correct": 24,
+    "n": 24,
+    "mean_input_tokens": 386.5,
+    "mean_output_tokens": 47.5
+  },
+  {
+    "family": "object_tracking",
+    "mode": "plain",
+    "score_eligible": true,
+    "correct": 24,
+    "n": 24,
+    "mean_input_tokens": 361.5,
+    "mean_output_tokens": 47.5
+  },
+  {
+    "family": "object_tracking",
+    "mode": "reversed",
+    "score_eligible": true,
+    "correct": 24,
+    "n": 24,
+    "mean_input_tokens": 361.5,
+    "mean_output_tokens": 47.5
+  },
+  {
+    "family": "ordering",
+    "mode": "explicit",
+    "score_eligible": true,
+    "correct": 18,
+    "n": 18,
+    "mean_input_tokens": 375.1666666666667,
+    "mean_output_tokens": 47.5
+  },
+  {
+    "family": "ordering",
+    "mode": "plain",
+    "score_eligible": true,
+    "correct": 18,
+    "n": 18,
+    "mean_input_tokens": 350.1666666666667,
+    "mean_output_tokens": 47.5
+  },
+  {
+    "family": "ordering",
+    "mode": "reversed",
+    "score_eligible": true,
+    "correct": 18,
+    "n": 18,
+    "mean_input_tokens": 350.1666666666667,
+    "mean_output_tokens": 47.5
+  },
+  {
+    "family": "prerequisite",
+    "mode": "explicit",
+    "score_eligible": true,
+    "correct": 24,
+    "n": 24,
+    "mean_input_tokens": 384,
+    "mean_output_tokens": 42
+  },
+  {
+    "family": "prerequisite",
+    "mode": "plain",
+    "score_eligible": true,
+    "correct": 24,
+    "n": 24,
+    "mean_input_tokens": 359,
+    "mean_output_tokens": 42
+  },
+  {
+    "family": "prerequisite",
+    "mode": "reversed",
+    "score_eligible": true,
+    "correct": 24,
+    "n": 24,
+    "mean_input_tokens": 359,
+    "mean_output_tokens": 42
+  },
+  {
+    "family": "quantifiers",
+    "mode": "explicit",
+    "score_eligible": true,
+    "correct": 24,
+    "n": 24,
+    "mean_input_tokens": 368.875,
+    "mean_output_tokens": 43.5
+  },
+  {
+    "family": "quantifiers",
+    "mode": "plain",
+    "score_eligible": true,
+    "correct": 24,
+    "n": 24,
+    "mean_input_tokens": 343.875,
+    "mean_output_tokens": 43.5
+  },
+  {
+    "family": "quantifiers",
+    "mode": "reversed",
+    "score_eligible": true,
+    "correct": 24,
+    "n": 24,
+    "mean_input_tokens": 343.875,
+    "mean_output_tokens": 43.5
+  },
+  {
+    "family": "retrieval",
+    "mode": "explicit",
+    "score_eligible": true,
+    "correct": 81,
+    "n": 81,
+    "mean_input_tokens": 3227.6666666666665,
+    "mean_output_tokens": 60
+  },
+  {
+    "family": "retrieval",
+    "mode": "plain",
+    "score_eligible": true,
+    "correct": 81,
+    "n": 81,
+    "mean_input_tokens": 3202.6666666666665,
+    "mean_output_tokens": 60
+  },
+  {
+    "family": "retrieval",
+    "mode": "reversed",
+    "score_eligible": true,
+    "correct": 81,
+    "n": 81,
+    "mean_input_tokens": 3202.6666666666665,
+    "mean_output_tokens": 60
+  }
+]
