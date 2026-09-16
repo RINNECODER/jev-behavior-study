@@ -50,8 +50,8 @@ def main():
             successful += 1
             input_tokens += raw['usage']['input_tokens']
             output_tokens += raw['usage']['output_tokens']
-    assert (successful, answers, failures) == (9596, 11071, 2)
-    assert (input_tokens, output_tokens) == (6428779, 511717)
+    assert (successful, answers, failures) == (11621, 13096, 2)
+    assert (input_tokens, output_tokens) == (8084680, 593109)
     print(f'Verified {successful:,} successful requests, {answers:,} answers, and {failures} failed startup attempts.')
     print(f'Reported usage: {input_tokens:,} input tokens; {output_tokens:,} output tokens.')
 

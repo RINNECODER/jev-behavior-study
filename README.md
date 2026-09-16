@@ -4,6 +4,7 @@ An independent, AI-assisted investigation of **Jev 1.13.0**: how wording,
 context placement, answer descriptions, prerequisite questions, and text
 length affect its structured decisions.
 
+**[Read the latest decision and limits report](DECISION_AND_LIMITS_REPORT.md)** ·
 **[Read the original report](JEV_BEHAVIOR_REPORT.md)** ·
 **[Read the new everyday reasoning report](EVERYDAY_REASONING_REPORT.md)** ·
 [Main study evidence](results/20260916T075659560245Z-behavior-study/) ·
@@ -11,14 +12,32 @@ length affect its structured decisions.
 
 The report covers **2,805 new requests across 251 configurations**, plus five
 earlier 1,000-request tests. The new extension adds **1,791 requests** testing
-logic, arithmetic, counting, tracking, prerequisites and retrieval. All **9,596
+logic, arithmetic, counting, tracking, prerequisites and retrieval. The decision/order/limits study adds another **2,025 requests**. All **11,621
 successful requests** are preserved.
 Two failed startup attempts are included separately and produced no answers.
 Inputs are synthetic; outputs are recorded live API responses from September
 16, 2026. This is not an official TypeSafe benchmark or a representative
 measurement of general model ability.
 
-## New extension findings
+## Latest decision, order and limits findings
+
+- Direct, descriptive and live two-step decisions each passed 288/288 on the
+  same 48 new scenarios. The pipeline cost more and showed no accuracy gain
+  on this ceiling panel; no incorrect prerequisite occurred.
+- Every permutation of four arithmetic choices was tested. Correct-first
+  accuracy was 95/108 versus 62/108 for correct-last.
+- Regular logic chains passed through 32 links. Scrambled/broken-chain
+  accuracy fell from 12/18 at eight links to 6/18 at 128.
+- Dispersed highest-version records failed at middle positions: 1/6 with 512
+  other records and 0/6 with 1,024. Start/end remained 6/6 in each cell.
+- Carry/drop tracking exposed failures without a monotonic object-count limit.
+
+See the [full report](DECISION_AND_LIMITS_REPORT.md),
+[frozen and adaptive protocols](LIMITS_PROTOCOL.md), exact prompts, raw responses
+and per-question token logs. These are task-specific findings, not universal
+model thresholds.
+
+## Earlier everyday reasoning extension findings
 
 - Explicit conditional truth-status questions passed 576/576 requests across
   eight rule templates; structured retrieval passed 243/243 up to 512 records.

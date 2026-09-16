@@ -12,13 +12,20 @@ def read(path):
     return ({c['id']:c for c in json.loads((path/'manifest.json').read_text())['cases']},
         [json.loads(s) for s in (path/'results.jsonl').read_text().splitlines()])
 
-def analyze_all(first,second):
-    for path in [first,second]:analyze(path)
+def analyze_all(first,second,stress=None):
+    paths=[first,second]+([stress] if stress is not None else [])
+    for path in paths:analyze(path)
     c1,r1=read(first);c2,r2=read(second)
     assert list(c1.values())==cases()
     assert list(c2.values())==pipeline_cases(first)
+    inputs=[(first,c1,r1),(second,c2,r2)]
+    if stress is not None:
+        from stress_followup import cases as stress_cases
+        c3,r3=read(stress)
+        assert list(c3.values())==stress_cases()
+        inputs.append((stress,c3,r3))
     source={r['trial']:r for r in r1};bins=defaultdict(list);csvrows=[];workflows=[]
-    for path,cs,rs in [(first,c1,r1),(second,c2,r2)]:
+    for path,cs,rs in inputs:
         for r in rs:
             c=cs[r['case_id']];f=c['factors'];a=r['response']['answers']['answer'];u=r['response']['usage'];g=c['group']
             out=dict(run=path.name,trial=r['trial'],case_id=c['id'],family=g,expected=c['expected']['answer'],choice=a['choice'],correct=r['all_correct'],
@@ -38,6 +45,11 @@ def analyze_all(first,second):
             elif g=='multi_tracking':bins[g,f['objects']].append(out)
             elif g=='competing_records':
                 bins[g,f['distractors']].append(out);bins['record_position',f['distractors'],f['position']].append(out)
+            elif g=='scrambled_logic':
+                bins[g,f['depth']].append(out);bins['scrambled_label',f['depth'],f['label']].append(out)
+            elif g=='carry_tracking':bins[g,f['objects']].append(out)
+            elif g=='dispersed_records':
+                bins[g,f['distractors']].append(out);bins['dispersed_position',f['distractors'],f['position']].append(out)
             if g=='pipeline':
                 prior=source[f['source_trial']];pu=prior['response']['usage']
                 assert f['check_answer']==prior['response']['answers']['answer']['choice']
@@ -57,7 +69,7 @@ def analyze_all(first,second):
         rs=[r for r in r1 if c1[r['case_id']]['group']=='permutation' and c1[r['case_id']]['factors']['template']==t]
         permutation.append(dict(template=t,choices=dict(Counter(r['response']['answers']['answer']['choice'] for r in rs)),
             perfect_permutations=sum(all(r['all_correct'] for r in rs if r['case_id']==c['id']) for c in c1.values() if c['group']=='permutation' and c['factors']['template']==t)))
-    summary=dict(runs=[first.name,second.name],requests=len(csvrows),tables=tables,permutation_templates=permutation,
+    summary=dict(runs=[p.name for p in paths],requests=len(csvrows),tables=tables,permutation_templates=permutation,
         pipeline_joint_correct=sum(w['joint_correct'] for w in workflows),pipeline_n=len(workflows),
         wrong_checks=sum(not w['check_correct'] for w in workflows),rescued_wrong_checks=sum(not w['check_correct'] and w['final_correct'] for w in workflows),
         correct_checks_wrong_final=sum(w['check_correct'] and not w['final_correct'] for w in workflows),
@@ -65,7 +77,7 @@ def analyze_all(first,second):
         workflow_output_tokens_mean=statistics.mean(w['workflow_output_tokens'] for w in workflows),
         input_tokens=sum(r['input_tokens'] for r in csvrows),output_tokens=sum(r['output_tokens'] for r in csvrows),
         max_input_tokens=max(r['input_tokens'] for r in csvrows))
-    for path in [first,second]:
+    for path in paths:
         selected=[r for r in csvrows if r['run']==path.name]
         with (path/'per_question.csv').open('w') as f:
             w=csv.DictWriter(f,fieldnames=list(selected[0]),lineterminator='\n');w.writeheader();w.writerows(selected)
@@ -75,4 +87,4 @@ def analyze_all(first,second):
     print('LIMITS SUMMARY',json.dumps(summary,indent=2))
     return summary
 
-if __name__=='__main__':analyze_all(Path(sys.argv[1]),Path(sys.argv[2]))
+if __name__=='__main__':analyze_all(Path(sys.argv[1]),Path(sys.argv[2]),Path(sys.argv[3]) if len(sys.argv)>3 else None)

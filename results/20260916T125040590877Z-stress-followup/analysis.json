@@ -1,0 +1,1034 @@
+{
+  "run": "20260916T125040590877Z-stress-followup",
+  "requests": 126,
+  "conditions": 42,
+  "answers": 126,
+  "errors": 0,
+  "models": {
+    "jev-1.13.0": 126
+  },
+  "input_tokens": 612396,
+  "output_tokens": 5603,
+  "first_request": "2026-09-16T12:50:40.593047+00:00",
+  "last_request": "2026-09-16T12:50:54.098617+00:00",
+  "max_input_tokens": 14726,
+  "case_results": [
+    {
+      "id": "graph-8-0-yes",
+      "group": "scrambled_logic",
+      "factors": {
+        "depth": 8,
+        "sample": 0,
+        "label": "yes"
+      },
+      "requests": 3,
+      "correct": 3,
+      "accuracy": 1.0,
+      "question_count": 3,
+      "mean_target_probability": 0.9866666666666667,
+      "mean_confidence": 0.9833333333333333,
+      "input_tokens": 681,
+      "output_tokens": 42,
+      "latency_ms": 325.5,
+      "selections": {
+        "answer": {
+          "yes": 3
+        }
+      }
+    },
+    {
+      "id": "graph-8-0-no",
+      "group": "scrambled_logic",
+      "factors": {
+        "depth": 8,
+        "sample": 0,
+        "label": "no"
+      },
+      "requests": 3,
+      "correct": 3,
+      "accuracy": 1.0,
+      "question_count": 3,
+      "mean_target_probability": 0.8966666666666667,
+      "mean_confidence": 0.8433333333333333,
+      "input_tokens": 683,
+      "output_tokens": 42,
+      "latency_ms": 320.49,
+      "selections": {
+        "answer": {
+          "no": 3
+        }
+      }
+    },
+    {
+      "id": "graph-8-0-cannot_be_determined",
+      "group": "scrambled_logic",
+      "factors": {
+        "depth": 8,
+        "sample": 0,
+        "label": "cannot_be_determined"
+      },
+      "requests": 3,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 3,
+      "mean_target_probability": 0.26,
+      "mean_confidence": 0.35,
+      "input_tokens": 663,
+      "output_tokens": 42,
+      "latency_ms": 387.5,
+      "selections": {
+        "answer": {
+          "no": 3
+        }
+      }
+    },
+    {
+      "id": "graph-8-1-yes",
+      "group": "scrambled_logic",
+      "factors": {
+        "depth": 8,
+        "sample": 1,
+        "label": "yes"
+      },
+      "requests": 3,
+      "correct": 3,
+      "accuracy": 1.0,
+      "question_count": 3,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 0.99,
+      "input_tokens": 681,
+      "output_tokens": 42,
+      "latency_ms": 316.8,
+      "selections": {
+        "answer": {
+          "yes": 3
+        }
+      }
+    },
+    {
+      "id": "graph-8-1-no",
+      "group": "scrambled_logic",
+      "factors": {
+        "depth": 8,
+        "sample": 1,
+        "label": "no"
+      },
+      "requests": 3,
+      "correct": 3,
+      "accuracy": 1.0,
+      "question_count": 3,
+      "mean_target_probability": 0.94,
+      "mean_confidence": 0.9033333333333333,
+      "input_tokens": 683,
+      "output_tokens": 42,
+      "latency_ms": 360.04,
+      "selections": {
+        "answer": {
+          "no": 3
+        }
+      }
+    },
+    {
+      "id": "graph-8-1-cannot_be_determined",
+      "group": "scrambled_logic",
+      "factors": {
+        "depth": 8,
+        "sample": 1,
+        "label": "cannot_be_determined"
+      },
+      "requests": 3,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 3,
+      "mean_target_probability": 0.01,
+      "mean_confidence": 0.9833333333333333,
+      "input_tokens": 663,
+      "output_tokens": 42,
+      "latency_ms": 355.05,
+      "selections": {
+        "answer": {
+          "yes": 3
+        }
+      }
+    },
+    {
+      "id": "graph-32-0-yes",
+      "group": "scrambled_logic",
+      "factors": {
+        "depth": 32,
+        "sample": 0,
+        "label": "yes"
+      },
+      "requests": 3,
+      "correct": 3,
+      "accuracy": 1.0,
+      "question_count": 3,
+      "mean_target_probability": 0.9566666666666667,
+      "mean_confidence": 0.94,
+      "input_tokens": 1545,
+      "output_tokens": 42,
+      "latency_ms": 351.35,
+      "selections": {
+        "answer": {
+          "yes": 3
+        }
+      }
+    },
+    {
+      "id": "graph-32-0-no",
+      "group": "scrambled_logic",
+      "factors": {
+        "depth": 32,
+        "sample": 0,
+        "label": "no"
+      },
+      "requests": 3,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 3,
+      "mean_target_probability": 0.39,
+      "mean_confidence": 0.4033333333333333,
+      "input_tokens": 1547,
+      "output_tokens": 46,
+      "latency_ms": 315.55,
+      "selections": {
+        "answer": {
+          "cannot_be_determined": 3
+        }
+      }
+    },
+    {
+      "id": "graph-32-0-cannot_be_determined",
+      "group": "scrambled_logic",
+      "factors": {
+        "depth": 32,
+        "sample": 0,
+        "label": "cannot_be_determined"
+      },
+      "requests": 3,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 3,
+      "mean_target_probability": 0.08333333333333333,
+      "mean_confidence": 0.78,
+      "input_tokens": 1527,
+      "output_tokens": 42,
+      "latency_ms": 562.1,
+      "selections": {
+        "answer": {
+          "yes": 3
+        }
+      }
+    },
+    {
+      "id": "graph-32-1-yes",
+      "group": "scrambled_logic",
+      "factors": {
+        "depth": 32,
+        "sample": 1,
+        "label": "yes"
+      },
+      "requests": 3,
+      "correct": 3,
+      "accuracy": 1.0,
+      "question_count": 3,
+      "mean_target_probability": 0.9566666666666667,
+      "mean_confidence": 0.94,
+      "input_tokens": 1545,
+      "output_tokens": 42,
+      "latency_ms": 326.18,
+      "selections": {
+        "answer": {
+          "yes": 3
+        }
+      }
+    },
+    {
+      "id": "graph-32-1-no",
+      "group": "scrambled_logic",
+      "factors": {
+        "depth": 32,
+        "sample": 1,
+        "label": "no"
+      },
+      "requests": 3,
+      "correct": 1,
+      "accuracy": 0.3333333333333333,
+      "question_count": 3,
+      "mean_target_probability": 0.5033333333333333,
+      "mean_confidence": 0.28,
+      "input_tokens": 1547,
+      "output_tokens": 44.666666666666664,
+      "latency_ms": 329.66,
+      "selections": {
+        "answer": {
+          "no": 1,
+          "cannot_be_determined": 2
+        }
+      }
+    },
+    {
+      "id": "graph-32-1-cannot_be_determined",
+      "group": "scrambled_logic",
+      "factors": {
+        "depth": 32,
+        "sample": 1,
+        "label": "cannot_be_determined"
+      },
+      "requests": 3,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 3,
+      "mean_target_probability": 0.023333333333333334,
+      "mean_confidence": 0.9366666666666666,
+      "input_tokens": 1527,
+      "output_tokens": 42,
+      "latency_ms": 354.0,
+      "selections": {
+        "answer": {
+          "yes": 3
+        }
+      }
+    },
+    {
+      "id": "graph-128-0-yes",
+      "group": "scrambled_logic",
+      "factors": {
+        "depth": 128,
+        "sample": 0,
+        "label": "yes"
+      },
+      "requests": 3,
+      "correct": 3,
+      "accuracy": 1.0,
+      "question_count": 3,
+      "mean_target_probability": 0.8666666666666667,
+      "mean_confidence": 0.7933333333333333,
+      "input_tokens": 5001,
+      "output_tokens": 42,
+      "latency_ms": 365.88,
+      "selections": {
+        "answer": {
+          "yes": 3
+        }
+      }
+    },
+    {
+      "id": "graph-128-0-no",
+      "group": "scrambled_logic",
+      "factors": {
+        "depth": 128,
+        "sample": 0,
+        "label": "no"
+      },
+      "requests": 3,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 3,
+      "mean_target_probability": 0.11,
+      "mean_confidence": 0.8333333333333333,
+      "input_tokens": 5003,
+      "output_tokens": 46,
+      "latency_ms": 316.73,
+      "selections": {
+        "answer": {
+          "cannot_be_determined": 3
+        }
+      }
+    },
+    {
+      "id": "graph-128-0-cannot_be_determined",
+      "group": "scrambled_logic",
+      "factors": {
+        "depth": 128,
+        "sample": 0,
+        "label": "cannot_be_determined"
+      },
+      "requests": 3,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 3,
+      "mean_target_probability": 0.11666666666666667,
+      "mean_confidence": 0.7066666666666667,
+      "input_tokens": 4983,
+      "output_tokens": 42,
+      "latency_ms": 332.57,
+      "selections": {
+        "answer": {
+          "yes": 3
+        }
+      }
+    },
+    {
+      "id": "graph-128-1-yes",
+      "group": "scrambled_logic",
+      "factors": {
+        "depth": 128,
+        "sample": 1,
+        "label": "yes"
+      },
+      "requests": 3,
+      "correct": 3,
+      "accuracy": 1.0,
+      "question_count": 3,
+      "mean_target_probability": 0.6966666666666667,
+      "mean_confidence": 0.5466666666666666,
+      "input_tokens": 5001,
+      "output_tokens": 42,
+      "latency_ms": 320.94,
+      "selections": {
+        "answer": {
+          "yes": 3
+        }
+      }
+    },
+    {
+      "id": "graph-128-1-no",
+      "group": "scrambled_logic",
+      "factors": {
+        "depth": 128,
+        "sample": 1,
+        "label": "no"
+      },
+      "requests": 3,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 3,
+      "mean_target_probability": 0.13333333333333333,
+      "mean_confidence": 0.8,
+      "input_tokens": 5003,
+      "output_tokens": 46,
+      "latency_ms": 365.24,
+      "selections": {
+        "answer": {
+          "cannot_be_determined": 3
+        }
+      }
+    },
+    {
+      "id": "graph-128-1-cannot_be_determined",
+      "group": "scrambled_logic",
+      "factors": {
+        "depth": 128,
+        "sample": 1,
+        "label": "cannot_be_determined"
+      },
+      "requests": 3,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 3,
+      "mean_target_probability": 0.09666666666666666,
+      "mean_confidence": 0.7633333333333333,
+      "input_tokens": 4983,
+      "output_tokens": 42,
+      "latency_ms": 402.65,
+      "selections": {
+        "answer": {
+          "yes": 3
+        }
+      }
+    },
+    {
+      "id": "carry-8-0",
+      "group": "carry_tracking",
+      "factors": {
+        "objects": 8,
+        "sample": 0,
+        "target": 0
+      },
+      "requests": 3,
+      "correct": 3,
+      "accuracy": 1.0,
+      "question_count": 3,
+      "mean_target_probability": 0.79,
+      "mean_confidence": 0.7233333333333334,
+      "input_tokens": 1141,
+      "output_tokens": 48,
+      "latency_ms": 300.77,
+      "selections": {
+        "answer": {
+          "kitchen": 3
+        }
+      }
+    },
+    {
+      "id": "carry-8-1",
+      "group": "carry_tracking",
+      "factors": {
+        "objects": 8,
+        "sample": 1,
+        "target": 1
+      },
+      "requests": 3,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 3,
+      "mean_target_probability": 0.26,
+      "mean_confidence": 0.27,
+      "input_tokens": 1141,
+      "output_tokens": 48,
+      "latency_ms": 290.52,
+      "selections": {
+        "answer": {
+          "garden": 3
+        }
+      }
+    },
+    {
+      "id": "carry-16-0",
+      "group": "carry_tracking",
+      "factors": {
+        "objects": 16,
+        "sample": 0,
+        "target": 0
+      },
+      "requests": 3,
+      "correct": 3,
+      "accuracy": 1.0,
+      "question_count": 3,
+      "mean_target_probability": 0.9,
+      "mean_confidence": 0.8633333333333333,
+      "input_tokens": 2027,
+      "output_tokens": 47,
+      "latency_ms": 339.3,
+      "selections": {
+        "answer": {
+          "office": 3
+        }
+      }
+    },
+    {
+      "id": "carry-16-1",
+      "group": "carry_tracking",
+      "factors": {
+        "objects": 16,
+        "sample": 1,
+        "target": 1
+      },
+      "requests": 3,
+      "correct": 3,
+      "accuracy": 1.0,
+      "question_count": 3,
+      "mean_target_probability": 0.9666666666666667,
+      "mean_confidence": 0.9466666666666667,
+      "input_tokens": 2027,
+      "output_tokens": 48,
+      "latency_ms": 337.04,
+      "selections": {
+        "answer": {
+          "garden": 3
+        }
+      }
+    },
+    {
+      "id": "carry-32-0",
+      "group": "carry_tracking",
+      "factors": {
+        "objects": 32,
+        "sample": 0,
+        "target": 0
+      },
+      "requests": 3,
+      "correct": 3,
+      "accuracy": 1.0,
+      "question_count": 3,
+      "mean_target_probability": 0.9133333333333333,
+      "mean_confidence": 0.8833333333333333,
+      "input_tokens": 3867,
+      "output_tokens": 48,
+      "latency_ms": 341.08,
+      "selections": {
+        "answer": {
+          "garden": 3
+        }
+      }
+    },
+    {
+      "id": "carry-32-1",
+      "group": "carry_tracking",
+      "factors": {
+        "objects": 32,
+        "sample": 1,
+        "target": 1
+      },
+      "requests": 3,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 3,
+      "mean_target_probability": 0.02,
+      "mean_confidence": 0.6533333333333333,
+      "input_tokens": 3867,
+      "output_tokens": 48,
+      "latency_ms": 380.09,
+      "selections": {
+        "answer": {
+          "kitchen": 3
+        }
+      }
+    },
+    {
+      "id": "dispersed-128-start-0",
+      "group": "dispersed_records",
+      "factors": {
+        "distractors": 128,
+        "position": "start",
+        "sample": 0
+      },
+      "requests": 3,
+      "correct": 3,
+      "accuracy": 1.0,
+      "question_count": 3,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 1.0,
+      "input_tokens": 2182,
+      "output_tokens": 45,
+      "latency_ms": 363.35,
+      "selections": {
+        "answer": {
+          "yellow": 3
+        }
+      }
+    },
+    {
+      "id": "dispersed-128-start-1",
+      "group": "dispersed_records",
+      "factors": {
+        "distractors": 128,
+        "position": "start",
+        "sample": 1
+      },
+      "requests": 3,
+      "correct": 3,
+      "accuracy": 1.0,
+      "question_count": 3,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 1.0,
+      "input_tokens": 2182,
+      "output_tokens": 45,
+      "latency_ms": 386.43,
+      "selections": {
+        "answer": {
+          "red": 3
+        }
+      }
+    },
+    {
+      "id": "dispersed-128-middle-0",
+      "group": "dispersed_records",
+      "factors": {
+        "distractors": 128,
+        "position": "middle",
+        "sample": 0
+      },
+      "requests": 3,
+      "correct": 3,
+      "accuracy": 1.0,
+      "question_count": 3,
+      "mean_target_probability": 0.8733333333333333,
+      "mean_confidence": 0.8300000000000001,
+      "input_tokens": 2182,
+      "output_tokens": 45,
+      "latency_ms": 320.69,
+      "selections": {
+        "answer": {
+          "yellow": 3
+        }
+      }
+    },
+    {
+      "id": "dispersed-128-middle-1",
+      "group": "dispersed_records",
+      "factors": {
+        "distractors": 128,
+        "position": "middle",
+        "sample": 1
+      },
+      "requests": 3,
+      "correct": 3,
+      "accuracy": 1.0,
+      "question_count": 3,
+      "mean_target_probability": 0.8966666666666666,
+      "mean_confidence": 0.86,
+      "input_tokens": 2182,
+      "output_tokens": 45,
+      "latency_ms": 394.34,
+      "selections": {
+        "answer": {
+          "red": 3
+        }
+      }
+    },
+    {
+      "id": "dispersed-128-end-0",
+      "group": "dispersed_records",
+      "factors": {
+        "distractors": 128,
+        "position": "end",
+        "sample": 0
+      },
+      "requests": 3,
+      "correct": 3,
+      "accuracy": 1.0,
+      "question_count": 3,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 0.9966666666666667,
+      "input_tokens": 2182,
+      "output_tokens": 45,
+      "latency_ms": 363.79,
+      "selections": {
+        "answer": {
+          "yellow": 3
+        }
+      }
+    },
+    {
+      "id": "dispersed-128-end-1",
+      "group": "dispersed_records",
+      "factors": {
+        "distractors": 128,
+        "position": "end",
+        "sample": 1
+      },
+      "requests": 3,
+      "correct": 3,
+      "accuracy": 1.0,
+      "question_count": 3,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 1.0,
+      "input_tokens": 2182,
+      "output_tokens": 45,
+      "latency_ms": 561.62,
+      "selections": {
+        "answer": {
+          "red": 3
+        }
+      }
+    },
+    {
+      "id": "dispersed-512-start-0",
+      "group": "dispersed_records",
+      "factors": {
+        "distractors": 512,
+        "position": "start",
+        "sample": 0
+      },
+      "requests": 3,
+      "correct": 3,
+      "accuracy": 1.0,
+      "question_count": 3,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 0.9966666666666667,
+      "input_tokens": 7558,
+      "output_tokens": 45,
+      "latency_ms": 481.02,
+      "selections": {
+        "answer": {
+          "yellow": 3
+        }
+      }
+    },
+    {
+      "id": "dispersed-512-start-1",
+      "group": "dispersed_records",
+      "factors": {
+        "distractors": 512,
+        "position": "start",
+        "sample": 1
+      },
+      "requests": 3,
+      "correct": 3,
+      "accuracy": 1.0,
+      "question_count": 3,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 1.0,
+      "input_tokens": 7558,
+      "output_tokens": 45,
+      "latency_ms": 523.91,
+      "selections": {
+        "answer": {
+          "red": 3
+        }
+      }
+    },
+    {
+      "id": "dispersed-512-middle-0",
+      "group": "dispersed_records",
+      "factors": {
+        "distractors": 512,
+        "position": "middle",
+        "sample": 0
+      },
+      "requests": 3,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 3,
+      "mean_target_probability": 0.26,
+      "mean_confidence": 0.6366666666666667,
+      "input_tokens": 7558,
+      "output_tokens": 45,
+      "latency_ms": 544.24,
+      "selections": {
+        "answer": {
+          "green": 3
+        }
+      }
+    },
+    {
+      "id": "dispersed-512-middle-1",
+      "group": "dispersed_records",
+      "factors": {
+        "distractors": 512,
+        "position": "middle",
+        "sample": 1
+      },
+      "requests": 3,
+      "correct": 1,
+      "accuracy": 0.3333333333333333,
+      "question_count": 3,
+      "mean_target_probability": 0.41333333333333333,
+      "mean_confidence": 0.51,
+      "input_tokens": 7558,
+      "output_tokens": 45,
+      "latency_ms": 522.65,
+      "selections": {
+        "answer": {
+          "yellow": 2,
+          "red": 1
+        }
+      }
+    },
+    {
+      "id": "dispersed-512-end-0",
+      "group": "dispersed_records",
+      "factors": {
+        "distractors": 512,
+        "position": "end",
+        "sample": 0
+      },
+      "requests": 3,
+      "correct": 3,
+      "accuracy": 1.0,
+      "question_count": 3,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 1.0,
+      "input_tokens": 7558,
+      "output_tokens": 45,
+      "latency_ms": 516.09,
+      "selections": {
+        "answer": {
+          "yellow": 3
+        }
+      }
+    },
+    {
+      "id": "dispersed-512-end-1",
+      "group": "dispersed_records",
+      "factors": {
+        "distractors": 512,
+        "position": "end",
+        "sample": 1
+      },
+      "requests": 3,
+      "correct": 3,
+      "accuracy": 1.0,
+      "question_count": 3,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 1.0,
+      "input_tokens": 7558,
+      "output_tokens": 45,
+      "latency_ms": 467.14,
+      "selections": {
+        "answer": {
+          "red": 3
+        }
+      }
+    },
+    {
+      "id": "dispersed-1024-start-0",
+      "group": "dispersed_records",
+      "factors": {
+        "distractors": 1024,
+        "position": "start",
+        "sample": 0
+      },
+      "requests": 3,
+      "correct": 3,
+      "accuracy": 1.0,
+      "question_count": 3,
+      "mean_target_probability": 0.9866666666666667,
+      "mean_confidence": 0.9833333333333333,
+      "input_tokens": 14726,
+      "output_tokens": 45,
+      "latency_ms": 571.91,
+      "selections": {
+        "answer": {
+          "yellow": 3
+        }
+      }
+    },
+    {
+      "id": "dispersed-1024-start-1",
+      "group": "dispersed_records",
+      "factors": {
+        "distractors": 1024,
+        "position": "start",
+        "sample": 1
+      },
+      "requests": 3,
+      "correct": 3,
+      "accuracy": 1.0,
+      "question_count": 3,
+      "mean_target_probability": 0.99,
+      "mean_confidence": 0.99,
+      "input_tokens": 14726,
+      "output_tokens": 45,
+      "latency_ms": 563.0,
+      "selections": {
+        "answer": {
+          "red": 3
+        }
+      }
+    },
+    {
+      "id": "dispersed-1024-middle-0",
+      "group": "dispersed_records",
+      "factors": {
+        "distractors": 1024,
+        "position": "middle",
+        "sample": 0
+      },
+      "requests": 3,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 3,
+      "mean_target_probability": 0.09000000000000001,
+      "mean_confidence": 0.86,
+      "input_tokens": 14726,
+      "output_tokens": 45,
+      "latency_ms": 507.76,
+      "selections": {
+        "answer": {
+          "green": 3
+        }
+      }
+    },
+    {
+      "id": "dispersed-1024-middle-1",
+      "group": "dispersed_records",
+      "factors": {
+        "distractors": 1024,
+        "position": "middle",
+        "sample": 1
+      },
+      "requests": 3,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 3,
+      "mean_target_probability": 0.1,
+      "mean_confidence": 0.8366666666666667,
+      "input_tokens": 14726,
+      "output_tokens": 45,
+      "latency_ms": 512.69,
+      "selections": {
+        "answer": {
+          "yellow": 3
+        }
+      }
+    },
+    {
+      "id": "dispersed-1024-end-0",
+      "group": "dispersed_records",
+      "factors": {
+        "distractors": 1024,
+        "position": "end",
+        "sample": 0
+      },
+      "requests": 3,
+      "correct": 3,
+      "accuracy": 1.0,
+      "question_count": 3,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 0.9966666666666667,
+      "input_tokens": 14726,
+      "output_tokens": 45,
+      "latency_ms": 663.01,
+      "selections": {
+        "answer": {
+          "yellow": 3
+        }
+      }
+    },
+    {
+      "id": "dispersed-1024-end-1",
+      "group": "dispersed_records",
+      "factors": {
+        "distractors": 1024,
+        "position": "end",
+        "sample": 1
+      },
+      "requests": 3,
+      "correct": 3,
+      "accuracy": 1.0,
+      "question_count": 3,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 0.9966666666666667,
+      "input_tokens": 14726,
+      "output_tokens": 45,
+      "latency_ms": 457.1,
+      "selections": {
+        "answer": {
+          "red": 3
+        }
+      }
+    }
+  ],
+  "tables": {
+    "factor_placement": [],
+    "factor_wording": [],
+    "factor_unknown": [],
+    "factor_reverse": [],
+    "factor_placement_wording": [],
+    "transfer_mode": [],
+    "transfer_label": [],
+    "transfer_scenarios": [],
+    "length": [],
+    "length_filler": [],
+    "length_position": [],
+    "long_transfer": [],
+    "counting": [],
+    "counting_words": [],
+    "described_transfer": [],
+    "described_scenarios": [],
+    "distance": [],
+    "replication": [],
+    "count_followup": [],
+    "evidence": []
+  },
+  "confidence_bins": [
+    {
+      "low": 0,
+      "high": 0.5,
+      "answers": 15,
+      "accuracy": 0.13333333333333333
+    },
+    {
+      "low": 0.5,
+      "high": 0.8,
+      "answers": 26,
+      "accuracy": 0.3076923076923077
+    },
+    {
+      "low": 0.8,
+      "high": 0.95,
+      "answers": 35,
+      "accuracy": 0.7142857142857143
+    },
+    {
+      "low": 0.95,
+      "high": 1,
+      "answers": 50,
+      "accuracy": 0.9
+    }
+  ],
+  "validation": "Every raw response, hash, schedule entry, model, selected-answer label, question key, displayed probability set/range and request count verified. Rounded displayed probability sums allowed tolerance 0.061."
+}
