@@ -1,0 +1,77 @@
+{
+  "model_requested": "jev-1.13.0",
+  "question": "Does my car need to be physically present at the car wash to be washed there? | If I walk to the car wash and leave my car at home, will that accomplish my goal of getting my car washed there?",
+  "questions_per_request": 2,
+  "requested_trials": 1000,
+  "attempted_trials": 1000,
+  "counts": {
+    "valid": 1000,
+    "invalid": 0,
+    "error": 0
+  },
+  "models_returned": {
+    "jev-1.13.0": 1000
+  },
+  "input_tokens": 441000,
+  "output_tokens": 81000,
+  "total_tokens": 522000,
+  "token_usage": {
+    "requests": 1000,
+    "input_tokens": 441000,
+    "input_tokens_reported_requests": 1000,
+    "input_tokens_missing_requests": 0,
+    "input_tokens_per_reported_request": 441.0,
+    "output_tokens": 81000,
+    "output_tokens_reported_requests": 1000,
+    "output_tokens_missing_requests": 0,
+    "output_tokens_per_reported_request": 81.0,
+    "total_tokens": 522000
+  },
+  "limitations": "Input isolation only, not separate provider containers. Provider caching, hidden context, sampling and statistical independence cannot be verified. Fixed option order. No sampling controls supplied.",
+  "per_question": {
+    "A": {
+      "instructions": "Does my car need to be physically present at the car wash to be washed there?",
+      "counts": {
+        "yes": 1000,
+        "no": 0,
+        "cannot_be_determined": 0,
+        "invalid": 0,
+        "error": 0
+      },
+      "expected": "yes",
+      "correct": 1000,
+      "accuracy_percent": 100.0,
+      "reported_score_statistics": {
+        "mean_confidence": 0.96921,
+        "mean_probabilities": {
+          "yes": 0.98042,
+          "no": 0.0,
+          "cannot_be_determined": 0.01958
+        }
+      }
+    },
+    "B": {
+      "instructions": "If I walk to the car wash and leave my car at home, will that accomplish my goal of getting my car washed there?",
+      "counts": {
+        "yes": 0,
+        "no": 1000,
+        "cannot_be_determined": 0,
+        "invalid": 0,
+        "error": 0
+      },
+      "expected": "no",
+      "correct": 1000,
+      "accuracy_percent": 100.0,
+      "reported_score_statistics": {
+        "mean_confidence": 0.99402,
+        "mean_probabilities": {
+          "yes": 3e-05,
+          "no": 0.99997,
+          "cannot_be_determined": 0.0
+        }
+      }
+    }
+  },
+  "all_correct_requests": 1000,
+  "all_correct_percent": 100.0
+}

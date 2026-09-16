@@ -1,0 +1,1966 @@
+{
+  "run": "20260916T080433683304Z-behavior-followup",
+  "requests": 780,
+  "conditions": 60,
+  "answers": 780,
+  "errors": 0,
+  "models": {
+    "jev-1.13.0": 780
+  },
+  "input_tokens": 282340,
+  "output_tokens": 31860,
+  "first_request": "2026-09-16T08:04:33.684299+00:00",
+  "last_request": "2026-09-16T08:05:38.347117+00:00",
+  "max_input_tokens": 431,
+  "case_results": [
+    {
+      "id": "described-wash-0",
+      "group": "described_transfer",
+      "factors": {
+        "scenario": "wash",
+        "label": "drive",
+        "cohort": "reused",
+        "reverse": false
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.653,
+      "mean_confidence": 0.305,
+      "input_tokens": 356,
+      "output_tokens": 31,
+      "latency_ms": 284.20500000000004,
+      "selections": {
+        "answer": {
+          "drive": 10
+        }
+      }
+    },
+    {
+      "id": "described-wash-1",
+      "group": "described_transfer",
+      "factors": {
+        "scenario": "wash",
+        "label": "drive",
+        "cohort": "reused",
+        "reverse": true
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.805,
+      "mean_confidence": 0.606,
+      "input_tokens": 356,
+      "output_tokens": 31,
+      "latency_ms": 314.935,
+      "selections": {
+        "answer": {
+          "drive": 10
+        }
+      }
+    },
+    {
+      "id": "described-tires-0",
+      "group": "described_transfer",
+      "factors": {
+        "scenario": "tires",
+        "label": "drive",
+        "cohort": "reused",
+        "reverse": false
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.695,
+      "mean_confidence": 0.39,
+      "input_tokens": 358,
+      "output_tokens": 31,
+      "latency_ms": 302.855,
+      "selections": {
+        "answer": {
+          "drive": 10
+        }
+      }
+    },
+    {
+      "id": "described-tires-1",
+      "group": "described_transfer",
+      "factors": {
+        "scenario": "tires",
+        "label": "drive",
+        "cohort": "reused",
+        "reverse": true
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.701,
+      "mean_confidence": 0.399,
+      "input_tokens": 358,
+      "output_tokens": 31,
+      "latency_ms": 298.215,
+      "selections": {
+        "answer": {
+          "drive": 10
+        }
+      }
+    },
+    {
+      "id": "described-inspection-0",
+      "group": "described_transfer",
+      "factors": {
+        "scenario": "inspection",
+        "label": "drive",
+        "cohort": "reused",
+        "reverse": false
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.615,
+      "mean_confidence": 0.232,
+      "input_tokens": 358,
+      "output_tokens": 31,
+      "latency_ms": 308.665,
+      "selections": {
+        "answer": {
+          "drive": 10
+        }
+      }
+    },
+    {
+      "id": "described-inspection-1",
+      "group": "described_transfer",
+      "factors": {
+        "scenario": "inspection",
+        "label": "drive",
+        "cohort": "reused",
+        "reverse": true
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.76,
+      "mean_confidence": 0.519,
+      "input_tokens": 358,
+      "output_tokens": 31,
+      "latency_ms": 306.2,
+      "selections": {
+        "answer": {
+          "drive": 10
+        }
+      }
+    },
+    {
+      "id": "described-oil-0",
+      "group": "described_transfer",
+      "factors": {
+        "scenario": "oil",
+        "label": "drive",
+        "cohort": "reused",
+        "reverse": false
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.757,
+      "mean_confidence": 0.517,
+      "input_tokens": 358,
+      "output_tokens": 31,
+      "latency_ms": 289.31,
+      "selections": {
+        "answer": {
+          "drive": 10
+        }
+      }
+    },
+    {
+      "id": "described-oil-1",
+      "group": "described_transfer",
+      "factors": {
+        "scenario": "oil",
+        "label": "drive",
+        "cohort": "reused",
+        "reverse": true
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.84,
+      "mean_confidence": 0.679,
+      "input_tokens": 358,
+      "output_tokens": 31,
+      "latency_ms": 290.43499999999995,
+      "selections": {
+        "answer": {
+          "drive": 10
+        }
+      }
+    },
+    {
+      "id": "described-weigh-0",
+      "group": "described_transfer",
+      "factors": {
+        "scenario": "weigh",
+        "label": "drive",
+        "cohort": "reused",
+        "reverse": false
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.731,
+      "mean_confidence": 0.46099999999999997,
+      "input_tokens": 359,
+      "output_tokens": 31,
+      "latency_ms": 335.5,
+      "selections": {
+        "answer": {
+          "drive": 10
+        }
+      }
+    },
+    {
+      "id": "described-weigh-1",
+      "group": "described_transfer",
+      "factors": {
+        "scenario": "weigh",
+        "label": "drive",
+        "cohort": "reused",
+        "reverse": true
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.851,
+      "mean_confidence": 0.707,
+      "input_tokens": 359,
+      "output_tokens": 31,
+      "latency_ms": 282.72,
+      "selections": {
+        "answer": {
+          "drive": 10
+        }
+      }
+    },
+    {
+      "id": "described-trade-0",
+      "group": "described_transfer",
+      "factors": {
+        "scenario": "trade",
+        "label": "drive",
+        "cohort": "reused",
+        "reverse": false
+      },
+      "requests": 10,
+      "correct": 4,
+      "accuracy": 0.4,
+      "question_count": 10,
+      "mean_target_probability": 0.486,
+      "mean_confidence": 0.058,
+      "input_tokens": 360,
+      "output_tokens": 31,
+      "latency_ms": 311.20000000000005,
+      "selections": {
+        "answer": {
+          "walk": 6,
+          "drive": 4
+        }
+      }
+    },
+    {
+      "id": "described-trade-1",
+      "group": "described_transfer",
+      "factors": {
+        "scenario": "trade",
+        "label": "drive",
+        "cohort": "reused",
+        "reverse": true
+      },
+      "requests": 10,
+      "correct": 1,
+      "accuracy": 0.1,
+      "question_count": 10,
+      "mean_target_probability": 0.442,
+      "mean_confidence": 0.122,
+      "input_tokens": 360,
+      "output_tokens": 31,
+      "latency_ms": 301.725,
+      "selections": {
+        "answer": {
+          "walk": 9,
+          "drive": 1
+        }
+      }
+    },
+    {
+      "id": "described-pickup-0",
+      "group": "described_transfer",
+      "factors": {
+        "scenario": "pickup",
+        "label": "walk",
+        "cohort": "reused",
+        "reverse": false
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.985,
+      "mean_confidence": 0.969,
+      "input_tokens": 363,
+      "output_tokens": 31,
+      "latency_ms": 302.58500000000004,
+      "selections": {
+        "answer": {
+          "walk": 10
+        }
+      }
+    },
+    {
+      "id": "described-pickup-1",
+      "group": "described_transfer",
+      "factors": {
+        "scenario": "pickup",
+        "label": "walk",
+        "cohort": "reused",
+        "reverse": true
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.983,
+      "mean_confidence": 0.966,
+      "input_tokens": 363,
+      "output_tokens": 31,
+      "latency_ms": 283.85,
+      "selections": {
+        "answer": {
+          "walk": 10
+        }
+      }
+    },
+    {
+      "id": "described-job-0",
+      "group": "described_transfer",
+      "factors": {
+        "scenario": "job",
+        "label": "walk",
+        "cohort": "reused",
+        "reverse": false
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 1.0,
+      "input_tokens": 358,
+      "output_tokens": 31,
+      "latency_ms": 303.185,
+      "selections": {
+        "answer": {
+          "walk": 10
+        }
+      }
+    },
+    {
+      "id": "described-job-1",
+      "group": "described_transfer",
+      "factors": {
+        "scenario": "job",
+        "label": "walk",
+        "cohort": "reused",
+        "reverse": true
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 1.0,
+      "input_tokens": 358,
+      "output_tokens": 31,
+      "latency_ms": 311.70500000000004,
+      "selections": {
+        "answer": {
+          "walk": 10
+        }
+      }
+    },
+    {
+      "id": "described-receipt-0",
+      "group": "described_transfer",
+      "factors": {
+        "scenario": "receipt",
+        "label": "walk",
+        "cohort": "reused",
+        "reverse": false
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 1.0,
+      "input_tokens": 371,
+      "output_tokens": 31,
+      "latency_ms": 291.675,
+      "selections": {
+        "answer": {
+          "walk": 10
+        }
+      }
+    },
+    {
+      "id": "described-receipt-1",
+      "group": "described_transfer",
+      "factors": {
+        "scenario": "receipt",
+        "label": "walk",
+        "cohort": "reused",
+        "reverse": true
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 1.0,
+      "input_tokens": 371,
+      "output_tokens": 31,
+      "latency_ms": 307.6,
+      "selections": {
+        "answer": {
+          "walk": 10
+        }
+      }
+    },
+    {
+      "id": "described-supplies-0",
+      "group": "described_transfer",
+      "factors": {
+        "scenario": "supplies",
+        "label": "walk",
+        "cohort": "reused",
+        "reverse": false
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 1.0,
+      "input_tokens": 362,
+      "output_tokens": 31,
+      "latency_ms": 298.6,
+      "selections": {
+        "answer": {
+          "walk": 10
+        }
+      }
+    },
+    {
+      "id": "described-supplies-1",
+      "group": "described_transfer",
+      "factors": {
+        "scenario": "supplies",
+        "label": "walk",
+        "cohort": "reused",
+        "reverse": true
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 1.0,
+      "input_tokens": 362,
+      "output_tokens": 31,
+      "latency_ms": 311.40999999999997,
+      "selections": {
+        "answer": {
+          "walk": 10
+        }
+      }
+    },
+    {
+      "id": "described-refund-0",
+      "group": "described_transfer",
+      "factors": {
+        "scenario": "refund",
+        "label": "walk",
+        "cohort": "reused",
+        "reverse": false
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 1.0,
+      "input_tokens": 363,
+      "output_tokens": 31,
+      "latency_ms": 312.065,
+      "selections": {
+        "answer": {
+          "walk": 10
+        }
+      }
+    },
+    {
+      "id": "described-refund-1",
+      "group": "described_transfer",
+      "factors": {
+        "scenario": "refund",
+        "label": "walk",
+        "cohort": "reused",
+        "reverse": true
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 1.0,
+      "input_tokens": 363,
+      "output_tokens": 31,
+      "latency_ms": 309.78499999999997,
+      "selections": {
+        "answer": {
+          "walk": 10
+        }
+      }
+    },
+    {
+      "id": "described-mobile-0",
+      "group": "described_transfer",
+      "factors": {
+        "scenario": "mobile",
+        "label": "walk",
+        "cohort": "reused",
+        "reverse": false
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 1.0,
+      "input_tokens": 371,
+      "output_tokens": 31,
+      "latency_ms": 286.23,
+      "selections": {
+        "answer": {
+          "walk": 10
+        }
+      }
+    },
+    {
+      "id": "described-mobile-1",
+      "group": "described_transfer",
+      "factors": {
+        "scenario": "mobile",
+        "label": "walk",
+        "cohort": "reused",
+        "reverse": true
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 1.0,
+      "input_tokens": 371,
+      "output_tokens": 31,
+      "latency_ms": 288.23,
+      "selections": {
+        "answer": {
+          "walk": 10
+        }
+      }
+    },
+    {
+      "id": "described-brakes-0",
+      "group": "described_transfer",
+      "factors": {
+        "scenario": "brakes",
+        "label": "drive",
+        "cohort": "new",
+        "reverse": false
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.82,
+      "mean_confidence": 0.64,
+      "input_tokens": 364,
+      "output_tokens": 31,
+      "latency_ms": 295.485,
+      "selections": {
+        "answer": {
+          "drive": 10
+        }
+      }
+    },
+    {
+      "id": "described-brakes-1",
+      "group": "described_transfer",
+      "factors": {
+        "scenario": "brakes",
+        "label": "drive",
+        "cohort": "new",
+        "reverse": true
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.889,
+      "mean_confidence": 0.781,
+      "input_tokens": 364,
+      "output_tokens": 31,
+      "latency_ms": 304.945,
+      "selections": {
+        "answer": {
+          "drive": 10
+        }
+      }
+    },
+    {
+      "id": "described-alignment-0",
+      "group": "described_transfer",
+      "factors": {
+        "scenario": "alignment",
+        "label": "drive",
+        "cohort": "new",
+        "reverse": false
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.573,
+      "mean_confidence": 0.147,
+      "input_tokens": 363,
+      "output_tokens": 31,
+      "latency_ms": 293.975,
+      "selections": {
+        "answer": {
+          "drive": 10
+        }
+      }
+    },
+    {
+      "id": "described-alignment-1",
+      "group": "described_transfer",
+      "factors": {
+        "scenario": "alignment",
+        "label": "drive",
+        "cohort": "new",
+        "reverse": true
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.643,
+      "mean_confidence": 0.286,
+      "input_tokens": 363,
+      "output_tokens": 31,
+      "latency_ms": 276.56,
+      "selections": {
+        "answer": {
+          "drive": 10
+        }
+      }
+    },
+    {
+      "id": "described-windscreen-0",
+      "group": "described_transfer",
+      "factors": {
+        "scenario": "windscreen",
+        "label": "drive",
+        "cohort": "new",
+        "reverse": false
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.778,
+      "mean_confidence": 0.557,
+      "input_tokens": 362,
+      "output_tokens": 31,
+      "latency_ms": 299.03999999999996,
+      "selections": {
+        "answer": {
+          "drive": 10
+        }
+      }
+    },
+    {
+      "id": "described-windscreen-1",
+      "group": "described_transfer",
+      "factors": {
+        "scenario": "windscreen",
+        "label": "drive",
+        "cohort": "new",
+        "reverse": true
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.789,
+      "mean_confidence": 0.579,
+      "input_tokens": 362,
+      "output_tokens": 31,
+      "latency_ms": 290.08,
+      "selections": {
+        "answer": {
+          "drive": 10
+        }
+      }
+    },
+    {
+      "id": "described-paint-0",
+      "group": "described_transfer",
+      "factors": {
+        "scenario": "paint",
+        "label": "drive",
+        "cohort": "new",
+        "reverse": false
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.852,
+      "mean_confidence": 0.702,
+      "input_tokens": 362,
+      "output_tokens": 31,
+      "latency_ms": 294.58,
+      "selections": {
+        "answer": {
+          "drive": 10
+        }
+      }
+    },
+    {
+      "id": "described-paint-1",
+      "group": "described_transfer",
+      "factors": {
+        "scenario": "paint",
+        "label": "drive",
+        "cohort": "new",
+        "reverse": true
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.81,
+      "mean_confidence": 0.619,
+      "input_tokens": 362,
+      "output_tokens": 31,
+      "latency_ms": 266.91999999999996,
+      "selections": {
+        "answer": {
+          "drive": 10
+        }
+      }
+    },
+    {
+      "id": "described-keys-0",
+      "group": "described_transfer",
+      "factors": {
+        "scenario": "keys",
+        "label": "walk",
+        "cohort": "new",
+        "reverse": false
+      },
+      "requests": 10,
+      "correct": 8,
+      "accuracy": 0.8,
+      "question_count": 10,
+      "mean_target_probability": 0.583,
+      "mean_confidence": 0.185,
+      "input_tokens": 359,
+      "output_tokens": 31,
+      "latency_ms": 315.635,
+      "selections": {
+        "answer": {
+          "walk": 8,
+          "drive": 2
+        }
+      }
+    },
+    {
+      "id": "described-keys-1",
+      "group": "described_transfer",
+      "factors": {
+        "scenario": "keys",
+        "label": "walk",
+        "cohort": "new",
+        "reverse": true
+      },
+      "requests": 10,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 10,
+      "mean_target_probability": 0.459,
+      "mean_confidence": 0.085,
+      "input_tokens": 359,
+      "output_tokens": 31,
+      "latency_ms": 294.325,
+      "selections": {
+        "answer": {
+          "drive": 10
+        }
+      }
+    },
+    {
+      "id": "described-interview-0",
+      "group": "described_transfer",
+      "factors": {
+        "scenario": "interview",
+        "label": "walk",
+        "cohort": "new",
+        "reverse": false
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 1.0,
+      "input_tokens": 352,
+      "output_tokens": 31,
+      "latency_ms": 306.145,
+      "selections": {
+        "answer": {
+          "walk": 10
+        }
+      }
+    },
+    {
+      "id": "described-interview-1",
+      "group": "described_transfer",
+      "factors": {
+        "scenario": "interview",
+        "label": "walk",
+        "cohort": "new",
+        "reverse": true
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 1.0,
+      "input_tokens": 352,
+      "output_tokens": 31,
+      "latency_ms": 287.565,
+      "selections": {
+        "answer": {
+          "walk": 10
+        }
+      }
+    },
+    {
+      "id": "described-manual-0",
+      "group": "described_transfer",
+      "factors": {
+        "scenario": "manual",
+        "label": "walk",
+        "cohort": "new",
+        "reverse": false
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 1.0,
+      "input_tokens": 365,
+      "output_tokens": 31,
+      "latency_ms": 322.85,
+      "selections": {
+        "answer": {
+          "walk": 10
+        }
+      }
+    },
+    {
+      "id": "described-manual-1",
+      "group": "described_transfer",
+      "factors": {
+        "scenario": "manual",
+        "label": "walk",
+        "cohort": "new",
+        "reverse": true
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 1.0,
+      "input_tokens": 365,
+      "output_tokens": 31,
+      "latency_ms": 286.345,
+      "selections": {
+        "answer": {
+          "walk": 10
+        }
+      }
+    },
+    {
+      "id": "described-office-0",
+      "group": "described_transfer",
+      "factors": {
+        "scenario": "office",
+        "label": "walk",
+        "cohort": "new",
+        "reverse": false
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.978,
+      "mean_confidence": 0.954,
+      "input_tokens": 362,
+      "output_tokens": 31,
+      "latency_ms": 321.965,
+      "selections": {
+        "answer": {
+          "walk": 10
+        }
+      }
+    },
+    {
+      "id": "described-office-1",
+      "group": "described_transfer",
+      "factors": {
+        "scenario": "office",
+        "label": "walk",
+        "cohort": "new",
+        "reverse": true
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.982,
+      "mean_confidence": 0.961,
+      "input_tokens": 362,
+      "output_tokens": 31,
+      "latency_ms": 297.93,
+      "selections": {
+        "answer": {
+          "walk": 10
+        }
+      }
+    },
+    {
+      "id": "distance-absent",
+      "group": "distance",
+      "factors": {
+        "distance": "absent"
+      },
+      "requests": 20,
+      "correct": 20,
+      "accuracy": 1.0,
+      "question_count": 20,
+      "mean_target_probability": 0.9245,
+      "mean_confidence": 0.8505,
+      "input_tokens": 315,
+      "output_tokens": 31,
+      "latency_ms": 301.49,
+      "selections": {
+        "answer": {
+          "drive": 20
+        }
+      }
+    },
+    {
+      "id": "distance-walk5",
+      "group": "distance",
+      "factors": {
+        "distance": "walk5"
+      },
+      "requests": 20,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 20,
+      "mean_target_probability": 0.0695,
+      "mean_confidence": 0.86,
+      "input_tokens": 327,
+      "output_tokens": 31,
+      "latency_ms": 295.69,
+      "selections": {
+        "answer": {
+          "walk": 20
+        }
+      }
+    },
+    {
+      "id": "distance-drive5",
+      "group": "distance",
+      "factors": {
+        "distance": "drive5"
+      },
+      "requests": 20,
+      "correct": 20,
+      "accuracy": 1.0,
+      "question_count": 20,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 1.0,
+      "input_tokens": 327,
+      "output_tokens": 31,
+      "latency_ms": 294.5,
+      "selections": {
+        "answer": {
+          "drive": 20
+        }
+      }
+    },
+    {
+      "id": "distance-meters100",
+      "group": "distance",
+      "factors": {
+        "distance": "meters100"
+      },
+      "requests": 20,
+      "correct": 2,
+      "accuracy": 0.1,
+      "question_count": 20,
+      "mean_target_probability": 0.46099999999999997,
+      "mean_confidence": 0.1015,
+      "input_tokens": 327,
+      "output_tokens": 31,
+      "latency_ms": 304.0,
+      "selections": {
+        "answer": {
+          "walk": 18,
+          "drive": 2
+        }
+      }
+    },
+    {
+      "id": "distance-km50",
+      "group": "distance",
+      "factors": {
+        "distance": "km50"
+      },
+      "requests": 20,
+      "correct": 20,
+      "accuracy": 1.0,
+      "question_count": 20,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 1.0,
+      "input_tokens": 326,
+      "output_tokens": 31,
+      "latency_ms": 276.92499999999995,
+      "selections": {
+        "answer": {
+          "drive": 20
+        }
+      }
+    },
+    {
+      "id": "replicate-inline-direct",
+      "group": "replication",
+      "factors": {
+        "placement": "inline",
+        "wording": "direct"
+      },
+      "requests": 25,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 25,
+      "mean_target_probability": 0.1188,
+      "mean_confidence": 0.764,
+      "input_tokens": 327,
+      "output_tokens": 31,
+      "latency_ms": 308.66,
+      "selections": {
+        "answer": {
+          "walk": 25
+        }
+      }
+    },
+    {
+      "id": "replicate-inline-goal",
+      "group": "replication",
+      "factors": {
+        "placement": "inline",
+        "wording": "goal"
+      },
+      "requests": 25,
+      "correct": 14,
+      "accuracy": 0.56,
+      "question_count": 25,
+      "mean_target_probability": 0.5316,
+      "mean_confidence": 0.1152,
+      "input_tokens": 338,
+      "output_tokens": 31,
+      "latency_ms": 287.14,
+      "selections": {
+        "answer": {
+          "drive": 14,
+          "walk": 11
+        }
+      }
+    },
+    {
+      "id": "replicate-state-direct",
+      "group": "replication",
+      "factors": {
+        "placement": "state",
+        "wording": "direct"
+      },
+      "requests": 25,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 25,
+      "mean_target_probability": 0.06520000000000001,
+      "mean_confidence": 0.8692,
+      "input_tokens": 327,
+      "output_tokens": 31,
+      "latency_ms": 296.28,
+      "selections": {
+        "answer": {
+          "walk": 25
+        }
+      }
+    },
+    {
+      "id": "replicate-state-goal",
+      "group": "replication",
+      "factors": {
+        "placement": "state",
+        "wording": "goal"
+      },
+      "requests": 25,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 25,
+      "mean_target_probability": 0.2444,
+      "mean_confidence": 0.5112,
+      "input_tokens": 338,
+      "output_tokens": 31,
+      "latency_ms": 297.18,
+      "selections": {
+        "answer": {
+          "walk": 25
+        }
+      }
+    },
+    {
+      "id": "countfollow-straberry-inline-original",
+      "group": "count_followup",
+      "factors": {
+        "word": "straberry",
+        "placement": "inline",
+        "wording": "original"
+      },
+      "requests": 15,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 15,
+      "mean_target_probability": 0.37,
+      "mean_confidence": 0.5226666666666667,
+      "input_tokens": 426,
+      "output_tokens": 95,
+      "latency_ms": 321.75,
+      "selections": {
+        "answer": {
+          "2": 15
+        }
+      }
+    },
+    {
+      "id": "countfollow-straberry-inline-explicit",
+      "group": "count_followup",
+      "factors": {
+        "word": "straberry",
+        "placement": "inline",
+        "wording": "explicit"
+      },
+      "requests": 15,
+      "correct": 14,
+      "accuracy": 0.9333333333333333,
+      "question_count": 15,
+      "mean_target_probability": 0.4906666666666667,
+      "mean_confidence": 0.43466666666666665,
+      "input_tokens": 427,
+      "output_tokens": 95,
+      "latency_ms": 300.5,
+      "selections": {
+        "answer": {
+          "3": 14,
+          "2": 1
+        }
+      }
+    },
+    {
+      "id": "countfollow-straberry-state-original",
+      "group": "count_followup",
+      "factors": {
+        "word": "straberry",
+        "placement": "state",
+        "wording": "original"
+      },
+      "requests": 15,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 15,
+      "mean_target_probability": 0.21133333333333335,
+      "mean_confidence": 0.604,
+      "input_tokens": 429,
+      "output_tokens": 95,
+      "latency_ms": 343.68,
+      "selections": {
+        "answer": {
+          "2": 15
+        }
+      }
+    },
+    {
+      "id": "countfollow-straberry-state-explicit",
+      "group": "count_followup",
+      "factors": {
+        "word": "straberry",
+        "placement": "state",
+        "wording": "explicit"
+      },
+      "requests": 15,
+      "correct": 15,
+      "accuracy": 1.0,
+      "question_count": 15,
+      "mean_target_probability": 0.4806666666666667,
+      "mean_confidence": 0.424,
+      "input_tokens": 430,
+      "output_tokens": 95,
+      "latency_ms": 296.51,
+      "selections": {
+        "answer": {
+          "3": 15
+        }
+      }
+    },
+    {
+      "id": "countfollow-strawberry-inline-original",
+      "group": "count_followup",
+      "factors": {
+        "word": "strawberry",
+        "placement": "inline",
+        "wording": "original"
+      },
+      "requests": 15,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 15,
+      "mean_target_probability": 0.09466666666666666,
+      "mean_confidence": 0.794,
+      "input_tokens": 424,
+      "output_tokens": 95,
+      "latency_ms": 299.82,
+      "selections": {
+        "answer": {
+          "2": 15
+        }
+      }
+    },
+    {
+      "id": "countfollow-strawberry-inline-explicit",
+      "group": "count_followup",
+      "factors": {
+        "word": "strawberry",
+        "placement": "inline",
+        "wording": "explicit"
+      },
+      "requests": 15,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 15,
+      "mean_target_probability": 0.39666666666666667,
+      "mean_confidence": 0.492,
+      "input_tokens": 425,
+      "output_tokens": 95,
+      "latency_ms": 306.74,
+      "selections": {
+        "answer": {
+          "2": 15
+        }
+      }
+    },
+    {
+      "id": "countfollow-strawberry-state-original",
+      "group": "count_followup",
+      "factors": {
+        "word": "strawberry",
+        "placement": "state",
+        "wording": "original"
+      },
+      "requests": 15,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 15,
+      "mean_target_probability": 0.14133333333333334,
+      "mean_confidence": 0.6233333333333333,
+      "input_tokens": 430,
+      "output_tokens": 95,
+      "latency_ms": 293.75,
+      "selections": {
+        "answer": {
+          "2": 15
+        }
+      }
+    },
+    {
+      "id": "countfollow-strawberry-state-explicit",
+      "group": "count_followup",
+      "factors": {
+        "word": "strawberry",
+        "placement": "state",
+        "wording": "explicit"
+      },
+      "requests": 15,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 15,
+      "mean_target_probability": 0.42266666666666663,
+      "mean_confidence": 0.45066666666666666,
+      "input_tokens": 431,
+      "output_tokens": 95,
+      "latency_ms": 300.17,
+      "selections": {
+        "answer": {
+          "2": 15
+        }
+      }
+    },
+    {
+      "id": "evidence-none",
+      "group": "evidence",
+      "factors": {
+        "evidence": "none"
+      },
+      "requests": 20,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 20,
+      "mean_target_probability": 0.07050000000000001,
+      "mean_confidence": 0.857,
+      "input_tokens": 327,
+      "output_tokens": 31,
+      "latency_ms": 294.815,
+      "selections": {
+        "answer": {
+          "walk": 20
+        }
+      }
+    },
+    {
+      "id": "evidence-facts",
+      "group": "evidence",
+      "factors": {
+        "evidence": "facts"
+      },
+      "requests": 20,
+      "correct": 20,
+      "accuracy": 1.0,
+      "question_count": 20,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 1.0,
+      "input_tokens": 356,
+      "output_tokens": 31,
+      "latency_ms": 304.82,
+      "selections": {
+        "answer": {
+          "drive": 20
+        }
+      }
+    },
+    {
+      "id": "evidence-previous_answers",
+      "group": "evidence",
+      "factors": {
+        "evidence": "previous_answers"
+      },
+      "requests": 20,
+      "correct": 20,
+      "accuracy": 1.0,
+      "question_count": 20,
+      "mean_target_probability": 0.834,
+      "mean_confidence": 0.667,
+      "input_tokens": 357,
+      "output_tokens": 31,
+      "latency_ms": 289.975,
+      "selections": {
+        "answer": {
+          "drive": 20
+        }
+      }
+    }
+  ],
+  "tables": {
+    "factor_placement": [],
+    "factor_wording": [],
+    "factor_unknown": [],
+    "factor_reverse": [],
+    "factor_placement_wording": [],
+    "transfer_mode": [],
+    "transfer_label": [],
+    "transfer_scenarios": [],
+    "length": [],
+    "length_filler": [],
+    "length_position": [],
+    "long_transfer": [],
+    "counting": [],
+    "counting_words": [],
+    "described_transfer": [
+      {
+        "cohort": "reused",
+        "label": "drive",
+        "reverse": false,
+        "conditions": 6,
+        "requests": 60,
+        "correct": 54,
+        "accuracy": 0.9,
+        "input_tokens": 358.1666666666667,
+        "output_tokens": 31.0
+      },
+      {
+        "cohort": "reused",
+        "label": "drive",
+        "reverse": true,
+        "conditions": 6,
+        "requests": 60,
+        "correct": 51,
+        "accuracy": 0.85,
+        "input_tokens": 358.1666666666667,
+        "output_tokens": 31.0
+      },
+      {
+        "cohort": "reused",
+        "label": "walk",
+        "reverse": false,
+        "conditions": 6,
+        "requests": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "input_tokens": 364.6666666666667,
+        "output_tokens": 31.0
+      },
+      {
+        "cohort": "reused",
+        "label": "walk",
+        "reverse": true,
+        "conditions": 6,
+        "requests": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "input_tokens": 364.6666666666667,
+        "output_tokens": 31.0
+      },
+      {
+        "cohort": "new",
+        "label": "drive",
+        "reverse": false,
+        "conditions": 4,
+        "requests": 40,
+        "correct": 40,
+        "accuracy": 1.0,
+        "input_tokens": 362.75,
+        "output_tokens": 31.0
+      },
+      {
+        "cohort": "new",
+        "label": "drive",
+        "reverse": true,
+        "conditions": 4,
+        "requests": 40,
+        "correct": 40,
+        "accuracy": 1.0,
+        "input_tokens": 362.75,
+        "output_tokens": 31.0
+      },
+      {
+        "cohort": "new",
+        "label": "walk",
+        "reverse": false,
+        "conditions": 4,
+        "requests": 40,
+        "correct": 38,
+        "accuracy": 0.95,
+        "input_tokens": 359.5,
+        "output_tokens": 31.0
+      },
+      {
+        "cohort": "new",
+        "label": "walk",
+        "reverse": true,
+        "conditions": 4,
+        "requests": 40,
+        "correct": 30,
+        "accuracy": 0.75,
+        "input_tokens": 359.5,
+        "output_tokens": 31.0
+      }
+    ],
+    "described_scenarios": [
+      {
+        "scenario": "wash",
+        "cohort": "reused",
+        "conditions": 2,
+        "requests": 20,
+        "correct": 20,
+        "accuracy": 1.0,
+        "input_tokens": 356.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "tires",
+        "cohort": "reused",
+        "conditions": 2,
+        "requests": 20,
+        "correct": 20,
+        "accuracy": 1.0,
+        "input_tokens": 358.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "inspection",
+        "cohort": "reused",
+        "conditions": 2,
+        "requests": 20,
+        "correct": 20,
+        "accuracy": 1.0,
+        "input_tokens": 358.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "oil",
+        "cohort": "reused",
+        "conditions": 2,
+        "requests": 20,
+        "correct": 20,
+        "accuracy": 1.0,
+        "input_tokens": 358.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "weigh",
+        "cohort": "reused",
+        "conditions": 2,
+        "requests": 20,
+        "correct": 20,
+        "accuracy": 1.0,
+        "input_tokens": 359.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "trade",
+        "cohort": "reused",
+        "conditions": 2,
+        "requests": 20,
+        "correct": 5,
+        "accuracy": 0.25,
+        "input_tokens": 360.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "pickup",
+        "cohort": "reused",
+        "conditions": 2,
+        "requests": 20,
+        "correct": 20,
+        "accuracy": 1.0,
+        "input_tokens": 363.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "job",
+        "cohort": "reused",
+        "conditions": 2,
+        "requests": 20,
+        "correct": 20,
+        "accuracy": 1.0,
+        "input_tokens": 358.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "receipt",
+        "cohort": "reused",
+        "conditions": 2,
+        "requests": 20,
+        "correct": 20,
+        "accuracy": 1.0,
+        "input_tokens": 371.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "supplies",
+        "cohort": "reused",
+        "conditions": 2,
+        "requests": 20,
+        "correct": 20,
+        "accuracy": 1.0,
+        "input_tokens": 362.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "refund",
+        "cohort": "reused",
+        "conditions": 2,
+        "requests": 20,
+        "correct": 20,
+        "accuracy": 1.0,
+        "input_tokens": 363.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "mobile",
+        "cohort": "reused",
+        "conditions": 2,
+        "requests": 20,
+        "correct": 20,
+        "accuracy": 1.0,
+        "input_tokens": 371.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "brakes",
+        "cohort": "new",
+        "conditions": 2,
+        "requests": 20,
+        "correct": 20,
+        "accuracy": 1.0,
+        "input_tokens": 364.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "alignment",
+        "cohort": "new",
+        "conditions": 2,
+        "requests": 20,
+        "correct": 20,
+        "accuracy": 1.0,
+        "input_tokens": 363.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "windscreen",
+        "cohort": "new",
+        "conditions": 2,
+        "requests": 20,
+        "correct": 20,
+        "accuracy": 1.0,
+        "input_tokens": 362.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "paint",
+        "cohort": "new",
+        "conditions": 2,
+        "requests": 20,
+        "correct": 20,
+        "accuracy": 1.0,
+        "input_tokens": 362.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "keys",
+        "cohort": "new",
+        "conditions": 2,
+        "requests": 20,
+        "correct": 8,
+        "accuracy": 0.4,
+        "input_tokens": 359.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "interview",
+        "cohort": "new",
+        "conditions": 2,
+        "requests": 20,
+        "correct": 20,
+        "accuracy": 1.0,
+        "input_tokens": 352.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "manual",
+        "cohort": "new",
+        "conditions": 2,
+        "requests": 20,
+        "correct": 20,
+        "accuracy": 1.0,
+        "input_tokens": 365.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "office",
+        "cohort": "new",
+        "conditions": 2,
+        "requests": 20,
+        "correct": 20,
+        "accuracy": 1.0,
+        "input_tokens": 362.0,
+        "output_tokens": 31.0
+      }
+    ],
+    "distance": [
+      {
+        "distance": "absent",
+        "conditions": 1,
+        "requests": 20,
+        "correct": 20,
+        "accuracy": 1.0,
+        "input_tokens": 315.0,
+        "output_tokens": 31.0
+      },
+      {
+        "distance": "walk5",
+        "conditions": 1,
+        "requests": 20,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 327.0,
+        "output_tokens": 31.0
+      },
+      {
+        "distance": "drive5",
+        "conditions": 1,
+        "requests": 20,
+        "correct": 20,
+        "accuracy": 1.0,
+        "input_tokens": 327.0,
+        "output_tokens": 31.0
+      },
+      {
+        "distance": "meters100",
+        "conditions": 1,
+        "requests": 20,
+        "correct": 2,
+        "accuracy": 0.1,
+        "input_tokens": 327.0,
+        "output_tokens": 31.0
+      },
+      {
+        "distance": "km50",
+        "conditions": 1,
+        "requests": 20,
+        "correct": 20,
+        "accuracy": 1.0,
+        "input_tokens": 326.0,
+        "output_tokens": 31.0
+      }
+    ],
+    "replication": [
+      {
+        "placement": "inline",
+        "wording": "direct",
+        "conditions": 1,
+        "requests": 25,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 327.0,
+        "output_tokens": 31.0
+      },
+      {
+        "placement": "inline",
+        "wording": "goal",
+        "conditions": 1,
+        "requests": 25,
+        "correct": 14,
+        "accuracy": 0.56,
+        "input_tokens": 338.0,
+        "output_tokens": 31.0
+      },
+      {
+        "placement": "state",
+        "wording": "direct",
+        "conditions": 1,
+        "requests": 25,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 327.0,
+        "output_tokens": 31.0
+      },
+      {
+        "placement": "state",
+        "wording": "goal",
+        "conditions": 1,
+        "requests": 25,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 338.0,
+        "output_tokens": 31.0
+      }
+    ],
+    "count_followup": [
+      {
+        "word": "straberry",
+        "placement": "inline",
+        "wording": "original",
+        "conditions": 1,
+        "requests": 15,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 426.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "straberry",
+        "placement": "inline",
+        "wording": "explicit",
+        "conditions": 1,
+        "requests": 15,
+        "correct": 14,
+        "accuracy": 0.9333333333333333,
+        "input_tokens": 427.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "straberry",
+        "placement": "state",
+        "wording": "original",
+        "conditions": 1,
+        "requests": 15,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 429.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "straberry",
+        "placement": "state",
+        "wording": "explicit",
+        "conditions": 1,
+        "requests": 15,
+        "correct": 15,
+        "accuracy": 1.0,
+        "input_tokens": 430.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "strawberry",
+        "placement": "inline",
+        "wording": "original",
+        "conditions": 1,
+        "requests": 15,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 424.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "strawberry",
+        "placement": "inline",
+        "wording": "explicit",
+        "conditions": 1,
+        "requests": 15,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 425.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "strawberry",
+        "placement": "state",
+        "wording": "original",
+        "conditions": 1,
+        "requests": 15,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 430.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "strawberry",
+        "placement": "state",
+        "wording": "explicit",
+        "conditions": 1,
+        "requests": 15,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 431.0,
+        "output_tokens": 95.0
+      }
+    ],
+    "evidence": [
+      {
+        "evidence": "none",
+        "conditions": 1,
+        "requests": 20,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 327.0,
+        "output_tokens": 31.0
+      },
+      {
+        "evidence": "facts",
+        "conditions": 1,
+        "requests": 20,
+        "correct": 20,
+        "accuracy": 1.0,
+        "input_tokens": 356.0,
+        "output_tokens": 31.0
+      },
+      {
+        "evidence": "previous_answers",
+        "conditions": 1,
+        "requests": 20,
+        "correct": 20,
+        "accuracy": 1.0,
+        "input_tokens": 357.0,
+        "output_tokens": 31.0
+      }
+    ]
+  },
+  "confidence_bins": [
+    {
+      "low": 0,
+      "high": 0.5,
+      "answers": 225,
+      "accuracy": 0.6
+    },
+    {
+      "low": 0.5,
+      "high": 0.8,
+      "answers": 211,
+      "accuracy": 0.5639810426540285
+    },
+    {
+      "low": 0.8,
+      "high": 0.95,
+      "answers": 107,
+      "accuracy": 0.2523364485981308
+    },
+    {
+      "low": 0.95,
+      "high": 1,
+      "answers": 237,
+      "accuracy": 1
+    }
+  ],
+  "validation": "Every raw response, hash, schedule entry, model, selected-answer label, question key, displayed probability set/range and request count verified. Rounded displayed probability sums allowed tolerance 0.061."
+}

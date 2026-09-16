@@ -1,0 +1,21 @@
+{
+  "requested_trials": 1000,
+  "workers": 4,
+  "payload": {
+    "model": "jev-latest",
+    "state": "",
+    "questions": {
+      "answer": {
+        "type": "choice",
+        "instructions": "Is the Earth flat? Answer only yes or no.",
+        "criteria": {
+          "yes": "Yes",
+          "no": "No"
+        }
+      }
+    }
+  },
+  "payload_sha256": "bb051a9e7998e61db79249d2fce2a1df1e328f4e018823bc96b306876265361d",
+  "method": "One fresh HTTP request/opener per trial; no cookies, sessions, tools, memory, batching, retries, or previous responses in input. Trial IDs are local only.",
+  "limitations": "Input isolation only, not separate provider containers. Provider caching, hidden context, sampling and statistical independence cannot be verified. Fixed yes/no option order. No sampling controls supplied."
+}

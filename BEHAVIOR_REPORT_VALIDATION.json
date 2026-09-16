@@ -1,0 +1,20 @@
+{
+  "status": "Share with caveats",
+  "scope": "All 2805 new requests and five historical 1000-request tests; source-based report and local browser rendering.",
+  "report_sha256": "8b762afbfcadc40431ffdb6989c2306bc864ba070ead559e5243fe719fa64a5a",
+  "checks": [
+    "Raw request/response and token reconciliation passed",
+    "All 251 conditions included in report appendix and prompt explorer",
+    "Four charts visually inspected at desktop width",
+    "Mobile report and context-length chart inspected; no page overflow",
+    "Group filter switched to subsets, All (251), and default; long payload selected and inspected",
+    "Browser reported no uncaught errors",
+    "Protected runtime build integrity checks passed"
+  ],
+  "limitations": [
+    "Synthetic repeated examples, non-independent provider calls, adaptive follow-up and bounded generalization are documented.",
+    "No independent external adjudication, production calibration or model-internals access.",
+    "Interactive preview runtime is not redistributed; no PDF export was performed."
+  ],
+  "publication_packaging": "Standalone repository copied from an explicit allowlist; only report, benchmark scripts, and selected evidence. Local interactive runtime excluded. Markdown generator adapted to run independently."
+}

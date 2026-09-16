@@ -1,0 +1,1729 @@
+{
+  "model": "jev-1.13.0",
+  "seed": 20260917,
+  "workers": 4,
+  "cases": [
+    {
+      "id": "described-wash-0",
+      "group": "described_transfer",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "I need my car washed at the car wash. My car is at home. The car wash is a five-minute walk away.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "walk": "Travel there on foot, leaving any car at home where it is.",
+              "drive": "Travel there in my car, bringing it with me."
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "drive"
+      },
+      "repetitions": 10,
+      "factors": {
+        "scenario": "wash",
+        "label": "drive",
+        "cohort": "reused",
+        "reverse": false
+      }
+    },
+    {
+      "id": "described-wash-1",
+      "group": "described_transfer",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "I need my car washed at the car wash. My car is at home. The car wash is a five-minute walk away.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "drive": "Travel there in my car, bringing it with me.",
+              "walk": "Travel there on foot, leaving any car at home where it is."
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "drive"
+      },
+      "repetitions": 10,
+      "factors": {
+        "scenario": "wash",
+        "label": "drive",
+        "cohort": "reused",
+        "reverse": true
+      }
+    },
+    {
+      "id": "described-tires-0",
+      "group": "described_transfer",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "I need the tires on my car replaced at the tire shop. My car is at home. The shop is a five-minute walk away.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "walk": "Travel there on foot, leaving any car at home where it is.",
+              "drive": "Travel there in my car, bringing it with me."
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "drive"
+      },
+      "repetitions": 10,
+      "factors": {
+        "scenario": "tires",
+        "label": "drive",
+        "cohort": "reused",
+        "reverse": false
+      }
+    },
+    {
+      "id": "described-tires-1",
+      "group": "described_transfer",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "I need the tires on my car replaced at the tire shop. My car is at home. The shop is a five-minute walk away.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "drive": "Travel there in my car, bringing it with me.",
+              "walk": "Travel there on foot, leaving any car at home where it is."
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "drive"
+      },
+      "repetitions": 10,
+      "factors": {
+        "scenario": "tires",
+        "label": "drive",
+        "cohort": "reused",
+        "reverse": true
+      }
+    },
+    {
+      "id": "described-inspection-0",
+      "group": "described_transfer",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "My car must undergo its annual vehicle inspection at the inspection center. My car is at home. The center is a five-minute walk away.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "walk": "Travel there on foot, leaving any car at home where it is.",
+              "drive": "Travel there in my car, bringing it with me."
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "drive"
+      },
+      "repetitions": 10,
+      "factors": {
+        "scenario": "inspection",
+        "label": "drive",
+        "cohort": "reused",
+        "reverse": false
+      }
+    },
+    {
+      "id": "described-inspection-1",
+      "group": "described_transfer",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "My car must undergo its annual vehicle inspection at the inspection center. My car is at home. The center is a five-minute walk away.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "drive": "Travel there in my car, bringing it with me.",
+              "walk": "Travel there on foot, leaving any car at home where it is."
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "drive"
+      },
+      "repetitions": 10,
+      "factors": {
+        "scenario": "inspection",
+        "label": "drive",
+        "cohort": "reused",
+        "reverse": true
+      }
+    },
+    {
+      "id": "described-oil-0",
+      "group": "described_transfer",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "I have booked an oil change for my car at the garage. My car is at home. The garage is a five-minute walk away.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "walk": "Travel there on foot, leaving any car at home where it is.",
+              "drive": "Travel there in my car, bringing it with me."
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "drive"
+      },
+      "repetitions": 10,
+      "factors": {
+        "scenario": "oil",
+        "label": "drive",
+        "cohort": "reused",
+        "reverse": false
+      }
+    },
+    {
+      "id": "described-oil-1",
+      "group": "described_transfer",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "I have booked an oil change for my car at the garage. My car is at home. The garage is a five-minute walk away.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "drive": "Travel there in my car, bringing it with me.",
+              "walk": "Travel there on foot, leaving any car at home where it is."
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "drive"
+      },
+      "repetitions": 10,
+      "factors": {
+        "scenario": "oil",
+        "label": "drive",
+        "cohort": "reused",
+        "reverse": true
+      }
+    },
+    {
+      "id": "described-weigh-0",
+      "group": "described_transfer",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "I need my car weighed on the vehicle scale at the weigh station. My car is at home. The station is a five-minute walk away.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "walk": "Travel there on foot, leaving any car at home where it is.",
+              "drive": "Travel there in my car, bringing it with me."
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "drive"
+      },
+      "repetitions": 10,
+      "factors": {
+        "scenario": "weigh",
+        "label": "drive",
+        "cohort": "reused",
+        "reverse": false
+      }
+    },
+    {
+      "id": "described-weigh-1",
+      "group": "described_transfer",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "I need my car weighed on the vehicle scale at the weigh station. My car is at home. The station is a five-minute walk away.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "drive": "Travel there in my car, bringing it with me.",
+              "walk": "Travel there on foot, leaving any car at home where it is."
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "drive"
+      },
+      "repetitions": 10,
+      "factors": {
+        "scenario": "weigh",
+        "label": "drive",
+        "cohort": "reused",
+        "reverse": true
+      }
+    },
+    {
+      "id": "described-trade-0",
+      "group": "described_transfer",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "The dealer has asked to physically inspect my car for a trade-in valuation. My car is at home. The dealer is a five-minute walk away.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "walk": "Travel there on foot, leaving any car at home where it is.",
+              "drive": "Travel there in my car, bringing it with me."
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "drive"
+      },
+      "repetitions": 10,
+      "factors": {
+        "scenario": "trade",
+        "label": "drive",
+        "cohort": "reused",
+        "reverse": false
+      }
+    },
+    {
+      "id": "described-trade-1",
+      "group": "described_transfer",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "The dealer has asked to physically inspect my car for a trade-in valuation. My car is at home. The dealer is a five-minute walk away.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "drive": "Travel there in my car, bringing it with me.",
+              "walk": "Travel there on foot, leaving any car at home where it is."
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "drive"
+      },
+      "repetitions": 10,
+      "factors": {
+        "scenario": "trade",
+        "label": "drive",
+        "cohort": "reused",
+        "reverse": true
+      }
+    },
+    {
+      "id": "described-pickup-0",
+      "group": "described_transfer",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "My car is already at the car wash, and I need to collect it. I have no other vehicle available. The car wash is a five-minute walk away.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "walk": "Travel there on foot, leaving any car at home where it is.",
+              "drive": "Travel there in my car, bringing it with me."
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "walk"
+      },
+      "repetitions": 10,
+      "factors": {
+        "scenario": "pickup",
+        "label": "walk",
+        "cohort": "reused",
+        "reverse": false
+      }
+    },
+    {
+      "id": "described-pickup-1",
+      "group": "described_transfer",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "My car is already at the car wash, and I need to collect it. I have no other vehicle available. The car wash is a five-minute walk away.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "drive": "Travel there in my car, bringing it with me.",
+              "walk": "Travel there on foot, leaving any car at home where it is."
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "walk"
+      },
+      "repetitions": 10,
+      "factors": {
+        "scenario": "pickup",
+        "label": "walk",
+        "cohort": "reused",
+        "reverse": true
+      }
+    },
+    {
+      "id": "described-job-0",
+      "group": "described_transfer",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "I am going to a job interview at the car wash. I have no car available. The car wash is a five-minute walk away.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "walk": "Travel there on foot, leaving any car at home where it is.",
+              "drive": "Travel there in my car, bringing it with me."
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "walk"
+      },
+      "repetitions": 10,
+      "factors": {
+        "scenario": "job",
+        "label": "walk",
+        "cohort": "reused",
+        "reverse": false
+      }
+    },
+    {
+      "id": "described-job-1",
+      "group": "described_transfer",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "I am going to a job interview at the car wash. I have no car available. The car wash is a five-minute walk away.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "drive": "Travel there in my car, bringing it with me.",
+              "walk": "Travel there on foot, leaving any car at home where it is."
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "walk"
+      },
+      "repetitions": 10,
+      "factors": {
+        "scenario": "job",
+        "label": "walk",
+        "cohort": "reused",
+        "reverse": true
+      }
+    },
+    {
+      "id": "described-receipt-0",
+      "group": "described_transfer",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "I only need to collect a paper receipt from the car wash. My car is not needed, and the pedestrian route is open while the road is closed to vehicles. It is a five-minute walk away.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "walk": "Travel there on foot, leaving any car at home where it is.",
+              "drive": "Travel there in my car, bringing it with me."
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "walk"
+      },
+      "repetitions": 10,
+      "factors": {
+        "scenario": "receipt",
+        "label": "walk",
+        "cohort": "reused",
+        "reverse": false
+      }
+    },
+    {
+      "id": "described-receipt-1",
+      "group": "described_transfer",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "I only need to collect a paper receipt from the car wash. My car is not needed, and the pedestrian route is open while the road is closed to vehicles. It is a five-minute walk away.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "drive": "Travel there in my car, bringing it with me.",
+              "walk": "Travel there on foot, leaving any car at home where it is."
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "walk"
+      },
+      "repetitions": 10,
+      "factors": {
+        "scenario": "receipt",
+        "label": "walk",
+        "cohort": "reused",
+        "reverse": true
+      }
+    },
+    {
+      "id": "described-supplies-0",
+      "group": "described_transfer",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "I need to buy a sponge from the car wash shop. My car has a dead battery and cannot be driven. The shop is a five-minute walk away.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "walk": "Travel there on foot, leaving any car at home where it is.",
+              "drive": "Travel there in my car, bringing it with me."
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "walk"
+      },
+      "repetitions": 10,
+      "factors": {
+        "scenario": "supplies",
+        "label": "walk",
+        "cohort": "reused",
+        "reverse": false
+      }
+    },
+    {
+      "id": "described-supplies-1",
+      "group": "described_transfer",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "I need to buy a sponge from the car wash shop. My car has a dead battery and cannot be driven. The shop is a five-minute walk away.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "drive": "Travel there in my car, bringing it with me.",
+              "walk": "Travel there on foot, leaving any car at home where it is."
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "walk"
+      },
+      "repetitions": 10,
+      "factors": {
+        "scenario": "supplies",
+        "label": "walk",
+        "cohort": "reused",
+        "reverse": true
+      }
+    },
+    {
+      "id": "described-refund-0",
+      "group": "described_transfer",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "I need to discuss a refund in person at the car wash. No car inspection is required. I have no vehicle available. It is a five-minute walk away.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "walk": "Travel there on foot, leaving any car at home where it is.",
+              "drive": "Travel there in my car, bringing it with me."
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "walk"
+      },
+      "repetitions": 10,
+      "factors": {
+        "scenario": "refund",
+        "label": "walk",
+        "cohort": "reused",
+        "reverse": false
+      }
+    },
+    {
+      "id": "described-refund-1",
+      "group": "described_transfer",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "I need to discuss a refund in person at the car wash. No car inspection is required. I have no vehicle available. It is a five-minute walk away.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "drive": "Travel there in my car, bringing it with me.",
+              "walk": "Travel there on foot, leaving any car at home where it is."
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "walk"
+      },
+      "repetitions": 10,
+      "factors": {
+        "scenario": "refund",
+        "label": "walk",
+        "cohort": "reused",
+        "reverse": true
+      }
+    },
+    {
+      "id": "described-mobile-0",
+      "group": "described_transfer",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "A mobile service is washing my car at home. I only need to take a signed form to its office. My car must stay at home for the service. The office is a five-minute walk away.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "walk": "Travel there on foot, leaving any car at home where it is.",
+              "drive": "Travel there in my car, bringing it with me."
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "walk"
+      },
+      "repetitions": 10,
+      "factors": {
+        "scenario": "mobile",
+        "label": "walk",
+        "cohort": "reused",
+        "reverse": false
+      }
+    },
+    {
+      "id": "described-mobile-1",
+      "group": "described_transfer",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "A mobile service is washing my car at home. I only need to take a signed form to its office. My car must stay at home for the service. The office is a five-minute walk away.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "drive": "Travel there in my car, bringing it with me.",
+              "walk": "Travel there on foot, leaving any car at home where it is."
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "walk"
+      },
+      "repetitions": 10,
+      "factors": {
+        "scenario": "mobile",
+        "label": "walk",
+        "cohort": "reused",
+        "reverse": true
+      }
+    },
+    {
+      "id": "described-brakes-0",
+      "group": "described_transfer",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "My car is at home. A mechanic needs to replace its brake pads at the workshop, a five-minute walk away. The car is safe and legal to drive there.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "walk": "Travel there on foot, leaving any car at home where it is.",
+              "drive": "Travel there in my car, bringing it with me."
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "drive"
+      },
+      "repetitions": 10,
+      "factors": {
+        "scenario": "brakes",
+        "label": "drive",
+        "cohort": "new",
+        "reverse": false
+      }
+    },
+    {
+      "id": "described-brakes-1",
+      "group": "described_transfer",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "My car is at home. A mechanic needs to replace its brake pads at the workshop, a five-minute walk away. The car is safe and legal to drive there.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "drive": "Travel there in my car, bringing it with me.",
+              "walk": "Travel there on foot, leaving any car at home where it is."
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "drive"
+      },
+      "repetitions": 10,
+      "factors": {
+        "scenario": "brakes",
+        "label": "drive",
+        "cohort": "new",
+        "reverse": true
+      }
+    },
+    {
+      "id": "described-alignment-0",
+      "group": "described_transfer",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "My car is at home. I have booked a wheel alignment for it at a service center a five-minute walk away. It is safe and legal to drive there.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "walk": "Travel there on foot, leaving any car at home where it is.",
+              "drive": "Travel there in my car, bringing it with me."
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "drive"
+      },
+      "repetitions": 10,
+      "factors": {
+        "scenario": "alignment",
+        "label": "drive",
+        "cohort": "new",
+        "reverse": false
+      }
+    },
+    {
+      "id": "described-alignment-1",
+      "group": "described_transfer",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "My car is at home. I have booked a wheel alignment for it at a service center a five-minute walk away. It is safe and legal to drive there.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "drive": "Travel there in my car, bringing it with me.",
+              "walk": "Travel there on foot, leaving any car at home where it is."
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "drive"
+      },
+      "repetitions": 10,
+      "factors": {
+        "scenario": "alignment",
+        "label": "drive",
+        "cohort": "new",
+        "reverse": true
+      }
+    },
+    {
+      "id": "described-windscreen-0",
+      "group": "described_transfer",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "My car is at home. A glass specialist must replace its windshield at their workshop, a five-minute walk away. It is safe and legal to drive there.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "walk": "Travel there on foot, leaving any car at home where it is.",
+              "drive": "Travel there in my car, bringing it with me."
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "drive"
+      },
+      "repetitions": 10,
+      "factors": {
+        "scenario": "windscreen",
+        "label": "drive",
+        "cohort": "new",
+        "reverse": false
+      }
+    },
+    {
+      "id": "described-windscreen-1",
+      "group": "described_transfer",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "My car is at home. A glass specialist must replace its windshield at their workshop, a five-minute walk away. It is safe and legal to drive there.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "drive": "Travel there in my car, bringing it with me.",
+              "walk": "Travel there on foot, leaving any car at home where it is."
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "drive"
+      },
+      "repetitions": 10,
+      "factors": {
+        "scenario": "windscreen",
+        "label": "drive",
+        "cohort": "new",
+        "reverse": true
+      }
+    },
+    {
+      "id": "described-paint-0",
+      "group": "described_transfer",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "My car is at home. A body shop a five-minute walk away needs it on site for a paint repair. It is safe and legal to drive there.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "walk": "Travel there on foot, leaving any car at home where it is.",
+              "drive": "Travel there in my car, bringing it with me."
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "drive"
+      },
+      "repetitions": 10,
+      "factors": {
+        "scenario": "paint",
+        "label": "drive",
+        "cohort": "new",
+        "reverse": false
+      }
+    },
+    {
+      "id": "described-paint-1",
+      "group": "described_transfer",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "My car is at home. A body shop a five-minute walk away needs it on site for a paint repair. It is safe and legal to drive there.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "drive": "Travel there in my car, bringing it with me.",
+              "walk": "Travel there on foot, leaving any car at home where it is."
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "drive"
+      },
+      "repetitions": 10,
+      "factors": {
+        "scenario": "paint",
+        "label": "drive",
+        "cohort": "new",
+        "reverse": true
+      }
+    },
+    {
+      "id": "described-keys-0",
+      "group": "described_transfer",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "I am collecting spare keys from a locksmith a five-minute walk away. My car is already parked at the locksmith and I have no other vehicle.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "walk": "Travel there on foot, leaving any car at home where it is.",
+              "drive": "Travel there in my car, bringing it with me."
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "walk"
+      },
+      "repetitions": 10,
+      "factors": {
+        "scenario": "keys",
+        "label": "walk",
+        "cohort": "new",
+        "reverse": false
+      }
+    },
+    {
+      "id": "described-keys-1",
+      "group": "described_transfer",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "I am collecting spare keys from a locksmith a five-minute walk away. My car is already parked at the locksmith and I have no other vehicle.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "drive": "Travel there in my car, bringing it with me.",
+              "walk": "Travel there on foot, leaving any car at home where it is."
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "walk"
+      },
+      "repetitions": 10,
+      "factors": {
+        "scenario": "keys",
+        "label": "walk",
+        "cohort": "new",
+        "reverse": true
+      }
+    },
+    {
+      "id": "described-interview-0",
+      "group": "described_transfer",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "I am attending a job interview at a tire shop a five-minute walk away. I have no car available.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "walk": "Travel there on foot, leaving any car at home where it is.",
+              "drive": "Travel there in my car, bringing it with me."
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "walk"
+      },
+      "repetitions": 10,
+      "factors": {
+        "scenario": "interview",
+        "label": "walk",
+        "cohort": "new",
+        "reverse": false
+      }
+    },
+    {
+      "id": "described-interview-1",
+      "group": "described_transfer",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "I am attending a job interview at a tire shop a five-minute walk away. I have no car available.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "drive": "Travel there in my car, bringing it with me.",
+              "walk": "Travel there on foot, leaving any car at home where it is."
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "walk"
+      },
+      "repetitions": 10,
+      "factors": {
+        "scenario": "interview",
+        "label": "walk",
+        "cohort": "new",
+        "reverse": true
+      }
+    },
+    {
+      "id": "described-manual-0",
+      "group": "described_transfer",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "I am collecting a printed manual from a dealership a five-minute walk away. No car inspection is needed, and the road is closed to cars but the footpath is open.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "walk": "Travel there on foot, leaving any car at home where it is.",
+              "drive": "Travel there in my car, bringing it with me."
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "walk"
+      },
+      "repetitions": 10,
+      "factors": {
+        "scenario": "manual",
+        "label": "walk",
+        "cohort": "new",
+        "reverse": false
+      }
+    },
+    {
+      "id": "described-manual-1",
+      "group": "described_transfer",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "I am collecting a printed manual from a dealership a five-minute walk away. No car inspection is needed, and the road is closed to cars but the footpath is open.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "drive": "Travel there in my car, bringing it with me.",
+              "walk": "Travel there on foot, leaving any car at home where it is."
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "walk"
+      },
+      "repetitions": 10,
+      "factors": {
+        "scenario": "manual",
+        "label": "walk",
+        "cohort": "new",
+        "reverse": true
+      }
+    },
+    {
+      "id": "described-office-0",
+      "group": "described_transfer",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "I am going to the garage office a five-minute walk away to hand over a signed form. My car is undergoing repairs there and I have no other vehicle.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "walk": "Travel there on foot, leaving any car at home where it is.",
+              "drive": "Travel there in my car, bringing it with me."
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "walk"
+      },
+      "repetitions": 10,
+      "factors": {
+        "scenario": "office",
+        "label": "walk",
+        "cohort": "new",
+        "reverse": false
+      }
+    },
+    {
+      "id": "described-office-1",
+      "group": "described_transfer",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "I am going to the garage office a five-minute walk away to hand over a signed form. My car is undergoing repairs there and I have no other vehicle.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "drive": "Travel there in my car, bringing it with me.",
+              "walk": "Travel there on foot, leaving any car at home where it is."
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "walk"
+      },
+      "repetitions": 10,
+      "factors": {
+        "scenario": "office",
+        "label": "walk",
+        "cohort": "new",
+        "reverse": true
+      }
+    },
+    {
+      "id": "distance-absent",
+      "group": "distance",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "I need to wash my car. ",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "walk": "Walk",
+              "drive": "Drive"
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "drive"
+      },
+      "repetitions": 20,
+      "factors": {
+        "distance": "absent"
+      }
+    },
+    {
+      "id": "distance-walk5",
+      "group": "distance",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "I need to wash my car. The car wash is a 5-minute walk from my home.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "walk": "Walk",
+              "drive": "Drive"
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "drive"
+      },
+      "repetitions": 20,
+      "factors": {
+        "distance": "walk5"
+      }
+    },
+    {
+      "id": "distance-drive5",
+      "group": "distance",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "I need to wash my car. The car wash is a 5-minute drive from my home.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "walk": "Walk",
+              "drive": "Drive"
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "drive"
+      },
+      "repetitions": 20,
+      "factors": {
+        "distance": "drive5"
+      }
+    },
+    {
+      "id": "distance-meters100",
+      "group": "distance",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "I need to wash my car. The car wash is 100 meters from my home.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "walk": "Walk",
+              "drive": "Drive"
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "drive"
+      },
+      "repetitions": 20,
+      "factors": {
+        "distance": "meters100"
+      }
+    },
+    {
+      "id": "distance-km50",
+      "group": "distance",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "I need to wash my car. The car wash is 50 kilometers from my home.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "walk": "Walk",
+              "drive": "Drive"
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "drive"
+      },
+      "repetitions": 20,
+      "factors": {
+        "distance": "km50"
+      }
+    },
+    {
+      "id": "replicate-inline-direct",
+      "group": "replication",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "I need to wash my car. The car wash is a 5-minute walk from my home. Should I walk or drive there?",
+            "criteria": {
+              "walk": "Walk",
+              "drive": "Drive"
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "drive"
+      },
+      "repetitions": 25,
+      "factors": {
+        "placement": "inline",
+        "wording": "direct"
+      }
+    },
+    {
+      "id": "replicate-inline-goal",
+      "group": "replication",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "I need to wash my car. The car wash is a 5-minute walk from my home. Which option accomplishes my goal of getting my car washed at the car wash?",
+            "criteria": {
+              "walk": "Walk",
+              "drive": "Drive"
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "drive"
+      },
+      "repetitions": 25,
+      "factors": {
+        "placement": "inline",
+        "wording": "goal"
+      }
+    },
+    {
+      "id": "replicate-state-direct",
+      "group": "replication",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "I need to wash my car. The car wash is a 5-minute walk from my home.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "walk": "Walk",
+              "drive": "Drive"
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "drive"
+      },
+      "repetitions": 25,
+      "factors": {
+        "placement": "state",
+        "wording": "direct"
+      }
+    },
+    {
+      "id": "replicate-state-goal",
+      "group": "replication",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "I need to wash my car. The car wash is a 5-minute walk from my home.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Which option accomplishes my goal of getting my car washed at the car wash?",
+            "criteria": {
+              "walk": "Walk",
+              "drive": "Drive"
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "drive"
+      },
+      "repetitions": 25,
+      "factors": {
+        "placement": "state",
+        "wording": "goal"
+      }
+    },
+    {
+      "id": "countfollow-straberry-inline-original",
+      "group": "count_followup",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "How many R's are in straberry? Answer only with the number.",
+            "criteria": {
+              "0": "0",
+              "1": "1",
+              "2": "2",
+              "3": "3",
+              "4": "4",
+              "5": "5",
+              "6": "6",
+              "7": "7",
+              "8": "8",
+              "9": "9",
+              "10": "10"
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "3"
+      },
+      "repetitions": 15,
+      "factors": {
+        "word": "straberry",
+        "placement": "inline",
+        "wording": "original"
+      }
+    },
+    {
+      "id": "countfollow-straberry-inline-explicit",
+      "group": "count_followup",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "How many occurrences of the letter r, ignoring case, are in straberry?",
+            "criteria": {
+              "0": "0",
+              "1": "1",
+              "2": "2",
+              "3": "3",
+              "4": "4",
+              "5": "5",
+              "6": "6",
+              "7": "7",
+              "8": "8",
+              "9": "9",
+              "10": "10"
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "3"
+      },
+      "repetitions": 15,
+      "factors": {
+        "word": "straberry",
+        "placement": "inline",
+        "wording": "explicit"
+      }
+    },
+    {
+      "id": "countfollow-straberry-state-original",
+      "group": "count_followup",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "straberry",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "How many R's are in the supplied text? Answer only with the number.",
+            "criteria": {
+              "0": "0",
+              "1": "1",
+              "2": "2",
+              "3": "3",
+              "4": "4",
+              "5": "5",
+              "6": "6",
+              "7": "7",
+              "8": "8",
+              "9": "9",
+              "10": "10"
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "3"
+      },
+      "repetitions": 15,
+      "factors": {
+        "word": "straberry",
+        "placement": "state",
+        "wording": "original"
+      }
+    },
+    {
+      "id": "countfollow-straberry-state-explicit",
+      "group": "count_followup",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "straberry",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "How many occurrences of the letter r, ignoring case, are in the supplied text?",
+            "criteria": {
+              "0": "0",
+              "1": "1",
+              "2": "2",
+              "3": "3",
+              "4": "4",
+              "5": "5",
+              "6": "6",
+              "7": "7",
+              "8": "8",
+              "9": "9",
+              "10": "10"
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "3"
+      },
+      "repetitions": 15,
+      "factors": {
+        "word": "straberry",
+        "placement": "state",
+        "wording": "explicit"
+      }
+    },
+    {
+      "id": "countfollow-strawberry-inline-original",
+      "group": "count_followup",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "How many R's are in strawberry? Answer only with the number.",
+            "criteria": {
+              "0": "0",
+              "1": "1",
+              "2": "2",
+              "3": "3",
+              "4": "4",
+              "5": "5",
+              "6": "6",
+              "7": "7",
+              "8": "8",
+              "9": "9",
+              "10": "10"
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "3"
+      },
+      "repetitions": 15,
+      "factors": {
+        "word": "strawberry",
+        "placement": "inline",
+        "wording": "original"
+      }
+    },
+    {
+      "id": "countfollow-strawberry-inline-explicit",
+      "group": "count_followup",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "How many occurrences of the letter r, ignoring case, are in strawberry?",
+            "criteria": {
+              "0": "0",
+              "1": "1",
+              "2": "2",
+              "3": "3",
+              "4": "4",
+              "5": "5",
+              "6": "6",
+              "7": "7",
+              "8": "8",
+              "9": "9",
+              "10": "10"
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "3"
+      },
+      "repetitions": 15,
+      "factors": {
+        "word": "strawberry",
+        "placement": "inline",
+        "wording": "explicit"
+      }
+    },
+    {
+      "id": "countfollow-strawberry-state-original",
+      "group": "count_followup",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "strawberry",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "How many R's are in the supplied text? Answer only with the number.",
+            "criteria": {
+              "0": "0",
+              "1": "1",
+              "2": "2",
+              "3": "3",
+              "4": "4",
+              "5": "5",
+              "6": "6",
+              "7": "7",
+              "8": "8",
+              "9": "9",
+              "10": "10"
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "3"
+      },
+      "repetitions": 15,
+      "factors": {
+        "word": "strawberry",
+        "placement": "state",
+        "wording": "original"
+      }
+    },
+    {
+      "id": "countfollow-strawberry-state-explicit",
+      "group": "count_followup",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "strawberry",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "How many occurrences of the letter r, ignoring case, are in the supplied text?",
+            "criteria": {
+              "0": "0",
+              "1": "1",
+              "2": "2",
+              "3": "3",
+              "4": "4",
+              "5": "5",
+              "6": "6",
+              "7": "7",
+              "8": "8",
+              "9": "9",
+              "10": "10"
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "3"
+      },
+      "repetitions": 15,
+      "factors": {
+        "word": "strawberry",
+        "placement": "state",
+        "wording": "explicit"
+      }
+    },
+    {
+      "id": "evidence-none",
+      "group": "evidence",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "I need to wash my car. The car wash is a 5-minute walk from my home.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "walk": "Walk",
+              "drive": "Drive"
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "drive"
+      },
+      "repetitions": 20,
+      "factors": {
+        "evidence": "none"
+      }
+    },
+    {
+      "id": "evidence-facts",
+      "group": "evidence",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "I need to wash my car. The car wash is a 5-minute walk from my home. The car must be physically present at the car wash to be washed there. Walking there while leaving the car at home will not accomplish this goal.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "walk": "Walk",
+              "drive": "Drive"
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "drive"
+      },
+      "repetitions": 20,
+      "factors": {
+        "evidence": "facts"
+      }
+    },
+    {
+      "id": "evidence-previous_answers",
+      "group": "evidence",
+      "payload": {
+        "model": "jev-1.13.0",
+        "state": "I need to wash my car. The car wash is a 5-minute walk from my home. Previously checked prerequisites: the car must be physically present: yes; walking there and leaving the car at home accomplishes the goal: no.",
+        "questions": {
+          "answer": {
+            "type": "choice",
+            "instructions": "Should I walk or drive there?",
+            "criteria": {
+              "walk": "Walk",
+              "drive": "Drive"
+            }
+          }
+        }
+      },
+      "expected": {
+        "answer": "drive"
+      },
+      "repetitions": 20,
+      "factors": {
+        "evidence": "previous_answers"
+      }
+    }
+  ],
+  "method": "Predeclared labels and cases; shuffled interleaved requests; fresh opener; no retries; no response reuse. Repetitions measure conditional stability, not independent task coverage.",
+  "hypotheses": [
+    "Context placement changes direct-choice accuracy.",
+    "Goal-focused instructions improve choice.",
+    "Option order, uncertainty option or descriptions affect answers.",
+    "Batching alone does not fix a direct choice.",
+    "Prerequisite checking transfers to balanced new cases.",
+    "Length, irrelevant walking cues and fact position affect performance.",
+    "Explicit counting or spaced text improves exact letter counting."
+  ]
+}

@@ -1,0 +1,6565 @@
+{
+  "run": "20260916T075659560245Z-behavior-study",
+  "requests": 2025,
+  "conditions": 191,
+  "answers": 2500,
+  "errors": 0,
+  "models": {
+    "jev-1.13.0": 2025
+  },
+  "input_tokens": 2922028,
+  "output_tokens": 119445,
+  "first_request": "2026-09-16T07:56:59.569088+00:00",
+  "last_request": "2026-09-16T08:00:11.919441+00:00",
+  "max_input_tokens": 11496,
+  "case_results": [
+    {
+      "id": "factor-inline-direct-0-0",
+      "group": "factorial",
+      "factors": {
+        "placement": "inline",
+        "wording": "direct",
+        "unknown": false,
+        "reverse": false
+      },
+      "requests": 25,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 25,
+      "mean_target_probability": 0.1168,
+      "mean_confidence": 0.7684,
+      "input_tokens": 327,
+      "output_tokens": 31,
+      "latency_ms": 296.1,
+      "selections": {
+        "answer": {
+          "walk": 25
+        }
+      }
+    },
+    {
+      "id": "factor-inline-direct-0-1",
+      "group": "factorial",
+      "factors": {
+        "placement": "inline",
+        "wording": "direct",
+        "unknown": false,
+        "reverse": true
+      },
+      "requests": 25,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 25,
+      "mean_target_probability": 0.0728,
+      "mean_confidence": 0.8563999999999999,
+      "input_tokens": 327,
+      "output_tokens": 31,
+      "latency_ms": 326.02,
+      "selections": {
+        "answer": {
+          "walk": 25
+        }
+      }
+    },
+    {
+      "id": "factor-inline-direct-1-0",
+      "group": "factorial",
+      "factors": {
+        "placement": "inline",
+        "wording": "direct",
+        "unknown": true,
+        "reverse": false
+      },
+      "requests": 25,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 25,
+      "mean_target_probability": 0.0944,
+      "mean_confidence": 0.7408,
+      "input_tokens": 345,
+      "output_tokens": 42,
+      "latency_ms": 347.82,
+      "selections": {
+        "answer": {
+          "walk": 25
+        }
+      }
+    },
+    {
+      "id": "factor-inline-direct-1-1",
+      "group": "factorial",
+      "factors": {
+        "placement": "inline",
+        "wording": "direct",
+        "unknown": true,
+        "reverse": true
+      },
+      "requests": 25,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 25,
+      "mean_target_probability": 0.02,
+      "mean_confidence": 0.8712,
+      "input_tokens": 345,
+      "output_tokens": 42,
+      "latency_ms": 323.33,
+      "selections": {
+        "answer": {
+          "walk": 25
+        }
+      }
+    },
+    {
+      "id": "factor-inline-goal-0-0",
+      "group": "factorial",
+      "factors": {
+        "placement": "inline",
+        "wording": "goal",
+        "unknown": false,
+        "reverse": false
+      },
+      "requests": 25,
+      "correct": 20,
+      "accuracy": 0.8,
+      "question_count": 25,
+      "mean_target_probability": 0.552,
+      "mean_confidence": 0.1216,
+      "input_tokens": 338,
+      "output_tokens": 31,
+      "latency_ms": 327.45,
+      "selections": {
+        "answer": {
+          "walk": 5,
+          "drive": 20
+        }
+      }
+    },
+    {
+      "id": "factor-inline-goal-0-1",
+      "group": "factorial",
+      "factors": {
+        "placement": "inline",
+        "wording": "goal",
+        "unknown": false,
+        "reverse": true
+      },
+      "requests": 25,
+      "correct": 23,
+      "accuracy": 0.92,
+      "question_count": 25,
+      "mean_target_probability": 0.5904,
+      "mean_confidence": 0.1988,
+      "input_tokens": 338,
+      "output_tokens": 31,
+      "latency_ms": 316.88,
+      "selections": {
+        "answer": {
+          "drive": 23,
+          "walk": 2
+        }
+      }
+    },
+    {
+      "id": "factor-inline-goal-1-0",
+      "group": "factorial",
+      "factors": {
+        "placement": "inline",
+        "wording": "goal",
+        "unknown": true,
+        "reverse": false
+      },
+      "requests": 25,
+      "correct": 21,
+      "accuracy": 0.84,
+      "question_count": 25,
+      "mean_target_probability": 0.5524,
+      "mean_confidence": 0.338,
+      "input_tokens": 356,
+      "output_tokens": 42,
+      "latency_ms": 318.4,
+      "selections": {
+        "answer": {
+          "walk": 4,
+          "drive": 21
+        }
+      }
+    },
+    {
+      "id": "factor-inline-goal-1-1",
+      "group": "factorial",
+      "factors": {
+        "placement": "inline",
+        "wording": "goal",
+        "unknown": true,
+        "reverse": true
+      },
+      "requests": 25,
+      "correct": 25,
+      "accuracy": 1.0,
+      "question_count": 25,
+      "mean_target_probability": 0.5564,
+      "mean_confidence": 0.334,
+      "input_tokens": 356,
+      "output_tokens": 42,
+      "latency_ms": 309.51,
+      "selections": {
+        "answer": {
+          "drive": 25
+        }
+      }
+    },
+    {
+      "id": "factor-state-direct-0-0",
+      "group": "factorial",
+      "factors": {
+        "placement": "state",
+        "wording": "direct",
+        "unknown": false,
+        "reverse": false
+      },
+      "requests": 25,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 25,
+      "mean_target_probability": 0.06760000000000001,
+      "mean_confidence": 0.8628,
+      "input_tokens": 327,
+      "output_tokens": 31,
+      "latency_ms": 315.09,
+      "selections": {
+        "answer": {
+          "walk": 25
+        }
+      }
+    },
+    {
+      "id": "factor-state-direct-0-1",
+      "group": "factorial",
+      "factors": {
+        "placement": "state",
+        "wording": "direct",
+        "unknown": false,
+        "reverse": true
+      },
+      "requests": 25,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 25,
+      "mean_target_probability": 0.048,
+      "mean_confidence": 0.902,
+      "input_tokens": 327,
+      "output_tokens": 31,
+      "latency_ms": 314.35,
+      "selections": {
+        "answer": {
+          "walk": 25
+        }
+      }
+    },
+    {
+      "id": "factor-state-direct-1-0",
+      "group": "factorial",
+      "factors": {
+        "placement": "state",
+        "wording": "direct",
+        "unknown": true,
+        "reverse": false
+      },
+      "requests": 25,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 25,
+      "mean_target_probability": 0.0796,
+      "mean_confidence": 0.812,
+      "input_tokens": 345,
+      "output_tokens": 42,
+      "latency_ms": 313.94,
+      "selections": {
+        "answer": {
+          "walk": 25
+        }
+      }
+    },
+    {
+      "id": "factor-state-direct-1-1",
+      "group": "factorial",
+      "factors": {
+        "placement": "state",
+        "wording": "direct",
+        "unknown": true,
+        "reverse": true
+      },
+      "requests": 25,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 25,
+      "mean_target_probability": 0.0608,
+      "mean_confidence": 0.8696,
+      "input_tokens": 345,
+      "output_tokens": 42,
+      "latency_ms": 319.39,
+      "selections": {
+        "answer": {
+          "walk": 25
+        }
+      }
+    },
+    {
+      "id": "factor-state-goal-0-0",
+      "group": "factorial",
+      "factors": {
+        "placement": "state",
+        "wording": "goal",
+        "unknown": false,
+        "reverse": false
+      },
+      "requests": 25,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 25,
+      "mean_target_probability": 0.2304,
+      "mean_confidence": 0.5388000000000001,
+      "input_tokens": 338,
+      "output_tokens": 31,
+      "latency_ms": 316.77,
+      "selections": {
+        "answer": {
+          "walk": 25
+        }
+      }
+    },
+    {
+      "id": "factor-state-goal-0-1",
+      "group": "factorial",
+      "factors": {
+        "placement": "state",
+        "wording": "goal",
+        "unknown": false,
+        "reverse": true
+      },
+      "requests": 25,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 25,
+      "mean_target_probability": 0.3696,
+      "mean_confidence": 0.2632,
+      "input_tokens": 338,
+      "output_tokens": 31,
+      "latency_ms": 294.67,
+      "selections": {
+        "answer": {
+          "walk": 25
+        }
+      }
+    },
+    {
+      "id": "factor-state-goal-1-0",
+      "group": "factorial",
+      "factors": {
+        "placement": "state",
+        "wording": "goal",
+        "unknown": true,
+        "reverse": false
+      },
+      "requests": 25,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 25,
+      "mean_target_probability": 0.19240000000000002,
+      "mean_confidence": 0.6668,
+      "input_tokens": 356,
+      "output_tokens": 42,
+      "latency_ms": 301.26,
+      "selections": {
+        "answer": {
+          "walk": 25
+        }
+      }
+    },
+    {
+      "id": "factor-state-goal-1-1",
+      "group": "factorial",
+      "factors": {
+        "placement": "state",
+        "wording": "goal",
+        "unknown": true,
+        "reverse": true
+      },
+      "requests": 25,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 25,
+      "mean_target_probability": 0.276,
+      "mean_confidence": 0.498,
+      "input_tokens": 356,
+      "output_tokens": 42,
+      "latency_ms": 323.07,
+      "selections": {
+        "answer": {
+          "walk": 25
+        }
+      }
+    },
+    {
+      "id": "batch-A",
+      "group": "batching",
+      "factors": {
+        "names": [
+          "A"
+        ]
+      },
+      "requests": 25,
+      "correct": 25,
+      "accuracy": 1.0,
+      "question_count": 25,
+      "mean_target_probability": 0.9803999999999999,
+      "mean_confidence": 0.9696,
+      "input_tokens": 356,
+      "output_tokens": 42,
+      "latency_ms": 316.46,
+      "selections": {
+        "A": {
+          "yes": 25
+        }
+      }
+    },
+    {
+      "id": "batch-B",
+      "group": "batching",
+      "factors": {
+        "names": [
+          "B"
+        ]
+      },
+      "requests": 25,
+      "correct": 25,
+      "accuracy": 1.0,
+      "question_count": 25,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 0.9932,
+      "input_tokens": 365,
+      "output_tokens": 42,
+      "latency_ms": 335.18,
+      "selections": {
+        "B": {
+          "no": 25
+        }
+      }
+    },
+    {
+      "id": "batch-A-B",
+      "group": "batching",
+      "factors": {
+        "names": [
+          "A",
+          "B"
+        ]
+      },
+      "requests": 25,
+      "correct": 25,
+      "accuracy": 1.0,
+      "question_count": 50,
+      "mean_target_probability": 0.9898,
+      "mean_confidence": 0.9822,
+      "input_tokens": 441,
+      "output_tokens": 81,
+      "latency_ms": 328.25,
+      "selections": {
+        "A": {
+          "yes": 25
+        },
+        "B": {
+          "no": 25
+        }
+      }
+    },
+    {
+      "id": "batch-transport",
+      "group": "batching",
+      "factors": {
+        "names": [
+          "transport"
+        ]
+      },
+      "requests": 25,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 25,
+      "mean_target_probability": 0.0876,
+      "mean_confidence": 0.8244,
+      "input_tokens": 328,
+      "output_tokens": 31,
+      "latency_ms": 300.91,
+      "selections": {
+        "transport": {
+          "walk": 25
+        }
+      }
+    },
+    {
+      "id": "batch-A-B-transport",
+      "group": "batching",
+      "factors": {
+        "names": [
+          "A",
+          "B",
+          "transport"
+        ]
+      },
+      "requests": 25,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 75,
+      "mean_target_probability": 0.6906666666666667,
+      "mean_confidence": 0.9274666666666667,
+      "input_tokens": 489,
+      "output_tokens": 109,
+      "latency_ms": 319.0,
+      "selections": {
+        "A": {
+          "yes": 25
+        },
+        "B": {
+          "no": 25
+        },
+        "transport": {
+          "walk": 25
+        }
+      }
+    },
+    {
+      "id": "key-answer",
+      "group": "question_key",
+      "factors": {
+        "key": "answer"
+      },
+      "requests": 25,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 25,
+      "mean_target_probability": 0.0608,
+      "mean_confidence": 0.878,
+      "input_tokens": 327,
+      "output_tokens": 31,
+      "latency_ms": 305.17,
+      "selections": {
+        "answer": {
+          "walk": 25
+        }
+      }
+    },
+    {
+      "id": "key-transport",
+      "group": "question_key",
+      "factors": {
+        "key": "transport"
+      },
+      "requests": 25,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 25,
+      "mean_target_probability": 0.0656,
+      "mean_confidence": 0.868,
+      "input_tokens": 327,
+      "output_tokens": 31,
+      "latency_ms": 306.38,
+      "selections": {
+        "transport": {
+          "walk": 25
+        }
+      }
+    },
+    {
+      "id": "options-described",
+      "group": "options",
+      "factors": {},
+      "requests": 25,
+      "correct": 25,
+      "accuracy": 1.0,
+      "question_count": 25,
+      "mean_target_probability": 0.6836,
+      "mean_confidence": 0.3664,
+      "input_tokens": 347,
+      "output_tokens": 31,
+      "latency_ms": 336.2,
+      "selections": {
+        "answer": {
+          "drive": 25
+        }
+      }
+    },
+    {
+      "id": "rule-feasibility",
+      "group": "options",
+      "factors": {},
+      "requests": 25,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 25,
+      "mean_target_probability": 0.0128,
+      "mean_confidence": 0.9743999999999999,
+      "input_tokens": 350,
+      "output_tokens": 31,
+      "latency_ms": 302.97,
+      "selections": {
+        "answer": {
+          "walk": 25
+        }
+      }
+    },
+    {
+      "id": "transfer-wash-direct",
+      "group": "transfer",
+      "factors": {
+        "scenario": "wash",
+        "mode": "direct",
+        "label": "drive"
+      },
+      "requests": 10,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 10,
+      "mean_target_probability": 0.265,
+      "mean_confidence": 0.46799999999999997,
+      "input_tokens": 333,
+      "output_tokens": 31,
+      "latency_ms": 298.645,
+      "selections": {
+        "answer": {
+          "walk": 10
+        }
+      }
+    },
+    {
+      "id": "transfer-wash-goal",
+      "group": "transfer",
+      "factors": {
+        "scenario": "wash",
+        "mode": "goal",
+        "label": "drive"
+      },
+      "requests": 10,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 10,
+      "mean_target_probability": 0.201,
+      "mean_confidence": 0.595,
+      "input_tokens": 344,
+      "output_tokens": 31,
+      "latency_ms": 368.925,
+      "selections": {
+        "answer": {
+          "walk": 10
+        }
+      }
+    },
+    {
+      "id": "transfer-wash-checks",
+      "group": "transfer",
+      "factors": {
+        "scenario": "wash",
+        "mode": "checks",
+        "label": "drive"
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 20,
+      "mean_target_probability": 0.9895,
+      "mean_confidence": 0.9824999999999999,
+      "input_tokens": 439,
+      "output_tokens": 81,
+      "latency_ms": 306.62,
+      "selections": {
+        "bring": {
+          "yes": 10
+        },
+        "walk": {
+          "no": 10
+        }
+      }
+    },
+    {
+      "id": "transfer-tires-direct",
+      "group": "transfer",
+      "factors": {
+        "scenario": "tires",
+        "mode": "direct",
+        "label": "drive"
+      },
+      "requests": 10,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 10,
+      "mean_target_probability": 0.382,
+      "mean_confidence": 0.23399999999999999,
+      "input_tokens": 335,
+      "output_tokens": 31,
+      "latency_ms": 360.295,
+      "selections": {
+        "answer": {
+          "walk": 10
+        }
+      }
+    },
+    {
+      "id": "transfer-tires-goal",
+      "group": "transfer",
+      "factors": {
+        "scenario": "tires",
+        "mode": "goal",
+        "label": "drive"
+      },
+      "requests": 10,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 10,
+      "mean_target_probability": 0.176,
+      "mean_confidence": 0.651,
+      "input_tokens": 346,
+      "output_tokens": 31,
+      "latency_ms": 301.475,
+      "selections": {
+        "answer": {
+          "walk": 10
+        }
+      }
+    },
+    {
+      "id": "transfer-tires-checks",
+      "group": "transfer",
+      "factors": {
+        "scenario": "tires",
+        "mode": "checks",
+        "label": "drive"
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 20,
+      "mean_target_probability": 0.9604999999999999,
+      "mean_confidence": 0.9410000000000001,
+      "input_tokens": 441,
+      "output_tokens": 81,
+      "latency_ms": 330.37,
+      "selections": {
+        "bring": {
+          "yes": 10
+        },
+        "walk": {
+          "no": 10
+        }
+      }
+    },
+    {
+      "id": "transfer-inspection-direct",
+      "group": "transfer",
+      "factors": {
+        "scenario": "inspection",
+        "mode": "direct",
+        "label": "drive"
+      },
+      "requests": 10,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 10,
+      "mean_target_probability": 0.092,
+      "mean_confidence": 0.817,
+      "input_tokens": 335,
+      "output_tokens": 31,
+      "latency_ms": 318.155,
+      "selections": {
+        "answer": {
+          "walk": 10
+        }
+      }
+    },
+    {
+      "id": "transfer-inspection-goal",
+      "group": "transfer",
+      "factors": {
+        "scenario": "inspection",
+        "mode": "goal",
+        "label": "drive"
+      },
+      "requests": 10,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 10,
+      "mean_target_probability": 0.074,
+      "mean_confidence": 0.852,
+      "input_tokens": 346,
+      "output_tokens": 31,
+      "latency_ms": 311.3,
+      "selections": {
+        "answer": {
+          "walk": 10
+        }
+      }
+    },
+    {
+      "id": "transfer-inspection-checks",
+      "group": "transfer",
+      "factors": {
+        "scenario": "inspection",
+        "mode": "checks",
+        "label": "drive"
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 20,
+      "mean_target_probability": 0.976,
+      "mean_confidence": 0.9605,
+      "input_tokens": 441,
+      "output_tokens": 81,
+      "latency_ms": 309.22,
+      "selections": {
+        "bring": {
+          "yes": 10
+        },
+        "walk": {
+          "no": 10
+        }
+      }
+    },
+    {
+      "id": "transfer-oil-direct",
+      "group": "transfer",
+      "factors": {
+        "scenario": "oil",
+        "mode": "direct",
+        "label": "drive"
+      },
+      "requests": 10,
+      "correct": 5,
+      "accuracy": 0.5,
+      "question_count": 10,
+      "mean_target_probability": 0.491,
+      "mean_confidence": 0.068,
+      "input_tokens": 335,
+      "output_tokens": 31,
+      "latency_ms": 323.775,
+      "selections": {
+        "answer": {
+          "drive": 5,
+          "walk": 5
+        }
+      }
+    },
+    {
+      "id": "transfer-oil-goal",
+      "group": "transfer",
+      "factors": {
+        "scenario": "oil",
+        "mode": "goal",
+        "label": "drive"
+      },
+      "requests": 10,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 10,
+      "mean_target_probability": 0.251,
+      "mean_confidence": 0.496,
+      "input_tokens": 346,
+      "output_tokens": 31,
+      "latency_ms": 307.35,
+      "selections": {
+        "answer": {
+          "walk": 10
+        }
+      }
+    },
+    {
+      "id": "transfer-oil-checks",
+      "group": "transfer",
+      "factors": {
+        "scenario": "oil",
+        "mode": "checks",
+        "label": "drive"
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 20,
+      "mean_target_probability": 0.9695,
+      "mean_confidence": 0.954,
+      "input_tokens": 441,
+      "output_tokens": 81,
+      "latency_ms": 341.99,
+      "selections": {
+        "bring": {
+          "yes": 10
+        },
+        "walk": {
+          "no": 10
+        }
+      }
+    },
+    {
+      "id": "transfer-weigh-direct",
+      "group": "transfer",
+      "factors": {
+        "scenario": "weigh",
+        "mode": "direct",
+        "label": "drive"
+      },
+      "requests": 10,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 10,
+      "mean_target_probability": 0.267,
+      "mean_confidence": 0.46599999999999997,
+      "input_tokens": 336,
+      "output_tokens": 31,
+      "latency_ms": 277.66999999999996,
+      "selections": {
+        "answer": {
+          "walk": 10
+        }
+      }
+    },
+    {
+      "id": "transfer-weigh-goal",
+      "group": "transfer",
+      "factors": {
+        "scenario": "weigh",
+        "mode": "goal",
+        "label": "drive"
+      },
+      "requests": 10,
+      "correct": 1,
+      "accuracy": 0.1,
+      "question_count": 10,
+      "mean_target_probability": 0.394,
+      "mean_confidence": 0.216,
+      "input_tokens": 347,
+      "output_tokens": 31,
+      "latency_ms": 335.35,
+      "selections": {
+        "answer": {
+          "walk": 9,
+          "drive": 1
+        }
+      }
+    },
+    {
+      "id": "transfer-weigh-checks",
+      "group": "transfer",
+      "factors": {
+        "scenario": "weigh",
+        "mode": "checks",
+        "label": "drive"
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 20,
+      "mean_target_probability": 0.9764999999999999,
+      "mean_confidence": 0.9625,
+      "input_tokens": 442,
+      "output_tokens": 81,
+      "latency_ms": 290.05499999999995,
+      "selections": {
+        "bring": {
+          "yes": 10
+        },
+        "walk": {
+          "no": 10
+        }
+      }
+    },
+    {
+      "id": "transfer-trade-direct",
+      "group": "transfer",
+      "factors": {
+        "scenario": "trade",
+        "mode": "direct",
+        "label": "drive"
+      },
+      "requests": 10,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 10,
+      "mean_target_probability": 0.356,
+      "mean_confidence": 0.292,
+      "input_tokens": 337,
+      "output_tokens": 31,
+      "latency_ms": 294.78,
+      "selections": {
+        "answer": {
+          "walk": 10
+        }
+      }
+    },
+    {
+      "id": "transfer-trade-goal",
+      "group": "transfer",
+      "factors": {
+        "scenario": "trade",
+        "mode": "goal",
+        "label": "drive"
+      },
+      "requests": 10,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 10,
+      "mean_target_probability": 0.042,
+      "mean_confidence": 0.919,
+      "input_tokens": 348,
+      "output_tokens": 31,
+      "latency_ms": 312.78999999999996,
+      "selections": {
+        "answer": {
+          "walk": 10
+        }
+      }
+    },
+    {
+      "id": "transfer-trade-checks",
+      "group": "transfer",
+      "factors": {
+        "scenario": "trade",
+        "mode": "checks",
+        "label": "drive"
+      },
+      "requests": 10,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 20,
+      "mean_target_probability": 0.5985,
+      "mean_confidence": 0.6945,
+      "input_tokens": 443,
+      "output_tokens": 81,
+      "latency_ms": 317.78499999999997,
+      "selections": {
+        "bring": {
+          "no": 10
+        },
+        "walk": {
+          "no": 10
+        }
+      }
+    },
+    {
+      "id": "transfer-pickup-direct",
+      "group": "transfer",
+      "factors": {
+        "scenario": "pickup",
+        "mode": "direct",
+        "label": "walk"
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.987,
+      "mean_confidence": 0.973,
+      "input_tokens": 340,
+      "output_tokens": 31,
+      "latency_ms": 320.73,
+      "selections": {
+        "answer": {
+          "walk": 10
+        }
+      }
+    },
+    {
+      "id": "transfer-pickup-goal",
+      "group": "transfer",
+      "factors": {
+        "scenario": "pickup",
+        "mode": "goal",
+        "label": "walk"
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 0.999,
+      "input_tokens": 351,
+      "output_tokens": 31,
+      "latency_ms": 298.765,
+      "selections": {
+        "answer": {
+          "walk": 10
+        }
+      }
+    },
+    {
+      "id": "transfer-pickup-checks",
+      "group": "transfer",
+      "factors": {
+        "scenario": "pickup",
+        "mode": "checks",
+        "label": "walk"
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 20,
+      "mean_target_probability": 0.955,
+      "mean_confidence": 0.9339999999999999,
+      "input_tokens": 446,
+      "output_tokens": 81,
+      "latency_ms": 310.33500000000004,
+      "selections": {
+        "bring": {
+          "no": 10
+        },
+        "walk": {
+          "yes": 10
+        }
+      }
+    },
+    {
+      "id": "transfer-job-direct",
+      "group": "transfer",
+      "factors": {
+        "scenario": "job",
+        "mode": "direct",
+        "label": "walk"
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 1.0,
+      "input_tokens": 335,
+      "output_tokens": 31,
+      "latency_ms": 369.08000000000004,
+      "selections": {
+        "answer": {
+          "walk": 10
+        }
+      }
+    },
+    {
+      "id": "transfer-job-goal",
+      "group": "transfer",
+      "factors": {
+        "scenario": "job",
+        "mode": "goal",
+        "label": "walk"
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 1.0,
+      "input_tokens": 346,
+      "output_tokens": 31,
+      "latency_ms": 305.45000000000005,
+      "selections": {
+        "answer": {
+          "walk": 10
+        }
+      }
+    },
+    {
+      "id": "transfer-job-checks",
+      "group": "transfer",
+      "factors": {
+        "scenario": "job",
+        "mode": "checks",
+        "label": "walk"
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 20,
+      "mean_target_probability": 0.9935,
+      "mean_confidence": 0.9884999999999999,
+      "input_tokens": 441,
+      "output_tokens": 81,
+      "latency_ms": 320.65,
+      "selections": {
+        "bring": {
+          "no": 10
+        },
+        "walk": {
+          "yes": 10
+        }
+      }
+    },
+    {
+      "id": "transfer-receipt-direct",
+      "group": "transfer",
+      "factors": {
+        "scenario": "receipt",
+        "mode": "direct",
+        "label": "walk"
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 1.0,
+      "input_tokens": 348,
+      "output_tokens": 31,
+      "latency_ms": 324.28499999999997,
+      "selections": {
+        "answer": {
+          "walk": 10
+        }
+      }
+    },
+    {
+      "id": "transfer-receipt-goal",
+      "group": "transfer",
+      "factors": {
+        "scenario": "receipt",
+        "mode": "goal",
+        "label": "walk"
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 1.0,
+      "input_tokens": 359,
+      "output_tokens": 31,
+      "latency_ms": 301.26,
+      "selections": {
+        "answer": {
+          "walk": 10
+        }
+      }
+    },
+    {
+      "id": "transfer-receipt-checks",
+      "group": "transfer",
+      "factors": {
+        "scenario": "receipt",
+        "mode": "checks",
+        "label": "walk"
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 20,
+      "mean_target_probability": 0.9955,
+      "mean_confidence": 0.9904999999999999,
+      "input_tokens": 454,
+      "output_tokens": 81,
+      "latency_ms": 347.02,
+      "selections": {
+        "bring": {
+          "no": 10
+        },
+        "walk": {
+          "yes": 10
+        }
+      }
+    },
+    {
+      "id": "transfer-supplies-direct",
+      "group": "transfer",
+      "factors": {
+        "scenario": "supplies",
+        "mode": "direct",
+        "label": "walk"
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 1.0,
+      "input_tokens": 339,
+      "output_tokens": 31,
+      "latency_ms": 307.725,
+      "selections": {
+        "answer": {
+          "walk": 10
+        }
+      }
+    },
+    {
+      "id": "transfer-supplies-goal",
+      "group": "transfer",
+      "factors": {
+        "scenario": "supplies",
+        "mode": "goal",
+        "label": "walk"
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 1.0,
+      "input_tokens": 350,
+      "output_tokens": 31,
+      "latency_ms": 346.605,
+      "selections": {
+        "answer": {
+          "walk": 10
+        }
+      }
+    },
+    {
+      "id": "transfer-supplies-checks",
+      "group": "transfer",
+      "factors": {
+        "scenario": "supplies",
+        "mode": "checks",
+        "label": "walk"
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 20,
+      "mean_target_probability": 0.997,
+      "mean_confidence": 0.994,
+      "input_tokens": 445,
+      "output_tokens": 81,
+      "latency_ms": 311.565,
+      "selections": {
+        "bring": {
+          "no": 10
+        },
+        "walk": {
+          "yes": 10
+        }
+      }
+    },
+    {
+      "id": "transfer-refund-direct",
+      "group": "transfer",
+      "factors": {
+        "scenario": "refund",
+        "mode": "direct",
+        "label": "walk"
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 1.0,
+      "input_tokens": 340,
+      "output_tokens": 31,
+      "latency_ms": 310.69500000000005,
+      "selections": {
+        "answer": {
+          "walk": 10
+        }
+      }
+    },
+    {
+      "id": "transfer-refund-goal",
+      "group": "transfer",
+      "factors": {
+        "scenario": "refund",
+        "mode": "goal",
+        "label": "walk"
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 1.0,
+      "input_tokens": 351,
+      "output_tokens": 31,
+      "latency_ms": 384.575,
+      "selections": {
+        "answer": {
+          "walk": 10
+        }
+      }
+    },
+    {
+      "id": "transfer-refund-checks",
+      "group": "transfer",
+      "factors": {
+        "scenario": "refund",
+        "mode": "checks",
+        "label": "walk"
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 20,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 0.995,
+      "input_tokens": 446,
+      "output_tokens": 81,
+      "latency_ms": 303.95500000000004,
+      "selections": {
+        "bring": {
+          "no": 10
+        },
+        "walk": {
+          "yes": 10
+        }
+      }
+    },
+    {
+      "id": "transfer-mobile-direct",
+      "group": "transfer",
+      "factors": {
+        "scenario": "mobile",
+        "mode": "direct",
+        "label": "walk"
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 1.0,
+      "input_tokens": 348,
+      "output_tokens": 31,
+      "latency_ms": 323.815,
+      "selections": {
+        "answer": {
+          "walk": 10
+        }
+      }
+    },
+    {
+      "id": "transfer-mobile-goal",
+      "group": "transfer",
+      "factors": {
+        "scenario": "mobile",
+        "mode": "goal",
+        "label": "walk"
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 1.0,
+      "input_tokens": 359,
+      "output_tokens": 31,
+      "latency_ms": 306.735,
+      "selections": {
+        "answer": {
+          "walk": 10
+        }
+      }
+    },
+    {
+      "id": "transfer-mobile-checks",
+      "group": "transfer",
+      "factors": {
+        "scenario": "mobile",
+        "mode": "checks",
+        "label": "walk"
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 20,
+      "mean_target_probability": 0.9665,
+      "mean_confidence": 0.9475,
+      "input_tokens": 454,
+      "output_tokens": 81,
+      "latency_ms": 295.95000000000005,
+      "selections": {
+        "bring": {
+          "no": 10
+        },
+        "walk": {
+          "yes": 10
+        }
+      }
+    },
+    {
+      "id": "length-0-neutral-start-direct",
+      "group": "length",
+      "factors": {
+        "filler_words": 0,
+        "filler": "neutral",
+        "position": "start",
+        "mode": "direct",
+        "state_words": 18
+      },
+      "requests": 8,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 8,
+      "mean_target_probability": 0.045,
+      "mean_confidence": 0.91,
+      "input_tokens": 331,
+      "output_tokens": 31,
+      "latency_ms": 301.685,
+      "selections": {
+        "answer": {
+          "walk": 8
+        }
+      }
+    },
+    {
+      "id": "length-0-neutral-start-checks",
+      "group": "length",
+      "factors": {
+        "filler_words": 0,
+        "filler": "neutral",
+        "position": "start",
+        "mode": "checks",
+        "state_words": 18
+      },
+      "requests": 8,
+      "correct": 8,
+      "accuracy": 1.0,
+      "question_count": 16,
+      "mean_target_probability": 0.8875,
+      "mean_confidence": 0.83,
+      "input_tokens": 437,
+      "output_tokens": 81,
+      "latency_ms": 298.74,
+      "selections": {
+        "bring": {
+          "yes": 8
+        },
+        "walk": {
+          "no": 8
+        }
+      }
+    },
+    {
+      "id": "length-256-neutral-start-direct",
+      "group": "length",
+      "factors": {
+        "filler_words": 256,
+        "filler": "neutral",
+        "position": "start",
+        "mode": "direct",
+        "state_words": 274
+      },
+      "requests": 8,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 8,
+      "mean_target_probability": 0.0425,
+      "mean_confidence": 0.915,
+      "input_tokens": 677,
+      "output_tokens": 31,
+      "latency_ms": 325.17499999999995,
+      "selections": {
+        "answer": {
+          "walk": 8
+        }
+      }
+    },
+    {
+      "id": "length-256-neutral-start-checks",
+      "group": "length",
+      "factors": {
+        "filler_words": 256,
+        "filler": "neutral",
+        "position": "start",
+        "mode": "checks",
+        "state_words": 274
+      },
+      "requests": 8,
+      "correct": 8,
+      "accuracy": 1.0,
+      "question_count": 16,
+      "mean_target_probability": 0.86,
+      "mean_confidence": 0.7893749999999999,
+      "input_tokens": 783,
+      "output_tokens": 81,
+      "latency_ms": 313.445,
+      "selections": {
+        "bring": {
+          "yes": 8
+        },
+        "walk": {
+          "no": 8
+        }
+      }
+    },
+    {
+      "id": "length-256-neutral-middle-direct",
+      "group": "length",
+      "factors": {
+        "filler_words": 256,
+        "filler": "neutral",
+        "position": "middle",
+        "mode": "direct",
+        "state_words": 274
+      },
+      "requests": 8,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 8,
+      "mean_target_probability": 0.005,
+      "mean_confidence": 0.98875,
+      "input_tokens": 677,
+      "output_tokens": 31,
+      "latency_ms": 333.72,
+      "selections": {
+        "answer": {
+          "walk": 8
+        }
+      }
+    },
+    {
+      "id": "length-256-neutral-middle-checks",
+      "group": "length",
+      "factors": {
+        "filler_words": 256,
+        "filler": "neutral",
+        "position": "middle",
+        "mode": "checks",
+        "state_words": 274
+      },
+      "requests": 8,
+      "correct": 8,
+      "accuracy": 1.0,
+      "question_count": 16,
+      "mean_target_probability": 0.863125,
+      "mean_confidence": 0.7943749999999999,
+      "input_tokens": 783,
+      "output_tokens": 81,
+      "latency_ms": 336.93,
+      "selections": {
+        "bring": {
+          "yes": 8
+        },
+        "walk": {
+          "no": 8
+        }
+      }
+    },
+    {
+      "id": "length-256-neutral-end-direct",
+      "group": "length",
+      "factors": {
+        "filler_words": 256,
+        "filler": "neutral",
+        "position": "end",
+        "mode": "direct",
+        "state_words": 274
+      },
+      "requests": 8,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 8,
+      "mean_target_probability": 0.015,
+      "mean_confidence": 0.97,
+      "input_tokens": 676,
+      "output_tokens": 31,
+      "latency_ms": 299.235,
+      "selections": {
+        "answer": {
+          "walk": 8
+        }
+      }
+    },
+    {
+      "id": "length-256-neutral-end-checks",
+      "group": "length",
+      "factors": {
+        "filler_words": 256,
+        "filler": "neutral",
+        "position": "end",
+        "mode": "checks",
+        "state_words": 274
+      },
+      "requests": 8,
+      "correct": 8,
+      "accuracy": 1.0,
+      "question_count": 16,
+      "mean_target_probability": 0.83875,
+      "mean_confidence": 0.76,
+      "input_tokens": 782,
+      "output_tokens": 81,
+      "latency_ms": 332.93,
+      "selections": {
+        "bring": {
+          "yes": 8
+        },
+        "walk": {
+          "no": 8
+        }
+      }
+    },
+    {
+      "id": "length-256-walking-start-direct",
+      "group": "length",
+      "factors": {
+        "filler_words": 256,
+        "filler": "walking",
+        "position": "start",
+        "mode": "direct",
+        "state_words": 274
+      },
+      "requests": 8,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 8,
+      "mean_target_probability": 0.052500000000000005,
+      "mean_confidence": 0.89625,
+      "input_tokens": 631,
+      "output_tokens": 31,
+      "latency_ms": 318.15,
+      "selections": {
+        "answer": {
+          "walk": 8
+        }
+      }
+    },
+    {
+      "id": "length-256-walking-start-checks",
+      "group": "length",
+      "factors": {
+        "filler_words": 256,
+        "filler": "walking",
+        "position": "start",
+        "mode": "checks",
+        "state_words": 274
+      },
+      "requests": 8,
+      "correct": 8,
+      "accuracy": 1.0,
+      "question_count": 16,
+      "mean_target_probability": 0.828125,
+      "mean_confidence": 0.740625,
+      "input_tokens": 737,
+      "output_tokens": 81,
+      "latency_ms": 366.045,
+      "selections": {
+        "bring": {
+          "yes": 8
+        },
+        "walk": {
+          "no": 8
+        }
+      }
+    },
+    {
+      "id": "length-256-walking-middle-direct",
+      "group": "length",
+      "factors": {
+        "filler_words": 256,
+        "filler": "walking",
+        "position": "middle",
+        "mode": "direct",
+        "state_words": 274
+      },
+      "requests": 8,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 8,
+      "mean_target_probability": 0.0675,
+      "mean_confidence": 0.8625,
+      "input_tokens": 633,
+      "output_tokens": 31,
+      "latency_ms": 327.52,
+      "selections": {
+        "answer": {
+          "walk": 8
+        }
+      }
+    },
+    {
+      "id": "length-256-walking-middle-checks",
+      "group": "length",
+      "factors": {
+        "filler_words": 256,
+        "filler": "walking",
+        "position": "middle",
+        "mode": "checks",
+        "state_words": 274
+      },
+      "requests": 8,
+      "correct": 8,
+      "accuracy": 1.0,
+      "question_count": 16,
+      "mean_target_probability": 0.8356250000000001,
+      "mean_confidence": 0.75375,
+      "input_tokens": 739,
+      "output_tokens": 81,
+      "latency_ms": 336.69,
+      "selections": {
+        "bring": {
+          "yes": 8
+        },
+        "walk": {
+          "no": 8
+        }
+      }
+    },
+    {
+      "id": "length-256-walking-end-direct",
+      "group": "length",
+      "factors": {
+        "filler_words": 256,
+        "filler": "walking",
+        "position": "end",
+        "mode": "direct",
+        "state_words": 274
+      },
+      "requests": 8,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 8,
+      "mean_target_probability": 0.11,
+      "mean_confidence": 0.77875,
+      "input_tokens": 631,
+      "output_tokens": 31,
+      "latency_ms": 297.65999999999997,
+      "selections": {
+        "answer": {
+          "walk": 8
+        }
+      }
+    },
+    {
+      "id": "length-256-walking-end-checks",
+      "group": "length",
+      "factors": {
+        "filler_words": 256,
+        "filler": "walking",
+        "position": "end",
+        "mode": "checks",
+        "state_words": 274
+      },
+      "requests": 8,
+      "correct": 8,
+      "accuracy": 1.0,
+      "question_count": 16,
+      "mean_target_probability": 0.85625,
+      "mean_confidence": 0.78625,
+      "input_tokens": 737,
+      "output_tokens": 81,
+      "latency_ms": 330.95000000000005,
+      "selections": {
+        "bring": {
+          "yes": 8
+        },
+        "walk": {
+          "no": 8
+        }
+      }
+    },
+    {
+      "id": "length-1024-neutral-start-direct",
+      "group": "length",
+      "factors": {
+        "filler_words": 1024,
+        "filler": "neutral",
+        "position": "start",
+        "mode": "direct",
+        "state_words": 1042
+      },
+      "requests": 8,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 8,
+      "mean_target_probability": 0.05375,
+      "mean_confidence": 0.8925000000000001,
+      "input_tokens": 1712,
+      "output_tokens": 31,
+      "latency_ms": 323.095,
+      "selections": {
+        "answer": {
+          "walk": 8
+        }
+      }
+    },
+    {
+      "id": "length-1024-neutral-start-checks",
+      "group": "length",
+      "factors": {
+        "filler_words": 1024,
+        "filler": "neutral",
+        "position": "start",
+        "mode": "checks",
+        "state_words": 1042
+      },
+      "requests": 8,
+      "correct": 8,
+      "accuracy": 1.0,
+      "question_count": 16,
+      "mean_target_probability": 0.89125,
+      "mean_confidence": 0.838125,
+      "input_tokens": 1818,
+      "output_tokens": 81,
+      "latency_ms": 309.15,
+      "selections": {
+        "bring": {
+          "yes": 8
+        },
+        "walk": {
+          "no": 8
+        }
+      }
+    },
+    {
+      "id": "length-1024-neutral-middle-direct",
+      "group": "length",
+      "factors": {
+        "filler_words": 1024,
+        "filler": "neutral",
+        "position": "middle",
+        "mode": "direct",
+        "state_words": 1042
+      },
+      "requests": 8,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 8,
+      "mean_target_probability": 0.01,
+      "mean_confidence": 0.985,
+      "input_tokens": 1711,
+      "output_tokens": 31,
+      "latency_ms": 342.305,
+      "selections": {
+        "answer": {
+          "walk": 8
+        }
+      }
+    },
+    {
+      "id": "length-1024-neutral-middle-checks",
+      "group": "length",
+      "factors": {
+        "filler_words": 1024,
+        "filler": "neutral",
+        "position": "middle",
+        "mode": "checks",
+        "state_words": 1042
+      },
+      "requests": 8,
+      "correct": 8,
+      "accuracy": 1.0,
+      "question_count": 16,
+      "mean_target_probability": 0.839375,
+      "mean_confidence": 0.760625,
+      "input_tokens": 1817,
+      "output_tokens": 81,
+      "latency_ms": 373.225,
+      "selections": {
+        "bring": {
+          "yes": 8
+        },
+        "walk": {
+          "no": 8
+        }
+      }
+    },
+    {
+      "id": "length-1024-neutral-end-direct",
+      "group": "length",
+      "factors": {
+        "filler_words": 1024,
+        "filler": "neutral",
+        "position": "end",
+        "mode": "direct",
+        "state_words": 1042
+      },
+      "requests": 8,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 8,
+      "mean_target_probability": 0.017499999999999998,
+      "mean_confidence": 0.965,
+      "input_tokens": 1712,
+      "output_tokens": 31,
+      "latency_ms": 308.16499999999996,
+      "selections": {
+        "answer": {
+          "walk": 8
+        }
+      }
+    },
+    {
+      "id": "length-1024-neutral-end-checks",
+      "group": "length",
+      "factors": {
+        "filler_words": 1024,
+        "filler": "neutral",
+        "position": "end",
+        "mode": "checks",
+        "state_words": 1042
+      },
+      "requests": 8,
+      "correct": 8,
+      "accuracy": 1.0,
+      "question_count": 16,
+      "mean_target_probability": 0.84375,
+      "mean_confidence": 0.7675,
+      "input_tokens": 1818,
+      "output_tokens": 81,
+      "latency_ms": 301.58500000000004,
+      "selections": {
+        "bring": {
+          "yes": 8
+        },
+        "walk": {
+          "no": 8
+        }
+      }
+    },
+    {
+      "id": "length-1024-walking-start-direct",
+      "group": "length",
+      "factors": {
+        "filler_words": 1024,
+        "filler": "walking",
+        "position": "start",
+        "mode": "direct",
+        "state_words": 1042
+      },
+      "requests": 8,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 8,
+      "mean_target_probability": 0.0475,
+      "mean_confidence": 0.90375,
+      "input_tokens": 1532,
+      "output_tokens": 31,
+      "latency_ms": 329.375,
+      "selections": {
+        "answer": {
+          "walk": 8
+        }
+      }
+    },
+    {
+      "id": "length-1024-walking-start-checks",
+      "group": "length",
+      "factors": {
+        "filler_words": 1024,
+        "filler": "walking",
+        "position": "start",
+        "mode": "checks",
+        "state_words": 1042
+      },
+      "requests": 8,
+      "correct": 8,
+      "accuracy": 1.0,
+      "question_count": 16,
+      "mean_target_probability": 0.79125,
+      "mean_confidence": 0.681875,
+      "input_tokens": 1638,
+      "output_tokens": 81,
+      "latency_ms": 349.7,
+      "selections": {
+        "bring": {
+          "yes": 8
+        },
+        "walk": {
+          "no": 8
+        }
+      }
+    },
+    {
+      "id": "length-1024-walking-middle-direct",
+      "group": "length",
+      "factors": {
+        "filler_words": 1024,
+        "filler": "walking",
+        "position": "middle",
+        "mode": "direct",
+        "state_words": 1042
+      },
+      "requests": 8,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 8,
+      "mean_target_probability": 0.028749999999999998,
+      "mean_confidence": 0.94375,
+      "input_tokens": 1533,
+      "output_tokens": 31,
+      "latency_ms": 366.81,
+      "selections": {
+        "answer": {
+          "walk": 8
+        }
+      }
+    },
+    {
+      "id": "length-1024-walking-middle-checks",
+      "group": "length",
+      "factors": {
+        "filler_words": 1024,
+        "filler": "walking",
+        "position": "middle",
+        "mode": "checks",
+        "state_words": 1042
+      },
+      "requests": 8,
+      "correct": 8,
+      "accuracy": 1.0,
+      "question_count": 16,
+      "mean_target_probability": 0.836875,
+      "mean_confidence": 0.755,
+      "input_tokens": 1639,
+      "output_tokens": 81,
+      "latency_ms": 326.48,
+      "selections": {
+        "bring": {
+          "yes": 8
+        },
+        "walk": {
+          "no": 8
+        }
+      }
+    },
+    {
+      "id": "length-1024-walking-end-direct",
+      "group": "length",
+      "factors": {
+        "filler_words": 1024,
+        "filler": "walking",
+        "position": "end",
+        "mode": "direct",
+        "state_words": 1042
+      },
+      "requests": 8,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 8,
+      "mean_target_probability": 0.06,
+      "mean_confidence": 0.88,
+      "input_tokens": 1532,
+      "output_tokens": 31,
+      "latency_ms": 312.385,
+      "selections": {
+        "answer": {
+          "walk": 8
+        }
+      }
+    },
+    {
+      "id": "length-1024-walking-end-checks",
+      "group": "length",
+      "factors": {
+        "filler_words": 1024,
+        "filler": "walking",
+        "position": "end",
+        "mode": "checks",
+        "state_words": 1042
+      },
+      "requests": 8,
+      "correct": 8,
+      "accuracy": 1.0,
+      "question_count": 16,
+      "mean_target_probability": 0.86125,
+      "mean_confidence": 0.795,
+      "input_tokens": 1638,
+      "output_tokens": 81,
+      "latency_ms": 286.225,
+      "selections": {
+        "bring": {
+          "yes": 8
+        },
+        "walk": {
+          "no": 8
+        }
+      }
+    },
+    {
+      "id": "length-4096-neutral-start-direct",
+      "group": "length",
+      "factors": {
+        "filler_words": 4096,
+        "filler": "neutral",
+        "position": "start",
+        "mode": "direct",
+        "state_words": 4114
+      },
+      "requests": 8,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 8,
+      "mean_target_probability": 0.0375,
+      "mean_confidence": 0.92375,
+      "input_tokens": 5861,
+      "output_tokens": 31,
+      "latency_ms": 443.995,
+      "selections": {
+        "answer": {
+          "walk": 8
+        }
+      }
+    },
+    {
+      "id": "length-4096-neutral-start-checks",
+      "group": "length",
+      "factors": {
+        "filler_words": 4096,
+        "filler": "neutral",
+        "position": "start",
+        "mode": "checks",
+        "state_words": 4114
+      },
+      "requests": 8,
+      "correct": 8,
+      "accuracy": 1.0,
+      "question_count": 16,
+      "mean_target_probability": 0.894375,
+      "mean_confidence": 0.8418749999999999,
+      "input_tokens": 5967,
+      "output_tokens": 81,
+      "latency_ms": 436.28499999999997,
+      "selections": {
+        "bring": {
+          "yes": 8
+        },
+        "walk": {
+          "no": 8
+        }
+      }
+    },
+    {
+      "id": "length-4096-neutral-middle-direct",
+      "group": "length",
+      "factors": {
+        "filler_words": 4096,
+        "filler": "neutral",
+        "position": "middle",
+        "mode": "direct",
+        "state_words": 4114
+      },
+      "requests": 8,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 8,
+      "mean_target_probability": 0.01,
+      "mean_confidence": 0.9824999999999999,
+      "input_tokens": 5861,
+      "output_tokens": 31,
+      "latency_ms": 510.415,
+      "selections": {
+        "answer": {
+          "walk": 8
+        }
+      }
+    },
+    {
+      "id": "length-4096-neutral-middle-checks",
+      "group": "length",
+      "factors": {
+        "filler_words": 4096,
+        "filler": "neutral",
+        "position": "middle",
+        "mode": "checks",
+        "state_words": 4114
+      },
+      "requests": 8,
+      "correct": 5,
+      "accuracy": 0.625,
+      "question_count": 16,
+      "mean_target_probability": 0.734375,
+      "mean_confidence": 0.60875,
+      "input_tokens": 5967,
+      "output_tokens": 81,
+      "latency_ms": 409.53,
+      "selections": {
+        "bring": {
+          "yes": 8
+        },
+        "walk": {
+          "yes": 3,
+          "no": 5
+        }
+      }
+    },
+    {
+      "id": "length-4096-neutral-end-direct",
+      "group": "length",
+      "factors": {
+        "filler_words": 4096,
+        "filler": "neutral",
+        "position": "end",
+        "mode": "direct",
+        "state_words": 4114
+      },
+      "requests": 8,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 8,
+      "mean_target_probability": 0.01375,
+      "mean_confidence": 0.9724999999999999,
+      "input_tokens": 5860,
+      "output_tokens": 31,
+      "latency_ms": 422.195,
+      "selections": {
+        "answer": {
+          "walk": 8
+        }
+      }
+    },
+    {
+      "id": "length-4096-neutral-end-checks",
+      "group": "length",
+      "factors": {
+        "filler_words": 4096,
+        "filler": "neutral",
+        "position": "end",
+        "mode": "checks",
+        "state_words": 4114
+      },
+      "requests": 8,
+      "correct": 7,
+      "accuracy": 0.875,
+      "question_count": 16,
+      "mean_target_probability": 0.788125,
+      "mean_confidence": 0.6849999999999999,
+      "input_tokens": 5966,
+      "output_tokens": 81,
+      "latency_ms": 433.865,
+      "selections": {
+        "bring": {
+          "yes": 8
+        },
+        "walk": {
+          "no": 7,
+          "yes": 1
+        }
+      }
+    },
+    {
+      "id": "length-4096-walking-start-direct",
+      "group": "length",
+      "factors": {
+        "filler_words": 4096,
+        "filler": "walking",
+        "position": "start",
+        "mode": "direct",
+        "state_words": 4114
+      },
+      "requests": 8,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 8,
+      "mean_target_probability": 0.05375,
+      "mean_confidence": 0.89625,
+      "input_tokens": 5139,
+      "output_tokens": 31,
+      "latency_ms": 399.375,
+      "selections": {
+        "answer": {
+          "walk": 8
+        }
+      }
+    },
+    {
+      "id": "length-4096-walking-start-checks",
+      "group": "length",
+      "factors": {
+        "filler_words": 4096,
+        "filler": "walking",
+        "position": "start",
+        "mode": "checks",
+        "state_words": 4114
+      },
+      "requests": 8,
+      "correct": 8,
+      "accuracy": 1.0,
+      "question_count": 16,
+      "mean_target_probability": 0.81125,
+      "mean_confidence": 0.7162499999999999,
+      "input_tokens": 5245,
+      "output_tokens": 81,
+      "latency_ms": 402.90999999999997,
+      "selections": {
+        "bring": {
+          "yes": 8
+        },
+        "walk": {
+          "no": 8
+        }
+      }
+    },
+    {
+      "id": "length-4096-walking-middle-direct",
+      "group": "length",
+      "factors": {
+        "filler_words": 4096,
+        "filler": "walking",
+        "position": "middle",
+        "mode": "direct",
+        "state_words": 4114
+      },
+      "requests": 8,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 8,
+      "mean_target_probability": 0.0225,
+      "mean_confidence": 0.9512499999999999,
+      "input_tokens": 5141,
+      "output_tokens": 31,
+      "latency_ms": 423.42999999999995,
+      "selections": {
+        "answer": {
+          "walk": 8
+        }
+      }
+    },
+    {
+      "id": "length-4096-walking-middle-checks",
+      "group": "length",
+      "factors": {
+        "filler_words": 4096,
+        "filler": "walking",
+        "position": "middle",
+        "mode": "checks",
+        "state_words": 4114
+      },
+      "requests": 8,
+      "correct": 8,
+      "accuracy": 1.0,
+      "question_count": 16,
+      "mean_target_probability": 0.8175,
+      "mean_confidence": 0.725625,
+      "input_tokens": 5247,
+      "output_tokens": 81,
+      "latency_ms": 472.23,
+      "selections": {
+        "bring": {
+          "yes": 8
+        },
+        "walk": {
+          "no": 8
+        }
+      }
+    },
+    {
+      "id": "length-4096-walking-end-direct",
+      "group": "length",
+      "factors": {
+        "filler_words": 4096,
+        "filler": "walking",
+        "position": "end",
+        "mode": "direct",
+        "state_words": 4114
+      },
+      "requests": 8,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 8,
+      "mean_target_probability": 0.03,
+      "mean_confidence": 0.94125,
+      "input_tokens": 5139,
+      "output_tokens": 31,
+      "latency_ms": 410.57500000000005,
+      "selections": {
+        "answer": {
+          "walk": 8
+        }
+      }
+    },
+    {
+      "id": "length-4096-walking-end-checks",
+      "group": "length",
+      "factors": {
+        "filler_words": 4096,
+        "filler": "walking",
+        "position": "end",
+        "mode": "checks",
+        "state_words": 4114
+      },
+      "requests": 8,
+      "correct": 8,
+      "accuracy": 1.0,
+      "question_count": 16,
+      "mean_target_probability": 0.7943749999999999,
+      "mean_confidence": 0.6925,
+      "input_tokens": 5245,
+      "output_tokens": 81,
+      "latency_ms": 416.98,
+      "selections": {
+        "bring": {
+          "yes": 8
+        },
+        "walk": {
+          "no": 8
+        }
+      }
+    },
+    {
+      "id": "length-8192-neutral-start-direct",
+      "group": "length",
+      "factors": {
+        "filler_words": 8192,
+        "filler": "neutral",
+        "position": "start",
+        "mode": "direct",
+        "state_words": 8210
+      },
+      "requests": 8,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 8,
+      "mean_target_probability": 0.01875,
+      "mean_confidence": 0.9612499999999999,
+      "input_tokens": 11390,
+      "output_tokens": 31,
+      "latency_ms": 521.06,
+      "selections": {
+        "answer": {
+          "walk": 8
+        }
+      }
+    },
+    {
+      "id": "length-8192-neutral-start-checks",
+      "group": "length",
+      "factors": {
+        "filler_words": 8192,
+        "filler": "neutral",
+        "position": "start",
+        "mode": "checks",
+        "state_words": 8210
+      },
+      "requests": 8,
+      "correct": 8,
+      "accuracy": 1.0,
+      "question_count": 16,
+      "mean_target_probability": 0.880625,
+      "mean_confidence": 0.821875,
+      "input_tokens": 11496,
+      "output_tokens": 81,
+      "latency_ms": 521.0699999999999,
+      "selections": {
+        "bring": {
+          "yes": 8
+        },
+        "walk": {
+          "no": 8
+        }
+      }
+    },
+    {
+      "id": "length-8192-neutral-middle-direct",
+      "group": "length",
+      "factors": {
+        "filler_words": 8192,
+        "filler": "neutral",
+        "position": "middle",
+        "mode": "direct",
+        "state_words": 8210
+      },
+      "requests": 8,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 8,
+      "mean_target_probability": 0.0225,
+      "mean_confidence": 0.9575,
+      "input_tokens": 11389,
+      "output_tokens": 31,
+      "latency_ms": 517.84,
+      "selections": {
+        "answer": {
+          "walk": 8
+        }
+      }
+    },
+    {
+      "id": "length-8192-neutral-middle-checks",
+      "group": "length",
+      "factors": {
+        "filler_words": 8192,
+        "filler": "neutral",
+        "position": "middle",
+        "mode": "checks",
+        "state_words": 8210
+      },
+      "requests": 8,
+      "correct": 8,
+      "accuracy": 1.0,
+      "question_count": 16,
+      "mean_target_probability": 0.825625,
+      "mean_confidence": 0.7375,
+      "input_tokens": 11495,
+      "output_tokens": 81,
+      "latency_ms": 583.315,
+      "selections": {
+        "bring": {
+          "yes": 8
+        },
+        "walk": {
+          "no": 8
+        }
+      }
+    },
+    {
+      "id": "length-8192-neutral-end-direct",
+      "group": "length",
+      "factors": {
+        "filler_words": 8192,
+        "filler": "neutral",
+        "position": "end",
+        "mode": "direct",
+        "state_words": 8210
+      },
+      "requests": 8,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 8,
+      "mean_target_probability": 0.00625,
+      "mean_confidence": 0.9824999999999999,
+      "input_tokens": 11389,
+      "output_tokens": 31,
+      "latency_ms": 645.935,
+      "selections": {
+        "answer": {
+          "walk": 8
+        }
+      }
+    },
+    {
+      "id": "length-8192-neutral-end-checks",
+      "group": "length",
+      "factors": {
+        "filler_words": 8192,
+        "filler": "neutral",
+        "position": "end",
+        "mode": "checks",
+        "state_words": 8210
+      },
+      "requests": 8,
+      "correct": 8,
+      "accuracy": 1.0,
+      "question_count": 16,
+      "mean_target_probability": 0.784375,
+      "mean_confidence": 0.6799999999999999,
+      "input_tokens": 11495,
+      "output_tokens": 81,
+      "latency_ms": 506.28999999999996,
+      "selections": {
+        "bring": {
+          "yes": 8
+        },
+        "walk": {
+          "no": 8
+        }
+      }
+    },
+    {
+      "id": "length-8192-walking-start-direct",
+      "group": "length",
+      "factors": {
+        "filler_words": 8192,
+        "filler": "walking",
+        "position": "start",
+        "mode": "direct",
+        "state_words": 8210
+      },
+      "requests": 8,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 8,
+      "mean_target_probability": 0.095,
+      "mean_confidence": 0.8125,
+      "input_tokens": 9947,
+      "output_tokens": 31,
+      "latency_ms": 517.095,
+      "selections": {
+        "answer": {
+          "walk": 8
+        }
+      }
+    },
+    {
+      "id": "length-8192-walking-start-checks",
+      "group": "length",
+      "factors": {
+        "filler_words": 8192,
+        "filler": "walking",
+        "position": "start",
+        "mode": "checks",
+        "state_words": 8210
+      },
+      "requests": 8,
+      "correct": 8,
+      "accuracy": 1.0,
+      "question_count": 16,
+      "mean_target_probability": 0.81,
+      "mean_confidence": 0.7125,
+      "input_tokens": 10053,
+      "output_tokens": 81,
+      "latency_ms": 545.4849999999999,
+      "selections": {
+        "bring": {
+          "yes": 8
+        },
+        "walk": {
+          "no": 8
+        }
+      }
+    },
+    {
+      "id": "length-8192-walking-middle-direct",
+      "group": "length",
+      "factors": {
+        "filler_words": 8192,
+        "filler": "walking",
+        "position": "middle",
+        "mode": "direct",
+        "state_words": 8210
+      },
+      "requests": 8,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 8,
+      "mean_target_probability": 0.0275,
+      "mean_confidence": 0.95,
+      "input_tokens": 9947,
+      "output_tokens": 31,
+      "latency_ms": 523.12,
+      "selections": {
+        "answer": {
+          "walk": 8
+        }
+      }
+    },
+    {
+      "id": "length-8192-walking-middle-checks",
+      "group": "length",
+      "factors": {
+        "filler_words": 8192,
+        "filler": "walking",
+        "position": "middle",
+        "mode": "checks",
+        "state_words": 8210
+      },
+      "requests": 8,
+      "correct": 8,
+      "accuracy": 1.0,
+      "question_count": 16,
+      "mean_target_probability": 0.855625,
+      "mean_confidence": 0.785625,
+      "input_tokens": 10053,
+      "output_tokens": 81,
+      "latency_ms": 517.79,
+      "selections": {
+        "bring": {
+          "yes": 8
+        },
+        "walk": {
+          "no": 8
+        }
+      }
+    },
+    {
+      "id": "length-8192-walking-end-direct",
+      "group": "length",
+      "factors": {
+        "filler_words": 8192,
+        "filler": "walking",
+        "position": "end",
+        "mode": "direct",
+        "state_words": 8210
+      },
+      "requests": 8,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 8,
+      "mean_target_probability": 0.02375,
+      "mean_confidence": 0.95375,
+      "input_tokens": 9947,
+      "output_tokens": 31,
+      "latency_ms": 507.02,
+      "selections": {
+        "answer": {
+          "walk": 8
+        }
+      }
+    },
+    {
+      "id": "length-8192-walking-end-checks",
+      "group": "length",
+      "factors": {
+        "filler_words": 8192,
+        "filler": "walking",
+        "position": "end",
+        "mode": "checks",
+        "state_words": 8210
+      },
+      "requests": 8,
+      "correct": 8,
+      "accuracy": 1.0,
+      "question_count": 16,
+      "mean_target_probability": 0.870625,
+      "mean_confidence": 0.80625,
+      "input_tokens": 10053,
+      "output_tokens": 81,
+      "latency_ms": 516.105,
+      "selections": {
+        "bring": {
+          "yes": 8
+        },
+        "walk": {
+          "no": 8
+        }
+      }
+    },
+    {
+      "id": "longtransfer-wash-512-start-direct",
+      "group": "long_transfer",
+      "factors": {
+        "scenario": "wash",
+        "label": "drive",
+        "filler_words": 512,
+        "position": "start",
+        "mode": "direct"
+      },
+      "requests": 5,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 5,
+      "mean_target_probability": 0.132,
+      "mean_confidence": 0.74,
+      "input_tokens": 1024,
+      "output_tokens": 31,
+      "latency_ms": 401.64,
+      "selections": {
+        "answer": {
+          "walk": 5
+        }
+      }
+    },
+    {
+      "id": "longtransfer-wash-512-start-checks",
+      "group": "long_transfer",
+      "factors": {
+        "scenario": "wash",
+        "label": "drive",
+        "filler_words": 512,
+        "position": "start",
+        "mode": "checks"
+      },
+      "requests": 5,
+      "correct": 5,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.987,
+      "mean_confidence": 0.974,
+      "input_tokens": 1130,
+      "output_tokens": 81,
+      "latency_ms": 301.93,
+      "selections": {
+        "bring": {
+          "yes": 5
+        },
+        "walk": {
+          "no": 5
+        }
+      }
+    },
+    {
+      "id": "longtransfer-wash-512-end-direct",
+      "group": "long_transfer",
+      "factors": {
+        "scenario": "wash",
+        "label": "drive",
+        "filler_words": 512,
+        "position": "end",
+        "mode": "direct"
+      },
+      "requests": 5,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 5,
+      "mean_target_probability": 0.02,
+      "mean_confidence": 0.962,
+      "input_tokens": 1024,
+      "output_tokens": 31,
+      "latency_ms": 303.31,
+      "selections": {
+        "answer": {
+          "walk": 5
+        }
+      }
+    },
+    {
+      "id": "longtransfer-wash-512-end-checks",
+      "group": "long_transfer",
+      "factors": {
+        "scenario": "wash",
+        "label": "drive",
+        "filler_words": 512,
+        "position": "end",
+        "mode": "checks"
+      },
+      "requests": 5,
+      "correct": 5,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.964,
+      "mean_confidence": 0.9470000000000001,
+      "input_tokens": 1130,
+      "output_tokens": 81,
+      "latency_ms": 314.78,
+      "selections": {
+        "bring": {
+          "yes": 5
+        },
+        "walk": {
+          "no": 5
+        }
+      }
+    },
+    {
+      "id": "longtransfer-wash-4096-start-direct",
+      "group": "long_transfer",
+      "factors": {
+        "scenario": "wash",
+        "label": "drive",
+        "filler_words": 4096,
+        "position": "start",
+        "mode": "direct"
+      },
+      "requests": 5,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 5,
+      "mean_target_probability": 0.154,
+      "mean_confidence": 0.6880000000000001,
+      "input_tokens": 5863,
+      "output_tokens": 31,
+      "latency_ms": 482.73,
+      "selections": {
+        "answer": {
+          "walk": 5
+        }
+      }
+    },
+    {
+      "id": "longtransfer-wash-4096-start-checks",
+      "group": "long_transfer",
+      "factors": {
+        "scenario": "wash",
+        "label": "drive",
+        "filler_words": 4096,
+        "position": "start",
+        "mode": "checks"
+      },
+      "requests": 5,
+      "correct": 5,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.98,
+      "mean_confidence": 0.966,
+      "input_tokens": 5969,
+      "output_tokens": 81,
+      "latency_ms": 449.42,
+      "selections": {
+        "bring": {
+          "yes": 5
+        },
+        "walk": {
+          "no": 5
+        }
+      }
+    },
+    {
+      "id": "longtransfer-wash-4096-end-direct",
+      "group": "long_transfer",
+      "factors": {
+        "scenario": "wash",
+        "label": "drive",
+        "filler_words": 4096,
+        "position": "end",
+        "mode": "direct"
+      },
+      "requests": 5,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 5,
+      "mean_target_probability": 0.014,
+      "mean_confidence": 0.976,
+      "input_tokens": 5863,
+      "output_tokens": 31,
+      "latency_ms": 389.44,
+      "selections": {
+        "answer": {
+          "walk": 5
+        }
+      }
+    },
+    {
+      "id": "longtransfer-wash-4096-end-checks",
+      "group": "long_transfer",
+      "factors": {
+        "scenario": "wash",
+        "label": "drive",
+        "filler_words": 4096,
+        "position": "end",
+        "mode": "checks"
+      },
+      "requests": 5,
+      "correct": 5,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.966,
+      "mean_confidence": 0.9490000000000001,
+      "input_tokens": 5969,
+      "output_tokens": 81,
+      "latency_ms": 381.49,
+      "selections": {
+        "bring": {
+          "yes": 5
+        },
+        "walk": {
+          "no": 5
+        }
+      }
+    },
+    {
+      "id": "longtransfer-inspection-512-start-direct",
+      "group": "long_transfer",
+      "factors": {
+        "scenario": "inspection",
+        "label": "drive",
+        "filler_words": 512,
+        "position": "start",
+        "mode": "direct"
+      },
+      "requests": 5,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 5,
+      "mean_target_probability": 0.066,
+      "mean_confidence": 0.872,
+      "input_tokens": 1026,
+      "output_tokens": 31,
+      "latency_ms": 360.1,
+      "selections": {
+        "answer": {
+          "walk": 5
+        }
+      }
+    },
+    {
+      "id": "longtransfer-inspection-512-start-checks",
+      "group": "long_transfer",
+      "factors": {
+        "scenario": "inspection",
+        "label": "drive",
+        "filler_words": 512,
+        "position": "start",
+        "mode": "checks"
+      },
+      "requests": 5,
+      "correct": 5,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.973,
+      "mean_confidence": 0.96,
+      "input_tokens": 1132,
+      "output_tokens": 81,
+      "latency_ms": 339.7,
+      "selections": {
+        "bring": {
+          "yes": 5
+        },
+        "walk": {
+          "no": 5
+        }
+      }
+    },
+    {
+      "id": "longtransfer-inspection-512-end-direct",
+      "group": "long_transfer",
+      "factors": {
+        "scenario": "inspection",
+        "label": "drive",
+        "filler_words": 512,
+        "position": "end",
+        "mode": "direct"
+      },
+      "requests": 5,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 5,
+      "mean_target_probability": 0.002,
+      "mean_confidence": 0.996,
+      "input_tokens": 1026,
+      "output_tokens": 31,
+      "latency_ms": 309.48,
+      "selections": {
+        "answer": {
+          "walk": 5
+        }
+      }
+    },
+    {
+      "id": "longtransfer-inspection-512-end-checks",
+      "group": "long_transfer",
+      "factors": {
+        "scenario": "inspection",
+        "label": "drive",
+        "filler_words": 512,
+        "position": "end",
+        "mode": "checks"
+      },
+      "requests": 5,
+      "correct": 5,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.863,
+      "mean_confidence": 0.79,
+      "input_tokens": 1132,
+      "output_tokens": 81,
+      "latency_ms": 346.35,
+      "selections": {
+        "bring": {
+          "yes": 5
+        },
+        "walk": {
+          "no": 5
+        }
+      }
+    },
+    {
+      "id": "longtransfer-inspection-4096-start-direct",
+      "group": "long_transfer",
+      "factors": {
+        "scenario": "inspection",
+        "label": "drive",
+        "filler_words": 4096,
+        "position": "start",
+        "mode": "direct"
+      },
+      "requests": 5,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 5,
+      "mean_target_probability": 0.072,
+      "mean_confidence": 0.856,
+      "input_tokens": 5865,
+      "output_tokens": 31,
+      "latency_ms": 407.15,
+      "selections": {
+        "answer": {
+          "walk": 5
+        }
+      }
+    },
+    {
+      "id": "longtransfer-inspection-4096-start-checks",
+      "group": "long_transfer",
+      "factors": {
+        "scenario": "inspection",
+        "label": "drive",
+        "filler_words": 4096,
+        "position": "start",
+        "mode": "checks"
+      },
+      "requests": 5,
+      "correct": 5,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.979,
+      "mean_confidence": 0.965,
+      "input_tokens": 5971,
+      "output_tokens": 81,
+      "latency_ms": 420.09,
+      "selections": {
+        "bring": {
+          "yes": 5
+        },
+        "walk": {
+          "no": 5
+        }
+      }
+    },
+    {
+      "id": "longtransfer-inspection-4096-end-direct",
+      "group": "long_transfer",
+      "factors": {
+        "scenario": "inspection",
+        "label": "drive",
+        "filler_words": 4096,
+        "position": "end",
+        "mode": "direct"
+      },
+      "requests": 5,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 5,
+      "mean_target_probability": 0.0,
+      "mean_confidence": 0.994,
+      "input_tokens": 5865,
+      "output_tokens": 31,
+      "latency_ms": 566.46,
+      "selections": {
+        "answer": {
+          "walk": 5
+        }
+      }
+    },
+    {
+      "id": "longtransfer-inspection-4096-end-checks",
+      "group": "long_transfer",
+      "factors": {
+        "scenario": "inspection",
+        "label": "drive",
+        "filler_words": 4096,
+        "position": "end",
+        "mode": "checks"
+      },
+      "requests": 5,
+      "correct": 5,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.829,
+      "mean_confidence": 0.739,
+      "input_tokens": 5971,
+      "output_tokens": 81,
+      "latency_ms": 389.54,
+      "selections": {
+        "bring": {
+          "yes": 5
+        },
+        "walk": {
+          "no": 5
+        }
+      }
+    },
+    {
+      "id": "longtransfer-pickup-512-start-direct",
+      "group": "long_transfer",
+      "factors": {
+        "scenario": "pickup",
+        "label": "walk",
+        "filler_words": 512,
+        "position": "start",
+        "mode": "direct"
+      },
+      "requests": 5,
+      "correct": 5,
+      "accuracy": 1.0,
+      "question_count": 5,
+      "mean_target_probability": 0.956,
+      "mean_confidence": 0.908,
+      "input_tokens": 1031,
+      "output_tokens": 31,
+      "latency_ms": 329.05,
+      "selections": {
+        "answer": {
+          "walk": 5
+        }
+      }
+    },
+    {
+      "id": "longtransfer-pickup-512-start-checks",
+      "group": "long_transfer",
+      "factors": {
+        "scenario": "pickup",
+        "label": "walk",
+        "filler_words": 512,
+        "position": "start",
+        "mode": "checks"
+      },
+      "requests": 5,
+      "correct": 5,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.9299999999999999,
+      "mean_confidence": 0.896,
+      "input_tokens": 1137,
+      "output_tokens": 81,
+      "latency_ms": 313.18,
+      "selections": {
+        "bring": {
+          "no": 5
+        },
+        "walk": {
+          "yes": 5
+        }
+      }
+    },
+    {
+      "id": "longtransfer-pickup-512-end-direct",
+      "group": "long_transfer",
+      "factors": {
+        "scenario": "pickup",
+        "label": "walk",
+        "filler_words": 512,
+        "position": "end",
+        "mode": "direct"
+      },
+      "requests": 5,
+      "correct": 5,
+      "accuracy": 1.0,
+      "question_count": 5,
+      "mean_target_probability": 0.982,
+      "mean_confidence": 0.966,
+      "input_tokens": 1031,
+      "output_tokens": 31,
+      "latency_ms": 346.65,
+      "selections": {
+        "answer": {
+          "walk": 5
+        }
+      }
+    },
+    {
+      "id": "longtransfer-pickup-512-end-checks",
+      "group": "long_transfer",
+      "factors": {
+        "scenario": "pickup",
+        "label": "walk",
+        "filler_words": 512,
+        "position": "end",
+        "mode": "checks"
+      },
+      "requests": 5,
+      "correct": 5,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.96,
+      "mean_confidence": 0.943,
+      "input_tokens": 1137,
+      "output_tokens": 81,
+      "latency_ms": 330.57,
+      "selections": {
+        "bring": {
+          "no": 5
+        },
+        "walk": {
+          "yes": 5
+        }
+      }
+    },
+    {
+      "id": "longtransfer-pickup-4096-start-direct",
+      "group": "long_transfer",
+      "factors": {
+        "scenario": "pickup",
+        "label": "walk",
+        "filler_words": 4096,
+        "position": "start",
+        "mode": "direct"
+      },
+      "requests": 5,
+      "correct": 5,
+      "accuracy": 1.0,
+      "question_count": 5,
+      "mean_target_probability": 0.948,
+      "mean_confidence": 0.894,
+      "input_tokens": 5870,
+      "output_tokens": 31,
+      "latency_ms": 395.82,
+      "selections": {
+        "answer": {
+          "walk": 5
+        }
+      }
+    },
+    {
+      "id": "longtransfer-pickup-4096-start-checks",
+      "group": "long_transfer",
+      "factors": {
+        "scenario": "pickup",
+        "label": "walk",
+        "filler_words": 4096,
+        "position": "start",
+        "mode": "checks"
+      },
+      "requests": 5,
+      "correct": 5,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.908,
+      "mean_confidence": 0.862,
+      "input_tokens": 5976,
+      "output_tokens": 81,
+      "latency_ms": 502.64,
+      "selections": {
+        "bring": {
+          "no": 5
+        },
+        "walk": {
+          "yes": 5
+        }
+      }
+    },
+    {
+      "id": "longtransfer-pickup-4096-end-direct",
+      "group": "long_transfer",
+      "factors": {
+        "scenario": "pickup",
+        "label": "walk",
+        "filler_words": 4096,
+        "position": "end",
+        "mode": "direct"
+      },
+      "requests": 5,
+      "correct": 5,
+      "accuracy": 1.0,
+      "question_count": 5,
+      "mean_target_probability": 0.982,
+      "mean_confidence": 0.964,
+      "input_tokens": 5870,
+      "output_tokens": 31,
+      "latency_ms": 435.2,
+      "selections": {
+        "answer": {
+          "walk": 5
+        }
+      }
+    },
+    {
+      "id": "longtransfer-pickup-4096-end-checks",
+      "group": "long_transfer",
+      "factors": {
+        "scenario": "pickup",
+        "label": "walk",
+        "filler_words": 4096,
+        "position": "end",
+        "mode": "checks"
+      },
+      "requests": 5,
+      "correct": 5,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.96,
+      "mean_confidence": 0.9359999999999999,
+      "input_tokens": 5976,
+      "output_tokens": 81,
+      "latency_ms": 401.93,
+      "selections": {
+        "bring": {
+          "no": 5
+        },
+        "walk": {
+          "yes": 5
+        }
+      }
+    },
+    {
+      "id": "longtransfer-supplies-512-start-direct",
+      "group": "long_transfer",
+      "factors": {
+        "scenario": "supplies",
+        "label": "walk",
+        "filler_words": 512,
+        "position": "start",
+        "mode": "direct"
+      },
+      "requests": 5,
+      "correct": 5,
+      "accuracy": 1.0,
+      "question_count": 5,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 1.0,
+      "input_tokens": 1030,
+      "output_tokens": 31,
+      "latency_ms": 317.7,
+      "selections": {
+        "answer": {
+          "walk": 5
+        }
+      }
+    },
+    {
+      "id": "longtransfer-supplies-512-start-checks",
+      "group": "long_transfer",
+      "factors": {
+        "scenario": "supplies",
+        "label": "walk",
+        "filler_words": 512,
+        "position": "start",
+        "mode": "checks"
+      },
+      "requests": 5,
+      "correct": 5,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.946,
+      "mean_confidence": 0.913,
+      "input_tokens": 1136,
+      "output_tokens": 81,
+      "latency_ms": 311.13,
+      "selections": {
+        "bring": {
+          "no": 5
+        },
+        "walk": {
+          "yes": 5
+        }
+      }
+    },
+    {
+      "id": "longtransfer-supplies-512-end-direct",
+      "group": "long_transfer",
+      "factors": {
+        "scenario": "supplies",
+        "label": "walk",
+        "filler_words": 512,
+        "position": "end",
+        "mode": "direct"
+      },
+      "requests": 5,
+      "correct": 5,
+      "accuracy": 1.0,
+      "question_count": 5,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 1.0,
+      "input_tokens": 1030,
+      "output_tokens": 31,
+      "latency_ms": 300.72,
+      "selections": {
+        "answer": {
+          "walk": 5
+        }
+      }
+    },
+    {
+      "id": "longtransfer-supplies-512-end-checks",
+      "group": "long_transfer",
+      "factors": {
+        "scenario": "supplies",
+        "label": "walk",
+        "filler_words": 512,
+        "position": "end",
+        "mode": "checks"
+      },
+      "requests": 5,
+      "correct": 5,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.912,
+      "mean_confidence": 0.868,
+      "input_tokens": 1136,
+      "output_tokens": 81,
+      "latency_ms": 271.8,
+      "selections": {
+        "bring": {
+          "no": 5
+        },
+        "walk": {
+          "yes": 5
+        }
+      }
+    },
+    {
+      "id": "longtransfer-supplies-4096-start-direct",
+      "group": "long_transfer",
+      "factors": {
+        "scenario": "supplies",
+        "label": "walk",
+        "filler_words": 4096,
+        "position": "start",
+        "mode": "direct"
+      },
+      "requests": 5,
+      "correct": 5,
+      "accuracy": 1.0,
+      "question_count": 5,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 1.0,
+      "input_tokens": 5869,
+      "output_tokens": 31,
+      "latency_ms": 420.15,
+      "selections": {
+        "answer": {
+          "walk": 5
+        }
+      }
+    },
+    {
+      "id": "longtransfer-supplies-4096-start-checks",
+      "group": "long_transfer",
+      "factors": {
+        "scenario": "supplies",
+        "label": "walk",
+        "filler_words": 4096,
+        "position": "start",
+        "mode": "checks"
+      },
+      "requests": 5,
+      "correct": 5,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.971,
+      "mean_confidence": 0.955,
+      "input_tokens": 5975,
+      "output_tokens": 81,
+      "latency_ms": 510.99,
+      "selections": {
+        "bring": {
+          "no": 5
+        },
+        "walk": {
+          "yes": 5
+        }
+      }
+    },
+    {
+      "id": "longtransfer-supplies-4096-end-direct",
+      "group": "long_transfer",
+      "factors": {
+        "scenario": "supplies",
+        "label": "walk",
+        "filler_words": 4096,
+        "position": "end",
+        "mode": "direct"
+      },
+      "requests": 5,
+      "correct": 5,
+      "accuracy": 1.0,
+      "question_count": 5,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 1.0,
+      "input_tokens": 5869,
+      "output_tokens": 31,
+      "latency_ms": 395.6,
+      "selections": {
+        "answer": {
+          "walk": 5
+        }
+      }
+    },
+    {
+      "id": "longtransfer-supplies-4096-end-checks",
+      "group": "long_transfer",
+      "factors": {
+        "scenario": "supplies",
+        "label": "walk",
+        "filler_words": 4096,
+        "position": "end",
+        "mode": "checks"
+      },
+      "requests": 5,
+      "correct": 5,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.877,
+      "mean_confidence": 0.817,
+      "input_tokens": 5975,
+      "output_tokens": 81,
+      "latency_ms": 426.57,
+      "selections": {
+        "bring": {
+          "no": 5
+        },
+        "walk": {
+          "yes": 5
+        }
+      }
+    },
+    {
+      "id": "count-straberry-plain",
+      "group": "counting",
+      "factors": {
+        "word": "straberry",
+        "form": "plain",
+        "expected_count": 3
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.487,
+      "mean_confidence": 0.429,
+      "input_tokens": 430,
+      "output_tokens": 95,
+      "latency_ms": 312.19,
+      "selections": {
+        "answer": {
+          "3": 10
+        }
+      }
+    },
+    {
+      "id": "count-straberry-spaced",
+      "group": "counting",
+      "factors": {
+        "word": "straberry",
+        "form": "spaced",
+        "expected_count": 3
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.454,
+      "mean_confidence": 0.394,
+      "input_tokens": 436,
+      "output_tokens": 95,
+      "latency_ms": 305.325,
+      "selections": {
+        "answer": {
+          "3": 10
+        }
+      }
+    },
+    {
+      "id": "count-straberry-algorithm",
+      "group": "counting",
+      "factors": {
+        "word": "straberry",
+        "form": "algorithm",
+        "expected_count": 3
+      },
+      "requests": 10,
+      "correct": 9,
+      "accuracy": 0.9,
+      "question_count": 10,
+      "mean_target_probability": 0.462,
+      "mean_confidence": 0.405,
+      "input_tokens": 444,
+      "output_tokens": 95,
+      "latency_ms": 345.82,
+      "selections": {
+        "answer": {
+          "3": 9,
+          "2": 1
+        }
+      }
+    },
+    {
+      "id": "count-strawberry-plain",
+      "group": "counting",
+      "factors": {
+        "word": "strawberry",
+        "form": "plain",
+        "expected_count": 3
+      },
+      "requests": 10,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 10,
+      "mean_target_probability": 0.42,
+      "mean_confidence": 0.455,
+      "input_tokens": 431,
+      "output_tokens": 95,
+      "latency_ms": 306.41499999999996,
+      "selections": {
+        "answer": {
+          "2": 10
+        }
+      }
+    },
+    {
+      "id": "count-strawberry-spaced",
+      "group": "counting",
+      "factors": {
+        "word": "strawberry",
+        "form": "spaced",
+        "expected_count": 3
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.44,
+      "mean_confidence": 0.376,
+      "input_tokens": 437,
+      "output_tokens": 95,
+      "latency_ms": 314.08000000000004,
+      "selections": {
+        "answer": {
+          "3": 10
+        }
+      }
+    },
+    {
+      "id": "count-strawberry-algorithm",
+      "group": "counting",
+      "factors": {
+        "word": "strawberry",
+        "form": "algorithm",
+        "expected_count": 3
+      },
+      "requests": 10,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 10,
+      "mean_target_probability": 0.398,
+      "mean_confidence": 0.46599999999999997,
+      "input_tokens": 445,
+      "output_tokens": 95,
+      "latency_ms": 328.125,
+      "selections": {
+        "answer": {
+          "2": 10
+        }
+      }
+    },
+    {
+      "id": "count-strawberries-plain",
+      "group": "counting",
+      "factors": {
+        "word": "strawberries",
+        "form": "plain",
+        "expected_count": 3
+      },
+      "requests": 10,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 10,
+      "mean_target_probability": 0.338,
+      "mean_confidence": 0.438,
+      "input_tokens": 431,
+      "output_tokens": 95,
+      "latency_ms": 365.59000000000003,
+      "selections": {
+        "answer": {
+          "2": 10
+        }
+      }
+    },
+    {
+      "id": "count-strawberries-spaced",
+      "group": "counting",
+      "factors": {
+        "word": "strawberries",
+        "form": "spaced",
+        "expected_count": 3
+      },
+      "requests": 10,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 10,
+      "mean_target_probability": 0.155,
+      "mean_confidence": 0.299,
+      "input_tokens": 439,
+      "output_tokens": 95,
+      "latency_ms": 316.01,
+      "selections": {
+        "answer": {
+          "4": 10
+        }
+      }
+    },
+    {
+      "id": "count-strawberries-algorithm",
+      "group": "counting",
+      "factors": {
+        "word": "strawberries",
+        "form": "algorithm",
+        "expected_count": 3
+      },
+      "requests": 10,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 10,
+      "mean_target_probability": 0.339,
+      "mean_confidence": 0.40299999999999997,
+      "input_tokens": 445,
+      "output_tokens": 95,
+      "latency_ms": 338.83500000000004,
+      "selections": {
+        "answer": {
+          "2": 10
+        }
+      }
+    },
+    {
+      "id": "count-raspberry-plain",
+      "group": "counting",
+      "factors": {
+        "word": "raspberry",
+        "form": "plain",
+        "expected_count": 3
+      },
+      "requests": 10,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 10,
+      "mean_target_probability": 0.185,
+      "mean_confidence": 0.678,
+      "input_tokens": 431,
+      "output_tokens": 95,
+      "latency_ms": 301.76,
+      "selections": {
+        "answer": {
+          "2": 10
+        }
+      }
+    },
+    {
+      "id": "count-raspberry-spaced",
+      "group": "counting",
+      "factors": {
+        "word": "raspberry",
+        "form": "spaced",
+        "expected_count": 3
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.519,
+      "mean_confidence": 0.461,
+      "input_tokens": 436,
+      "output_tokens": 95,
+      "latency_ms": 302.65999999999997,
+      "selections": {
+        "answer": {
+          "3": 10
+        }
+      }
+    },
+    {
+      "id": "count-raspberry-algorithm",
+      "group": "counting",
+      "factors": {
+        "word": "raspberry",
+        "form": "algorithm",
+        "expected_count": 3
+      },
+      "requests": 10,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 10,
+      "mean_target_probability": 0.232,
+      "mean_confidence": 0.627,
+      "input_tokens": 445,
+      "output_tokens": 95,
+      "latency_ms": 329.28499999999997,
+      "selections": {
+        "answer": {
+          "2": 10
+        }
+      }
+    },
+    {
+      "id": "count-blueberry-plain",
+      "group": "counting",
+      "factors": {
+        "word": "blueberry",
+        "form": "plain",
+        "expected_count": 2
+      },
+      "requests": 10,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 10,
+      "mean_target_probability": 0.047,
+      "mean_confidence": 0.853,
+      "input_tokens": 431,
+      "output_tokens": 95,
+      "latency_ms": 327.755,
+      "selections": {
+        "answer": {
+          "1": 10
+        }
+      }
+    },
+    {
+      "id": "count-blueberry-spaced",
+      "group": "counting",
+      "factors": {
+        "word": "blueberry",
+        "form": "spaced",
+        "expected_count": 2
+      },
+      "requests": 10,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 10,
+      "mean_target_probability": 0.232,
+      "mean_confidence": 0.73,
+      "input_tokens": 436,
+      "output_tokens": 95,
+      "latency_ms": 313.21500000000003,
+      "selections": {
+        "answer": {
+          "1": 10
+        }
+      }
+    },
+    {
+      "id": "count-blueberry-algorithm",
+      "group": "counting",
+      "factors": {
+        "word": "blueberry",
+        "form": "algorithm",
+        "expected_count": 2
+      },
+      "requests": 10,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 10,
+      "mean_target_probability": 0.038,
+      "mean_confidence": 0.826,
+      "input_tokens": 445,
+      "output_tokens": 95,
+      "latency_ms": 306.245,
+      "selections": {
+        "answer": {
+          "1": 10
+        }
+      }
+    },
+    {
+      "id": "count-cherry-plain",
+      "group": "counting",
+      "factors": {
+        "word": "cherry",
+        "form": "plain",
+        "expected_count": 2
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.836,
+      "mean_confidence": 0.813,
+      "input_tokens": 429,
+      "output_tokens": 95,
+      "latency_ms": 319.01,
+      "selections": {
+        "answer": {
+          "2": 10
+        }
+      }
+    },
+    {
+      "id": "count-cherry-spaced",
+      "group": "counting",
+      "factors": {
+        "word": "cherry",
+        "form": "spaced",
+        "expected_count": 2
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.702,
+      "mean_confidence": 0.665,
+      "input_tokens": 433,
+      "output_tokens": 95,
+      "latency_ms": 324.89,
+      "selections": {
+        "answer": {
+          "2": 10
+        }
+      }
+    },
+    {
+      "id": "count-cherry-algorithm",
+      "group": "counting",
+      "factors": {
+        "word": "cherry",
+        "form": "algorithm",
+        "expected_count": 2
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.808,
+      "mean_confidence": 0.781,
+      "input_tokens": 443,
+      "output_tokens": 95,
+      "latency_ms": 342.6,
+      "selections": {
+        "answer": {
+          "2": 10
+        }
+      }
+    },
+    {
+      "id": "count-banana-plain",
+      "group": "counting",
+      "factors": {
+        "word": "banana",
+        "form": "plain",
+        "expected_count": 0
+      },
+      "requests": 10,
+      "correct": 1,
+      "accuracy": 0.1,
+      "question_count": 10,
+      "mean_target_probability": 0.337,
+      "mean_confidence": 0.622,
+      "input_tokens": 428,
+      "output_tokens": 95,
+      "latency_ms": 301.885,
+      "selections": {
+        "answer": {
+          "1": 9,
+          "0": 1
+        }
+      }
+    },
+    {
+      "id": "count-banana-spaced",
+      "group": "counting",
+      "factors": {
+        "word": "banana",
+        "form": "spaced",
+        "expected_count": 0
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.967,
+      "mean_confidence": 0.962,
+      "input_tokens": 433,
+      "output_tokens": 95,
+      "latency_ms": 299.42499999999995,
+      "selections": {
+        "answer": {
+          "0": 10
+        }
+      }
+    },
+    {
+      "id": "count-banana-algorithm",
+      "group": "counting",
+      "factors": {
+        "word": "banana",
+        "form": "algorithm",
+        "expected_count": 0
+      },
+      "requests": 10,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 10,
+      "mean_target_probability": 0.325,
+      "mean_confidence": 0.616,
+      "input_tokens": 442,
+      "output_tokens": 95,
+      "latency_ms": 332.47,
+      "selections": {
+        "answer": {
+          "1": 10
+        }
+      }
+    },
+    {
+      "id": "count-river-plain",
+      "group": "counting",
+      "factors": {
+        "word": "river",
+        "form": "plain",
+        "expected_count": 2
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.733,
+      "mean_confidence": 0.703,
+      "input_tokens": 428,
+      "output_tokens": 95,
+      "latency_ms": 307.015,
+      "selections": {
+        "answer": {
+          "2": 10
+        }
+      }
+    },
+    {
+      "id": "count-river-spaced",
+      "group": "counting",
+      "factors": {
+        "word": "river",
+        "form": "spaced",
+        "expected_count": 2
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.811,
+      "mean_confidence": 0.785,
+      "input_tokens": 432,
+      "output_tokens": 95,
+      "latency_ms": 341.03499999999997,
+      "selections": {
+        "answer": {
+          "2": 10
+        }
+      }
+    },
+    {
+      "id": "count-river-algorithm",
+      "group": "counting",
+      "factors": {
+        "word": "river",
+        "form": "algorithm",
+        "expected_count": 2
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.706,
+      "mean_confidence": 0.67,
+      "input_tokens": 442,
+      "output_tokens": 95,
+      "latency_ms": 351.96,
+      "selections": {
+        "answer": {
+          "2": 10
+        }
+      }
+    },
+    {
+      "id": "count-error-plain",
+      "group": "counting",
+      "factors": {
+        "word": "error",
+        "form": "plain",
+        "expected_count": 3
+      },
+      "requests": 10,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 10,
+      "mean_target_probability": 0.021,
+      "mean_confidence": 0.534,
+      "input_tokens": 428,
+      "output_tokens": 95,
+      "latency_ms": 288.755,
+      "selections": {
+        "answer": {
+          "1": 10
+        }
+      }
+    },
+    {
+      "id": "count-error-spaced",
+      "group": "counting",
+      "factors": {
+        "word": "error",
+        "form": "spaced",
+        "expected_count": 3
+      },
+      "requests": 10,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 10,
+      "mean_target_probability": 0.192,
+      "mean_confidence": 0.669,
+      "input_tokens": 432,
+      "output_tokens": 95,
+      "latency_ms": 289.025,
+      "selections": {
+        "answer": {
+          "2": 10
+        }
+      }
+    },
+    {
+      "id": "count-error-algorithm",
+      "group": "counting",
+      "factors": {
+        "word": "error",
+        "form": "algorithm",
+        "expected_count": 3
+      },
+      "requests": 10,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 10,
+      "mean_target_probability": 0.035,
+      "mean_confidence": 0.449,
+      "input_tokens": 442,
+      "output_tokens": 95,
+      "latency_ms": 369.82000000000005,
+      "selections": {
+        "answer": {
+          "1": 6,
+          "2": 4
+        }
+      }
+    },
+    {
+      "id": "count-rrr-plain",
+      "group": "counting",
+      "factors": {
+        "word": "rrr",
+        "form": "plain",
+        "expected_count": 3
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 1.0,
+      "input_tokens": 429,
+      "output_tokens": 95,
+      "latency_ms": 332.185,
+      "selections": {
+        "answer": {
+          "3": 10
+        }
+      }
+    },
+    {
+      "id": "count-rrr-spaced",
+      "group": "counting",
+      "factors": {
+        "word": "rrr",
+        "form": "spaced",
+        "expected_count": 3
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 0.99,
+      "input_tokens": 430,
+      "output_tokens": 95,
+      "latency_ms": 343.64,
+      "selections": {
+        "answer": {
+          "3": 10
+        }
+      }
+    },
+    {
+      "id": "count-rrr-algorithm",
+      "group": "counting",
+      "factors": {
+        "word": "rrr",
+        "form": "algorithm",
+        "expected_count": 3
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 1.0,
+      "mean_confidence": 1.0,
+      "input_tokens": 443,
+      "output_tokens": 95,
+      "latency_ms": 394.935,
+      "selections": {
+        "answer": {
+          "3": 10
+        }
+      }
+    },
+    {
+      "id": "count-r-plain",
+      "group": "counting",
+      "factors": {
+        "word": "r",
+        "form": "plain",
+        "expected_count": 1
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.997,
+      "mean_confidence": 0.99,
+      "input_tokens": 428,
+      "output_tokens": 95,
+      "latency_ms": 321.005,
+      "selections": {
+        "answer": {
+          "1": 10
+        }
+      }
+    },
+    {
+      "id": "count-r-spaced",
+      "group": "counting",
+      "factors": {
+        "word": "r",
+        "form": "spaced",
+        "expected_count": 1
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.994,
+      "mean_confidence": 0.99,
+      "input_tokens": 428,
+      "output_tokens": 95,
+      "latency_ms": 320.685,
+      "selections": {
+        "answer": {
+          "1": 10
+        }
+      }
+    },
+    {
+      "id": "count-r-algorithm",
+      "group": "counting",
+      "factors": {
+        "word": "r",
+        "form": "algorithm",
+        "expected_count": 1
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.989,
+      "mean_confidence": 0.981,
+      "input_tokens": 442,
+      "output_tokens": 95,
+      "latency_ms": 321.22,
+      "selections": {
+        "answer": {
+          "1": 10
+        }
+      }
+    },
+    {
+      "id": "count-rrrrrr-plain",
+      "group": "counting",
+      "factors": {
+        "word": "rrrrrr",
+        "form": "plain",
+        "expected_count": 6
+      },
+      "requests": 10,
+      "correct": 7,
+      "accuracy": 0.7,
+      "question_count": 10,
+      "mean_target_probability": 0.587,
+      "mean_confidence": 0.588,
+      "input_tokens": 430,
+      "output_tokens": 95,
+      "latency_ms": 324.38,
+      "selections": {
+        "answer": {
+          "6": 7,
+          "4": 3
+        }
+      }
+    },
+    {
+      "id": "count-rrrrrr-spaced",
+      "group": "counting",
+      "factors": {
+        "word": "rrrrrr",
+        "form": "spaced",
+        "expected_count": 6
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.965,
+      "mean_confidence": 0.953,
+      "input_tokens": 433,
+      "output_tokens": 95,
+      "latency_ms": 332.62,
+      "selections": {
+        "answer": {
+          "6": 10
+        }
+      }
+    },
+    {
+      "id": "count-rrrrrr-algorithm",
+      "group": "counting",
+      "factors": {
+        "word": "rrrrrr",
+        "form": "algorithm",
+        "expected_count": 6
+      },
+      "requests": 10,
+      "correct": 8,
+      "accuracy": 0.8,
+      "question_count": 10,
+      "mean_target_probability": 0.623,
+      "mean_confidence": 0.61,
+      "input_tokens": 444,
+      "output_tokens": 95,
+      "latency_ms": 310.9,
+      "selections": {
+        "answer": {
+          "6": 8,
+          "4": 2
+        }
+      }
+    },
+    {
+      "id": "count-abracadabra-plain",
+      "group": "counting",
+      "factors": {
+        "word": "abracadabra",
+        "form": "plain",
+        "expected_count": 2
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.679,
+      "mean_confidence": 0.641,
+      "input_tokens": 430,
+      "output_tokens": 95,
+      "latency_ms": 312.91999999999996,
+      "selections": {
+        "answer": {
+          "2": 10
+        }
+      }
+    },
+    {
+      "id": "count-abracadabra-spaced",
+      "group": "counting",
+      "factors": {
+        "word": "abracadabra",
+        "form": "spaced",
+        "expected_count": 2
+      },
+      "requests": 10,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 10,
+      "mean_target_probability": 0.302,
+      "mean_confidence": 0.428,
+      "input_tokens": 438,
+      "output_tokens": 95,
+      "latency_ms": 307.045,
+      "selections": {
+        "answer": {
+          "3": 10
+        }
+      }
+    },
+    {
+      "id": "count-abracadabra-algorithm",
+      "group": "counting",
+      "factors": {
+        "word": "abracadabra",
+        "form": "algorithm",
+        "expected_count": 2
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.618,
+      "mean_confidence": 0.568,
+      "input_tokens": 444,
+      "output_tokens": 95,
+      "latency_ms": 303.03,
+      "selections": {
+        "answer": {
+          "2": 10
+        }
+      }
+    },
+    {
+      "id": "count-qrzrpr-plain",
+      "group": "counting",
+      "factors": {
+        "word": "qrzrpr",
+        "form": "plain",
+        "expected_count": 3
+      },
+      "requests": 10,
+      "correct": 4,
+      "accuracy": 0.4,
+      "question_count": 10,
+      "mean_target_probability": 0.40900000000000003,
+      "mean_confidence": 0.394,
+      "input_tokens": 431,
+      "output_tokens": 95,
+      "latency_ms": 311.11,
+      "selections": {
+        "answer": {
+          "3": 4,
+          "4": 6
+        }
+      }
+    },
+    {
+      "id": "count-qrzrpr-spaced",
+      "group": "counting",
+      "factors": {
+        "word": "qrzrpr",
+        "form": "spaced",
+        "expected_count": 3
+      },
+      "requests": 10,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 10,
+      "mean_target_probability": 0.043000000000000003,
+      "mean_confidence": 0.43,
+      "input_tokens": 433,
+      "output_tokens": 95,
+      "latency_ms": 305.30499999999995,
+      "selections": {
+        "answer": {
+          "4": 4,
+          "5": 6
+        }
+      }
+    },
+    {
+      "id": "count-qrzrpr-algorithm",
+      "group": "counting",
+      "factors": {
+        "word": "qrzrpr",
+        "form": "algorithm",
+        "expected_count": 3
+      },
+      "requests": 10,
+      "correct": 1,
+      "accuracy": 0.1,
+      "question_count": 10,
+      "mean_target_probability": 0.355,
+      "mean_confidence": 0.47,
+      "input_tokens": 445,
+      "output_tokens": 95,
+      "latency_ms": 306.475,
+      "selections": {
+        "answer": {
+          "4": 9,
+          "3": 1
+        }
+      }
+    },
+    {
+      "id": "count-rrabr-plain",
+      "group": "counting",
+      "factors": {
+        "word": "rrabr",
+        "form": "plain",
+        "expected_count": 3
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.621,
+      "mean_confidence": 0.577,
+      "input_tokens": 429,
+      "output_tokens": 95,
+      "latency_ms": 339.52,
+      "selections": {
+        "answer": {
+          "3": 10
+        }
+      }
+    },
+    {
+      "id": "count-rrabr-spaced",
+      "group": "counting",
+      "factors": {
+        "word": "rrabr",
+        "form": "spaced",
+        "expected_count": 3
+      },
+      "requests": 10,
+      "correct": 0,
+      "accuracy": 0.0,
+      "question_count": 10,
+      "mean_target_probability": 0.12,
+      "mean_confidence": 0.63,
+      "input_tokens": 432,
+      "output_tokens": 95,
+      "latency_ms": 306.725,
+      "selections": {
+        "answer": {
+          "4": 10
+        }
+      }
+    },
+    {
+      "id": "count-rrabr-algorithm",
+      "group": "counting",
+      "factors": {
+        "word": "rrabr",
+        "form": "algorithm",
+        "expected_count": 3
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.66,
+      "mean_confidence": 0.62,
+      "input_tokens": 443,
+      "output_tokens": 95,
+      "latency_ms": 305.79999999999995,
+      "selections": {
+        "answer": {
+          "3": 10
+        }
+      }
+    },
+    {
+      "id": "count-RrR-plain",
+      "group": "counting",
+      "factors": {
+        "word": "RrR",
+        "form": "plain",
+        "expected_count": 3
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.987,
+      "mean_confidence": 0.979,
+      "input_tokens": 430,
+      "output_tokens": 95,
+      "latency_ms": 300.975,
+      "selections": {
+        "answer": {
+          "3": 10
+        }
+      }
+    },
+    {
+      "id": "count-RrR-spaced",
+      "group": "counting",
+      "factors": {
+        "word": "RrR",
+        "form": "spaced",
+        "expected_count": 3
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.919,
+      "mean_confidence": 0.91,
+      "input_tokens": 430,
+      "output_tokens": 95,
+      "latency_ms": 305.7,
+      "selections": {
+        "answer": {
+          "3": 10
+        }
+      }
+    },
+    {
+      "id": "count-RrR-algorithm",
+      "group": "counting",
+      "factors": {
+        "word": "RrR",
+        "form": "algorithm",
+        "expected_count": 3
+      },
+      "requests": 10,
+      "correct": 10,
+      "accuracy": 1.0,
+      "question_count": 10,
+      "mean_target_probability": 0.999,
+      "mean_confidence": 0.99,
+      "input_tokens": 444,
+      "output_tokens": 95,
+      "latency_ms": 325.88,
+      "selections": {
+        "answer": {
+          "3": 10
+        }
+      }
+    }
+  ],
+  "tables": {
+    "factor_placement": [
+      {
+        "placement": "inline",
+        "conditions": 8,
+        "requests": 200,
+        "correct": 89,
+        "accuracy": 0.445,
+        "input_tokens": 341.5,
+        "output_tokens": 36.5
+      },
+      {
+        "placement": "state",
+        "conditions": 8,
+        "requests": 200,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 341.5,
+        "output_tokens": 36.5
+      }
+    ],
+    "factor_wording": [
+      {
+        "wording": "direct",
+        "conditions": 8,
+        "requests": 200,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 336.0,
+        "output_tokens": 36.5
+      },
+      {
+        "wording": "goal",
+        "conditions": 8,
+        "requests": 200,
+        "correct": 89,
+        "accuracy": 0.445,
+        "input_tokens": 347.0,
+        "output_tokens": 36.5
+      }
+    ],
+    "factor_unknown": [
+      {
+        "unknown": false,
+        "conditions": 8,
+        "requests": 200,
+        "correct": 43,
+        "accuracy": 0.215,
+        "input_tokens": 332.5,
+        "output_tokens": 31.0
+      },
+      {
+        "unknown": true,
+        "conditions": 8,
+        "requests": 200,
+        "correct": 46,
+        "accuracy": 0.23,
+        "input_tokens": 350.5,
+        "output_tokens": 42.0
+      }
+    ],
+    "factor_reverse": [
+      {
+        "reverse": false,
+        "conditions": 8,
+        "requests": 200,
+        "correct": 41,
+        "accuracy": 0.205,
+        "input_tokens": 341.5,
+        "output_tokens": 36.5
+      },
+      {
+        "reverse": true,
+        "conditions": 8,
+        "requests": 200,
+        "correct": 48,
+        "accuracy": 0.24,
+        "input_tokens": 341.5,
+        "output_tokens": 36.5
+      }
+    ],
+    "factor_placement_wording": [
+      {
+        "placement": "inline",
+        "wording": "direct",
+        "conditions": 4,
+        "requests": 100,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 336.0,
+        "output_tokens": 36.5
+      },
+      {
+        "placement": "inline",
+        "wording": "goal",
+        "conditions": 4,
+        "requests": 100,
+        "correct": 89,
+        "accuracy": 0.89,
+        "input_tokens": 347.0,
+        "output_tokens": 36.5
+      },
+      {
+        "placement": "state",
+        "wording": "direct",
+        "conditions": 4,
+        "requests": 100,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 336.0,
+        "output_tokens": 36.5
+      },
+      {
+        "placement": "state",
+        "wording": "goal",
+        "conditions": 4,
+        "requests": 100,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 347.0,
+        "output_tokens": 36.5
+      }
+    ],
+    "transfer_mode": [
+      {
+        "mode": "direct",
+        "conditions": 12,
+        "requests": 120,
+        "correct": 65,
+        "accuracy": 0.5416666666666666,
+        "input_tokens": 338.4166666666667,
+        "output_tokens": 31.0
+      },
+      {
+        "mode": "goal",
+        "conditions": 12,
+        "requests": 120,
+        "correct": 61,
+        "accuracy": 0.5083333333333333,
+        "input_tokens": 349.4166666666667,
+        "output_tokens": 31.0
+      },
+      {
+        "mode": "checks",
+        "conditions": 12,
+        "requests": 120,
+        "correct": 110,
+        "accuracy": 0.9166666666666666,
+        "input_tokens": 444.4166666666667,
+        "output_tokens": 81.0
+      }
+    ],
+    "transfer_label": [
+      {
+        "mode": "direct",
+        "label": "drive",
+        "conditions": 6,
+        "requests": 60,
+        "correct": 5,
+        "accuracy": 0.08333333333333333,
+        "input_tokens": 335.1666666666667,
+        "output_tokens": 31.0
+      },
+      {
+        "mode": "goal",
+        "label": "drive",
+        "conditions": 6,
+        "requests": 60,
+        "correct": 1,
+        "accuracy": 0.016666666666666666,
+        "input_tokens": 346.1666666666667,
+        "output_tokens": 31.0
+      },
+      {
+        "mode": "checks",
+        "label": "drive",
+        "conditions": 6,
+        "requests": 60,
+        "correct": 50,
+        "accuracy": 0.8333333333333334,
+        "input_tokens": 441.1666666666667,
+        "output_tokens": 81.0
+      },
+      {
+        "mode": "direct",
+        "label": "walk",
+        "conditions": 6,
+        "requests": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "input_tokens": 341.6666666666667,
+        "output_tokens": 31.0
+      },
+      {
+        "mode": "goal",
+        "label": "walk",
+        "conditions": 6,
+        "requests": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "input_tokens": 352.6666666666667,
+        "output_tokens": 31.0
+      },
+      {
+        "mode": "checks",
+        "label": "walk",
+        "conditions": 6,
+        "requests": 60,
+        "correct": 60,
+        "accuracy": 1.0,
+        "input_tokens": 447.6666666666667,
+        "output_tokens": 81.0
+      }
+    ],
+    "transfer_scenarios": [
+      {
+        "scenario": "wash",
+        "mode": "direct",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 333.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "wash",
+        "mode": "goal",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 344.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "wash",
+        "mode": "checks",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 439.0,
+        "output_tokens": 81.0
+      },
+      {
+        "scenario": "tires",
+        "mode": "direct",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 335.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "tires",
+        "mode": "goal",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 346.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "tires",
+        "mode": "checks",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 441.0,
+        "output_tokens": 81.0
+      },
+      {
+        "scenario": "inspection",
+        "mode": "direct",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 335.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "inspection",
+        "mode": "goal",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 346.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "inspection",
+        "mode": "checks",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 441.0,
+        "output_tokens": 81.0
+      },
+      {
+        "scenario": "oil",
+        "mode": "direct",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 5,
+        "accuracy": 0.5,
+        "input_tokens": 335.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "oil",
+        "mode": "goal",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 346.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "oil",
+        "mode": "checks",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 441.0,
+        "output_tokens": 81.0
+      },
+      {
+        "scenario": "weigh",
+        "mode": "direct",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 336.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "weigh",
+        "mode": "goal",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 1,
+        "accuracy": 0.1,
+        "input_tokens": 347.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "weigh",
+        "mode": "checks",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 442.0,
+        "output_tokens": 81.0
+      },
+      {
+        "scenario": "trade",
+        "mode": "direct",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 337.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "trade",
+        "mode": "goal",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 348.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "trade",
+        "mode": "checks",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 443.0,
+        "output_tokens": 81.0
+      },
+      {
+        "scenario": "pickup",
+        "mode": "direct",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 340.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "pickup",
+        "mode": "goal",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 351.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "pickup",
+        "mode": "checks",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 446.0,
+        "output_tokens": 81.0
+      },
+      {
+        "scenario": "job",
+        "mode": "direct",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 335.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "job",
+        "mode": "goal",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 346.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "job",
+        "mode": "checks",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 441.0,
+        "output_tokens": 81.0
+      },
+      {
+        "scenario": "receipt",
+        "mode": "direct",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 348.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "receipt",
+        "mode": "goal",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 359.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "receipt",
+        "mode": "checks",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 454.0,
+        "output_tokens": 81.0
+      },
+      {
+        "scenario": "supplies",
+        "mode": "direct",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 339.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "supplies",
+        "mode": "goal",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 350.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "supplies",
+        "mode": "checks",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 445.0,
+        "output_tokens": 81.0
+      },
+      {
+        "scenario": "refund",
+        "mode": "direct",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 340.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "refund",
+        "mode": "goal",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 351.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "refund",
+        "mode": "checks",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 446.0,
+        "output_tokens": 81.0
+      },
+      {
+        "scenario": "mobile",
+        "mode": "direct",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 348.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "mobile",
+        "mode": "goal",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 359.0,
+        "output_tokens": 31.0
+      },
+      {
+        "scenario": "mobile",
+        "mode": "checks",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 454.0,
+        "output_tokens": 81.0
+      }
+    ],
+    "length": [
+      {
+        "filler_words": 0,
+        "mode": "direct",
+        "conditions": 1,
+        "requests": 8,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 331.0,
+        "output_tokens": 31.0
+      },
+      {
+        "filler_words": 0,
+        "mode": "checks",
+        "conditions": 1,
+        "requests": 8,
+        "correct": 8,
+        "accuracy": 1.0,
+        "input_tokens": 437.0,
+        "output_tokens": 81.0
+      },
+      {
+        "filler_words": 256,
+        "mode": "direct",
+        "conditions": 6,
+        "requests": 48,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 654.1666666666666,
+        "output_tokens": 31.0
+      },
+      {
+        "filler_words": 256,
+        "mode": "checks",
+        "conditions": 6,
+        "requests": 48,
+        "correct": 48,
+        "accuracy": 1.0,
+        "input_tokens": 760.1666666666666,
+        "output_tokens": 81.0
+      },
+      {
+        "filler_words": 1024,
+        "mode": "direct",
+        "conditions": 6,
+        "requests": 48,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 1622.0,
+        "output_tokens": 31.0
+      },
+      {
+        "filler_words": 1024,
+        "mode": "checks",
+        "conditions": 6,
+        "requests": 48,
+        "correct": 48,
+        "accuracy": 1.0,
+        "input_tokens": 1728.0,
+        "output_tokens": 81.0
+      },
+      {
+        "filler_words": 4096,
+        "mode": "direct",
+        "conditions": 6,
+        "requests": 48,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 5500.166666666667,
+        "output_tokens": 31.0
+      },
+      {
+        "filler_words": 4096,
+        "mode": "checks",
+        "conditions": 6,
+        "requests": 48,
+        "correct": 44,
+        "accuracy": 0.9166666666666666,
+        "input_tokens": 5606.166666666667,
+        "output_tokens": 81.0
+      },
+      {
+        "filler_words": 8192,
+        "mode": "direct",
+        "conditions": 6,
+        "requests": 48,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 10668.166666666666,
+        "output_tokens": 31.0
+      },
+      {
+        "filler_words": 8192,
+        "mode": "checks",
+        "conditions": 6,
+        "requests": 48,
+        "correct": 48,
+        "accuracy": 1.0,
+        "input_tokens": 10774.166666666666,
+        "output_tokens": 81.0
+      }
+    ],
+    "length_filler": [
+      {
+        "filler_words": 0,
+        "filler": "neutral",
+        "mode": "direct",
+        "conditions": 1,
+        "requests": 8,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 331.0,
+        "output_tokens": 31.0
+      },
+      {
+        "filler_words": 0,
+        "filler": "neutral",
+        "mode": "checks",
+        "conditions": 1,
+        "requests": 8,
+        "correct": 8,
+        "accuracy": 1.0,
+        "input_tokens": 437.0,
+        "output_tokens": 81.0
+      },
+      {
+        "filler_words": 256,
+        "filler": "neutral",
+        "mode": "direct",
+        "conditions": 3,
+        "requests": 24,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 676.6666666666666,
+        "output_tokens": 31.0
+      },
+      {
+        "filler_words": 256,
+        "filler": "neutral",
+        "mode": "checks",
+        "conditions": 3,
+        "requests": 24,
+        "correct": 24,
+        "accuracy": 1.0,
+        "input_tokens": 782.6666666666666,
+        "output_tokens": 81.0
+      },
+      {
+        "filler_words": 256,
+        "filler": "walking",
+        "mode": "direct",
+        "conditions": 3,
+        "requests": 24,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 631.6666666666666,
+        "output_tokens": 31.0
+      },
+      {
+        "filler_words": 256,
+        "filler": "walking",
+        "mode": "checks",
+        "conditions": 3,
+        "requests": 24,
+        "correct": 24,
+        "accuracy": 1.0,
+        "input_tokens": 737.6666666666666,
+        "output_tokens": 81.0
+      },
+      {
+        "filler_words": 1024,
+        "filler": "neutral",
+        "mode": "direct",
+        "conditions": 3,
+        "requests": 24,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 1711.6666666666667,
+        "output_tokens": 31.0
+      },
+      {
+        "filler_words": 1024,
+        "filler": "neutral",
+        "mode": "checks",
+        "conditions": 3,
+        "requests": 24,
+        "correct": 24,
+        "accuracy": 1.0,
+        "input_tokens": 1817.6666666666667,
+        "output_tokens": 81.0
+      },
+      {
+        "filler_words": 1024,
+        "filler": "walking",
+        "mode": "direct",
+        "conditions": 3,
+        "requests": 24,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 1532.3333333333333,
+        "output_tokens": 31.0
+      },
+      {
+        "filler_words": 1024,
+        "filler": "walking",
+        "mode": "checks",
+        "conditions": 3,
+        "requests": 24,
+        "correct": 24,
+        "accuracy": 1.0,
+        "input_tokens": 1638.3333333333333,
+        "output_tokens": 81.0
+      },
+      {
+        "filler_words": 4096,
+        "filler": "neutral",
+        "mode": "direct",
+        "conditions": 3,
+        "requests": 24,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 5860.666666666667,
+        "output_tokens": 31.0
+      },
+      {
+        "filler_words": 4096,
+        "filler": "neutral",
+        "mode": "checks",
+        "conditions": 3,
+        "requests": 24,
+        "correct": 20,
+        "accuracy": 0.8333333333333334,
+        "input_tokens": 5966.666666666667,
+        "output_tokens": 81.0
+      },
+      {
+        "filler_words": 4096,
+        "filler": "walking",
+        "mode": "direct",
+        "conditions": 3,
+        "requests": 24,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 5139.666666666667,
+        "output_tokens": 31.0
+      },
+      {
+        "filler_words": 4096,
+        "filler": "walking",
+        "mode": "checks",
+        "conditions": 3,
+        "requests": 24,
+        "correct": 24,
+        "accuracy": 1.0,
+        "input_tokens": 5245.666666666667,
+        "output_tokens": 81.0
+      },
+      {
+        "filler_words": 8192,
+        "filler": "neutral",
+        "mode": "direct",
+        "conditions": 3,
+        "requests": 24,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 11389.333333333334,
+        "output_tokens": 31.0
+      },
+      {
+        "filler_words": 8192,
+        "filler": "neutral",
+        "mode": "checks",
+        "conditions": 3,
+        "requests": 24,
+        "correct": 24,
+        "accuracy": 1.0,
+        "input_tokens": 11495.333333333334,
+        "output_tokens": 81.0
+      },
+      {
+        "filler_words": 8192,
+        "filler": "walking",
+        "mode": "direct",
+        "conditions": 3,
+        "requests": 24,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 9947.0,
+        "output_tokens": 31.0
+      },
+      {
+        "filler_words": 8192,
+        "filler": "walking",
+        "mode": "checks",
+        "conditions": 3,
+        "requests": 24,
+        "correct": 24,
+        "accuracy": 1.0,
+        "input_tokens": 10053.0,
+        "output_tokens": 81.0
+      }
+    ],
+    "length_position": [
+      {
+        "filler_words": 0,
+        "position": "start",
+        "mode": "direct",
+        "conditions": 1,
+        "requests": 8,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 331.0,
+        "output_tokens": 31.0
+      },
+      {
+        "filler_words": 0,
+        "position": "start",
+        "mode": "checks",
+        "conditions": 1,
+        "requests": 8,
+        "correct": 8,
+        "accuracy": 1.0,
+        "input_tokens": 437.0,
+        "output_tokens": 81.0
+      },
+      {
+        "filler_words": 256,
+        "position": "start",
+        "mode": "direct",
+        "conditions": 2,
+        "requests": 16,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 654.0,
+        "output_tokens": 31.0
+      },
+      {
+        "filler_words": 256,
+        "position": "start",
+        "mode": "checks",
+        "conditions": 2,
+        "requests": 16,
+        "correct": 16,
+        "accuracy": 1.0,
+        "input_tokens": 760.0,
+        "output_tokens": 81.0
+      },
+      {
+        "filler_words": 256,
+        "position": "middle",
+        "mode": "direct",
+        "conditions": 2,
+        "requests": 16,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 655.0,
+        "output_tokens": 31.0
+      },
+      {
+        "filler_words": 256,
+        "position": "middle",
+        "mode": "checks",
+        "conditions": 2,
+        "requests": 16,
+        "correct": 16,
+        "accuracy": 1.0,
+        "input_tokens": 761.0,
+        "output_tokens": 81.0
+      },
+      {
+        "filler_words": 256,
+        "position": "end",
+        "mode": "direct",
+        "conditions": 2,
+        "requests": 16,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 653.5,
+        "output_tokens": 31.0
+      },
+      {
+        "filler_words": 256,
+        "position": "end",
+        "mode": "checks",
+        "conditions": 2,
+        "requests": 16,
+        "correct": 16,
+        "accuracy": 1.0,
+        "input_tokens": 759.5,
+        "output_tokens": 81.0
+      },
+      {
+        "filler_words": 1024,
+        "position": "start",
+        "mode": "direct",
+        "conditions": 2,
+        "requests": 16,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 1622.0,
+        "output_tokens": 31.0
+      },
+      {
+        "filler_words": 1024,
+        "position": "start",
+        "mode": "checks",
+        "conditions": 2,
+        "requests": 16,
+        "correct": 16,
+        "accuracy": 1.0,
+        "input_tokens": 1728.0,
+        "output_tokens": 81.0
+      },
+      {
+        "filler_words": 1024,
+        "position": "middle",
+        "mode": "direct",
+        "conditions": 2,
+        "requests": 16,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 1622.0,
+        "output_tokens": 31.0
+      },
+      {
+        "filler_words": 1024,
+        "position": "middle",
+        "mode": "checks",
+        "conditions": 2,
+        "requests": 16,
+        "correct": 16,
+        "accuracy": 1.0,
+        "input_tokens": 1728.0,
+        "output_tokens": 81.0
+      },
+      {
+        "filler_words": 1024,
+        "position": "end",
+        "mode": "direct",
+        "conditions": 2,
+        "requests": 16,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 1622.0,
+        "output_tokens": 31.0
+      },
+      {
+        "filler_words": 1024,
+        "position": "end",
+        "mode": "checks",
+        "conditions": 2,
+        "requests": 16,
+        "correct": 16,
+        "accuracy": 1.0,
+        "input_tokens": 1728.0,
+        "output_tokens": 81.0
+      },
+      {
+        "filler_words": 4096,
+        "position": "start",
+        "mode": "direct",
+        "conditions": 2,
+        "requests": 16,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 5500.0,
+        "output_tokens": 31.0
+      },
+      {
+        "filler_words": 4096,
+        "position": "start",
+        "mode": "checks",
+        "conditions": 2,
+        "requests": 16,
+        "correct": 16,
+        "accuracy": 1.0,
+        "input_tokens": 5606.0,
+        "output_tokens": 81.0
+      },
+      {
+        "filler_words": 4096,
+        "position": "middle",
+        "mode": "direct",
+        "conditions": 2,
+        "requests": 16,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 5501.0,
+        "output_tokens": 31.0
+      },
+      {
+        "filler_words": 4096,
+        "position": "middle",
+        "mode": "checks",
+        "conditions": 2,
+        "requests": 16,
+        "correct": 13,
+        "accuracy": 0.8125,
+        "input_tokens": 5607.0,
+        "output_tokens": 81.0
+      },
+      {
+        "filler_words": 4096,
+        "position": "end",
+        "mode": "direct",
+        "conditions": 2,
+        "requests": 16,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 5499.5,
+        "output_tokens": 31.0
+      },
+      {
+        "filler_words": 4096,
+        "position": "end",
+        "mode": "checks",
+        "conditions": 2,
+        "requests": 16,
+        "correct": 15,
+        "accuracy": 0.9375,
+        "input_tokens": 5605.5,
+        "output_tokens": 81.0
+      },
+      {
+        "filler_words": 8192,
+        "position": "start",
+        "mode": "direct",
+        "conditions": 2,
+        "requests": 16,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 10668.5,
+        "output_tokens": 31.0
+      },
+      {
+        "filler_words": 8192,
+        "position": "start",
+        "mode": "checks",
+        "conditions": 2,
+        "requests": 16,
+        "correct": 16,
+        "accuracy": 1.0,
+        "input_tokens": 10774.5,
+        "output_tokens": 81.0
+      },
+      {
+        "filler_words": 8192,
+        "position": "middle",
+        "mode": "direct",
+        "conditions": 2,
+        "requests": 16,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 10668.0,
+        "output_tokens": 31.0
+      },
+      {
+        "filler_words": 8192,
+        "position": "middle",
+        "mode": "checks",
+        "conditions": 2,
+        "requests": 16,
+        "correct": 16,
+        "accuracy": 1.0,
+        "input_tokens": 10774.0,
+        "output_tokens": 81.0
+      },
+      {
+        "filler_words": 8192,
+        "position": "end",
+        "mode": "direct",
+        "conditions": 2,
+        "requests": 16,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 10668.0,
+        "output_tokens": 31.0
+      },
+      {
+        "filler_words": 8192,
+        "position": "end",
+        "mode": "checks",
+        "conditions": 2,
+        "requests": 16,
+        "correct": 16,
+        "accuracy": 1.0,
+        "input_tokens": 10774.0,
+        "output_tokens": 81.0
+      }
+    ],
+    "long_transfer": [
+      {
+        "filler_words": 512,
+        "mode": "direct",
+        "label": "drive",
+        "conditions": 4,
+        "requests": 20,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 1025.0,
+        "output_tokens": 31.0
+      },
+      {
+        "filler_words": 512,
+        "mode": "checks",
+        "label": "drive",
+        "conditions": 4,
+        "requests": 20,
+        "correct": 20,
+        "accuracy": 1.0,
+        "input_tokens": 1131.0,
+        "output_tokens": 81.0
+      },
+      {
+        "filler_words": 4096,
+        "mode": "direct",
+        "label": "drive",
+        "conditions": 4,
+        "requests": 20,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 5864.0,
+        "output_tokens": 31.0
+      },
+      {
+        "filler_words": 4096,
+        "mode": "checks",
+        "label": "drive",
+        "conditions": 4,
+        "requests": 20,
+        "correct": 20,
+        "accuracy": 1.0,
+        "input_tokens": 5970.0,
+        "output_tokens": 81.0
+      },
+      {
+        "filler_words": 512,
+        "mode": "direct",
+        "label": "walk",
+        "conditions": 4,
+        "requests": 20,
+        "correct": 20,
+        "accuracy": 1.0,
+        "input_tokens": 1030.5,
+        "output_tokens": 31.0
+      },
+      {
+        "filler_words": 512,
+        "mode": "checks",
+        "label": "walk",
+        "conditions": 4,
+        "requests": 20,
+        "correct": 20,
+        "accuracy": 1.0,
+        "input_tokens": 1136.5,
+        "output_tokens": 81.0
+      },
+      {
+        "filler_words": 4096,
+        "mode": "direct",
+        "label": "walk",
+        "conditions": 4,
+        "requests": 20,
+        "correct": 20,
+        "accuracy": 1.0,
+        "input_tokens": 5869.5,
+        "output_tokens": 31.0
+      },
+      {
+        "filler_words": 4096,
+        "mode": "checks",
+        "label": "walk",
+        "conditions": 4,
+        "requests": 20,
+        "correct": 20,
+        "accuracy": 1.0,
+        "input_tokens": 5975.5,
+        "output_tokens": 81.0
+      }
+    ],
+    "counting": [
+      {
+        "form": "plain",
+        "conditions": 16,
+        "requests": 160,
+        "correct": 92,
+        "accuracy": 0.575,
+        "input_tokens": 429.625,
+        "output_tokens": 95.0
+      },
+      {
+        "form": "spaced",
+        "conditions": 16,
+        "requests": 160,
+        "correct": 100,
+        "accuracy": 0.625,
+        "input_tokens": 433.625,
+        "output_tokens": 95.0
+      },
+      {
+        "form": "algorithm",
+        "conditions": 16,
+        "requests": 160,
+        "correct": 88,
+        "accuracy": 0.55,
+        "input_tokens": 443.625,
+        "output_tokens": 95.0
+      }
+    ],
+    "counting_words": [
+      {
+        "word": "straberry",
+        "form": "plain",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 430.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "straberry",
+        "form": "spaced",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 436.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "straberry",
+        "form": "algorithm",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 9,
+        "accuracy": 0.9,
+        "input_tokens": 444.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "strawberry",
+        "form": "plain",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 431.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "strawberry",
+        "form": "spaced",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 437.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "strawberry",
+        "form": "algorithm",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 445.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "strawberries",
+        "form": "plain",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 431.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "strawberries",
+        "form": "spaced",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 439.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "strawberries",
+        "form": "algorithm",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 445.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "raspberry",
+        "form": "plain",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 431.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "raspberry",
+        "form": "spaced",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 436.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "raspberry",
+        "form": "algorithm",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 445.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "blueberry",
+        "form": "plain",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 431.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "blueberry",
+        "form": "spaced",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 436.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "blueberry",
+        "form": "algorithm",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 445.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "cherry",
+        "form": "plain",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 429.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "cherry",
+        "form": "spaced",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 433.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "cherry",
+        "form": "algorithm",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 443.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "banana",
+        "form": "plain",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 1,
+        "accuracy": 0.1,
+        "input_tokens": 428.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "banana",
+        "form": "spaced",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 433.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "banana",
+        "form": "algorithm",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 442.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "river",
+        "form": "plain",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 428.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "river",
+        "form": "spaced",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 432.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "river",
+        "form": "algorithm",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 442.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "error",
+        "form": "plain",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 428.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "error",
+        "form": "spaced",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 432.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "error",
+        "form": "algorithm",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 442.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "rrr",
+        "form": "plain",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 429.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "rrr",
+        "form": "spaced",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 430.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "rrr",
+        "form": "algorithm",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 443.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "r",
+        "form": "plain",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 428.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "r",
+        "form": "spaced",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 428.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "r",
+        "form": "algorithm",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 442.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "rrrrrr",
+        "form": "plain",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 7,
+        "accuracy": 0.7,
+        "input_tokens": 430.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "rrrrrr",
+        "form": "spaced",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 433.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "rrrrrr",
+        "form": "algorithm",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 8,
+        "accuracy": 0.8,
+        "input_tokens": 444.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "abracadabra",
+        "form": "plain",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 430.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "abracadabra",
+        "form": "spaced",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 438.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "abracadabra",
+        "form": "algorithm",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 444.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "qrzrpr",
+        "form": "plain",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 4,
+        "accuracy": 0.4,
+        "input_tokens": 431.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "qrzrpr",
+        "form": "spaced",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 433.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "qrzrpr",
+        "form": "algorithm",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 1,
+        "accuracy": 0.1,
+        "input_tokens": 445.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "rrabr",
+        "form": "plain",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 429.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "rrabr",
+        "form": "spaced",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 0,
+        "accuracy": 0.0,
+        "input_tokens": 432.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "rrabr",
+        "form": "algorithm",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 443.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "RrR",
+        "form": "plain",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 430.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "RrR",
+        "form": "spaced",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 430.0,
+        "output_tokens": 95.0
+      },
+      {
+        "word": "RrR",
+        "form": "algorithm",
+        "conditions": 1,
+        "requests": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "input_tokens": 444.0,
+        "output_tokens": 95.0
+      }
+    ],
+    "described_transfer": [],
+    "described_scenarios": [],
+    "distance": [],
+    "replication": [],
+    "count_followup": [],
+    "evidence": []
+  },
+  "confidence_bins": [
+    {
+      "low": 0,
+      "high": 0.5,
+      "answers": 434,
+      "accuracy": 0.4976958525345622
+    },
+    {
+      "low": 0.5,
+      "high": 0.8,
+      "answers": 530,
+      "accuracy": 0.5094339622641509
+    },
+    {
+      "low": 0.8,
+      "high": 0.95,
+      "answers": 649,
+      "accuracy": 0.4206471494607088
+    },
+    {
+      "low": 0.95,
+      "high": 1,
+      "answers": 887,
+      "accuracy": 0.830890642615558
+    }
+  ],
+  "validation": "Every raw response, hash, schedule entry, model, selected-answer label, question key, displayed probability set/range and request count verified. Rounded displayed probability sums allowed tolerance 0.061."
+}

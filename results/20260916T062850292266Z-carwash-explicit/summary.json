@@ -1,0 +1,35 @@
+{
+  "model_requested": "jev-latest",
+  "question": "I need to wash my car. The car wash is a 5-minute walk from my home. Should I walk or drive there?",
+  "requested_trials": 1000,
+  "attempted_trials": 1000,
+  "counts": {
+    "walk": 1000,
+    "drive": 0,
+    "invalid": 0,
+    "error": 0
+  },
+  "percent_of_valid_answers": {
+    "walk": 100.0,
+    "drive": 0.0
+  },
+  "models_returned": {
+    "jev-1.13.0": 1000
+  },
+  "input_tokens": 327000,
+  "limitations": "Input isolation only, not separate provider containers. Provider caching, hidden context, sampling and statistical independence cannot be verified. Fixed option order. No sampling controls supplied.",
+  "output_tokens": 31000,
+  "total_tokens": 358000,
+  "token_usage": {
+    "requests": 1000,
+    "input_tokens": 327000,
+    "input_tokens_reported_requests": 1000,
+    "input_tokens_missing_requests": 0,
+    "input_tokens_per_reported_request": 327.0,
+    "output_tokens": 31000,
+    "output_tokens_reported_requests": 1000,
+    "output_tokens_missing_requests": 0,
+    "output_tokens_per_reported_request": 31.0,
+    "total_tokens": 358000
+  }
+}

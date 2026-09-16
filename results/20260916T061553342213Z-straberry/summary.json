@@ -1,0 +1,53 @@
+{
+  "model_requested": "jev-latest",
+  "question": "How many R's are in straberry? Answer only with the number.",
+  "requested_trials": 1000,
+  "attempted_trials": 1000,
+  "counts": {
+    "0": 0,
+    "1": 0,
+    "2": 999,
+    "3": 1,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0,
+    "8": 0,
+    "9": 0,
+    "10": 0,
+    "invalid": 0,
+    "error": 0
+  },
+  "percent_of_valid_answers": {
+    "0": 0.0,
+    "1": 0.0,
+    "2": 99.9,
+    "3": 0.1,
+    "4": 0.0,
+    "5": 0.0,
+    "6": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "9": 0.0,
+    "10": 0.0
+  },
+  "models_returned": {
+    "jev-1.13.0": 1000
+  },
+  "input_tokens": 426000,
+  "limitations": "Input isolation only, not separate provider containers. Provider caching, hidden context, sampling and statistical independence cannot be verified. Fixed option order. No sampling controls supplied.",
+  "output_tokens": 95000,
+  "total_tokens": 521000,
+  "token_usage": {
+    "requests": 1000,
+    "input_tokens": 426000,
+    "input_tokens_reported_requests": 1000,
+    "input_tokens_missing_requests": 0,
+    "input_tokens_per_reported_request": 426.0,
+    "output_tokens": 95000,
+    "output_tokens_reported_requests": 1000,
+    "output_tokens_missing_requests": 0,
+    "output_tokens_per_reported_request": 95.0,
+    "total_tokens": 521000
+  }
+}

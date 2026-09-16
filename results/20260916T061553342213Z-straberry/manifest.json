@@ -1,0 +1,30 @@
+{
+  "requested_trials": 1000,
+  "workers": 4,
+  "payload": {
+    "model": "jev-latest",
+    "state": "",
+    "questions": {
+      "answer": {
+        "type": "choice",
+        "instructions": "How many R's are in straberry? Answer only with the number.",
+        "criteria": {
+          "0": "0",
+          "1": "1",
+          "2": "2",
+          "3": "3",
+          "4": "4",
+          "5": "5",
+          "6": "6",
+          "7": "7",
+          "8": "8",
+          "9": "9",
+          "10": "10"
+        }
+      }
+    }
+  },
+  "payload_sha256": "39a41458c14789e77e118719d79284cd85350c42c4efccc1b22e8888790ee48f",
+  "method": "One fresh HTTP request/opener per trial; no cookies, sessions, tools, memory, batching, retries, or previous responses in input. Trial IDs are local only.",
+  "limitations": "Input isolation only, not separate provider containers. Provider caching, hidden context, sampling and statistical independence cannot be verified. Fixed option order. No sampling controls supplied."
+}

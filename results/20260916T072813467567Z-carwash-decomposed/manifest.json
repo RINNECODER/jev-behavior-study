@@ -1,0 +1,35 @@
+{
+  "requested_trials": 1000,
+  "workers": 4,
+  "payload": {
+    "model": "jev-1.13.0",
+    "state": "I want to have my car washed at a car wash located a 5-minute walk from my home.",
+    "questions": {
+      "A": {
+        "type": "choice",
+        "instructions": "Does my car need to be physically present at the car wash to be washed there?",
+        "criteria": {
+          "yes": "Yes",
+          "no": "No",
+          "cannot_be_determined": "Cannot be determined"
+        }
+      },
+      "B": {
+        "type": "choice",
+        "instructions": "If I walk to the car wash and leave my car at home, will that accomplish my goal of getting my car washed there?",
+        "criteria": {
+          "yes": "Yes",
+          "no": "No",
+          "cannot_be_determined": "Cannot be determined"
+        }
+      }
+    }
+  },
+  "payload_sha256": "042357481e56882077b8c7689b1dad62713cf15956ce61d5702b42c4e9573d0e",
+  "method": "One fresh HTTP request/opener per trial; no cookies, sessions, tools, memory, retries, or previous responses in input. Trial IDs are local only. All configured questions are sent together in each request.",
+  "expected": {
+    "A": "yes",
+    "B": "no"
+  },
+  "limitations": "Input isolation only, not separate provider containers. Provider caching, hidden context, sampling and statistical independence cannot be verified. Fixed option order. No sampling controls supplied."
+}

@@ -1,0 +1,1 @@
+{"trial": 1, "payload_sha256": "bb051a9e7998e61db79249d2fce2a1df1e328f4e018823bc96b306876265361d", "started_at": "2026-09-16T06:02:31.324287+00:00", "result": "error", "error": "<urlopen error [Errno -3] Temporary failure in name resolution>", "latency_ms": 11.2}

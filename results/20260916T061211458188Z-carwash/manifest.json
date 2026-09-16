@@ -1,0 +1,21 @@
+{
+  "requested_trials": 1000,
+  "workers": 4,
+  "payload": {
+    "model": "jev-latest",
+    "state": "",
+    "questions": {
+      "answer": {
+        "type": "choice",
+        "instructions": "I'm going to the carwash and it's really close, should I walk or should I drive? Answer only walk or drive.",
+        "criteria": {
+          "walk": "Walk",
+          "drive": "Drive"
+        }
+      }
+    }
+  },
+  "payload_sha256": "4a8aed102c89403cbda950ede471edc54ff51b5d1ead323eeb3ba52cb979a230",
+  "method": "One fresh HTTP request/opener per trial; no cookies, sessions, tools, memory, batching, retries, or previous responses in input. Trial IDs are local only.",
+  "limitations": "Input isolation only, not separate provider containers. Provider caching, hidden context, sampling and statistical independence cannot be verified. Fixed option order. No sampling controls supplied."
+}
