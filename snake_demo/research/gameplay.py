@@ -25,8 +25,8 @@ def decision(g,profile,variant=None):
     return {**result,'proposal':proposal,'action':action,'overridden':action!=proposal}
 
 
-def episode(job,out):
-    profile,variant,seed=job;g=Snake(seed=seed);ident=f'{profile}-{seed}';path=out/(ident+'.jsonl')
+def episode(job,out,target=8,max_steps=200):
+    profile,variant,seed=job;g=Snake(seed=seed,target=target,max_steps=max_steps);ident=f'{profile}-{seed}';path=out/(ident+'.jsonl')
     if path.exists():raise RuntimeError('Refusing to overwrite a game')
     initial=g.snapshot();rows=[]
     with path.open('w') as file:
@@ -53,9 +53,9 @@ def prepare(out,diagnosis):
 
 
 def run(out):
-    jobs=json.loads((out/'manifest.json').read_text())['jobs'];summaries=[]
+    manifest=json.loads((out/'manifest.json').read_text());jobs=manifest['jobs'];summaries=[]
     with ThreadPoolExecutor(max_workers=4) as pool:
-        for future in as_completed([pool.submit(episode,j,out) for j in jobs]):
+        for future in as_completed([pool.submit(episode,j,out,manifest.get('target',8),manifest.get('max_steps',200)) for j in jobs]):
             r=future.result();summaries.append(r);print(len(summaries),r['id'],r['score'],r['moves'],r['outcome'],'overrides',r['overrides'],flush=True)
     dump(out/'completion.json',{'planned':len(jobs),'completed':len(summaries)})
 
