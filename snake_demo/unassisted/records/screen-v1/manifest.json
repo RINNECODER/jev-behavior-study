@@ -1,0 +1,6408 @@
+{
+  "jobs": [
+    {
+      "id": "dev-071-original",
+      "state_id": "dev-071",
+      "variant": "original",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-018-ascii",
+      "state_id": "dev-018",
+      "variant": "ascii",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-043-egocentric",
+      "state_id": "dev-043",
+      "variant": "egocentric",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-062-history",
+      "state_id": "dev-062",
+      "variant": "history",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-029-review",
+      "state_id": "dev-029",
+      "variant": "review",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-049-history",
+      "state_id": "dev-049",
+      "variant": "history",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-010-original",
+      "state_id": "dev-010",
+      "variant": "original",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-012-priority",
+      "state_id": "dev-012",
+      "variant": "priority",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-030-narrative",
+      "state_id": "dev-030",
+      "variant": "narrative",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-067-narrative",
+      "state_id": "dev-067",
+      "variant": "narrative",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-069-egocentric",
+      "state_id": "dev-069",
+      "variant": "egocentric",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-022-priority",
+      "state_id": "dev-022",
+      "variant": "priority",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-048-original",
+      "state_id": "dev-048",
+      "variant": "original",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-063-absolute",
+      "state_id": "dev-063",
+      "variant": "absolute",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-079-original",
+      "state_id": "dev-079",
+      "variant": "original",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-076-ascii",
+      "state_id": "dev-076",
+      "variant": "ascii",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-003-ascii",
+      "state_id": "dev-003",
+      "variant": "ascii",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-078-priority",
+      "state_id": "dev-078",
+      "variant": "priority",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-072-review",
+      "state_id": "dev-072",
+      "variant": "review",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-050-narrative",
+      "state_id": "dev-050",
+      "variant": "narrative",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-014-absolute",
+      "state_id": "dev-014",
+      "variant": "absolute",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-016-priority",
+      "state_id": "dev-016",
+      "variant": "priority",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-006-ascii",
+      "state_id": "dev-006",
+      "variant": "ascii",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-049-review",
+      "state_id": "dev-049",
+      "variant": "review",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-043-original",
+      "state_id": "dev-043",
+      "variant": "original",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-075-priority",
+      "state_id": "dev-075",
+      "variant": "priority",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-052-priority",
+      "state_id": "dev-052",
+      "variant": "priority",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-032-absolute",
+      "state_id": "dev-032",
+      "variant": "absolute",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-073-ascii",
+      "state_id": "dev-073",
+      "variant": "ascii",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-073-history",
+      "state_id": "dev-073",
+      "variant": "history",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-077-ascii",
+      "state_id": "dev-077",
+      "variant": "ascii",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-022-review",
+      "state_id": "dev-022",
+      "variant": "review",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-037-review",
+      "state_id": "dev-037",
+      "variant": "review",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-054-ascii",
+      "state_id": "dev-054",
+      "variant": "ascii",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-046-review",
+      "state_id": "dev-046",
+      "variant": "review",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-074-original",
+      "state_id": "dev-074",
+      "variant": "original",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-052-original",
+      "state_id": "dev-052",
+      "variant": "original",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-032-narrative",
+      "state_id": "dev-032",
+      "variant": "narrative",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-012-narrative",
+      "state_id": "dev-012",
+      "variant": "narrative",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-008-history",
+      "state_id": "dev-008",
+      "variant": "history",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-070-narrative",
+      "state_id": "dev-070",
+      "variant": "narrative",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-013-history",
+      "state_id": "dev-013",
+      "variant": "history",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-062-original",
+      "state_id": "dev-062",
+      "variant": "original",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-022-original",
+      "state_id": "dev-022",
+      "variant": "original",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-037-absolute",
+      "state_id": "dev-037",
+      "variant": "absolute",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-052-absolute",
+      "state_id": "dev-052",
+      "variant": "absolute",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-047-history",
+      "state_id": "dev-047",
+      "variant": "history",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-032-priority",
+      "state_id": "dev-032",
+      "variant": "priority",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-006-narrative",
+      "state_id": "dev-006",
+      "variant": "narrative",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-044-egocentric",
+      "state_id": "dev-044",
+      "variant": "egocentric",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-075-ascii",
+      "state_id": "dev-075",
+      "variant": "ascii",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-009-narrative",
+      "state_id": "dev-009",
+      "variant": "narrative",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-034-narrative",
+      "state_id": "dev-034",
+      "variant": "narrative",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-052-review",
+      "state_id": "dev-052",
+      "variant": "review",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-024-original",
+      "state_id": "dev-024",
+      "variant": "original",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-036-egocentric",
+      "state_id": "dev-036",
+      "variant": "egocentric",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-036-priority",
+      "state_id": "dev-036",
+      "variant": "priority",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-050-original",
+      "state_id": "dev-050",
+      "variant": "original",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-009-priority",
+      "state_id": "dev-009",
+      "variant": "priority",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-072-history",
+      "state_id": "dev-072",
+      "variant": "history",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-043-review",
+      "state_id": "dev-043",
+      "variant": "review",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-050-ascii",
+      "state_id": "dev-050",
+      "variant": "ascii",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-046-egocentric",
+      "state_id": "dev-046",
+      "variant": "egocentric",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-020-priority",
+      "state_id": "dev-020",
+      "variant": "priority",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-060-history",
+      "state_id": "dev-060",
+      "variant": "history",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-003-review",
+      "state_id": "dev-003",
+      "variant": "review",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-037-original",
+      "state_id": "dev-037",
+      "variant": "original",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-058-priority",
+      "state_id": "dev-058",
+      "variant": "priority",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-077-absolute",
+      "state_id": "dev-077",
+      "variant": "absolute",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-007-priority",
+      "state_id": "dev-007",
+      "variant": "priority",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-023-priority",
+      "state_id": "dev-023",
+      "variant": "priority",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-028-narrative",
+      "state_id": "dev-028",
+      "variant": "narrative",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-046-ascii",
+      "state_id": "dev-046",
+      "variant": "ascii",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-036-history",
+      "state_id": "dev-036",
+      "variant": "history",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-006-priority",
+      "state_id": "dev-006",
+      "variant": "priority",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-027-ascii",
+      "state_id": "dev-027",
+      "variant": "ascii",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-000-priority",
+      "state_id": "dev-000",
+      "variant": "priority",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-062-narrative",
+      "state_id": "dev-062",
+      "variant": "narrative",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-058-original",
+      "state_id": "dev-058",
+      "variant": "original",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-001-narrative",
+      "state_id": "dev-001",
+      "variant": "narrative",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-066-original",
+      "state_id": "dev-066",
+      "variant": "original",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-007-ascii",
+      "state_id": "dev-007",
+      "variant": "ascii",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-056-history",
+      "state_id": "dev-056",
+      "variant": "history",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-042-narrative",
+      "state_id": "dev-042",
+      "variant": "narrative",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-012-review",
+      "state_id": "dev-012",
+      "variant": "review",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-006-review",
+      "state_id": "dev-006",
+      "variant": "review",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-008-review",
+      "state_id": "dev-008",
+      "variant": "review",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-015-egocentric",
+      "state_id": "dev-015",
+      "variant": "egocentric",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-053-history",
+      "state_id": "dev-053",
+      "variant": "history",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-066-history",
+      "state_id": "dev-066",
+      "variant": "history",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-033-priority",
+      "state_id": "dev-033",
+      "variant": "priority",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-072-narrative",
+      "state_id": "dev-072",
+      "variant": "narrative",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-015-ascii",
+      "state_id": "dev-015",
+      "variant": "ascii",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-005-priority",
+      "state_id": "dev-005",
+      "variant": "priority",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-044-narrative",
+      "state_id": "dev-044",
+      "variant": "narrative",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-066-review",
+      "state_id": "dev-066",
+      "variant": "review",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-073-review",
+      "state_id": "dev-073",
+      "variant": "review",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-048-egocentric",
+      "state_id": "dev-048",
+      "variant": "egocentric",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-074-history",
+      "state_id": "dev-074",
+      "variant": "history",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-010-absolute",
+      "state_id": "dev-010",
+      "variant": "absolute",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-059-egocentric",
+      "state_id": "dev-059",
+      "variant": "egocentric",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-064-review",
+      "state_id": "dev-064",
+      "variant": "review",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-014-priority",
+      "state_id": "dev-014",
+      "variant": "priority",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-018-absolute",
+      "state_id": "dev-018",
+      "variant": "absolute",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-065-ascii",
+      "state_id": "dev-065",
+      "variant": "ascii",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-030-priority",
+      "state_id": "dev-030",
+      "variant": "priority",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-053-egocentric",
+      "state_id": "dev-053",
+      "variant": "egocentric",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-031-history",
+      "state_id": "dev-031",
+      "variant": "history",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-061-narrative",
+      "state_id": "dev-061",
+      "variant": "narrative",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-030-ascii",
+      "state_id": "dev-030",
+      "variant": "ascii",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-042-review",
+      "state_id": "dev-042",
+      "variant": "review",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-013-ascii",
+      "state_id": "dev-013",
+      "variant": "ascii",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-003-absolute",
+      "state_id": "dev-003",
+      "variant": "absolute",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-025-egocentric",
+      "state_id": "dev-025",
+      "variant": "egocentric",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-023-ascii",
+      "state_id": "dev-023",
+      "variant": "ascii",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-037-priority",
+      "state_id": "dev-037",
+      "variant": "priority",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-078-review",
+      "state_id": "dev-078",
+      "variant": "review",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-059-priority",
+      "state_id": "dev-059",
+      "variant": "priority",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-079-priority",
+      "state_id": "dev-079",
+      "variant": "priority",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-049-egocentric",
+      "state_id": "dev-049",
+      "variant": "egocentric",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-024-egocentric",
+      "state_id": "dev-024",
+      "variant": "egocentric",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-005-review",
+      "state_id": "dev-005",
+      "variant": "review",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-060-ascii",
+      "state_id": "dev-060",
+      "variant": "ascii",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-053-ascii",
+      "state_id": "dev-053",
+      "variant": "ascii",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-075-egocentric",
+      "state_id": "dev-075",
+      "variant": "egocentric",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-051-narrative",
+      "state_id": "dev-051",
+      "variant": "narrative",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-015-history",
+      "state_id": "dev-015",
+      "variant": "history",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-040-review",
+      "state_id": "dev-040",
+      "variant": "review",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-072-priority",
+      "state_id": "dev-072",
+      "variant": "priority",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-008-ascii",
+      "state_id": "dev-008",
+      "variant": "ascii",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-036-absolute",
+      "state_id": "dev-036",
+      "variant": "absolute",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-007-original",
+      "state_id": "dev-007",
+      "variant": "original",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-004-history",
+      "state_id": "dev-004",
+      "variant": "history",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-045-narrative",
+      "state_id": "dev-045",
+      "variant": "narrative",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-077-history",
+      "state_id": "dev-077",
+      "variant": "history",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-036-review",
+      "state_id": "dev-036",
+      "variant": "review",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-067-priority",
+      "state_id": "dev-067",
+      "variant": "priority",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-067-original",
+      "state_id": "dev-067",
+      "variant": "original",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-021-absolute",
+      "state_id": "dev-021",
+      "variant": "absolute",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-021-narrative",
+      "state_id": "dev-021",
+      "variant": "narrative",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-028-review",
+      "state_id": "dev-028",
+      "variant": "review",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-013-priority",
+      "state_id": "dev-013",
+      "variant": "priority",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-028-absolute",
+      "state_id": "dev-028",
+      "variant": "absolute",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-001-absolute",
+      "state_id": "dev-001",
+      "variant": "absolute",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-028-original",
+      "state_id": "dev-028",
+      "variant": "original",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-033-ascii",
+      "state_id": "dev-033",
+      "variant": "ascii",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-026-absolute",
+      "state_id": "dev-026",
+      "variant": "absolute",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-013-absolute",
+      "state_id": "dev-013",
+      "variant": "absolute",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-017-absolute",
+      "state_id": "dev-017",
+      "variant": "absolute",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-032-ascii",
+      "state_id": "dev-032",
+      "variant": "ascii",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-020-original",
+      "state_id": "dev-020",
+      "variant": "original",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-002-review",
+      "state_id": "dev-002",
+      "variant": "review",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-066-ascii",
+      "state_id": "dev-066",
+      "variant": "ascii",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-031-egocentric",
+      "state_id": "dev-031",
+      "variant": "egocentric",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-055-review",
+      "state_id": "dev-055",
+      "variant": "review",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-046-absolute",
+      "state_id": "dev-046",
+      "variant": "absolute",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-040-original",
+      "state_id": "dev-040",
+      "variant": "original",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-002-original",
+      "state_id": "dev-002",
+      "variant": "original",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-070-ascii",
+      "state_id": "dev-070",
+      "variant": "ascii",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-029-history",
+      "state_id": "dev-029",
+      "variant": "history",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-003-history",
+      "state_id": "dev-003",
+      "variant": "history",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-002-narrative",
+      "state_id": "dev-002",
+      "variant": "narrative",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-065-egocentric",
+      "state_id": "dev-065",
+      "variant": "egocentric",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-058-narrative",
+      "state_id": "dev-058",
+      "variant": "narrative",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-050-priority",
+      "state_id": "dev-050",
+      "variant": "priority",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-011-narrative",
+      "state_id": "dev-011",
+      "variant": "narrative",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-021-ascii",
+      "state_id": "dev-021",
+      "variant": "ascii",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-040-history",
+      "state_id": "dev-040",
+      "variant": "history",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-055-original",
+      "state_id": "dev-055",
+      "variant": "original",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-068-absolute",
+      "state_id": "dev-068",
+      "variant": "absolute",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-071-ascii",
+      "state_id": "dev-071",
+      "variant": "ascii",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-017-egocentric",
+      "state_id": "dev-017",
+      "variant": "egocentric",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-076-absolute",
+      "state_id": "dev-076",
+      "variant": "absolute",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-071-absolute",
+      "state_id": "dev-071",
+      "variant": "absolute",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-067-history",
+      "state_id": "dev-067",
+      "variant": "history",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-005-history",
+      "state_id": "dev-005",
+      "variant": "history",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-041-review",
+      "state_id": "dev-041",
+      "variant": "review",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-047-absolute",
+      "state_id": "dev-047",
+      "variant": "absolute",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-060-narrative",
+      "state_id": "dev-060",
+      "variant": "narrative",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-035-absolute",
+      "state_id": "dev-035",
+      "variant": "absolute",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-055-narrative",
+      "state_id": "dev-055",
+      "variant": "narrative",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-066-egocentric",
+      "state_id": "dev-066",
+      "variant": "egocentric",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-045-egocentric",
+      "state_id": "dev-045",
+      "variant": "egocentric",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-032-egocentric",
+      "state_id": "dev-032",
+      "variant": "egocentric",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-042-history",
+      "state_id": "dev-042",
+      "variant": "history",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-019-priority",
+      "state_id": "dev-019",
+      "variant": "priority",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-054-priority",
+      "state_id": "dev-054",
+      "variant": "priority",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-047-priority",
+      "state_id": "dev-047",
+      "variant": "priority",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-026-ascii",
+      "state_id": "dev-026",
+      "variant": "ascii",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-000-ascii",
+      "state_id": "dev-000",
+      "variant": "ascii",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-000-review",
+      "state_id": "dev-000",
+      "variant": "review",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-016-original",
+      "state_id": "dev-016",
+      "variant": "original",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-029-egocentric",
+      "state_id": "dev-029",
+      "variant": "egocentric",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-027-absolute",
+      "state_id": "dev-027",
+      "variant": "absolute",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-079-ascii",
+      "state_id": "dev-079",
+      "variant": "ascii",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-033-review",
+      "state_id": "dev-033",
+      "variant": "review",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-065-original",
+      "state_id": "dev-065",
+      "variant": "original",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-054-absolute",
+      "state_id": "dev-054",
+      "variant": "absolute",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-034-absolute",
+      "state_id": "dev-034",
+      "variant": "absolute",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-030-egocentric",
+      "state_id": "dev-030",
+      "variant": "egocentric",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-009-review",
+      "state_id": "dev-009",
+      "variant": "review",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-060-priority",
+      "state_id": "dev-060",
+      "variant": "priority",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-037-ascii",
+      "state_id": "dev-037",
+      "variant": "ascii",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-006-absolute",
+      "state_id": "dev-006",
+      "variant": "absolute",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-048-ascii",
+      "state_id": "dev-048",
+      "variant": "ascii",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-015-review",
+      "state_id": "dev-015",
+      "variant": "review",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-035-narrative",
+      "state_id": "dev-035",
+      "variant": "narrative",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-067-review",
+      "state_id": "dev-067",
+      "variant": "review",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-074-priority",
+      "state_id": "dev-074",
+      "variant": "priority",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-074-egocentric",
+      "state_id": "dev-074",
+      "variant": "egocentric",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-059-ascii",
+      "state_id": "dev-059",
+      "variant": "ascii",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-021-priority",
+      "state_id": "dev-021",
+      "variant": "priority",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-010-review",
+      "state_id": "dev-010",
+      "variant": "review",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-033-history",
+      "state_id": "dev-033",
+      "variant": "history",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-013-review",
+      "state_id": "dev-013",
+      "variant": "review",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-056-egocentric",
+      "state_id": "dev-056",
+      "variant": "egocentric",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-015-priority",
+      "state_id": "dev-015",
+      "variant": "priority",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-053-review",
+      "state_id": "dev-053",
+      "variant": "review",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-068-original",
+      "state_id": "dev-068",
+      "variant": "original",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-021-review",
+      "state_id": "dev-021",
+      "variant": "review",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-052-ascii",
+      "state_id": "dev-052",
+      "variant": "ascii",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-056-original",
+      "state_id": "dev-056",
+      "variant": "original",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-038-egocentric",
+      "state_id": "dev-038",
+      "variant": "egocentric",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-061-review",
+      "state_id": "dev-061",
+      "variant": "review",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-029-absolute",
+      "state_id": "dev-029",
+      "variant": "absolute",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-026-history",
+      "state_id": "dev-026",
+      "variant": "history",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-010-priority",
+      "state_id": "dev-010",
+      "variant": "priority",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-052-narrative",
+      "state_id": "dev-052",
+      "variant": "narrative",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-016-ascii",
+      "state_id": "dev-016",
+      "variant": "ascii",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-031-original",
+      "state_id": "dev-031",
+      "variant": "original",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-057-history",
+      "state_id": "dev-057",
+      "variant": "history",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-031-absolute",
+      "state_id": "dev-031",
+      "variant": "absolute",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-061-egocentric",
+      "state_id": "dev-061",
+      "variant": "egocentric",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-073-absolute",
+      "state_id": "dev-073",
+      "variant": "absolute",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-045-original",
+      "state_id": "dev-045",
+      "variant": "original",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-003-narrative",
+      "state_id": "dev-003",
+      "variant": "narrative",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-011-absolute",
+      "state_id": "dev-011",
+      "variant": "absolute",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-064-narrative",
+      "state_id": "dev-064",
+      "variant": "narrative",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-031-priority",
+      "state_id": "dev-031",
+      "variant": "priority",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-039-priority",
+      "state_id": "dev-039",
+      "variant": "priority",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-050-egocentric",
+      "state_id": "dev-050",
+      "variant": "egocentric",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-024-ascii",
+      "state_id": "dev-024",
+      "variant": "ascii",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-054-history",
+      "state_id": "dev-054",
+      "variant": "history",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-060-absolute",
+      "state_id": "dev-060",
+      "variant": "absolute",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-054-egocentric",
+      "state_id": "dev-054",
+      "variant": "egocentric",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-017-history",
+      "state_id": "dev-017",
+      "variant": "history",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-048-priority",
+      "state_id": "dev-048",
+      "variant": "priority",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-038-ascii",
+      "state_id": "dev-038",
+      "variant": "ascii",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-075-absolute",
+      "state_id": "dev-075",
+      "variant": "absolute",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-048-absolute",
+      "state_id": "dev-048",
+      "variant": "absolute",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-034-original",
+      "state_id": "dev-034",
+      "variant": "original",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-024-absolute",
+      "state_id": "dev-024",
+      "variant": "absolute",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-070-priority",
+      "state_id": "dev-070",
+      "variant": "priority",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-019-original",
+      "state_id": "dev-019",
+      "variant": "original",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-025-original",
+      "state_id": "dev-025",
+      "variant": "original",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-035-review",
+      "state_id": "dev-035",
+      "variant": "review",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-050-history",
+      "state_id": "dev-050",
+      "variant": "history",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-048-history",
+      "state_id": "dev-048",
+      "variant": "history",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-001-original",
+      "state_id": "dev-001",
+      "variant": "original",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-011-original",
+      "state_id": "dev-011",
+      "variant": "original",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-068-history",
+      "state_id": "dev-068",
+      "variant": "history",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-023-review",
+      "state_id": "dev-023",
+      "variant": "review",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-055-egocentric",
+      "state_id": "dev-055",
+      "variant": "egocentric",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-004-narrative",
+      "state_id": "dev-004",
+      "variant": "narrative",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-045-priority",
+      "state_id": "dev-045",
+      "variant": "priority",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-024-history",
+      "state_id": "dev-024",
+      "variant": "history",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-076-original",
+      "state_id": "dev-076",
+      "variant": "original",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-072-ascii",
+      "state_id": "dev-072",
+      "variant": "ascii",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-025-priority",
+      "state_id": "dev-025",
+      "variant": "priority",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-043-ascii",
+      "state_id": "dev-043",
+      "variant": "ascii",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-004-original",
+      "state_id": "dev-004",
+      "variant": "original",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-003-original",
+      "state_id": "dev-003",
+      "variant": "original",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-063-ascii",
+      "state_id": "dev-063",
+      "variant": "ascii",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-041-priority",
+      "state_id": "dev-041",
+      "variant": "priority",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-038-priority",
+      "state_id": "dev-038",
+      "variant": "priority",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-046-narrative",
+      "state_id": "dev-046",
+      "variant": "narrative",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-006-history",
+      "state_id": "dev-006",
+      "variant": "history",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-026-egocentric",
+      "state_id": "dev-026",
+      "variant": "egocentric",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-028-ascii",
+      "state_id": "dev-028",
+      "variant": "ascii",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-066-priority",
+      "state_id": "dev-066",
+      "variant": "priority",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-039-review",
+      "state_id": "dev-039",
+      "variant": "review",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-059-history",
+      "state_id": "dev-059",
+      "variant": "history",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-033-narrative",
+      "state_id": "dev-033",
+      "variant": "narrative",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-011-ascii",
+      "state_id": "dev-011",
+      "variant": "ascii",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-058-egocentric",
+      "state_id": "dev-058",
+      "variant": "egocentric",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-019-absolute",
+      "state_id": "dev-019",
+      "variant": "absolute",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-053-absolute",
+      "state_id": "dev-053",
+      "variant": "absolute",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-048-narrative",
+      "state_id": "dev-048",
+      "variant": "narrative",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-049-original",
+      "state_id": "dev-049",
+      "variant": "original",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-007-review",
+      "state_id": "dev-007",
+      "variant": "review",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-014-egocentric",
+      "state_id": "dev-014",
+      "variant": "egocentric",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-037-narrative",
+      "state_id": "dev-037",
+      "variant": "narrative",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-078-narrative",
+      "state_id": "dev-078",
+      "variant": "narrative",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-065-review",
+      "state_id": "dev-065",
+      "variant": "review",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-044-absolute",
+      "state_id": "dev-044",
+      "variant": "absolute",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-034-priority",
+      "state_id": "dev-034",
+      "variant": "priority",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-023-original",
+      "state_id": "dev-023",
+      "variant": "original",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-003-priority",
+      "state_id": "dev-003",
+      "variant": "priority",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-011-history",
+      "state_id": "dev-011",
+      "variant": "history",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-028-egocentric",
+      "state_id": "dev-028",
+      "variant": "egocentric",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-053-narrative",
+      "state_id": "dev-053",
+      "variant": "narrative",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-042-priority",
+      "state_id": "dev-042",
+      "variant": "priority",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-011-egocentric",
+      "state_id": "dev-011",
+      "variant": "egocentric",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-026-priority",
+      "state_id": "dev-026",
+      "variant": "priority",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-000-egocentric",
+      "state_id": "dev-000",
+      "variant": "egocentric",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-072-original",
+      "state_id": "dev-072",
+      "variant": "original",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-054-narrative",
+      "state_id": "dev-054",
+      "variant": "narrative",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-018-original",
+      "state_id": "dev-018",
+      "variant": "original",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-039-narrative",
+      "state_id": "dev-039",
+      "variant": "narrative",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-061-absolute",
+      "state_id": "dev-061",
+      "variant": "absolute",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-072-egocentric",
+      "state_id": "dev-072",
+      "variant": "egocentric",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-067-absolute",
+      "state_id": "dev-067",
+      "variant": "absolute",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-079-history",
+      "state_id": "dev-079",
+      "variant": "history",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-034-egocentric",
+      "state_id": "dev-034",
+      "variant": "egocentric",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-042-original",
+      "state_id": "dev-042",
+      "variant": "original",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-000-narrative",
+      "state_id": "dev-000",
+      "variant": "narrative",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-078-history",
+      "state_id": "dev-078",
+      "variant": "history",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-047-review",
+      "state_id": "dev-047",
+      "variant": "review",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-074-narrative",
+      "state_id": "dev-074",
+      "variant": "narrative",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-029-narrative",
+      "state_id": "dev-029",
+      "variant": "narrative",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-071-priority",
+      "state_id": "dev-071",
+      "variant": "priority",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-013-narrative",
+      "state_id": "dev-013",
+      "variant": "narrative",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-047-original",
+      "state_id": "dev-047",
+      "variant": "original",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-079-review",
+      "state_id": "dev-079",
+      "variant": "review",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-073-egocentric",
+      "state_id": "dev-073",
+      "variant": "egocentric",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-068-review",
+      "state_id": "dev-068",
+      "variant": "review",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-046-original",
+      "state_id": "dev-046",
+      "variant": "original",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-014-narrative",
+      "state_id": "dev-014",
+      "variant": "narrative",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-017-original",
+      "state_id": "dev-017",
+      "variant": "original",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-028-history",
+      "state_id": "dev-028",
+      "variant": "history",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-056-review",
+      "state_id": "dev-056",
+      "variant": "review",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-023-absolute",
+      "state_id": "dev-023",
+      "variant": "absolute",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-035-history",
+      "state_id": "dev-035",
+      "variant": "history",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-045-history",
+      "state_id": "dev-045",
+      "variant": "history",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-056-priority",
+      "state_id": "dev-056",
+      "variant": "priority",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-069-priority",
+      "state_id": "dev-069",
+      "variant": "priority",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-002-history",
+      "state_id": "dev-002",
+      "variant": "history",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-050-absolute",
+      "state_id": "dev-050",
+      "variant": "absolute",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-048-review",
+      "state_id": "dev-048",
+      "variant": "review",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-064-egocentric",
+      "state_id": "dev-064",
+      "variant": "egocentric",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-025-absolute",
+      "state_id": "dev-025",
+      "variant": "absolute",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-039-ascii",
+      "state_id": "dev-039",
+      "variant": "ascii",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-063-history",
+      "state_id": "dev-063",
+      "variant": "history",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-012-ascii",
+      "state_id": "dev-012",
+      "variant": "ascii",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-014-original",
+      "state_id": "dev-014",
+      "variant": "original",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-057-egocentric",
+      "state_id": "dev-057",
+      "variant": "egocentric",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-020-history",
+      "state_id": "dev-020",
+      "variant": "history",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-064-original",
+      "state_id": "dev-064",
+      "variant": "original",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-010-egocentric",
+      "state_id": "dev-010",
+      "variant": "egocentric",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-027-priority",
+      "state_id": "dev-027",
+      "variant": "priority",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-001-priority",
+      "state_id": "dev-001",
+      "variant": "priority",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-012-original",
+      "state_id": "dev-012",
+      "variant": "original",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-002-priority",
+      "state_id": "dev-002",
+      "variant": "priority",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-047-egocentric",
+      "state_id": "dev-047",
+      "variant": "egocentric",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-044-original",
+      "state_id": "dev-044",
+      "variant": "original",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-003-egocentric",
+      "state_id": "dev-003",
+      "variant": "egocentric",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-047-narrative",
+      "state_id": "dev-047",
+      "variant": "narrative",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-016-history",
+      "state_id": "dev-016",
+      "variant": "history",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-070-egocentric",
+      "state_id": "dev-070",
+      "variant": "egocentric",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-075-history",
+      "state_id": "dev-075",
+      "variant": "history",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-040-narrative",
+      "state_id": "dev-040",
+      "variant": "narrative",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-026-narrative",
+      "state_id": "dev-026",
+      "variant": "narrative",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-043-narrative",
+      "state_id": "dev-043",
+      "variant": "narrative",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-001-egocentric",
+      "state_id": "dev-001",
+      "variant": "egocentric",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-051-review",
+      "state_id": "dev-051",
+      "variant": "review",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-032-review",
+      "state_id": "dev-032",
+      "variant": "review",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-060-egocentric",
+      "state_id": "dev-060",
+      "variant": "egocentric",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-063-review",
+      "state_id": "dev-063",
+      "variant": "review",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-012-egocentric",
+      "state_id": "dev-012",
+      "variant": "egocentric",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-058-ascii",
+      "state_id": "dev-058",
+      "variant": "ascii",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-061-priority",
+      "state_id": "dev-061",
+      "variant": "priority",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-071-egocentric",
+      "state_id": "dev-071",
+      "variant": "egocentric",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-036-original",
+      "state_id": "dev-036",
+      "variant": "original",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-010-narrative",
+      "state_id": "dev-010",
+      "variant": "narrative",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-041-history",
+      "state_id": "dev-041",
+      "variant": "history",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-065-history",
+      "state_id": "dev-065",
+      "variant": "history",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-017-review",
+      "state_id": "dev-017",
+      "variant": "review",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-051-absolute",
+      "state_id": "dev-051",
+      "variant": "absolute",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-014-ascii",
+      "state_id": "dev-014",
+      "variant": "ascii",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-056-absolute",
+      "state_id": "dev-056",
+      "variant": "absolute",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-005-ascii",
+      "state_id": "dev-005",
+      "variant": "ascii",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-010-history",
+      "state_id": "dev-010",
+      "variant": "history",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-005-egocentric",
+      "state_id": "dev-005",
+      "variant": "egocentric",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-078-ascii",
+      "state_id": "dev-078",
+      "variant": "ascii",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-011-review",
+      "state_id": "dev-011",
+      "variant": "review",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-079-egocentric",
+      "state_id": "dev-079",
+      "variant": "egocentric",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-075-original",
+      "state_id": "dev-075",
+      "variant": "original",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-058-history",
+      "state_id": "dev-058",
+      "variant": "history",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-018-egocentric",
+      "state_id": "dev-018",
+      "variant": "egocentric",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-053-priority",
+      "state_id": "dev-053",
+      "variant": "priority",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-040-absolute",
+      "state_id": "dev-040",
+      "variant": "absolute",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-018-priority",
+      "state_id": "dev-018",
+      "variant": "priority",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-051-priority",
+      "state_id": "dev-051",
+      "variant": "priority",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-019-review",
+      "state_id": "dev-019",
+      "variant": "review",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-033-original",
+      "state_id": "dev-033",
+      "variant": "original",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-031-narrative",
+      "state_id": "dev-031",
+      "variant": "narrative",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-067-egocentric",
+      "state_id": "dev-067",
+      "variant": "egocentric",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-027-review",
+      "state_id": "dev-027",
+      "variant": "review",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-078-egocentric",
+      "state_id": "dev-078",
+      "variant": "egocentric",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-022-absolute",
+      "state_id": "dev-022",
+      "variant": "absolute",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-024-priority",
+      "state_id": "dev-024",
+      "variant": "priority",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-031-review",
+      "state_id": "dev-031",
+      "variant": "review",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-068-narrative",
+      "state_id": "dev-068",
+      "variant": "narrative",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-077-egocentric",
+      "state_id": "dev-077",
+      "variant": "egocentric",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-044-priority",
+      "state_id": "dev-044",
+      "variant": "priority",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-062-egocentric",
+      "state_id": "dev-062",
+      "variant": "egocentric",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-023-narrative",
+      "state_id": "dev-023",
+      "variant": "narrative",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-008-narrative",
+      "state_id": "dev-008",
+      "variant": "narrative",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-009-absolute",
+      "state_id": "dev-009",
+      "variant": "absolute",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-037-egocentric",
+      "state_id": "dev-037",
+      "variant": "egocentric",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-012-history",
+      "state_id": "dev-012",
+      "variant": "history",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-022-history",
+      "state_id": "dev-022",
+      "variant": "history",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-002-egocentric",
+      "state_id": "dev-002",
+      "variant": "egocentric",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-063-narrative",
+      "state_id": "dev-063",
+      "variant": "narrative",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-014-history",
+      "state_id": "dev-014",
+      "variant": "history",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-055-history",
+      "state_id": "dev-055",
+      "variant": "history",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-019-history",
+      "state_id": "dev-019",
+      "variant": "history",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-069-ascii",
+      "state_id": "dev-069",
+      "variant": "ascii",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-007-history",
+      "state_id": "dev-007",
+      "variant": "history",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-009-original",
+      "state_id": "dev-009",
+      "variant": "original",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-051-history",
+      "state_id": "dev-051",
+      "variant": "history",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-065-absolute",
+      "state_id": "dev-065",
+      "variant": "absolute",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-029-ascii",
+      "state_id": "dev-029",
+      "variant": "ascii",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-007-absolute",
+      "state_id": "dev-007",
+      "variant": "absolute",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-044-ascii",
+      "state_id": "dev-044",
+      "variant": "ascii",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-058-absolute",
+      "state_id": "dev-058",
+      "variant": "absolute",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-057-priority",
+      "state_id": "dev-057",
+      "variant": "priority",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-066-narrative",
+      "state_id": "dev-066",
+      "variant": "narrative",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-040-priority",
+      "state_id": "dev-040",
+      "variant": "priority",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-073-narrative",
+      "state_id": "dev-073",
+      "variant": "narrative",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-079-absolute",
+      "state_id": "dev-079",
+      "variant": "absolute",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-038-absolute",
+      "state_id": "dev-038",
+      "variant": "absolute",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-005-original",
+      "state_id": "dev-005",
+      "variant": "original",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-075-narrative",
+      "state_id": "dev-075",
+      "variant": "narrative",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-016-narrative",
+      "state_id": "dev-016",
+      "variant": "narrative",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-057-original",
+      "state_id": "dev-057",
+      "variant": "original",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-029-priority",
+      "state_id": "dev-029",
+      "variant": "priority",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-066-absolute",
+      "state_id": "dev-066",
+      "variant": "absolute",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-016-review",
+      "state_id": "dev-016",
+      "variant": "review",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-030-absolute",
+      "state_id": "dev-030",
+      "variant": "absolute",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-062-priority",
+      "state_id": "dev-062",
+      "variant": "priority",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-079-narrative",
+      "state_id": "dev-079",
+      "variant": "narrative",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-074-review",
+      "state_id": "dev-074",
+      "variant": "review",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-000-absolute",
+      "state_id": "dev-000",
+      "variant": "absolute",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-017-ascii",
+      "state_id": "dev-017",
+      "variant": "ascii",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-059-narrative",
+      "state_id": "dev-059",
+      "variant": "narrative",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-027-egocentric",
+      "state_id": "dev-027",
+      "variant": "egocentric",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-064-absolute",
+      "state_id": "dev-064",
+      "variant": "absolute",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-001-history",
+      "state_id": "dev-001",
+      "variant": "history",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-033-absolute",
+      "state_id": "dev-033",
+      "variant": "absolute",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-030-review",
+      "state_id": "dev-030",
+      "variant": "review",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-008-priority",
+      "state_id": "dev-008",
+      "variant": "priority",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-042-absolute",
+      "state_id": "dev-042",
+      "variant": "absolute",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-020-absolute",
+      "state_id": "dev-020",
+      "variant": "absolute",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-038-history",
+      "state_id": "dev-038",
+      "variant": "history",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-045-review",
+      "state_id": "dev-045",
+      "variant": "review",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-074-absolute",
+      "state_id": "dev-074",
+      "variant": "absolute",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-010-ascii",
+      "state_id": "dev-010",
+      "variant": "ascii",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-027-history",
+      "state_id": "dev-027",
+      "variant": "history",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-064-history",
+      "state_id": "dev-064",
+      "variant": "history",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-070-history",
+      "state_id": "dev-070",
+      "variant": "history",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-043-history",
+      "state_id": "dev-043",
+      "variant": "history",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-018-history",
+      "state_id": "dev-018",
+      "variant": "history",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-068-priority",
+      "state_id": "dev-068",
+      "variant": "priority",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-009-ascii",
+      "state_id": "dev-009",
+      "variant": "ascii",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-023-egocentric",
+      "state_id": "dev-023",
+      "variant": "egocentric",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-002-absolute",
+      "state_id": "dev-002",
+      "variant": "absolute",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-034-review",
+      "state_id": "dev-034",
+      "variant": "review",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-068-egocentric",
+      "state_id": "dev-068",
+      "variant": "egocentric",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-046-history",
+      "state_id": "dev-046",
+      "variant": "history",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-006-original",
+      "state_id": "dev-006",
+      "variant": "original",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-013-original",
+      "state_id": "dev-013",
+      "variant": "original",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-045-absolute",
+      "state_id": "dev-045",
+      "variant": "absolute",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-018-review",
+      "state_id": "dev-018",
+      "variant": "review",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-009-egocentric",
+      "state_id": "dev-009",
+      "variant": "egocentric",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-008-original",
+      "state_id": "dev-008",
+      "variant": "original",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-075-review",
+      "state_id": "dev-075",
+      "variant": "review",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-027-original",
+      "state_id": "dev-027",
+      "variant": "original",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-037-history",
+      "state_id": "dev-037",
+      "variant": "history",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-005-narrative",
+      "state_id": "dev-005",
+      "variant": "narrative",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-064-ascii",
+      "state_id": "dev-064",
+      "variant": "ascii",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-070-absolute",
+      "state_id": "dev-070",
+      "variant": "absolute",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-078-absolute",
+      "state_id": "dev-078",
+      "variant": "absolute",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-069-narrative",
+      "state_id": "dev-069",
+      "variant": "narrative",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-054-original",
+      "state_id": "dev-054",
+      "variant": "original",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-013-egocentric",
+      "state_id": "dev-013",
+      "variant": "egocentric",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-059-review",
+      "state_id": "dev-059",
+      "variant": "review",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-058-review",
+      "state_id": "dev-058",
+      "variant": "review",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-067-ascii",
+      "state_id": "dev-067",
+      "variant": "ascii",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-041-original",
+      "state_id": "dev-041",
+      "variant": "original",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-064-priority",
+      "state_id": "dev-064",
+      "variant": "priority",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-025-history",
+      "state_id": "dev-025",
+      "variant": "history",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-026-review",
+      "state_id": "dev-026",
+      "variant": "review",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-049-priority",
+      "state_id": "dev-049",
+      "variant": "priority",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-061-original",
+      "state_id": "dev-061",
+      "variant": "original",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-076-egocentric",
+      "state_id": "dev-076",
+      "variant": "egocentric",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-074-ascii",
+      "state_id": "dev-074",
+      "variant": "ascii",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-034-ascii",
+      "state_id": "dev-034",
+      "variant": "ascii",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-069-history",
+      "state_id": "dev-069",
+      "variant": "history",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-042-ascii",
+      "state_id": "dev-042",
+      "variant": "ascii",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-053-original",
+      "state_id": "dev-053",
+      "variant": "original",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-016-absolute",
+      "state_id": "dev-016",
+      "variant": "absolute",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-031-ascii",
+      "state_id": "dev-031",
+      "variant": "ascii",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-068-ascii",
+      "state_id": "dev-068",
+      "variant": "ascii",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-069-absolute",
+      "state_id": "dev-069",
+      "variant": "absolute",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-018-narrative",
+      "state_id": "dev-018",
+      "variant": "narrative",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-049-absolute",
+      "state_id": "dev-049",
+      "variant": "absolute",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-022-ascii",
+      "state_id": "dev-022",
+      "variant": "ascii",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-012-absolute",
+      "state_id": "dev-012",
+      "variant": "absolute",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-020-review",
+      "state_id": "dev-020",
+      "variant": "review",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-050-review",
+      "state_id": "dev-050",
+      "variant": "review",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-076-history",
+      "state_id": "dev-076",
+      "variant": "history",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-008-absolute",
+      "state_id": "dev-008",
+      "variant": "absolute",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-030-original",
+      "state_id": "dev-030",
+      "variant": "original",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-035-egocentric",
+      "state_id": "dev-035",
+      "variant": "egocentric",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-044-review",
+      "state_id": "dev-044",
+      "variant": "review",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-032-history",
+      "state_id": "dev-032",
+      "variant": "history",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-020-egocentric",
+      "state_id": "dev-020",
+      "variant": "egocentric",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-000-history",
+      "state_id": "dev-000",
+      "variant": "history",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-051-original",
+      "state_id": "dev-051",
+      "variant": "original",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-070-review",
+      "state_id": "dev-070",
+      "variant": "review",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-036-ascii",
+      "state_id": "dev-036",
+      "variant": "ascii",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-047-ascii",
+      "state_id": "dev-047",
+      "variant": "ascii",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-065-narrative",
+      "state_id": "dev-065",
+      "variant": "narrative",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-025-narrative",
+      "state_id": "dev-025",
+      "variant": "narrative",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-059-original",
+      "state_id": "dev-059",
+      "variant": "original",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-070-original",
+      "state_id": "dev-070",
+      "variant": "original",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-076-review",
+      "state_id": "dev-076",
+      "variant": "review",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-024-narrative",
+      "state_id": "dev-024",
+      "variant": "narrative",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-038-review",
+      "state_id": "dev-038",
+      "variant": "review",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-027-narrative",
+      "state_id": "dev-027",
+      "variant": "narrative",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-009-history",
+      "state_id": "dev-009",
+      "variant": "history",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-071-history",
+      "state_id": "dev-071",
+      "variant": "history",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-063-priority",
+      "state_id": "dev-063",
+      "variant": "priority",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-019-narrative",
+      "state_id": "dev-019",
+      "variant": "narrative",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-026-original",
+      "state_id": "dev-026",
+      "variant": "original",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-069-original",
+      "state_id": "dev-069",
+      "variant": "original",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-040-egocentric",
+      "state_id": "dev-040",
+      "variant": "egocentric",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-062-absolute",
+      "state_id": "dev-062",
+      "variant": "absolute",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-024-review",
+      "state_id": "dev-024",
+      "variant": "review",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-022-egocentric",
+      "state_id": "dev-022",
+      "variant": "egocentric",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-065-priority",
+      "state_id": "dev-065",
+      "variant": "priority",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-059-absolute",
+      "state_id": "dev-059",
+      "variant": "absolute",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-032-original",
+      "state_id": "dev-032",
+      "variant": "original",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-011-priority",
+      "state_id": "dev-011",
+      "variant": "priority",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-077-priority",
+      "state_id": "dev-077",
+      "variant": "priority",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-049-narrative",
+      "state_id": "dev-049",
+      "variant": "narrative",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-036-narrative",
+      "state_id": "dev-036",
+      "variant": "narrative",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-057-review",
+      "state_id": "dev-057",
+      "variant": "review",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-039-history",
+      "state_id": "dev-039",
+      "variant": "history",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-006-egocentric",
+      "state_id": "dev-006",
+      "variant": "egocentric",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-025-review",
+      "state_id": "dev-025",
+      "variant": "review",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-042-egocentric",
+      "state_id": "dev-042",
+      "variant": "egocentric",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-035-priority",
+      "state_id": "dev-035",
+      "variant": "priority",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-019-egocentric",
+      "state_id": "dev-019",
+      "variant": "egocentric",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-062-ascii",
+      "state_id": "dev-062",
+      "variant": "ascii",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-077-narrative",
+      "state_id": "dev-077",
+      "variant": "narrative",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-060-review",
+      "state_id": "dev-060",
+      "variant": "review",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-017-narrative",
+      "state_id": "dev-017",
+      "variant": "narrative",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-004-absolute",
+      "state_id": "dev-004",
+      "variant": "absolute",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-015-absolute",
+      "state_id": "dev-015",
+      "variant": "absolute",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-004-review",
+      "state_id": "dev-004",
+      "variant": "review",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-021-egocentric",
+      "state_id": "dev-021",
+      "variant": "egocentric",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-038-original",
+      "state_id": "dev-038",
+      "variant": "original",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-063-original",
+      "state_id": "dev-063",
+      "variant": "original",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-073-original",
+      "state_id": "dev-073",
+      "variant": "original",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-076-narrative",
+      "state_id": "dev-076",
+      "variant": "narrative",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-057-narrative",
+      "state_id": "dev-057",
+      "variant": "narrative",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-057-ascii",
+      "state_id": "dev-057",
+      "variant": "ascii",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-077-review",
+      "state_id": "dev-077",
+      "variant": "review",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-046-priority",
+      "state_id": "dev-046",
+      "variant": "priority",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-001-review",
+      "state_id": "dev-001",
+      "variant": "review",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-043-priority",
+      "state_id": "dev-043",
+      "variant": "priority",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-077-original",
+      "state_id": "dev-077",
+      "variant": "original",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-041-egocentric",
+      "state_id": "dev-041",
+      "variant": "egocentric",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-017-priority",
+      "state_id": "dev-017",
+      "variant": "priority",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-052-egocentric",
+      "state_id": "dev-052",
+      "variant": "egocentric",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-004-priority",
+      "state_id": "dev-004",
+      "variant": "priority",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-045-ascii",
+      "state_id": "dev-045",
+      "variant": "ascii",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-055-priority",
+      "state_id": "dev-055",
+      "variant": "priority",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-052-history",
+      "state_id": "dev-052",
+      "variant": "history",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-040-ascii",
+      "state_id": "dev-040",
+      "variant": "ascii",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-014-review",
+      "state_id": "dev-014",
+      "variant": "review",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-008-egocentric",
+      "state_id": "dev-008",
+      "variant": "egocentric",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-049-ascii",
+      "state_id": "dev-049",
+      "variant": "ascii",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-061-ascii",
+      "state_id": "dev-061",
+      "variant": "ascii",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-071-review",
+      "state_id": "dev-071",
+      "variant": "review",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-022-narrative",
+      "state_id": "dev-022",
+      "variant": "narrative",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-030-history",
+      "state_id": "dev-030",
+      "variant": "history",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-055-absolute",
+      "state_id": "dev-055",
+      "variant": "absolute",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-005-absolute",
+      "state_id": "dev-005",
+      "variant": "absolute",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-063-egocentric",
+      "state_id": "dev-063",
+      "variant": "egocentric",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-054-review",
+      "state_id": "dev-054",
+      "variant": "review",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-035-original",
+      "state_id": "dev-035",
+      "variant": "original",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-025-ascii",
+      "state_id": "dev-025",
+      "variant": "ascii",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-039-original",
+      "state_id": "dev-039",
+      "variant": "original",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-020-ascii",
+      "state_id": "dev-020",
+      "variant": "ascii",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-007-egocentric",
+      "state_id": "dev-007",
+      "variant": "egocentric",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-039-absolute",
+      "state_id": "dev-039",
+      "variant": "absolute",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-004-ascii",
+      "state_id": "dev-004",
+      "variant": "ascii",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-015-narrative",
+      "state_id": "dev-015",
+      "variant": "narrative",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-039-egocentric",
+      "state_id": "dev-039",
+      "variant": "egocentric",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-073-priority",
+      "state_id": "dev-073",
+      "variant": "priority",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-004-egocentric",
+      "state_id": "dev-004",
+      "variant": "egocentric",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-021-history",
+      "state_id": "dev-021",
+      "variant": "history",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-055-ascii",
+      "state_id": "dev-055",
+      "variant": "ascii",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-020-narrative",
+      "state_id": "dev-020",
+      "variant": "narrative",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-035-ascii",
+      "state_id": "dev-035",
+      "variant": "ascii",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-043-absolute",
+      "state_id": "dev-043",
+      "variant": "absolute",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-069-review",
+      "state_id": "dev-069",
+      "variant": "review",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-051-egocentric",
+      "state_id": "dev-051",
+      "variant": "egocentric",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-038-narrative",
+      "state_id": "dev-038",
+      "variant": "narrative",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-015-original",
+      "state_id": "dev-015",
+      "variant": "original",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-071-narrative",
+      "state_id": "dev-071",
+      "variant": "narrative",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-056-narrative",
+      "state_id": "dev-056",
+      "variant": "narrative",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-051-ascii",
+      "state_id": "dev-051",
+      "variant": "ascii",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-002-ascii",
+      "state_id": "dev-002",
+      "variant": "ascii",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-033-egocentric",
+      "state_id": "dev-033",
+      "variant": "egocentric",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-076-priority",
+      "state_id": "dev-076",
+      "variant": "priority",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-016-egocentric",
+      "state_id": "dev-016",
+      "variant": "egocentric",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-001-ascii",
+      "state_id": "dev-001",
+      "variant": "ascii",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-060-original",
+      "state_id": "dev-060",
+      "variant": "original",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-062-review",
+      "state_id": "dev-062",
+      "variant": "review",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-056-ascii",
+      "state_id": "dev-056",
+      "variant": "ascii",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-021-original",
+      "state_id": "dev-021",
+      "variant": "original",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-000-original",
+      "state_id": "dev-000",
+      "variant": "original",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-044-history",
+      "state_id": "dev-044",
+      "variant": "history",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-019-ascii",
+      "state_id": "dev-019",
+      "variant": "ascii",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-007-narrative",
+      "state_id": "dev-007",
+      "variant": "narrative",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-041-narrative",
+      "state_id": "dev-041",
+      "variant": "narrative",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-029-original",
+      "state_id": "dev-029",
+      "variant": "original",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-072-absolute",
+      "state_id": "dev-072",
+      "variant": "absolute",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-034-history",
+      "state_id": "dev-034",
+      "variant": "history",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-057-absolute",
+      "state_id": "dev-057",
+      "variant": "absolute",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-041-ascii",
+      "state_id": "dev-041",
+      "variant": "ascii",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-061-history",
+      "state_id": "dev-061",
+      "variant": "history",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-023-history",
+      "state_id": "dev-023",
+      "variant": "history",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    },
+    {
+      "id": "dev-028-priority",
+      "state_id": "dev-028",
+      "variant": "priority",
+      "order": [
+        "straight",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "id": "dev-078-original",
+      "state_id": "dev-078",
+      "variant": "original",
+      "order": [
+        "left",
+        "straight",
+        "right"
+      ]
+    },
+    {
+      "id": "dev-041-absolute",
+      "state_id": "dev-041",
+      "variant": "absolute",
+      "order": [
+        "right",
+        "left",
+        "straight"
+      ]
+    }
+  ],
+  "phase": "development_screen",
+  "workers": 4,
+  "protocol_sha256": "310705aa76c8034c66f5ef43bae9618bbed23f949fa676ee856a9e0d6daef359",
+  "prepared_at": "2026-09-17T03:37:08.427325+00:00"
+}
