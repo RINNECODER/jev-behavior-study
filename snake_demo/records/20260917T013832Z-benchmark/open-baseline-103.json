@@ -1,0 +1,112 @@
+{
+  "id": "open-baseline-103",
+  "level": "open",
+  "controller": "baseline",
+  "seed": 103,
+  "initial": {
+    "level": "open",
+    "seed": 103,
+    "size": 12,
+    "wrap": true,
+    "snake": [
+      [
+        6,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        8
+      ]
+    ],
+    "obstacles": [],
+    "food": [
+      11,
+      9
+    ],
+    "heading": "north",
+    "score": 0,
+    "moves": 0,
+    "since_food": 0,
+    "status": "playing",
+    "max_steps": 200,
+    "target": 8,
+    "starvation": 50
+  },
+  "final": {
+    "level": "open",
+    "seed": 103,
+    "size": 12,
+    "wrap": true,
+    "snake": [
+      [
+        6,
+        2
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        4,
+        10
+      ]
+    ],
+    "obstacles": [],
+    "food": [
+      4,
+      11
+    ],
+    "heading": "east",
+    "score": 8,
+    "moves": 46,
+    "since_food": 0,
+    "status": "target_reached",
+    "max_steps": 200,
+    "target": 8,
+    "starvation": 50
+  },
+  "score": 8,
+  "moves": 46,
+  "outcome": "target_reached",
+  "model_calls": 0,
+  "forced_moves": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "elapsed_seconds": 0.004
+}

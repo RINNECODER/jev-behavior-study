@@ -1,0 +1,70 @@
+{
+  "run": "20260917T013629Z-pilot",
+  "pilot": true,
+  "episodes": 3,
+  "model": "jev-1.13.0",
+  "model_calls": 59,
+  "input_tokens": 34604,
+  "output_tokens": 2151,
+  "api_error_episodes": 0,
+  "metrics": [
+    {
+      "level": "classic",
+      "controller": "baseline",
+      "episodes": 1,
+      "mean_food": 3,
+      "median_food": 3,
+      "best_food": 3,
+      "target_successes": 1,
+      "endings": {
+        "target_reached": 1
+      },
+      "model_calls": 0,
+      "forced_moves": 0,
+      "mean_input_tokens_per_call": null,
+      "mean_output_tokens_per_call": null,
+      "median_latency_ms": null,
+      "p95_latency_ms": null,
+      "best_episode": "classic-baseline-11"
+    },
+    {
+      "level": "classic",
+      "controller": "jev_direct",
+      "episodes": 1,
+      "mean_food": 1,
+      "median_food": 1,
+      "best_food": 1,
+      "target_successes": 0,
+      "endings": {
+        "step_limit": 1
+      },
+      "model_calls": 30,
+      "forced_moves": 0,
+      "mean_input_tokens_per_call": 593.0666666666667,
+      "mean_output_tokens_per_call": 38.0,
+      "median_latency_ms": 300.85,
+      "p95_latency_ms": 404.25,
+      "best_episode": "classic-jev_direct-11"
+    },
+    {
+      "level": "classic",
+      "controller": "jev_guarded",
+      "episodes": 1,
+      "mean_food": 1,
+      "median_food": 1,
+      "best_food": 1,
+      "target_successes": 0,
+      "endings": {
+        "step_limit": 1
+      },
+      "model_calls": 29,
+      "forced_moves": 1,
+      "mean_input_tokens_per_call": 579.7241379310345,
+      "mean_output_tokens_per_call": 34.86206896551724,
+      "median_latency_ms": 307.74,
+      "p95_latency_ms": 382.07,
+      "best_episode": "classic-jev_guarded-11"
+    }
+  ],
+  "target": 3
+}

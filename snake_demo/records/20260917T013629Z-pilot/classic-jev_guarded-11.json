@@ -1,0 +1,84 @@
+{
+  "id": "classic-jev_guarded-11",
+  "level": "classic",
+  "controller": "jev_guarded",
+  "seed": 11,
+  "initial": {
+    "level": "classic",
+    "seed": 11,
+    "size": 12,
+    "wrap": false,
+    "snake": [
+      [
+        6,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        8
+      ]
+    ],
+    "obstacles": [],
+    "food": [
+      10,
+      9
+    ],
+    "heading": "north",
+    "score": 0,
+    "moves": 0,
+    "since_food": 0,
+    "status": "playing",
+    "max_steps": 30,
+    "target": 3,
+    "starvation": 50
+  },
+  "final": {
+    "level": "classic",
+    "seed": 11,
+    "size": 12,
+    "wrap": false,
+    "snake": [
+      [
+        11,
+        3
+      ],
+      [
+        11,
+        4
+      ],
+      [
+        11,
+        5
+      ],
+      [
+        11,
+        6
+      ]
+    ],
+    "obstacles": [],
+    "food": [
+      3,
+      10
+    ],
+    "heading": "north",
+    "score": 1,
+    "moves": 30,
+    "since_food": 11,
+    "status": "step_limit",
+    "max_steps": 30,
+    "target": 3,
+    "starvation": 50
+  },
+  "score": 1,
+  "moves": 30,
+  "outcome": "step_limit",
+  "model_calls": 29,
+  "forced_moves": 1,
+  "input_tokens": 16812,
+  "output_tokens": 1011,
+  "elapsed_seconds": 9.103
+}

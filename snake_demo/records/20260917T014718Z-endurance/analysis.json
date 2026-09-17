@@ -1,0 +1,90 @@
+{
+  "run": "20260917T014718Z-endurance",
+  "pilot": false,
+  "episodes": 6,
+  "model": "jev-1.13.0",
+  "model_calls": 259,
+  "input_tokens": 155909,
+  "output_tokens": 9758,
+  "api_error_episodes": 0,
+  "metrics": [
+    {
+      "level": "classic",
+      "controller": "baseline",
+      "episodes": 1,
+      "mean_food": 24,
+      "median_food": 24,
+      "best_food": 24,
+      "target_successes": 1,
+      "endings": {
+        "target_reached": 1
+      },
+      "model_calls": 0,
+      "forced_moves": 0,
+      "mean_input_tokens_per_call": null,
+      "mean_output_tokens_per_call": null,
+      "median_latency_ms": null,
+      "p95_latency_ms": null,
+      "best_episode": "classic-baseline-104"
+    },
+    {
+      "level": "classic",
+      "controller": "jev_guarded",
+      "episodes": 1,
+      "mean_food": 2,
+      "median_food": 2,
+      "best_food": 2,
+      "target_successes": 0,
+      "endings": {
+        "no_food_limit": 1
+      },
+      "model_calls": 66,
+      "forced_moves": 0,
+      "mean_input_tokens_per_call": 596.530303030303,
+      "mean_output_tokens_per_call": 36.833333333333336,
+      "median_latency_ms": 338.475,
+      "p95_latency_ms": 498.83,
+      "best_episode": "classic-jev_guarded-104"
+    },
+    {
+      "level": "open",
+      "controller": "baseline",
+      "episodes": 2,
+      "mean_food": 18,
+      "median_food": 18.0,
+      "best_food": 24,
+      "target_successes": 1,
+      "endings": {
+        "target_reached": 1,
+        "body_collision": 1
+      },
+      "model_calls": 0,
+      "forced_moves": 0,
+      "mean_input_tokens_per_call": null,
+      "mean_output_tokens_per_call": null,
+      "median_latency_ms": null,
+      "p95_latency_ms": null,
+      "best_episode": "open-baseline-103"
+    },
+    {
+      "level": "open",
+      "controller": "jev_guarded",
+      "episodes": 2,
+      "mean_food": 2.5,
+      "median_food": 2.5,
+      "best_food": 4,
+      "target_successes": 0,
+      "endings": {
+        "no_food_limit": 2
+      },
+      "model_calls": 193,
+      "forced_moves": 0,
+      "mean_input_tokens_per_call": 603.8238341968912,
+      "mean_output_tokens_per_call": 37.96373056994819,
+      "median_latency_ms": 335.6,
+      "p95_latency_ms": 510.1,
+      "best_episode": "open-jev_guarded-103"
+    }
+  ],
+  "target": 24
+}

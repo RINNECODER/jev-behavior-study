@@ -1,0 +1,182 @@
+{
+  "id": "obstacles-jev_direct-102",
+  "level": "obstacles",
+  "controller": "jev_direct",
+  "seed": 102,
+  "initial": {
+    "level": "obstacles",
+    "seed": 102,
+    "size": 12,
+    "wrap": false,
+    "snake": [
+      [
+        6,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        8
+      ]
+    ],
+    "obstacles": [
+      [
+        1,
+        8
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        7,
+        3
+      ],
+      [
+        7,
+        6
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        10,
+        0
+      ],
+      [
+        10,
+        6
+      ],
+      [
+        11,
+        0
+      ]
+    ],
+    "food": [
+      5,
+      3
+    ],
+    "heading": "north",
+    "score": 0,
+    "moves": 0,
+    "since_food": 0,
+    "status": "playing",
+    "max_steps": 200,
+    "target": 8,
+    "starvation": 50
+  },
+  "final": {
+    "level": "obstacles",
+    "seed": 102,
+    "size": 12,
+    "wrap": false,
+    "snake": [
+      [
+        9,
+        11
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        7,
+        11
+      ],
+      [
+        6,
+        11
+      ]
+    ],
+    "obstacles": [
+      [
+        1,
+        8
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        7,
+        3
+      ],
+      [
+        7,
+        6
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        10,
+        0
+      ],
+      [
+        10,
+        6
+      ],
+      [
+        11,
+        0
+      ]
+    ],
+    "food": [
+      8,
+      8
+    ],
+    "heading": "east",
+    "score": 1,
+    "moves": 27,
+    "since_food": 22,
+    "status": "obstacle_collision",
+    "max_steps": 200,
+    "target": 8,
+    "starvation": 50
+  },
+  "score": 1,
+  "moves": 27,
+  "outcome": "obstacle_collision",
+  "model_calls": 27,
+  "forced_moves": 0,
+  "input_tokens": 18169,
+  "output_tokens": 1026,
+  "elapsed_seconds": 9.015
+}

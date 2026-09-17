@@ -1,0 +1,202 @@
+{
+  "id": "obstacles-jev_direct-108",
+  "level": "obstacles",
+  "controller": "jev_direct",
+  "seed": 108,
+  "initial": {
+    "level": "obstacles",
+    "seed": 108,
+    "size": 12,
+    "wrap": false,
+    "snake": [
+      [
+        6,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        8
+      ]
+    ],
+    "obstacles": [
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        5,
+        11
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        10,
+        2
+      ]
+    ],
+    "food": [
+      1,
+      3
+    ],
+    "heading": "north",
+    "score": 0,
+    "moves": 0,
+    "since_food": 0,
+    "status": "playing",
+    "max_steps": 200,
+    "target": 8,
+    "starvation": 50
+  },
+  "final": {
+    "level": "obstacles",
+    "seed": 108,
+    "size": 12,
+    "wrap": false,
+    "snake": [
+      [
+        10,
+        1
+      ],
+      [
+        10,
+        0
+      ],
+      [
+        11,
+        0
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        11,
+        2
+      ],
+      [
+        11,
+        3
+      ],
+      [
+        11,
+        4
+      ],
+      [
+        11,
+        5
+      ],
+      [
+        11,
+        6
+      ]
+    ],
+    "obstacles": [
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        5,
+        11
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        10,
+        2
+      ]
+    ],
+    "food": [
+      3,
+      3
+    ],
+    "heading": "south",
+    "score": 6,
+    "moves": 132,
+    "since_food": 10,
+    "status": "body_collision",
+    "max_steps": 200,
+    "target": 8,
+    "starvation": 50
+  },
+  "score": 6,
+  "moves": 132,
+  "outcome": "body_collision",
+  "model_calls": 132,
+  "forced_moves": 0,
+  "input_tokens": 90201,
+  "output_tokens": 5016,
+  "elapsed_seconds": 54.131
+}

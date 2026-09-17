@@ -1,0 +1,51 @@
+{
+  "model": "jev-1.13.0",
+  "pilot": true,
+  "seeds": [
+    11
+  ],
+  "levels": {
+    "open": {
+      "label": "Open",
+      "wrap": true,
+      "obstacles": 0
+    },
+    "classic": {
+      "label": "Classic",
+      "wrap": false,
+      "obstacles": 0
+    },
+    "obstacles": {
+      "label": "Obstacles",
+      "wrap": false,
+      "obstacles": 12
+    },
+    "dense": {
+      "label": "Dense",
+      "wrap": false,
+      "obstacles": 24
+    }
+  },
+  "jobs": [
+    [
+      "classic",
+      "baseline",
+      11
+    ],
+    [
+      "classic",
+      "jev_direct",
+      11
+    ],
+    [
+      "classic",
+      "jev_guarded",
+      11
+    ]
+  ],
+  "max_steps": 30,
+  "target": 3,
+  "starvation": 50,
+  "workers": 4,
+  "method": "One decision per turn; wall-clock latency is measured but does not advance the board. Guarded mode filters immediately fatal moves and executes a sole safe move without a model call. No retries. Seeds shared across controllers, future food can diverge as occupied cells differ."
+}

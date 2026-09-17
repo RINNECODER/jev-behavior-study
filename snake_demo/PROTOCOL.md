@@ -68,3 +68,14 @@ Local live mode uses the same engine and controllers; credentials remain on the
 server. Static hosting supports saved replays and does not make API requests.
 The design intentionally uses code-rendered grid cells rather than illustrated
 sprites so that visible cells exactly match the collision and observation model.
+
+## Adaptive endurance follow-up
+
+After the main run, the three guarded games that hit the eight-food cap were
+selected: Open seeds 103 and 104, Classic seed 104. Run fresh games from those
+initial seeds with a 24-food target and 600-move cap; keep the same prompt,
+50-move no-food limit, and guard rules. Pair each with the deterministic baseline:
+six selected games total, at most 1,800 extra model calls. Do not reuse the
+original action sequence, replace main outcomes, or combine these selected runs
+with the main averages. Report the strongest observed score, including failures
+and the remaining cap. This is exploration of headroom, not held-out validation.

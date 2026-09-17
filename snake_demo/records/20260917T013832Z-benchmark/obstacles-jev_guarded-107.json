@@ -1,0 +1,182 @@
+{
+  "id": "obstacles-jev_guarded-107",
+  "level": "obstacles",
+  "controller": "jev_guarded",
+  "seed": 107,
+  "initial": {
+    "level": "obstacles",
+    "seed": 107,
+    "size": 12,
+    "wrap": false,
+    "snake": [
+      [
+        6,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        8
+      ]
+    ],
+    "obstacles": [
+      [
+        0,
+        2
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        7,
+        11
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        9,
+        3
+      ],
+      [
+        9,
+        5
+      ],
+      [
+        10,
+        2
+      ],
+      [
+        10,
+        6
+      ],
+      [
+        11,
+        4
+      ],
+      [
+        11,
+        9
+      ]
+    ],
+    "food": [
+      8,
+      5
+    ],
+    "heading": "north",
+    "score": 0,
+    "moves": 0,
+    "since_food": 0,
+    "status": "playing",
+    "max_steps": 200,
+    "target": 8,
+    "starvation": 50
+  },
+  "final": {
+    "level": "obstacles",
+    "seed": 107,
+    "size": 12,
+    "wrap": false,
+    "snake": [
+      [
+        5,
+        8
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        8
+      ]
+    ],
+    "obstacles": [
+      [
+        0,
+        2
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        7,
+        11
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        9,
+        3
+      ],
+      [
+        9,
+        5
+      ],
+      [
+        10,
+        2
+      ],
+      [
+        10,
+        6
+      ],
+      [
+        11,
+        4
+      ],
+      [
+        11,
+        9
+      ]
+    ],
+    "food": [
+      1,
+      10
+    ],
+    "heading": "west",
+    "score": 1,
+    "moves": 53,
+    "since_food": 50,
+    "status": "no_food_limit",
+    "max_steps": 200,
+    "target": 8,
+    "starvation": 50
+  },
+  "score": 1,
+  "moves": 53,
+  "outcome": "no_food_limit",
+  "model_calls": 41,
+  "forced_moves": 12,
+  "input_tokens": 27316,
+  "output_tokens": 1467,
+  "elapsed_seconds": 15.609
+}

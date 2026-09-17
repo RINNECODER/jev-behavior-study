@@ -3,7 +3,7 @@
 **A browsable field guide to Jev 1.13.0:** where explicit questions work, where
 small changes alter answers, and where harder tasks expose failures.
 
-**11,621 successful requests** · **13,096 answers** · **3 detailed reports**
+**11,621 text-study requests** · **105 Snake games** · **4 detailed reports**
 
 Live API observations from September 16, 2026. Independent, AI-assisted research.
 
@@ -15,6 +15,24 @@ Live API observations from September 16, 2026. Independent, AI-assisted research
 >
 > These are synthetic, task-specific results—not an official benchmark or an
 > overall model score. Repeated calls are not independent new problems.
+
+## Watch Jev play Snake
+
+**[Open Snake Lab →](https://rinnecoder.github.io/jev-behavior-study/snake_demo/web/)** ·
+[Results and limits](snake_demo/SNAKE_REPORT.md) · [Run Jev live locally](snake_demo/README.md)
+
+Explore **96 recorded games across four difficulties**, plus six separately
+labeled endurance games. Play, pause, step through decisions, compare controllers,
+and inspect per-move probabilities, latency and tokens.
+
+- Best observed: **6 foods with direct Jev; 8 with a code safety filter**.
+- Main eight-food target: direct **0/32**, guarded **3/32**, pathfinding baseline **27/32**.
+- One direct game was interrupted by an API error. Selected endurance runs did
+  not beat the earlier Jev best; these are observed scores, not absolute limits.
+
+The public demo replays saved games; local live mode makes new API calls. Jev
+receives board coordinates, not images. Snake evidence and its separate verifier
+live under `snake_demo/`; the text-study inventory below remains 11,621 requests.
 
 ## Explore the findings
 
@@ -218,6 +236,8 @@ usage is attributable to that complete request, including context and schema.
 | Decisions, permutations and regular difficulty tests | [Open CSV](results/20260916T124604860296Z-limits-study/per_question.csv) |
 | Pipeline final decisions | [Open CSV](results/20260916T124845798330Z-decision-pipeline/per_question.csv) |
 | Harder logic, tracking and dispersed records | [Open CSV](results/20260916T125040590877Z-stress-followup/per_question.csv) |
+| Snake main benchmark (one question per model move) | [Open CSV](snake_demo/records/20260917T013832Z-benchmark/per_decision_usage.csv) |
+| Snake selected endurance games | [Open CSV](snake_demo/records/20260917T014718Z-endurance/per_decision_usage.csv) |
 
 [Paired pipeline costs](results/20260916T124845798330Z-decision-pipeline/workflow_usage.csv)
 show each stage separately and explicitly label the two-request sums.
@@ -227,7 +247,7 @@ question costs cannot be recovered from those totals.
 <details>
 <summary>Expand repository-wide accounting</summary>
 
-Across **11,621 successful requests**: **8,084,680 input tokens** and
+Across the text studies’ **11,621 successful requests**: **8,084,680 input tokens** and
 **593,109 output tokens**, as reported by the provider. These are aggregate
 inventory figures, not per-question costs or measures of reasoning effort.
 Two failed historical startup attempts are preserved separately; their usage

@@ -1,0 +1,92 @@
+{
+  "id": "open-jev_guarded-106",
+  "level": "open",
+  "controller": "jev_guarded",
+  "seed": 106,
+  "initial": {
+    "level": "open",
+    "seed": 106,
+    "size": 12,
+    "wrap": true,
+    "snake": [
+      [
+        6,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        8
+      ]
+    ],
+    "obstacles": [],
+    "food": [
+      5,
+      10
+    ],
+    "heading": "north",
+    "score": 0,
+    "moves": 0,
+    "since_food": 0,
+    "status": "playing",
+    "max_steps": 200,
+    "target": 8,
+    "starvation": 50
+  },
+  "final": {
+    "level": "open",
+    "seed": 106,
+    "size": 12,
+    "wrap": true,
+    "snake": [
+      [
+        8,
+        10
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        8,
+        0
+      ],
+      [
+        8,
+        1
+      ],
+      [
+        8,
+        2
+      ],
+      [
+        8,
+        3
+      ]
+    ],
+    "obstacles": [],
+    "food": [
+      5,
+      10
+    ],
+    "heading": "north",
+    "score": 3,
+    "moves": 132,
+    "since_food": 50,
+    "status": "no_food_limit",
+    "max_steps": 200,
+    "target": 8,
+    "starvation": 50
+  },
+  "score": 3,
+  "moves": 132,
+  "outcome": "no_food_limit",
+  "model_calls": 132,
+  "forced_moves": 0,
+  "input_tokens": 79377,
+  "output_tokens": 5009,
+  "elapsed_seconds": 49.141
+}

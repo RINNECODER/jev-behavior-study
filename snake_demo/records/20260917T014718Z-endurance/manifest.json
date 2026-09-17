@@ -1,0 +1,68 @@
+{
+  "model": "jev-1.13.0",
+  "pilot": false,
+  "phase": "selected_endurance",
+  "seeds": [
+    103,
+    104
+  ],
+  "levels": {
+    "open": {
+      "label": "Open",
+      "wrap": true,
+      "obstacles": 0
+    },
+    "classic": {
+      "label": "Classic",
+      "wrap": false,
+      "obstacles": 0
+    },
+    "obstacles": {
+      "label": "Obstacles",
+      "wrap": false,
+      "obstacles": 12
+    },
+    "dense": {
+      "label": "Dense",
+      "wrap": false,
+      "obstacles": 24
+    }
+  },
+  "jobs": [
+    [
+      "open",
+      "jev_guarded",
+      103
+    ],
+    [
+      "open",
+      "baseline",
+      103
+    ],
+    [
+      "open",
+      "jev_guarded",
+      104
+    ],
+    [
+      "open",
+      "baseline",
+      104
+    ],
+    [
+      "classic",
+      "jev_guarded",
+      104
+    ],
+    [
+      "classic",
+      "baseline",
+      104
+    ]
+  ],
+  "max_steps": 600,
+  "target": 24,
+  "starvation": 50,
+  "workers": 3,
+  "method": "Adaptive selected follow-up: replay initial seeds for the three guarded main games that reached eight foods. Fresh API calls, no copied actions or retries; 24-food and 600-move caps. Baseline paired on each selected board. Excluded from main estimates."
+}

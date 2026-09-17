@@ -1,0 +1,210 @@
+{
+  "id": "obstacles-baseline-106",
+  "level": "obstacles",
+  "controller": "baseline",
+  "seed": 106,
+  "initial": {
+    "level": "obstacles",
+    "seed": 106,
+    "size": 12,
+    "wrap": false,
+    "snake": [
+      [
+        6,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        8
+      ]
+    ],
+    "obstacles": [
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        11
+      ],
+      [
+        7,
+        4
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        9,
+        2
+      ],
+      [
+        11,
+        5
+      ],
+      [
+        11,
+        10
+      ]
+    ],
+    "food": [
+      4,
+      11
+    ],
+    "heading": "north",
+    "score": 0,
+    "moves": 0,
+    "since_food": 0,
+    "status": "playing",
+    "max_steps": 200,
+    "target": 8,
+    "starvation": 50
+  },
+  "final": {
+    "level": "obstacles",
+    "seed": 106,
+    "size": 12,
+    "wrap": false,
+    "snake": [
+      [
+        7,
+        0
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ]
+    ],
+    "obstacles": [
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        11
+      ],
+      [
+        7,
+        4
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        9,
+        2
+      ],
+      [
+        11,
+        5
+      ],
+      [
+        11,
+        10
+      ]
+    ],
+    "food": [
+      4,
+      10
+    ],
+    "heading": "east",
+    "score": 8,
+    "moves": 73,
+    "since_food": 0,
+    "status": "target_reached",
+    "max_steps": 200,
+    "target": 8,
+    "starvation": 50
+  },
+  "score": 8,
+  "moves": 73,
+  "outcome": "target_reached",
+  "model_calls": 0,
+  "forced_moves": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "elapsed_seconds": 0.013
+}

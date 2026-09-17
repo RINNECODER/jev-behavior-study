@@ -1,0 +1,254 @@
+{
+  "run": "20260917T013832Z-benchmark",
+  "pilot": false,
+  "episodes": 96,
+  "model": "jev-1.13.0",
+  "model_calls": 4515,
+  "input_tokens": 2842863,
+  "output_tokens": 165844,
+  "api_error_episodes": 1,
+  "metrics": [
+    {
+      "level": "classic",
+      "controller": "baseline",
+      "episodes": 8,
+      "mean_food": 8,
+      "median_food": 8.0,
+      "best_food": 8,
+      "target_successes": 8,
+      "endings": {
+        "target_reached": 8
+      },
+      "model_calls": 0,
+      "forced_moves": 0,
+      "mean_input_tokens_per_call": null,
+      "mean_output_tokens_per_call": null,
+      "median_latency_ms": null,
+      "p95_latency_ms": null,
+      "best_episode": "classic-baseline-103"
+    },
+    {
+      "level": "classic",
+      "controller": "jev_direct",
+      "episodes": 8,
+      "mean_food": 3.375,
+      "median_food": 3.5,
+      "best_food": 5,
+      "target_successes": 0,
+      "endings": {
+        "api_error": 1,
+        "no_food_limit": 4,
+        "wall_collision": 3
+      },
+      "model_calls": 616,
+      "forced_moves": 0,
+      "mean_input_tokens_per_call": 603.4642857142857,
+      "mean_output_tokens_per_call": 38.0,
+      "median_latency_ms": 336.375,
+      "p95_latency_ms": 513.72,
+      "best_episode": "classic-jev_direct-103"
+    },
+    {
+      "level": "classic",
+      "controller": "jev_guarded",
+      "episodes": 8,
+      "mean_food": 4.875,
+      "median_food": 5.0,
+      "best_food": 8,
+      "target_successes": 1,
+      "endings": {
+        "no_food_limit": 6,
+        "target_reached": 1,
+        "body_collision": 1
+      },
+      "model_calls": 1001,
+      "forced_moves": 29,
+      "mean_input_tokens_per_call": 596.6893106893107,
+      "mean_output_tokens_per_call": 35.23776223776224,
+      "median_latency_ms": 338.14,
+      "p95_latency_ms": 502.82,
+      "best_episode": "classic-jev_guarded-104"
+    },
+    {
+      "level": "dense",
+      "controller": "baseline",
+      "episodes": 8,
+      "mean_food": 5.625,
+      "median_food": 7.5,
+      "best_food": 8,
+      "target_successes": 4,
+      "endings": {
+        "target_reached": 4,
+        "wall_collision": 2,
+        "obstacle_collision": 2
+      },
+      "model_calls": 0,
+      "forced_moves": 0,
+      "mean_input_tokens_per_call": null,
+      "mean_output_tokens_per_call": null,
+      "median_latency_ms": null,
+      "p95_latency_ms": null,
+      "best_episode": "dense-baseline-103"
+    },
+    {
+      "level": "dense",
+      "controller": "jev_direct",
+      "episodes": 8,
+      "mean_food": 0.25,
+      "median_food": 0.0,
+      "best_food": 1,
+      "target_successes": 0,
+      "endings": {
+        "obstacle_collision": 8
+      },
+      "model_calls": 130,
+      "forced_moves": 0,
+      "mean_input_tokens_per_call": 742.8230769230769,
+      "mean_output_tokens_per_call": 38.0,
+      "median_latency_ms": 345.28499999999997,
+      "p95_latency_ms": 873.48,
+      "best_episode": "dense-jev_direct-103"
+    },
+    {
+      "level": "dense",
+      "controller": "jev_guarded",
+      "episodes": 8,
+      "mean_food": 0.625,
+      "median_food": 1.0,
+      "best_food": 1,
+      "target_successes": 0,
+      "endings": {
+        "obstacle_collision": 2,
+        "no_food_limit": 4,
+        "wall_collision": 2
+      },
+      "model_calls": 273,
+      "forced_moves": 49,
+      "mean_input_tokens_per_call": 728.6813186813187,
+      "mean_output_tokens_per_call": 34.38461538461539,
+      "median_latency_ms": 339.45,
+      "p95_latency_ms": 565.55,
+      "best_episode": "dense-jev_guarded-107"
+    },
+    {
+      "level": "obstacles",
+      "controller": "baseline",
+      "episodes": 8,
+      "mean_food": 7.5,
+      "median_food": 8.0,
+      "best_food": 8,
+      "target_successes": 7,
+      "endings": {
+        "target_reached": 7,
+        "obstacle_collision": 1
+      },
+      "model_calls": 0,
+      "forced_moves": 0,
+      "mean_input_tokens_per_call": null,
+      "mean_output_tokens_per_call": null,
+      "median_latency_ms": null,
+      "p95_latency_ms": null,
+      "best_episode": "obstacles-baseline-102"
+    },
+    {
+      "level": "obstacles",
+      "controller": "jev_direct",
+      "episodes": 8,
+      "mean_food": 1.75,
+      "median_food": 1.0,
+      "best_food": 6,
+      "target_successes": 0,
+      "endings": {
+        "body_collision": 1,
+        "no_food_limit": 5,
+        "obstacle_collision": 2
+      },
+      "model_calls": 571,
+      "forced_moves": 0,
+      "mean_input_tokens_per_call": 676.9737302977233,
+      "mean_output_tokens_per_call": 38.0,
+      "median_latency_ms": 334.67,
+      "p95_latency_ms": 505.21,
+      "best_episode": "obstacles-jev_direct-108"
+    },
+    {
+      "level": "obstacles",
+      "controller": "jev_guarded",
+      "episodes": 8,
+      "mean_food": 1.5,
+      "median_food": 1.5,
+      "best_food": 3,
+      "target_successes": 0,
+      "endings": {
+        "no_food_limit": 7,
+        "obstacle_collision": 1
+      },
+      "model_calls": 542,
+      "forced_moves": 72,
+      "mean_input_tokens_per_call": 659.7988929889299,
+      "mean_output_tokens_per_call": 34.42250922509225,
+      "median_latency_ms": 335.275,
+      "p95_latency_ms": 488.23,
+      "best_episode": "obstacles-jev_guarded-102"
+    },
+    {
+      "level": "open",
+      "controller": "baseline",
+      "episodes": 8,
+      "mean_food": 8,
+      "median_food": 8.0,
+      "best_food": 8,
+      "target_successes": 8,
+      "endings": {
+        "target_reached": 8
+      },
+      "model_calls": 0,
+      "forced_moves": 0,
+      "mean_input_tokens_per_call": null,
+      "mean_output_tokens_per_call": null,
+      "median_latency_ms": null,
+      "p95_latency_ms": null,
+      "best_episode": "open-baseline-104"
+    },
+    {
+      "level": "open",
+      "controller": "jev_direct",
+      "episodes": 8,
+      "mean_food": 1.75,
+      "median_food": 0.5,
+      "best_food": 6,
+      "target_successes": 0,
+      "endings": {
+        "no_food_limit": 8
+      },
+      "model_calls": 627,
+      "forced_moves": 0,
+      "mean_input_tokens_per_call": 602.1802232854865,
+      "mean_output_tokens_per_call": 38.0,
+      "median_latency_ms": 335.04,
+      "p95_latency_ms": 483.28,
+      "best_episode": "open-jev_direct-103"
+    },
+    {
+      "level": "open",
+      "controller": "jev_guarded",
+      "episodes": 8,
+      "mean_food": 3.75,
+      "median_food": 3.5,
+      "best_food": 8,
+      "target_successes": 2,
+      "endings": {
+        "no_food_limit": 6,
+        "target_reached": 2
+      },
+      "model_calls": 755,
+      "forced_moves": 2,
+      "mean_input_tokens_per_call": 604.7894039735099,
+      "mean_output_tokens_per_call": 37.95364238410596,
+      "median_latency_ms": 335.23,
+      "p95_latency_ms": 508.17,
+      "best_episode": "open-jev_guarded-104"
+    }
+  ],
+  "target": 8
+}

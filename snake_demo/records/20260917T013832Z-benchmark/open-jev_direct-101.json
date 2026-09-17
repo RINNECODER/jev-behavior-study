@@ -1,0 +1,80 @@
+{
+  "id": "open-jev_direct-101",
+  "level": "open",
+  "controller": "jev_direct",
+  "seed": 101,
+  "initial": {
+    "level": "open",
+    "seed": 101,
+    "size": 12,
+    "wrap": true,
+    "snake": [
+      [
+        6,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        8
+      ]
+    ],
+    "obstacles": [],
+    "food": [
+      1,
+      4
+    ],
+    "heading": "north",
+    "score": 0,
+    "moves": 0,
+    "since_food": 0,
+    "status": "playing",
+    "max_steps": 200,
+    "target": 8,
+    "starvation": 50
+  },
+  "final": {
+    "level": "open",
+    "seed": 101,
+    "size": 12,
+    "wrap": true,
+    "snake": [
+      [
+        6,
+        4
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        6,
+        6
+      ]
+    ],
+    "obstacles": [],
+    "food": [
+      1,
+      4
+    ],
+    "heading": "north",
+    "score": 0,
+    "moves": 50,
+    "since_food": 50,
+    "status": "no_food_limit",
+    "max_steps": 200,
+    "target": 8,
+    "starvation": 50
+  },
+  "score": 0,
+  "moves": 50,
+  "outcome": "no_food_limit",
+  "model_calls": 50,
+  "forced_moves": 0,
+  "input_tokens": 29428,
+  "output_tokens": 1900,
+  "elapsed_seconds": 19.256
+}
