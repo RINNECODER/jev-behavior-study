@@ -5,6 +5,7 @@ import json
 import os
 import threading
 import uuid
+from urllib.parse import urlsplit
 from ..server import Handler as BaseHandler
 from ..controller import load_env
 from ..engine import Snake,ACTIONS
@@ -21,7 +22,9 @@ def visible(d):
 
 class Handler(BaseHandler):
     def do_GET(self):
-        if self.path=='/':self.path='/unassisted.html'
+        if urlsplit(self.path).path=='/':
+            query=urlsplit(self.path).query
+            self.path='/unassisted.html'+('?' + query if query else '')
         return super().do_GET()
     def do_POST(self):
         if self.headers.get('Origin') not in [None,'http://'+self.headers.get('Host','')]:return self.reply({'error':'Origin is not allowed'},403)
