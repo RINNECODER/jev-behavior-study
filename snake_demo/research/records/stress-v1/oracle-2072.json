@@ -1,0 +1,110 @@
+{
+  "id": "oracle-2072",
+  "profile": "oracle",
+  "variant": null,
+  "seed": 2072,
+  "initial": {
+    "level": "classic",
+    "seed": 2072,
+    "size": 12,
+    "wrap": false,
+    "snake": [
+      [
+        6,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        8
+      ]
+    ],
+    "obstacles": [],
+    "food": [
+      5,
+      7
+    ],
+    "heading": "north",
+    "score": 0,
+    "moves": 0,
+    "since_food": 0,
+    "status": "playing",
+    "max_steps": 200,
+    "target": 8,
+    "starvation": 50
+  },
+  "final": {
+    "level": "classic",
+    "seed": 2072,
+    "size": 12,
+    "wrap": false,
+    "snake": [
+      [
+        10,
+        8
+      ],
+      [
+        10,
+        9
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        9,
+        8
+      ],
+      [
+        9,
+        7
+      ],
+      [
+        9,
+        6
+      ],
+      [
+        9,
+        5
+      ],
+      [
+        8,
+        5
+      ],
+      [
+        7,
+        5
+      ]
+    ],
+    "obstacles": [],
+    "food": [
+      11,
+      10
+    ],
+    "heading": "north",
+    "score": 8,
+    "moves": 38,
+    "since_food": 0,
+    "status": "target_reached",
+    "max_steps": 200,
+    "target": 8,
+    "starvation": 50
+  },
+  "score": 8,
+  "moves": 38,
+  "outcome": "target_reached",
+  "model_calls": 0,
+  "valid_calls": 0,
+  "overrides": 0
+}

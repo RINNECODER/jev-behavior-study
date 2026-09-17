@@ -1,0 +1,121 @@
+{
+  "job": {
+    "id": "holdout-008-local",
+    "state_id": "holdout-008",
+    "kind": "ablation",
+    "variant": "local",
+    "order": [
+      "right",
+      "left",
+      "straight"
+    ]
+  },
+  "mapping": {
+    "right": "right",
+    "left": "left",
+    "straight": "straight"
+  },
+  "call": {
+    "payload": {
+      "model": "jev-1.13.0",
+      "state": {
+        "board_size": 12,
+        "solid_edges": true,
+        "head": [
+          2,
+          8
+        ],
+        "body_head_to_tail": [
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        "heading": "west",
+        "food": [
+          0,
+          1
+        ],
+        "coordinates": "x right, y down; origin top left; zero indexed",
+        "candidate_facts": {
+          "right": {
+            "safe_next_move": true,
+            "manhattan_distance_after_move": 8
+          },
+          "left": {
+            "safe_next_move": true,
+            "manhattan_distance_after_move": 10
+          },
+          "straight": {
+            "safe_next_move": true,
+            "manhattan_distance_after_move": 8
+          }
+        }
+      },
+      "questions": {
+        "move": {
+          "type": "choice",
+          "instructions": "Choose the first move of a shortest LEGAL route to the current food. The head moves one cell. Do not hit solid edges or the body. No reverse turn. The tail vacates on non-food moves. Minimize steps to food; any equally shortest route is acceptable. Candidate facts were computed by code. Use safety first, then route length; Manhattan distance ignores body detours.",
+          "criteria": {
+            "right": "Move north to (2, 7).",
+            "left": "Move south to (2, 9).",
+            "straight": "Move west to (1, 8)."
+          }
+        }
+      }
+    },
+    "payload_sha256": "53c0df9d84fe47b46599d37b50bbe350737f417511c4f08590ecd2641902b036",
+    "started_at": "2026-09-17T02:23:39.747585+00:00",
+    "http_status": 200,
+    "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"right\",\"confidence\":0.28,\"probabilities\":{\"straight\":0.36,\"left\":0.12,\"right\":0.52}}},\"usage\":{\"input_tokens\":616,\"output_tokens\":38}}",
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "move": {
+          "type": "choice",
+          "choice": "right",
+          "confidence": 0.28,
+          "probabilities": {
+            "straight": 0.36,
+            "left": 0.12,
+            "right": 0.52
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 616,
+        "output_tokens": 38
+      }
+    },
+    "valid": true,
+    "latency_ms": 333.31
+  }
+}

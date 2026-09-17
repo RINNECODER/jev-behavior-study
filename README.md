@@ -3,7 +3,7 @@
 **A browsable field guide to Jev 1.13.0:** where explicit questions work, where
 small changes alter answers, and where harder tasks expose failures.
 
-**11,621 text-study requests** · **105 Snake games** · **4 detailed reports**
+**11,621 text-study requests** · **105 original Snake games + Classic follow-up** · **5 detailed reports**
 
 Live API observations from September 16, 2026. Independent, AI-assisted research.
 
@@ -15,6 +15,25 @@ Live API observations from September 16, 2026. Independent, AI-assisted research
 >
 > These are synthetic, task-specific results—not an official benchmark or an
 > overall model score. Repeated calls are not independent new problems.
+
+## Can better inputs fix Classic Snake?
+
+**New controlled study:** 4,561 model calls, 120 fixed states, 64 held-out games,
+plus separately labeled code-only stress and longer-game tests.
+
+| Eight-food Classic task | Original Jev | Jev + exact route facts | Same + verifier |
+|---|---:|---:|---:|
+| Targets reached | 0/16 | 16/16 | 16/16 |
+| Shortest model decisions | 967/1,515 | 1,061/1,061 | 1,061/1,061 |
+| Code overrides | 0 | 0 | 0 |
+
+Code computes route lengths in both assisted profiles. Perfect observed short-game
+results do **not** establish independent Jev planning or universally perfect Snake.
+The improved planner still stopped in 1/16 fresh longer code-only games.
+
+**[Explore the experiment](https://rinnecoder.github.io/jev-behavior-study/snake_demo/web/classic.html)** ·
+[Full hypotheses and findings](snake_demo/research/REPORT.md) ·
+[Run the improved controller live](snake_demo/research/README.md)
 
 ## Watch Jev play Snake
 

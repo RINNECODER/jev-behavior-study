@@ -1,0 +1,121 @@
+{
+  "job": {
+    "id": "development-034-exact",
+    "state_id": "development-034",
+    "kind": "ablation",
+    "variant": "exact",
+    "order": [
+      "straight",
+      "right",
+      "left"
+    ]
+  },
+  "mapping": {
+    "straight": "straight",
+    "right": "right",
+    "left": "left"
+  },
+  "call": {
+    "payload": {
+      "model": "jev-1.13.0",
+      "state": {
+        "board_size": 12,
+        "solid_edges": true,
+        "head": [
+          2,
+          1
+        ],
+        "body_head_to_tail": [
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ]
+        ],
+        "heading": "east",
+        "food": [
+          4,
+          11
+        ],
+        "coordinates": "x right, y down; origin top left; zero indexed",
+        "verified_routes": {
+          "straight": {
+            "status": "solved",
+            "total_moves_to_food": 12
+          },
+          "right": {
+            "status": "solved",
+            "total_moves_to_food": 12
+          },
+          "left": {
+            "status": "solved",
+            "total_moves_to_food": 14
+          }
+        }
+      },
+      "questions": {
+        "move": {
+          "type": "choice",
+          "instructions": "Code has already computed the exact shortest legal route length starting with each action, including that first move. Choose an action with the SMALLEST non-null total_moves_to_food. Null is invalid or unreachable. Any tied minimum is correct. Do not prefer straight or any direction over a smaller number.",
+          "criteria": {
+            "straight": "Move east to (3, 1).",
+            "right": "Move south to (2, 2).",
+            "left": "Move north to (2, 0)."
+          }
+        }
+      }
+    },
+    "payload_sha256": "be8d5825febff05810f1cbeb9704b22eb890977e46586dcbd6f97cb81337a005",
+    "started_at": "2026-09-17T02:24:08.051611+00:00",
+    "http_status": 200,
+    "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"straight\",\"confidence\":0.8,\"probabilities\":{\"straight\":0.87,\"left\":0.0,\"right\":0.13}}},\"usage\":{\"input_tokens\":596,\"output_tokens\":38}}",
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "move": {
+          "type": "choice",
+          "choice": "straight",
+          "confidence": 0.8,
+          "probabilities": {
+            "straight": 0.87,
+            "left": 0.0,
+            "right": 0.13
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 596,
+        "output_tokens": 38
+      }
+    },
+    "valid": true,
+    "latency_ms": 337.12
+  }
+}

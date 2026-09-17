@@ -1,0 +1,113 @@
+{
+  "job": {
+    "id": "development-000-order-0-0",
+    "state_id": "development-000",
+    "kind": "order",
+    "variant": "original",
+    "order": [
+      "left",
+      "straight",
+      "right"
+    ],
+    "repetition": 0
+  },
+  "mapping": {
+    "left": "left",
+    "straight": "straight",
+    "right": "right"
+  },
+  "call": {
+    "payload": {
+      "model": "jev-1.13.0",
+      "state": {
+        "level": "classic",
+        "seed": 103,
+        "size": 12,
+        "wrap": false,
+        "snake": [
+          [
+            9,
+            10
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            8,
+            10
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            8,
+            7
+          ],
+          [
+            9,
+            7
+          ]
+        ],
+        "obstacles": [],
+        "food": [
+          6,
+          10
+        ],
+        "heading": "north",
+        "score": 5,
+        "moves": 49,
+        "since_food": 5,
+        "status": "playing",
+        "max_steps": 200,
+        "target": 8,
+        "starvation": 50
+      },
+      "questions": {
+        "move": {
+          "type": "choice",
+          "instructions": "Play Snake. Maximize food collected while staying alive. Select one relative turn and advance one cell. x increases rightward; y increases downward. The snake list starts with the head and ends with the tail. The tail vacates its cell on a move unless food is eaten. Reverse turns are not permitted. Avoid body, obstacles, and solid boundaries; wrap only when wrap is true. Choose a route toward food without trapping the snake. Use the supplied board state.",
+          "criteria": {
+            "left": "Left relative to current heading: move west to x=8, y=10.",
+            "straight": "Straight relative to current heading: move north to x=9, y=9.",
+            "right": "Right relative to current heading: move east to x=10, y=10."
+          }
+        }
+      }
+    },
+    "payload_sha256": "08e2e17bc7f23ef40237986090c98b3bb34fc9354d2cd5a587ac4539871fd289",
+    "started_at": "2026-09-17T02:23:14.212232+00:00",
+    "http_status": 200,
+    "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"straight\",\"confidence\":0.33,\"probabilities\":{\"right\":0.15,\"straight\":0.55,\"left\":0.3}}},\"usage\":{\"input_tokens\":625,\"output_tokens\":38}}",
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "move": {
+          "type": "choice",
+          "choice": "straight",
+          "confidence": 0.33,
+          "probabilities": {
+            "right": 0.15,
+            "straight": 0.55,
+            "left": 0.3
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 625,
+        "output_tokens": 38
+      }
+    },
+    "valid": true,
+    "latency_ms": 295.53
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "job": {
+    "id": "development-000-local",
+    "state_id": "development-000",
+    "kind": "ablation",
+    "variant": "local",
+    "order": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "mapping": {
+    "left": "left",
+    "straight": "straight",
+    "right": "right"
+  },
+  "call": {
+    "payload": {
+      "model": "jev-1.13.0",
+      "state": {
+        "board_size": 12,
+        "solid_edges": true,
+        "head": [
+          9,
+          10
+        ],
+        "body_head_to_tail": [
+          [
+            9,
+            10
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            8,
+            10
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            8,
+            7
+          ],
+          [
+            9,
+            7
+          ]
+        ],
+        "heading": "north",
+        "food": [
+          6,
+          10
+        ],
+        "coordinates": "x right, y down; origin top left; zero indexed",
+        "candidate_facts": {
+          "left": {
+            "safe_next_move": false,
+            "manhattan_distance_after_move": 2
+          },
+          "straight": {
+            "safe_next_move": true,
+            "manhattan_distance_after_move": 4
+          },
+          "right": {
+            "safe_next_move": true,
+            "manhattan_distance_after_move": 4
+          }
+        }
+      },
+      "questions": {
+        "move": {
+          "type": "choice",
+          "instructions": "Choose the first move of a shortest LEGAL route to the current food. The head moves one cell. Do not hit solid edges or the body. No reverse turn. The tail vacates on non-food moves. Minimize steps to food; any equally shortest route is acceptable. Candidate facts were computed by code. Use safety first, then route length; Manhattan distance ignores body detours.",
+          "criteria": {
+            "left": "Move west to (8, 10).",
+            "straight": "Move north to (9, 9).",
+            "right": "Move east to (10, 10)."
+          }
+        }
+      }
+    },
+    "payload_sha256": "61641920c21cefb3b2964573bf9a282a76310c28af8665b1ad7190c6abf8268c",
+    "started_at": "2026-09-17T02:23:53.557107+00:00",
+    "http_status": 200,
+    "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"straight\",\"confidence\":0.7,\"probabilities\":{\"right\":0.17,\"left\":0.03,\"straight\":0.8}}},\"usage\":{\"input_tokens\":624,\"output_tokens\":38}}",
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "move": {
+          "type": "choice",
+          "choice": "straight",
+          "confidence": 0.7,
+          "probabilities": {
+            "right": 0.17,
+            "left": 0.03,
+            "straight": 0.8
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 624,
+        "output_tokens": 38
+      }
+    },
+    "valid": true,
+    "latency_ms": 307.2
+  }
+}

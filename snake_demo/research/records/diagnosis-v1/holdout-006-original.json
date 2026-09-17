@@ -1,0 +1,120 @@
+{
+  "job": {
+    "id": "holdout-006-original",
+    "state_id": "holdout-006",
+    "kind": "ablation",
+    "variant": "original",
+    "order": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "mapping": {
+    "left": "left",
+    "straight": "straight",
+    "right": "right"
+  },
+  "call": {
+    "payload": {
+      "model": "jev-1.13.0",
+      "state": {
+        "level": "classic",
+        "seed": 319,
+        "size": 12,
+        "wrap": false,
+        "snake": [
+          [
+            7,
+            5
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            8,
+            6
+          ],
+          [
+            9,
+            6
+          ],
+          [
+            10,
+            6
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            11,
+            5
+          ],
+          [
+            11,
+            4
+          ],
+          [
+            11,
+            3
+          ],
+          [
+            11,
+            2
+          ]
+        ],
+        "obstacles": [],
+        "food": [
+          7,
+          2
+        ],
+        "heading": "north",
+        "score": 7,
+        "moves": 54,
+        "since_food": 3,
+        "status": "playing",
+        "max_steps": 200,
+        "target": 8,
+        "starvation": 50
+      },
+      "questions": {
+        "move": {
+          "type": "choice",
+          "instructions": "Play Snake. Maximize food collected while staying alive. Select one relative turn and advance one cell. x increases rightward; y increases downward. The snake list starts with the head and ends with the tail. The tail vacates its cell on a move unless food is eaten. Reverse turns are not permitted. Avoid body, obstacles, and solid boundaries; wrap only when wrap is true. Choose a route toward food without trapping the snake. Use the supplied board state.",
+          "criteria": {
+            "left": "Left relative to current heading: move west to x=6, y=5.",
+            "straight": "Straight relative to current heading: move north to x=7, y=4.",
+            "right": "Right relative to current heading: move east to x=8, y=5."
+          }
+        }
+      }
+    },
+    "payload_sha256": "9ac485a5b26d48e6d93d933f240d888b35e9445baf71af322a6de5c7aa587a7d",
+    "started_at": "2026-09-17T02:23:41.531475+00:00",
+    "http_status": 200,
+    "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"straight\",\"confidence\":0.32,\"probabilities\":{\"straight\":0.55,\"left\":0.35,\"right\":0.1}}},\"usage\":{\"input_tokens\":635,\"output_tokens\":38}}",
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "move": {
+          "type": "choice",
+          "choice": "straight",
+          "confidence": 0.32,
+          "probabilities": {
+            "straight": 0.55,
+            "left": 0.35,
+            "right": 0.1
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 635,
+        "output_tokens": 38
+      }
+    },
+    "valid": true,
+    "latency_ms": 351.53
+  }
+}

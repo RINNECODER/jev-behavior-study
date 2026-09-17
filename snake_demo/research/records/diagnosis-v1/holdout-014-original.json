@@ -1,0 +1,100 @@
+{
+  "job": {
+    "id": "holdout-014-original",
+    "state_id": "holdout-014",
+    "kind": "ablation",
+    "variant": "original",
+    "order": [
+      "right",
+      "left",
+      "straight"
+    ]
+  },
+  "mapping": {
+    "right": "right",
+    "left": "left",
+    "straight": "straight"
+  },
+  "call": {
+    "payload": {
+      "model": "jev-1.13.0",
+      "state": {
+        "level": "classic",
+        "seed": 320,
+        "size": 12,
+        "wrap": false,
+        "snake": [
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            2,
+            8
+          ]
+        ],
+        "obstacles": [],
+        "food": [
+          10,
+          1
+        ],
+        "heading": "north",
+        "score": 2,
+        "moves": 22,
+        "since_food": 7,
+        "status": "playing",
+        "max_steps": 200,
+        "target": 8,
+        "starvation": 50
+      },
+      "questions": {
+        "move": {
+          "type": "choice",
+          "instructions": "Play Snake. Maximize food collected while staying alive. Select one relative turn and advance one cell. x increases rightward; y increases downward. The snake list starts with the head and ends with the tail. The tail vacates its cell on a move unless food is eaten. Reverse turns are not permitted. Avoid body, obstacles, and solid boundaries; wrap only when wrap is true. Choose a route toward food without trapping the snake. Use the supplied board state.",
+          "criteria": {
+            "right": "Right relative to current heading: move east to x=3, y=4.",
+            "left": "Left relative to current heading: move west to x=1, y=4.",
+            "straight": "Straight relative to current heading: move north to x=2, y=3."
+          }
+        }
+      }
+    },
+    "payload_sha256": "dbb995df2e8333ef7b45865005e6c03716eb178240e340ea0f66925765937031",
+    "started_at": "2026-09-17T02:23:18.529036+00:00",
+    "http_status": 200,
+    "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"straight\",\"confidence\":0.44,\"probabilities\":{\"left\":0.15,\"straight\":0.63,\"right\":0.22}}},\"usage\":{\"input_tokens\":600,\"output_tokens\":38}}",
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "move": {
+          "type": "choice",
+          "choice": "straight",
+          "confidence": 0.44,
+          "probabilities": {
+            "left": 0.15,
+            "straight": 0.63,
+            "right": 0.22
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 600,
+        "output_tokens": 38
+      }
+    },
+    "valid": true,
+    "latency_ms": 281.71
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "jev_direct": {
+    "calls": 616,
+    "resolved": 616,
+    "legal": 613,
+    "shortest": 414,
+    "choice_is_argmax": 616,
+    "wrong_high_confidence": 0
+  },
+  "jev_guarded": {
+    "calls": 1001,
+    "resolved": 1001,
+    "legal": 1001,
+    "shortest": 645,
+    "choice_is_argmax": 1001,
+    "wrong_high_confidence": 0
+  }
+}

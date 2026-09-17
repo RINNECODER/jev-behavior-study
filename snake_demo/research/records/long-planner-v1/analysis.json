@@ -1,0 +1,25 @@
+{
+  "oracle": {
+    "episodes": 16,
+    "successes": 6,
+    "success_wilson_95": [
+      0.18481232558864005,
+      0.613589594544967
+    ],
+    "mean_food": 20.6875,
+    "endings": {
+      "planner_error": 10,
+      "target_reached": 6
+    },
+    "stats": {
+      "repeated_states": 0,
+      "executed_moves": 2829,
+      "executed_shortest": 2829,
+      "overrides": 0,
+      "planner_errors": 10
+    },
+    "food_segments": 331,
+    "shortest_food_segments": 331,
+    "segment_efficiency": 1.0
+  }
+}

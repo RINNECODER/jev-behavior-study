@@ -1,0 +1,129 @@
+{
+  "job": {
+    "id": "holdout-006-local",
+    "state_id": "holdout-006",
+    "kind": "ablation",
+    "variant": "local",
+    "order": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "mapping": {
+    "left": "left",
+    "straight": "straight",
+    "right": "right"
+  },
+  "call": {
+    "payload": {
+      "model": "jev-1.13.0",
+      "state": {
+        "board_size": 12,
+        "solid_edges": true,
+        "head": [
+          7,
+          5
+        ],
+        "body_head_to_tail": [
+          [
+            7,
+            5
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            8,
+            6
+          ],
+          [
+            9,
+            6
+          ],
+          [
+            10,
+            6
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            11,
+            5
+          ],
+          [
+            11,
+            4
+          ],
+          [
+            11,
+            3
+          ],
+          [
+            11,
+            2
+          ]
+        ],
+        "heading": "north",
+        "food": [
+          7,
+          2
+        ],
+        "coordinates": "x right, y down; origin top left; zero indexed",
+        "candidate_facts": {
+          "left": {
+            "safe_next_move": true,
+            "manhattan_distance_after_move": 4
+          },
+          "straight": {
+            "safe_next_move": true,
+            "manhattan_distance_after_move": 2
+          },
+          "right": {
+            "safe_next_move": true,
+            "manhattan_distance_after_move": 4
+          }
+        }
+      },
+      "questions": {
+        "move": {
+          "type": "choice",
+          "instructions": "Choose the first move of a shortest LEGAL route to the current food. The head moves one cell. Do not hit solid edges or the body. No reverse turn. The tail vacates on non-food moves. Minimize steps to food; any equally shortest route is acceptable. Candidate facts were computed by code. Use safety first, then route length; Manhattan distance ignores body detours.",
+          "criteria": {
+            "left": "Move west to (6, 5).",
+            "straight": "Move north to (7, 4).",
+            "right": "Move east to (8, 5)."
+          }
+        }
+      }
+    },
+    "payload_sha256": "cdeb02685844b78cd27d6a8726cc0026ac6d7e698ae609e9d4e92e1c7f8d9094",
+    "started_at": "2026-09-17T02:23:14.405440+00:00",
+    "http_status": 200,
+    "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"straight\",\"confidence\":0.82,\"probabilities\":{\"right\":0.01,\"straight\":0.88,\"left\":0.11}}},\"usage\":{\"input_tokens\":633,\"output_tokens\":38}}",
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "move": {
+          "type": "choice",
+          "choice": "straight",
+          "confidence": 0.82,
+          "probabilities": {
+            "right": 0.01,
+            "straight": 0.88,
+            "left": 0.11
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 633,
+        "output_tokens": 38
+      }
+    },
+    "valid": true,
+    "latency_ms": 320.05
+  }
+}

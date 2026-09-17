@@ -1,0 +1,110 @@
+{
+  "episodes": 16,
+  "successes": 14,
+  "totals": {
+    "executed_moves": 3236,
+    "food_segments": 377,
+    "target_reached": 14,
+    "terminal_budget_exhausted": 2,
+    "planner_unknown": 2
+  },
+  "games": [
+    {
+      "seed": 4001,
+      "score": 24,
+      "moves": 209,
+      "outcome": "target_reached"
+    },
+    {
+      "seed": 4002,
+      "score": 24,
+      "moves": 218,
+      "outcome": "target_reached"
+    },
+    {
+      "seed": 4003,
+      "score": 24,
+      "moves": 210,
+      "outcome": "target_reached"
+    },
+    {
+      "seed": 4004,
+      "score": 23,
+      "moves": 228,
+      "outcome": "planner_unknown"
+    },
+    {
+      "seed": 4005,
+      "score": 24,
+      "moves": 211,
+      "outcome": "target_reached"
+    },
+    {
+      "seed": 4006,
+      "score": 24,
+      "moves": 188,
+      "outcome": "target_reached"
+    },
+    {
+      "seed": 4007,
+      "score": 24,
+      "moves": 244,
+      "outcome": "target_reached"
+    },
+    {
+      "seed": 4008,
+      "score": 24,
+      "moves": 167,
+      "outcome": "target_reached"
+    },
+    {
+      "seed": 4009,
+      "score": 24,
+      "moves": 244,
+      "outcome": "target_reached"
+    },
+    {
+      "seed": 4010,
+      "score": 24,
+      "moves": 196,
+      "outcome": "target_reached"
+    },
+    {
+      "seed": 4011,
+      "score": 24,
+      "moves": 234,
+      "outcome": "target_reached"
+    },
+    {
+      "seed": 4012,
+      "score": 24,
+      "moves": 188,
+      "outcome": "target_reached"
+    },
+    {
+      "seed": 4013,
+      "score": 24,
+      "moves": 181,
+      "outcome": "target_reached"
+    },
+    {
+      "seed": 4014,
+      "score": 18,
+      "moves": 145,
+      "outcome": "planner_unknown"
+    },
+    {
+      "seed": 4015,
+      "score": 24,
+      "moves": 189,
+      "outcome": "target_reached"
+    },
+    {
+      "seed": 4016,
+      "score": 24,
+      "moves": 184,
+      "outcome": "target_reached"
+    }
+  ],
+  "verification_scope": "All transitions, successful certificates, and path witnesses recomputed. Terminal unknown budget records checked structurally, not rerun."
+}

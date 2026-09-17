@@ -1,0 +1,99 @@
+{
+  "job": {
+    "id": "holdout-029-compact",
+    "state_id": "holdout-029",
+    "kind": "ablation",
+    "variant": "compact",
+    "order": [
+      "right",
+      "left",
+      "straight"
+    ]
+  },
+  "mapping": {
+    "right": "right",
+    "left": "left",
+    "straight": "straight"
+  },
+  "call": {
+    "payload": {
+      "model": "jev-1.13.0",
+      "state": {
+        "board_size": 12,
+        "solid_edges": true,
+        "head": [
+          9,
+          8
+        ],
+        "body_head_to_tail": [
+          [
+            9,
+            8
+          ],
+          [
+            9,
+            7
+          ],
+          [
+            9,
+            6
+          ],
+          [
+            9,
+            5
+          ],
+          [
+            9,
+            4
+          ],
+          [
+            9,
+            3
+          ]
+        ],
+        "heading": "south",
+        "food": [
+          9,
+          9
+        ],
+        "coordinates": "x right, y down; origin top left; zero indexed"
+      },
+      "questions": {
+        "move": {
+          "type": "choice",
+          "instructions": "Choose the first move of a shortest LEGAL route to the current food. The head moves one cell. Do not hit solid edges or the body. No reverse turn. The tail vacates on non-food moves. Minimize steps to food; any equally shortest route is acceptable.",
+          "criteria": {
+            "right": "Move west to (8, 8).",
+            "left": "Move east to (10, 8).",
+            "straight": "Move south to (9, 9)."
+          }
+        }
+      }
+    },
+    "payload_sha256": "18dcd1388c9696f8da4723fb2dafc93dbe542a1e3d0e6e1c198dc043fb5f830c",
+    "started_at": "2026-09-17T02:23:21.631446+00:00",
+    "http_status": 200,
+    "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"straight\",\"confidence\":0.74,\"probabilities\":{\"right\":0.06,\"left\":0.11,\"straight\":0.83}}},\"usage\":{\"input_tokens\":499,\"output_tokens\":38}}",
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "move": {
+          "type": "choice",
+          "choice": "straight",
+          "confidence": 0.74,
+          "probabilities": {
+            "right": 0.06,
+            "left": 0.11,
+            "straight": 0.83
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 499,
+        "output_tokens": 38
+      }
+    },
+    "valid": true,
+    "latency_ms": 322.26
+  }
+}

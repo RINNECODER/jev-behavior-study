@@ -1,0 +1,88 @@
+{
+  "job": {
+    "id": "development-001-safe-left",
+    "state_id": "development-001",
+    "kind": "atomic",
+    "action": "left",
+    "predicate": "safe"
+  },
+  "mapping": null,
+  "call": {
+    "payload": {
+      "model": "jev-1.13.0",
+      "state": {
+        "board_size": 12,
+        "solid_edges": true,
+        "head": [
+          4,
+          11
+        ],
+        "body_head_to_tail": [
+          [
+            4,
+            11
+          ],
+          [
+            3,
+            11
+          ],
+          [
+            2,
+            11
+          ],
+          [
+            1,
+            11
+          ]
+        ],
+        "heading": "east",
+        "food": [
+          11,
+          7
+        ],
+        "coordinates": "x right, y down; origin top left; zero indexed",
+        "candidate": {
+          "turn": "left",
+          "destination": [
+            4,
+            10
+          ]
+        }
+      },
+      "questions": {
+        "check": {
+          "type": "choice",
+          "instructions": "Will this single candidate move avoid both the boundary and the snake body? The tail vacates unless food is eaten.",
+          "criteria": {
+            "yes": "The statement is true.",
+            "no": "The statement is false."
+          }
+        }
+      }
+    },
+    "payload_sha256": "e51471d22d9265e74cf18d8b5e150fecddd2378862a6c5a58eafa94fe92ca0e5",
+    "started_at": "2026-09-17T02:24:07.021550+00:00",
+    "http_status": 200,
+    "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"check\":{\"type\":\"choice\",\"choice\":\"yes\",\"confidence\":0.71,\"probabilities\":{\"no\":0.15,\"yes\":0.85}}},\"usage\":{\"input_tokens\":456,\"output_tokens\":31}}",
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "check": {
+          "type": "choice",
+          "choice": "yes",
+          "confidence": 0.71,
+          "probabilities": {
+            "no": 0.15,
+            "yes": 0.85
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 456,
+        "output_tokens": 31
+      }
+    },
+    "valid": true,
+    "latency_ms": 310.09
+  }
+}

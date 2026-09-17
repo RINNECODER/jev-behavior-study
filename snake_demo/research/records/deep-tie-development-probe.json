@@ -1,0 +1,134 @@
+{
+  "source": "snake_demo/research/records/long-v2-holdout/oracle-5006.jsonl",
+  "state": {
+    "level": "classic",
+    "seed": 5006,
+    "size": 12,
+    "wrap": false,
+    "snake": [
+      [
+        2,
+        11
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        5,
+        11
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        7,
+        4
+      ],
+      [
+        7,
+        3
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        4,
+        0
+      ]
+    ],
+    "obstacles": [],
+    "food": [
+      11,
+      11
+    ],
+    "heading": "west",
+    "score": 23,
+    "moves": 193,
+    "since_food": 0,
+    "status": "playing",
+    "max_steps": 600,
+    "target": 24,
+    "starvation": 50
+  },
+  "result": {
+    "distance": null,
+    "path": null,
+    "status": "budget_exhausted",
+    "expanded": 100001
+  }
+}

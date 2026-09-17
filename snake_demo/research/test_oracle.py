@@ -16,6 +16,33 @@ class OracleTests(unittest.TestCase):
                 h=restore(g.snapshot())
                 for turn in path:h.step(turn)
                 self.assertEqual(h.score,1);self.assertEqual(len(path),result['costs'][a])
+    def test_verifier_overrides_a_nonoptimal_proposal(self):
+        from unittest.mock import patch
+        from .gameplay import decision
+        g=Snake(seed=101)
+        response={'valid':True,'response':{'answers':{'move':{'choice':'right'}}}}
+        with patch('snake_demo.research.gameplay.call',return_value=response):
+            d=decision(g,'verified','exact')
+            self.assertTrue(d['overridden']);self.assertEqual(d['proposal'],'right')
+            self.assertIn(d['action'],d['oracle']['optimal'])
+            plain=decision(g,'assisted','exact')
+            self.assertFalse(plain['overridden']);self.assertEqual(plain['action'],'right')
+
+    def test_dynamic_positions_against_bfs(self):
+        rng=random.Random(9102)
+        for seed in range(12):
+            g=Snake(seed=seed);g.size=4;g.body=[(2,1),(2,2),(2,3)];g.heading=0;g.spawn_food()
+            for move in range(6):
+                if g.status!='playing' or not g.legal():break
+                result=assess(g)
+                self.assertEqual(result['distance'],bfs_reference(g))
+                for a in g.legal():
+                    h=restore(g.snapshot());h.step(a)
+                    expected=1 if h.score>g.score else bfs_reference(h)
+                    if h.score==g.score and expected is not None:expected+=1
+                    self.assertEqual(result['costs'][a],expected)
+                g.step(rng.choice(g.legal()))
+
     def test_tail_moves_and_collision(self):
         g=Snake();g.size=4;g.body=[(1,1),(1,2),(2,2),(2,1)];g.heading=0;g.food=(3,1)
         r=assess(g);self.assertEqual(r['costs']['right'],2)

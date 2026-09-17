@@ -1,0 +1,117 @@
+{
+  "job": {
+    "id": "development-026-local",
+    "state_id": "development-026",
+    "kind": "ablation",
+    "variant": "local",
+    "order": [
+      "right",
+      "left",
+      "straight"
+    ]
+  },
+  "mapping": {
+    "right": "right",
+    "left": "left",
+    "straight": "straight"
+  },
+  "call": {
+    "payload": {
+      "model": "jev-1.13.0",
+      "state": {
+        "board_size": 12,
+        "solid_edges": true,
+        "head": [
+          6,
+          6
+        ],
+        "body_head_to_tail": [
+          [
+            6,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ]
+        ],
+        "heading": "east",
+        "food": [
+          7,
+          8
+        ],
+        "coordinates": "x right, y down; origin top left; zero indexed",
+        "candidate_facts": {
+          "right": {
+            "safe_next_move": true,
+            "manhattan_distance_after_move": 2
+          },
+          "left": {
+            "safe_next_move": true,
+            "manhattan_distance_after_move": 4
+          },
+          "straight": {
+            "safe_next_move": true,
+            "manhattan_distance_after_move": 2
+          }
+        }
+      },
+      "questions": {
+        "move": {
+          "type": "choice",
+          "instructions": "Choose the first move of a shortest LEGAL route to the current food. The head moves one cell. Do not hit solid edges or the body. No reverse turn. The tail vacates on non-food moves. Minimize steps to food; any equally shortest route is acceptable. Candidate facts were computed by code. Use safety first, then route length; Manhattan distance ignores body detours.",
+          "criteria": {
+            "right": "Move south to (6, 7).",
+            "left": "Move north to (6, 5).",
+            "straight": "Move east to (7, 6)."
+          }
+        }
+      }
+    },
+    "payload_sha256": "ba8332f5b5a9062bfe386f31c10fbb72a8c57c9381ed37972f0242b617c2f536",
+    "started_at": "2026-09-17T02:23:14.511198+00:00",
+    "http_status": 200,
+    "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"straight\",\"confidence\":0.44,\"probabilities\":{\"right\":0.34,\"straight\":0.63,\"left\":0.03}}},\"usage\":{\"input_tokens\":609,\"output_tokens\":38}}",
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "move": {
+          "type": "choice",
+          "choice": "straight",
+          "confidence": 0.44,
+          "probabilities": {
+            "right": 0.34,
+            "straight": 0.63,
+            "left": 0.03
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 609,
+        "output_tokens": 38
+      }
+    },
+    "valid": true,
+    "latency_ms": 328.03
+  }
+}

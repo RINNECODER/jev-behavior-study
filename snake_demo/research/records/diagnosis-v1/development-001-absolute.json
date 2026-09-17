@@ -1,0 +1,91 @@
+{
+  "job": {
+    "id": "development-001-absolute",
+    "state_id": "development-001",
+    "kind": "ablation",
+    "variant": "absolute",
+    "order": [
+      "straight",
+      "right",
+      "left"
+    ]
+  },
+  "mapping": {
+    "east": "straight",
+    "south": "right",
+    "north": "left"
+  },
+  "call": {
+    "payload": {
+      "model": "jev-1.13.0",
+      "state": {
+        "board_size": 12,
+        "solid_edges": true,
+        "head": [
+          4,
+          11
+        ],
+        "body_head_to_tail": [
+          [
+            4,
+            11
+          ],
+          [
+            3,
+            11
+          ],
+          [
+            2,
+            11
+          ],
+          [
+            1,
+            11
+          ]
+        ],
+        "heading": "east",
+        "food": [
+          11,
+          7
+        ],
+        "coordinates": "x right, y down; origin top left; zero indexed"
+      },
+      "questions": {
+        "move": {
+          "type": "choice",
+          "instructions": "Choose the first move of a shortest LEGAL route to the current food. The head moves one cell. Do not hit solid edges or the body. No reverse turn. The tail vacates on non-food moves. Minimize steps to food; any equally shortest route is acceptable.",
+          "criteria": {
+            "east": "Move east to (5, 11).",
+            "south": "Move south to (4, 12).",
+            "north": "Move north to (4, 10)."
+          }
+        }
+      }
+    },
+    "payload_sha256": "5f086e5717aec904e24dff53f06725b6c629eb373be72b302a7dc2bac9f5c0fc",
+    "started_at": "2026-09-17T02:24:28.968462+00:00",
+    "http_status": 200,
+    "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"east\",\"confidence\":0.62,\"probabilities\":{\"north\":0.21,\"east\":0.74,\"south\":0.05}}},\"usage\":{\"input_tokens\":495,\"output_tokens\":38}}",
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "move": {
+          "type": "choice",
+          "choice": "east",
+          "confidence": 0.62,
+          "probabilities": {
+            "north": 0.21,
+            "east": 0.74,
+            "south": 0.05
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 495,
+        "output_tokens": 38
+      }
+    },
+    "valid": true,
+    "latency_ms": 310.31
+  }
+}

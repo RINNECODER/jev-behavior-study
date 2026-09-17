@@ -47,3 +47,14 @@ Only if the 16 fresh code-only long games pass will this extension run a fresh
 6001–6016, 24-food target, 600 moves, 50 without food. No verifier replacement
 will be used in those model games. Report this conditional design and assistance;
 a supplied lower bound is a planner result, not Jev computing a route.
+
+## 2026-09-17: exploratory equal-priority tie-break probe
+
+After the fresh v2 long-game test left seed 5006 unresolved at food 23, treat
+that failure state as development evidence. Probe the same exact A* heuristic
+and 100,000-node budget with deeper states preferred on equal f priority
+(`deep_tie.py`). It still exhausted the budget at 100,001 expanded states.
+The full probe and source state are saved in
+`records/deep-tie-development-probe.json`. This failed single-state diagnostic
+was not promoted into a controller or portrayed as a fresh holdout test. It
+uses no Jev calls. No second hidden test batch was selected to erase the failure.

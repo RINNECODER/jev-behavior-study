@@ -1,0 +1,108 @@
+{
+  "job": {
+    "id": "development-027-original",
+    "state_id": "development-027",
+    "kind": "ablation",
+    "variant": "original",
+    "order": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "mapping": {
+    "left": "left",
+    "straight": "straight",
+    "right": "right"
+  },
+  "call": {
+    "payload": {
+      "model": "jev-1.13.0",
+      "state": {
+        "level": "classic",
+        "seed": 108,
+        "size": 12,
+        "wrap": false,
+        "snake": [
+          [
+            7,
+            6
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "obstacles": [],
+        "food": [
+          7,
+          8
+        ],
+        "heading": "east",
+        "score": 4,
+        "moves": 31,
+        "since_food": 6,
+        "status": "playing",
+        "max_steps": 200,
+        "target": 8,
+        "starvation": 50
+      },
+      "questions": {
+        "move": {
+          "type": "choice",
+          "instructions": "Play Snake. Maximize food collected while staying alive. Select one relative turn and advance one cell. x increases rightward; y increases downward. The snake list starts with the head and ends with the tail. The tail vacates its cell on a move unless food is eaten. Reverse turns are not permitted. Avoid body, obstacles, and solid boundaries; wrap only when wrap is true. Choose a route toward food without trapping the snake. Use the supplied board state.",
+          "criteria": {
+            "left": "Left relative to current heading: move north to x=7, y=5.",
+            "straight": "Straight relative to current heading: move east to x=8, y=6.",
+            "right": "Right relative to current heading: move south to x=7, y=7."
+          }
+        }
+      }
+    },
+    "payload_sha256": "78afbc85c020caf4085ca45ee529288f58702f61d23c64102794d5a8cc8adfab",
+    "started_at": "2026-09-17T02:24:01.148742+00:00",
+    "http_status": 200,
+    "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"right\",\"confidence\":0.21,\"probabilities\":{\"right\":0.47,\"straight\":0.4,\"left\":0.13}}},\"usage\":{\"input_tokens\":611,\"output_tokens\":38}}",
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "move": {
+          "type": "choice",
+          "choice": "right",
+          "confidence": 0.21,
+          "probabilities": {
+            "right": 0.47,
+            "straight": 0.4,
+            "left": 0.13
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 611,
+        "output_tokens": 38
+      }
+    },
+    "valid": true,
+    "latency_ms": 300.26
+  }
+}

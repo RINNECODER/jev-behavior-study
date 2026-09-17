@@ -1,0 +1,171 @@
+{
+  "id": "oracle-4016",
+  "seed": 4016,
+  "initial": {
+    "level": "classic",
+    "seed": 4016,
+    "size": 12,
+    "wrap": false,
+    "snake": [
+      [
+        6,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        8
+      ]
+    ],
+    "obstacles": [],
+    "food": [
+      9,
+      4
+    ],
+    "heading": "north",
+    "score": 0,
+    "moves": 0,
+    "since_food": 0,
+    "status": "playing",
+    "max_steps": 600,
+    "target": 24,
+    "starvation": 50
+  },
+  "final": {
+    "level": "classic",
+    "seed": 4016,
+    "size": 12,
+    "wrap": false,
+    "snake": [
+      [
+        10,
+        6
+      ],
+      [
+        9,
+        6
+      ],
+      [
+        9,
+        7
+      ],
+      [
+        8,
+        7
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        8,
+        5
+      ],
+      [
+        8,
+        4
+      ],
+      [
+        8,
+        3
+      ],
+      [
+        8,
+        2
+      ],
+      [
+        8,
+        1
+      ],
+      [
+        8,
+        0
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        5,
+        11
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        3,
+        11
+      ]
+    ],
+    "obstacles": [],
+    "food": [
+      7,
+      10
+    ],
+    "heading": "east",
+    "score": 24,
+    "moves": 184,
+    "since_food": 0,
+    "status": "target_reached",
+    "max_steps": 600,
+    "target": 24,
+    "starvation": 50
+  },
+  "moves": 184,
+  "score": 24,
+  "outcome": "target_reached",
+  "model": false,
+  "decisions": 184
+}

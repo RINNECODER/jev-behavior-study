@@ -1,0 +1,170 @@
+{
+  "id": "oracle-4011",
+  "profile": "oracle",
+  "variant": null,
+  "seed": 4011,
+  "initial": {
+    "level": "classic",
+    "seed": 4011,
+    "size": 12,
+    "wrap": false,
+    "snake": [
+      [
+        6,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        8
+      ]
+    ],
+    "obstacles": [],
+    "food": [
+      0,
+      1
+    ],
+    "heading": "north",
+    "score": 0,
+    "moves": 0,
+    "since_food": 0,
+    "status": "playing",
+    "max_steps": 600,
+    "target": 24,
+    "starvation": 50
+  },
+  "final": {
+    "level": "classic",
+    "seed": 4011,
+    "size": 12,
+    "wrap": false,
+    "snake": [
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        7,
+        4
+      ],
+      [
+        8,
+        4
+      ],
+      [
+        9,
+        4
+      ],
+      [
+        10,
+        4
+      ],
+      [
+        10,
+        3
+      ],
+      [
+        10,
+        2
+      ],
+      [
+        10,
+        1
+      ],
+      [
+        9,
+        1
+      ],
+      [
+        8,
+        1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "obstacles": [],
+    "food": [
+      6,
+      0
+    ],
+    "heading": "west",
+    "score": 23,
+    "moves": 223,
+    "since_food": 0,
+    "status": "planner_error",
+    "max_steps": 600,
+    "target": 24,
+    "starvation": 50
+  },
+  "score": 23,
+  "moves": 223,
+  "outcome": "planner_error",
+  "model_calls": 0,
+  "valid_calls": 0,
+  "overrides": 0
+}

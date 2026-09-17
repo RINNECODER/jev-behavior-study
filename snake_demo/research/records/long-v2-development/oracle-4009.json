@@ -1,0 +1,171 @@
+{
+  "id": "oracle-4009",
+  "seed": 4009,
+  "initial": {
+    "level": "classic",
+    "seed": 4009,
+    "size": 12,
+    "wrap": false,
+    "snake": [
+      [
+        6,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        8
+      ]
+    ],
+    "obstacles": [],
+    "food": [
+      7,
+      9
+    ],
+    "heading": "north",
+    "score": 0,
+    "moves": 0,
+    "since_food": 0,
+    "status": "playing",
+    "max_steps": 600,
+    "target": 24,
+    "starvation": 50
+  },
+  "final": {
+    "level": "classic",
+    "seed": 4009,
+    "size": 12,
+    "wrap": false,
+    "snake": [
+      [
+        5,
+        1
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        7,
+        4
+      ],
+      [
+        8,
+        4
+      ],
+      [
+        9,
+        4
+      ],
+      [
+        10,
+        4
+      ],
+      [
+        11,
+        4
+      ],
+      [
+        11,
+        5
+      ],
+      [
+        11,
+        6
+      ],
+      [
+        11,
+        7
+      ],
+      [
+        11,
+        8
+      ],
+      [
+        11,
+        9
+      ],
+      [
+        11,
+        10
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        10,
+        9
+      ],
+      [
+        10,
+        8
+      ],
+      [
+        10,
+        7
+      ],
+      [
+        10,
+        6
+      ],
+      [
+        10,
+        5
+      ],
+      [
+        9,
+        5
+      ]
+    ],
+    "obstacles": [],
+    "food": [
+      1,
+      0
+    ],
+    "heading": "north",
+    "score": 24,
+    "moves": 244,
+    "since_food": 0,
+    "status": "target_reached",
+    "max_steps": 600,
+    "target": 24,
+    "starvation": 50
+  },
+  "moves": 244,
+  "score": 24,
+  "outcome": "target_reached",
+  "model": false,
+  "decisions": 244
+}

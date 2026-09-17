@@ -1,0 +1,107 @@
+{
+  "unassisted": {
+    "episodes": 16,
+    "successes": 0,
+    "success_wilson_95": [
+      0.0,
+      0.1936076805344279
+    ],
+    "mean_food": 3.4375,
+    "endings": {
+      "wall_collision": 7,
+      "no_food_limit": 6,
+      "body_collision": 1,
+      "step_limit": 2
+    },
+    "stats": {
+      "repeated_states": 13,
+      "attempted_calls": 1515,
+      "valid_calls": 1515,
+      "model_shortest": 967,
+      "model_legal": 1507,
+      "input_tokens": 916779,
+      "output_tokens": 57570,
+      "executed_moves": 1515,
+      "executed_shortest": 967,
+      "overrides": 0
+    },
+    "food_segments": 55,
+    "shortest_food_segments": 17,
+    "segment_efficiency": 0.4208955223880597
+  },
+  "oracle": {
+    "episodes": 16,
+    "successes": 16,
+    "success_wilson_95": [
+      0.8063923194655722,
+      1.0000000000000002
+    ],
+    "mean_food": 8.0,
+    "endings": {
+      "target_reached": 16
+    },
+    "stats": {
+      "repeated_states": 0,
+      "executed_moves": 1061,
+      "executed_shortest": 1061,
+      "overrides": 0
+    },
+    "food_segments": 128,
+    "shortest_food_segments": 128,
+    "segment_efficiency": 1.0
+  },
+  "assisted": {
+    "episodes": 16,
+    "successes": 16,
+    "success_wilson_95": [
+      0.8063923194655722,
+      1.0000000000000002
+    ],
+    "mean_food": 8.0,
+    "endings": {
+      "target_reached": 16
+    },
+    "stats": {
+      "repeated_states": 0,
+      "attempted_calls": 1061,
+      "valid_calls": 1061,
+      "model_shortest": 1061,
+      "model_legal": 1061,
+      "input_tokens": 623507,
+      "output_tokens": 40318,
+      "executed_moves": 1061,
+      "executed_shortest": 1061,
+      "overrides": 0
+    },
+    "food_segments": 128,
+    "shortest_food_segments": 128,
+    "segment_efficiency": 1.0
+  },
+  "verified": {
+    "episodes": 16,
+    "successes": 16,
+    "success_wilson_95": [
+      0.8063923194655722,
+      1.0000000000000002
+    ],
+    "mean_food": 8.0,
+    "endings": {
+      "target_reached": 16
+    },
+    "stats": {
+      "repeated_states": 0,
+      "attempted_calls": 1061,
+      "valid_calls": 1061,
+      "model_shortest": 1061,
+      "model_legal": 1061,
+      "input_tokens": 623507,
+      "output_tokens": 40318,
+      "executed_moves": 1061,
+      "executed_shortest": 1061,
+      "overrides": 0
+    },
+    "food_segments": 128,
+    "shortest_food_segments": 128,
+    "segment_efficiency": 1.0
+  }
+}

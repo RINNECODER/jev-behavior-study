@@ -1,0 +1,150 @@
+{
+  "id": "oracle-4014",
+  "profile": "oracle",
+  "variant": null,
+  "seed": 4014,
+  "initial": {
+    "level": "classic",
+    "seed": 4014,
+    "size": 12,
+    "wrap": false,
+    "snake": [
+      [
+        6,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        8
+      ]
+    ],
+    "obstacles": [],
+    "food": [
+      7,
+      8
+    ],
+    "heading": "north",
+    "score": 0,
+    "moves": 0,
+    "since_food": 0,
+    "status": "playing",
+    "max_steps": 600,
+    "target": 24,
+    "starvation": 50
+  },
+  "final": {
+    "level": "classic",
+    "seed": 4014,
+    "size": 12,
+    "wrap": false,
+    "snake": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        0,
+        10
+      ],
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        3
+      ]
+    ],
+    "obstacles": [],
+    "food": [
+      11,
+      11
+    ],
+    "heading": "north",
+    "score": 18,
+    "moves": 145,
+    "since_food": 0,
+    "status": "planner_error",
+    "max_steps": 600,
+    "target": 24,
+    "starvation": 50
+  },
+  "score": 18,
+  "moves": 145,
+  "outcome": "planner_error",
+  "model_calls": 0,
+  "valid_calls": 0,
+  "overrides": 0
+}

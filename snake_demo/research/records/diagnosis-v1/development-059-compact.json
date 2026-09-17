@@ -1,0 +1,87 @@
+{
+  "job": {
+    "id": "development-059-compact",
+    "state_id": "development-059",
+    "kind": "ablation",
+    "variant": "compact",
+    "order": [
+      "right",
+      "left",
+      "straight"
+    ]
+  },
+  "mapping": {
+    "right": "right",
+    "left": "left",
+    "straight": "straight"
+  },
+  "call": {
+    "payload": {
+      "model": "jev-1.13.0",
+      "state": {
+        "board_size": 12,
+        "solid_edges": true,
+        "head": [
+          8,
+          5
+        ],
+        "body_head_to_tail": [
+          [
+            8,
+            5
+          ],
+          [
+            8,
+            6
+          ],
+          [
+            7,
+            6
+          ]
+        ],
+        "heading": "north",
+        "food": [
+          11,
+          0
+        ],
+        "coordinates": "x right, y down; origin top left; zero indexed"
+      },
+      "questions": {
+        "move": {
+          "type": "choice",
+          "instructions": "Choose the first move of a shortest LEGAL route to the current food. The head moves one cell. Do not hit solid edges or the body. No reverse turn. The tail vacates on non-food moves. Minimize steps to food; any equally shortest route is acceptable.",
+          "criteria": {
+            "right": "Move east to (9, 5).",
+            "left": "Move west to (7, 5).",
+            "straight": "Move north to (8, 4)."
+          }
+        }
+      }
+    },
+    "payload_sha256": "090392d7419407bd10ed8d985420ef7d79de80bd88385253893305831d5609c5",
+    "started_at": "2026-09-17T02:23:28.316437+00:00",
+    "http_status": 200,
+    "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"straight\",\"confidence\":0.22,\"probabilities\":{\"right\":0.35,\"straight\":0.48,\"left\":0.17}}},\"usage\":{\"input_tokens\":481,\"output_tokens\":38}}",
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "move": {
+          "type": "choice",
+          "choice": "straight",
+          "confidence": 0.22,
+          "probabilities": {
+            "right": 0.35,
+            "straight": 0.48,
+            "left": 0.17
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 481,
+        "output_tokens": 38
+      }
+    },
+    "valid": true,
+    "latency_ms": 284.13
+  }
+}

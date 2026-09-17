@@ -1,0 +1,84 @@
+{
+  "job": {
+    "id": "development-009-progress-left",
+    "state_id": "development-009",
+    "kind": "atomic",
+    "action": "left",
+    "predicate": "progress"
+  },
+  "mapping": null,
+  "call": {
+    "payload": {
+      "model": "jev-1.13.0",
+      "state": {
+        "board_size": 12,
+        "solid_edges": true,
+        "head": [
+          6,
+          5
+        ],
+        "body_head_to_tail": [
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            6,
+            7
+          ]
+        ],
+        "heading": "north",
+        "food": [
+          3,
+          5
+        ],
+        "coordinates": "x right, y down; origin top left; zero indexed",
+        "candidate": {
+          "turn": "left",
+          "destination": [
+            5,
+            5
+          ]
+        }
+      },
+      "questions": {
+        "check": {
+          "type": "choice",
+          "instructions": "Will this candidate move strictly reduce the Manhattan distance from head to food? Ignore collisions for this question. Manhattan distance is abs(x_head-x_food)+abs(y_head-y_food).",
+          "criteria": {
+            "yes": "The statement is true.",
+            "no": "The statement is false."
+          }
+        }
+      }
+    },
+    "payload_sha256": "ceeda30e4cb482bb165b2b63f7f8bff891c6d9f8e684c99b528165a8a9b8c897",
+    "started_at": "2026-09-17T02:23:59.734734+00:00",
+    "http_status": 200,
+    "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"check\":{\"type\":\"choice\",\"choice\":\"yes\",\"confidence\":0.73,\"probabilities\":{\"yes\":0.86,\"no\":0.14}}},\"usage\":{\"input_tokens\":455,\"output_tokens\":31}}",
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "check": {
+          "type": "choice",
+          "choice": "yes",
+          "confidence": 0.73,
+          "probabilities": {
+            "yes": 0.86,
+            "no": 0.14
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 455,
+        "output_tokens": 31
+      }
+    },
+    "valid": true,
+    "latency_ms": 320.76
+  }
+}

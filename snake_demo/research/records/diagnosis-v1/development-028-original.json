@@ -1,0 +1,108 @@
+{
+  "job": {
+    "id": "development-028-original",
+    "state_id": "development-028",
+    "kind": "ablation",
+    "variant": "original",
+    "order": [
+      "straight",
+      "right",
+      "left"
+    ]
+  },
+  "mapping": {
+    "straight": "straight",
+    "right": "right",
+    "left": "left"
+  },
+  "call": {
+    "payload": {
+      "model": "jev-1.13.0",
+      "state": {
+        "level": "classic",
+        "seed": 101,
+        "size": 12,
+        "wrap": false,
+        "snake": [
+          [
+            0,
+            9
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            1,
+            10
+          ],
+          [
+            2,
+            10
+          ],
+          [
+            3,
+            10
+          ],
+          [
+            4,
+            10
+          ],
+          [
+            5,
+            10
+          ]
+        ],
+        "obstacles": [],
+        "food": [
+          0,
+          1
+        ],
+        "heading": "north",
+        "score": 4,
+        "moves": 41,
+        "since_food": 3,
+        "status": "playing",
+        "max_steps": 200,
+        "target": 8,
+        "starvation": 50
+      },
+      "questions": {
+        "move": {
+          "type": "choice",
+          "instructions": "Play Snake. Maximize food collected while staying alive. Select one relative turn and advance one cell. x increases rightward; y increases downward. The snake list starts with the head and ends with the tail. The tail vacates its cell on a move unless food is eaten. Reverse turns are not permitted. Avoid body, obstacles, and solid boundaries; wrap only when wrap is true. Choose a route toward food without trapping the snake. Use the supplied board state.",
+          "criteria": {
+            "straight": "Straight relative to current heading: move north to x=0, y=8.",
+            "right": "Right relative to current heading: move east to x=1, y=9.",
+            "left": "Left relative to current heading: move west to x=-1, y=9."
+          }
+        }
+      }
+    },
+    "payload_sha256": "b21786311a55befa6e1e090a5f8a3c3228bf987f3c6bd032b5e597b782d7a1ce",
+    "started_at": "2026-09-17T02:23:14.943415+00:00",
+    "http_status": 200,
+    "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"straight\",\"confidence\":0.5,\"probabilities\":{\"right\":0.19,\"left\":0.14,\"straight\":0.67}}},\"usage\":{\"input_tokens\":617,\"output_tokens\":38}}",
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "move": {
+          "type": "choice",
+          "choice": "straight",
+          "confidence": 0.5,
+          "probabilities": {
+            "right": 0.19,
+            "left": 0.14,
+            "straight": 0.67
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 617,
+        "output_tokens": 38
+      }
+    },
+    "valid": true,
+    "latency_ms": 277.78
+  }
+}

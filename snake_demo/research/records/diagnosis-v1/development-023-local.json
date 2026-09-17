@@ -1,0 +1,113 @@
+{
+  "job": {
+    "id": "development-023-local",
+    "state_id": "development-023",
+    "kind": "ablation",
+    "variant": "local",
+    "order": [
+      "right",
+      "left",
+      "straight"
+    ]
+  },
+  "mapping": {
+    "right": "right",
+    "left": "left",
+    "straight": "straight"
+  },
+  "call": {
+    "payload": {
+      "model": "jev-1.13.0",
+      "state": {
+        "board_size": 12,
+        "solid_edges": true,
+        "head": [
+          2,
+          8
+        ],
+        "body_head_to_tail": [
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "heading": "west",
+        "food": [
+          1,
+          6
+        ],
+        "coordinates": "x right, y down; origin top left; zero indexed",
+        "candidate_facts": {
+          "right": {
+            "safe_next_move": true,
+            "manhattan_distance_after_move": 2
+          },
+          "left": {
+            "safe_next_move": true,
+            "manhattan_distance_after_move": 4
+          },
+          "straight": {
+            "safe_next_move": true,
+            "manhattan_distance_after_move": 2
+          }
+        }
+      },
+      "questions": {
+        "move": {
+          "type": "choice",
+          "instructions": "Choose the first move of a shortest LEGAL route to the current food. The head moves one cell. Do not hit solid edges or the body. No reverse turn. The tail vacates on non-food moves. Minimize steps to food; any equally shortest route is acceptable. Candidate facts were computed by code. Use safety first, then route length; Manhattan distance ignores body detours.",
+          "criteria": {
+            "right": "Move north to (2, 7).",
+            "left": "Move south to (2, 9).",
+            "straight": "Move west to (1, 8)."
+          }
+        }
+      }
+    },
+    "payload_sha256": "8c1483287d5a42179b359b91167c21aa16639b90466ac39efa05da51b9f83f24",
+    "started_at": "2026-09-17T02:23:18.103310+00:00",
+    "http_status": 200,
+    "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"right\",\"confidence\":0.3,\"probabilities\":{\"left\":0.08,\"right\":0.53,\"straight\":0.39}}},\"usage\":{\"input_tokens\":603,\"output_tokens\":38}}",
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "move": {
+          "type": "choice",
+          "choice": "right",
+          "confidence": 0.3,
+          "probabilities": {
+            "left": 0.08,
+            "right": 0.53,
+            "straight": 0.39
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 603,
+        "output_tokens": 38
+      }
+    },
+    "valid": true,
+    "latency_ms": 424.39
+  }
+}

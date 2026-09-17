@@ -1,0 +1,96 @@
+{
+  "job": {
+    "id": "development-029-progress-left",
+    "state_id": "development-029",
+    "kind": "atomic",
+    "action": "left",
+    "predicate": "progress"
+  },
+  "mapping": null,
+  "call": {
+    "payload": {
+      "model": "jev-1.13.0",
+      "state": {
+        "board_size": 12,
+        "solid_edges": true,
+        "head": [
+          2,
+          6
+        ],
+        "body_head_to_tail": [
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "heading": "south",
+        "food": [
+          1,
+          7
+        ],
+        "coordinates": "x right, y down; origin top left; zero indexed",
+        "candidate": {
+          "turn": "left",
+          "destination": [
+            3,
+            6
+          ]
+        }
+      },
+      "questions": {
+        "check": {
+          "type": "choice",
+          "instructions": "Will this candidate move strictly reduce the Manhattan distance from head to food? Ignore collisions for this question. Manhattan distance is abs(x_head-x_food)+abs(y_head-y_food).",
+          "criteria": {
+            "yes": "The statement is true.",
+            "no": "The statement is false."
+          }
+        }
+      }
+    },
+    "payload_sha256": "00213702a4f9804c0d38fbdd07e93ff26bd9b48b2660bb8a62b4eb78a8b0a879",
+    "started_at": "2026-09-17T02:24:27.263922+00:00",
+    "http_status": 200,
+    "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"check\":{\"type\":\"choice\",\"choice\":\"no\",\"confidence\":0.11,\"probabilities\":{\"yes\":0.45,\"no\":0.55}}},\"usage\":{\"input_tokens\":473,\"output_tokens\":31}}",
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "check": {
+          "type": "choice",
+          "choice": "no",
+          "confidence": 0.11,
+          "probabilities": {
+            "yes": 0.45,
+            "no": 0.55
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 473,
+        "output_tokens": 31
+      }
+    },
+    "valid": true,
+    "latency_ms": 357.43
+  }
+}

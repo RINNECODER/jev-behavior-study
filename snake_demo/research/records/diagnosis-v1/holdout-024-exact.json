@@ -1,0 +1,129 @@
+{
+  "job": {
+    "id": "holdout-024-exact",
+    "state_id": "holdout-024",
+    "kind": "ablation",
+    "variant": "exact",
+    "order": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "mapping": {
+    "left": "left",
+    "straight": "straight",
+    "right": "right"
+  },
+  "call": {
+    "payload": {
+      "model": "jev-1.13.0",
+      "state": {
+        "board_size": 12,
+        "solid_edges": true,
+        "head": [
+          1,
+          4
+        ],
+        "body_head_to_tail": [
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ]
+        ],
+        "heading": "north",
+        "food": [
+          11,
+          0
+        ],
+        "coordinates": "x right, y down; origin top left; zero indexed",
+        "verified_routes": {
+          "left": {
+            "status": "solved",
+            "total_moves_to_food": 16
+          },
+          "straight": {
+            "status": "solved",
+            "total_moves_to_food": 14
+          },
+          "right": {
+            "status": "immediate_collision",
+            "total_moves_to_food": null
+          }
+        }
+      },
+      "questions": {
+        "move": {
+          "type": "choice",
+          "instructions": "Code has already computed the exact shortest legal route length starting with each action, including that first move. Choose an action with the SMALLEST non-null total_moves_to_food. Null is invalid or unreachable. Any tied minimum is correct. Do not prefer straight or any direction over a smaller number.",
+          "criteria": {
+            "left": "Move west to (0, 4).",
+            "straight": "Move north to (1, 3).",
+            "right": "Move east to (2, 4)."
+          }
+        }
+      }
+    },
+    "payload_sha256": "619992f965b07ae03adbf5d3af5462002985f35723a58b3a7e4bcba2ff14d1f1",
+    "started_at": "2026-09-17T02:23:55.689799+00:00",
+    "http_status": 200,
+    "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"straight\",\"confidence\":0.99,\"probabilities\":{\"left\":0.0,\"right\":0.0,\"straight\":1.0}}},\"usage\":{\"input_tokens\":609,\"output_tokens\":38}}",
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "move": {
+          "type": "choice",
+          "choice": "straight",
+          "confidence": 0.99,
+          "probabilities": {
+            "left": 0.0,
+            "right": 0.0,
+            "straight": 1.0
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 609,
+        "output_tokens": 38
+      }
+    },
+    "valid": true,
+    "latency_ms": 354.54
+  }
+}

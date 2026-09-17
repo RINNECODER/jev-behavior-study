@@ -1,0 +1,101 @@
+{
+  "job": {
+    "id": "holdout-045-local",
+    "state_id": "holdout-045",
+    "kind": "ablation",
+    "variant": "local",
+    "order": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "mapping": {
+    "left": "left",
+    "straight": "straight",
+    "right": "right"
+  },
+  "call": {
+    "payload": {
+      "model": "jev-1.13.0",
+      "state": {
+        "board_size": 12,
+        "solid_edges": true,
+        "head": [
+          10,
+          5
+        ],
+        "body_head_to_tail": [
+          [
+            10,
+            5
+          ],
+          [
+            10,
+            6
+          ],
+          [
+            11,
+            6
+          ]
+        ],
+        "heading": "north",
+        "food": [
+          11,
+          8
+        ],
+        "coordinates": "x right, y down; origin top left; zero indexed",
+        "candidate_facts": {
+          "left": {
+            "safe_next_move": true,
+            "manhattan_distance_after_move": 5
+          },
+          "straight": {
+            "safe_next_move": true,
+            "manhattan_distance_after_move": 5
+          },
+          "right": {
+            "safe_next_move": true,
+            "manhattan_distance_after_move": 3
+          }
+        }
+      },
+      "questions": {
+        "move": {
+          "type": "choice",
+          "instructions": "Choose the first move of a shortest LEGAL route to the current food. The head moves one cell. Do not hit solid edges or the body. No reverse turn. The tail vacates on non-food moves. Minimize steps to food; any equally shortest route is acceptable. Candidate facts were computed by code. Use safety first, then route length; Manhattan distance ignores body detours.",
+          "criteria": {
+            "left": "Move west to (9, 5).",
+            "straight": "Move north to (10, 4).",
+            "right": "Move east to (11, 5)."
+          }
+        }
+      }
+    },
+    "payload_sha256": "4449bafb60c42b57d1ef357f48d8d1f43cd8bd9590b898fa3b1bd90c1f0af5f7",
+    "started_at": "2026-09-17T02:23:23.521541+00:00",
+    "http_status": 200,
+    "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"right\",\"confidence\":0.63,\"probabilities\":{\"right\":0.76,\"straight\":0.19,\"left\":0.05}}},\"usage\":{\"input_tokens\":592,\"output_tokens\":38}}",
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "move": {
+          "type": "choice",
+          "choice": "right",
+          "confidence": 0.63,
+          "probabilities": {
+            "right": 0.76,
+            "straight": 0.19,
+            "left": 0.05
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 592,
+        "output_tokens": 38
+      }
+    },
+    "valid": true,
+    "latency_ms": 318.79
+  }
+}

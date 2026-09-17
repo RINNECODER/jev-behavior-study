@@ -1,0 +1,100 @@
+{
+  "job": {
+    "id": "development-007-progress-straight",
+    "state_id": "development-007",
+    "kind": "atomic",
+    "action": "straight",
+    "predicate": "progress"
+  },
+  "mapping": null,
+  "call": {
+    "payload": {
+      "model": "jev-1.13.0",
+      "state": {
+        "board_size": 12,
+        "solid_edges": true,
+        "head": [
+          10,
+          4
+        ],
+        "body_head_to_tail": [
+          [
+            10,
+            4
+          ],
+          [
+            9,
+            4
+          ],
+          [
+            8,
+            4
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "heading": "east",
+        "food": [
+          9,
+          8
+        ],
+        "coordinates": "x right, y down; origin top left; zero indexed",
+        "candidate": {
+          "turn": "straight",
+          "destination": [
+            11,
+            4
+          ]
+        }
+      },
+      "questions": {
+        "check": {
+          "type": "choice",
+          "instructions": "Will this candidate move strictly reduce the Manhattan distance from head to food? Ignore collisions for this question. Manhattan distance is abs(x_head-x_food)+abs(y_head-y_food).",
+          "criteria": {
+            "yes": "The statement is true.",
+            "no": "The statement is false."
+          }
+        }
+      }
+    },
+    "payload_sha256": "d741bfa0ea7c7829f943d0086014708c86178b6a02b80f2897dbcf1a4a1011ff",
+    "started_at": "2026-09-17T02:24:02.711871+00:00",
+    "http_status": 200,
+    "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"check\":{\"type\":\"choice\",\"choice\":\"no\",\"confidence\":0.54,\"probabilities\":{\"yes\":0.23,\"no\":0.77}}},\"usage\":{\"input_tokens\":482,\"output_tokens\":31}}",
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "check": {
+          "type": "choice",
+          "choice": "no",
+          "confidence": 0.54,
+          "probabilities": {
+            "yes": 0.23,
+            "no": 0.77
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 482,
+        "output_tokens": 31
+      }
+    },
+    "valid": true,
+    "latency_ms": 687.22
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "id": "oracle-4016",
+  "profile": "oracle",
+  "variant": null,
+  "seed": 4016,
+  "initial": {
+    "level": "classic",
+    "seed": 4016,
+    "size": 12,
+    "wrap": false,
+    "snake": [
+      [
+        6,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        8
+      ]
+    ],
+    "obstacles": [],
+    "food": [
+      9,
+      4
+    ],
+    "heading": "north",
+    "score": 0,
+    "moves": 0,
+    "since_food": 0,
+    "status": "playing",
+    "max_steps": 600,
+    "target": 24,
+    "starvation": 50
+  },
+  "final": {
+    "level": "classic",
+    "seed": 4016,
+    "size": 12,
+    "wrap": false,
+    "snake": [
+      [
+        6,
+        0
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        5,
+        11
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        1,
+        11
+      ],
+      [
+        0,
+        11
+      ],
+      [
+        0,
+        10
+      ],
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        4,
+        9
+      ]
+    ],
+    "obstacles": [],
+    "food": [
+      7,
+      0
+    ],
+    "heading": "north",
+    "score": 21,
+    "moves": 172,
+    "since_food": 6,
+    "status": "planner_error",
+    "max_steps": 600,
+    "target": 24,
+    "starvation": 50
+  },
+  "score": 21,
+  "moves": 172,
+  "outcome": "planner_error",
+  "model_calls": 0,
+  "valid_calls": 0,
+  "overrides": 0
+}

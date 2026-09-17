@@ -68,3 +68,10 @@ study, not a general automatic optimizer.
 No vision or screenshot input is used. Games wait for each decision; replay
 speed is separate from latency. See the report before treating a best replay
 as representative performance.
+
+## Follow-up: controlled Classic diagnosis
+
+The [Classic research study](research/REPORT.md) compares prompt representations,
+atomic questions, option-order repeats, exact route facts and a verifier. Its
+[separate interactive viewer](https://rinnecoder.github.io/jev-behavior-study/snake_demo/web/classic.html)
+and [live controller](research/README.md) retain explicit code-assistance labels.

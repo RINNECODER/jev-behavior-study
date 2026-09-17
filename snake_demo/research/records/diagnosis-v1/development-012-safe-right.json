@@ -1,0 +1,100 @@
+{
+  "job": {
+    "id": "development-012-safe-right",
+    "state_id": "development-012",
+    "kind": "atomic",
+    "action": "right",
+    "predicate": "safe"
+  },
+  "mapping": null,
+  "call": {
+    "payload": {
+      "model": "jev-1.13.0",
+      "state": {
+        "board_size": 12,
+        "solid_edges": true,
+        "head": [
+          0,
+          6
+        ],
+        "body_head_to_tail": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            0,
+            9
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            1,
+            10
+          ],
+          [
+            2,
+            10
+          ]
+        ],
+        "heading": "north",
+        "food": [
+          0,
+          1
+        ],
+        "coordinates": "x right, y down; origin top left; zero indexed",
+        "candidate": {
+          "turn": "right",
+          "destination": [
+            1,
+            6
+          ]
+        }
+      },
+      "questions": {
+        "check": {
+          "type": "choice",
+          "instructions": "Will this single candidate move avoid both the boundary and the snake body? The tail vacates unless food is eaten.",
+          "criteria": {
+            "yes": "The statement is true.",
+            "no": "The statement is false."
+          }
+        }
+      }
+    },
+    "payload_sha256": "98d240b1cf51fd40a152791c82ace6de95b099b19e857bf52a85dccfe57abcb4",
+    "started_at": "2026-09-17T02:23:40.643206+00:00",
+    "http_status": 200,
+    "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"check\":{\"type\":\"choice\",\"choice\":\"yes\",\"confidence\":0.79,\"probabilities\":{\"no\":0.1,\"yes\":0.9}}},\"usage\":{\"input_tokens\":470,\"output_tokens\":31}}",
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "check": {
+          "type": "choice",
+          "choice": "yes",
+          "confidence": 0.79,
+          "probabilities": {
+            "no": 0.1,
+            "yes": 0.9
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 470,
+        "output_tokens": 31
+      }
+    },
+    "valid": true,
+    "latency_ms": 308.19
+  }
+}

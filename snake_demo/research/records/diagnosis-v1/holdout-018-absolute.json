@@ -1,0 +1,91 @@
+{
+  "job": {
+    "id": "holdout-018-absolute",
+    "state_id": "holdout-018",
+    "kind": "ablation",
+    "variant": "absolute",
+    "order": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "mapping": {
+    "north": "left",
+    "east": "straight",
+    "south": "right"
+  },
+  "call": {
+    "payload": {
+      "model": "jev-1.13.0",
+      "state": {
+        "board_size": 12,
+        "solid_edges": true,
+        "head": [
+          3,
+          0
+        ],
+        "body_head_to_tail": [
+          [
+            3,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "heading": "east",
+        "food": [
+          5,
+          0
+        ],
+        "coordinates": "x right, y down; origin top left; zero indexed"
+      },
+      "questions": {
+        "move": {
+          "type": "choice",
+          "instructions": "Choose the first move of a shortest LEGAL route to the current food. The head moves one cell. Do not hit solid edges or the body. No reverse turn. The tail vacates on non-food moves. Minimize steps to food; any equally shortest route is acceptable.",
+          "criteria": {
+            "north": "Move north to (3, -1).",
+            "east": "Move east to (4, 0).",
+            "south": "Move south to (3, 1)."
+          }
+        }
+      }
+    },
+    "payload_sha256": "d0e015a6c6c52abca8064987e4a0ea6f42692426365f268e96bd3ea8f2a364f4",
+    "started_at": "2026-09-17T02:24:04.922490+00:00",
+    "http_status": 200,
+    "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"east\",\"confidence\":0.97,\"probabilities\":{\"north\":0.0,\"south\":0.02,\"east\":0.98}}},\"usage\":{\"input_tokens\":486,\"output_tokens\":38}}",
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "move": {
+          "type": "choice",
+          "choice": "east",
+          "confidence": 0.97,
+          "probabilities": {
+            "north": 0.0,
+            "south": 0.02,
+            "east": 0.98
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 486,
+        "output_tokens": 38
+      }
+    },
+    "valid": true,
+    "latency_ms": 427.81
+  }
+}

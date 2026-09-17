@@ -1,0 +1,654 @@
+{
+  "total": {
+    "attempted": 924,
+    "valid": 924,
+    "errors": 0,
+    "correct": {
+      "count": 738,
+      "n": 924,
+      "rate": 0.7987012987012987,
+      "wilson_95": [
+        0.7716347420792181,
+        0.8232944829002343
+      ]
+    },
+    "safe": {
+      "count": 743,
+      "n": 744,
+      "rate": 0.9986559139784946,
+      "wilson_95": [
+        0.9924262110876052,
+        0.9997626963983401
+      ]
+    },
+    "argmax_correct": {
+      "count": 736,
+      "n": 924,
+      "rate": 0.7965367965367965,
+      "wilson_95": [
+        0.7693765759232628,
+        0.8212415677157588
+      ]
+    },
+    "choice_is_argmax": {
+      "count": 924,
+      "n": 924,
+      "rate": 1.0,
+      "wilson_95": [
+        0.9958597896395182,
+        0.9999999999999999
+      ]
+    },
+    "input_tokens": 504069,
+    "output_tokens": 33852,
+    "wrong_confidence_ge_0_9": 1
+  },
+  "metrics": {
+    "development/ablation/compact": {
+      "attempted": 60,
+      "valid": 60,
+      "errors": 0,
+      "correct": {
+        "count": 41,
+        "n": 60,
+        "rate": 0.6833333333333333,
+        "wilson_95": [
+          0.5576623297382359,
+          0.7869413244763324
+        ]
+      },
+      "safe": {
+        "count": 60,
+        "n": 60,
+        "rate": 1.0,
+        "wilson_95": [
+          0.9398281478579132,
+          0.9999999999999999
+        ]
+      },
+      "argmax_correct": {
+        "count": 41,
+        "n": 60,
+        "rate": 0.6833333333333333,
+        "wilson_95": [
+          0.5576623297382359,
+          0.7869413244763324
+        ]
+      },
+      "choice_is_argmax": {
+        "count": 60,
+        "n": 60,
+        "rate": 1.0,
+        "wilson_95": [
+          0.9398281478579132,
+          0.9999999999999999
+        ]
+      },
+      "input_tokens": 29769,
+      "output_tokens": 2280,
+      "wrong_confidence_ge_0_9": 0
+    },
+    "holdout/ablation/exact": {
+      "attempted": 60,
+      "valid": 60,
+      "errors": 0,
+      "correct": {
+        "count": 60,
+        "n": 60,
+        "rate": 1.0,
+        "wilson_95": [
+          0.9398281478579132,
+          0.9999999999999999
+        ]
+      },
+      "safe": {
+        "count": 60,
+        "n": 60,
+        "rate": 1.0,
+        "wilson_95": [
+          0.9398281478579132,
+          0.9999999999999999
+        ]
+      },
+      "argmax_correct": {
+        "count": 60,
+        "n": 60,
+        "rate": 1.0,
+        "wilson_95": [
+          0.9398281478579132,
+          0.9999999999999999
+        ]
+      },
+      "choice_is_argmax": {
+        "count": 60,
+        "n": 60,
+        "rate": 1.0,
+        "wilson_95": [
+          0.9398281478579132,
+          0.9999999999999999
+        ]
+      },
+      "input_tokens": 34676,
+      "output_tokens": 2280,
+      "wrong_confidence_ge_0_9": 0
+    },
+    "development/order/original": {
+      "attempted": 144,
+      "valid": 144,
+      "errors": 0,
+      "correct": {
+        "count": 86,
+        "n": 144,
+        "rate": 0.5972222222222222,
+        "wilson_95": [
+          0.5155967976218395,
+          0.6737952729336815
+        ]
+      },
+      "safe": {
+        "count": 144,
+        "n": 144,
+        "rate": 1.0,
+        "wilson_95": [
+          0.9740163628569647,
+          1.0
+        ]
+      },
+      "argmax_correct": {
+        "count": 85,
+        "n": 144,
+        "rate": 0.5902777777777778,
+        "wilson_95": [
+          0.5086247622347773,
+          0.6672393032810635
+        ]
+      },
+      "choice_is_argmax": {
+        "count": 144,
+        "n": 144,
+        "rate": 1.0,
+        "wilson_95": [
+          0.9740163628569647,
+          1.0
+        ]
+      },
+      "input_tokens": 86916,
+      "output_tokens": 5472,
+      "wrong_confidence_ge_0_9": 0
+    },
+    "development/atomic/progress": {
+      "attempted": 90,
+      "valid": 90,
+      "errors": 0,
+      "correct": {
+        "count": 70,
+        "n": 90,
+        "rate": 0.7777777777777778,
+        "wilson_95": [
+          0.6815268960895479,
+          0.8512866452636051
+        ]
+      },
+      "argmax_correct": {
+        "count": 70,
+        "n": 90,
+        "rate": 0.7777777777777778,
+        "wilson_95": [
+          0.6815268960895479,
+          0.8512866452636051
+        ]
+      },
+      "choice_is_argmax": {
+        "count": 90,
+        "n": 90,
+        "rate": 1.0,
+        "wilson_95": [
+          0.9590643744356753,
+          0.9999999999999998
+        ]
+      },
+      "input_tokens": 42720,
+      "output_tokens": 2790,
+      "wrong_confidence_ge_0_9": 1
+    },
+    "development/atomic/safe": {
+      "attempted": 90,
+      "valid": 90,
+      "errors": 0,
+      "correct": {
+        "count": 89,
+        "n": 90,
+        "rate": 0.9888888888888889,
+        "wilson_95": [
+          0.9397159168824676,
+          0.9980359158990815
+        ]
+      },
+      "argmax_correct": {
+        "count": 89,
+        "n": 90,
+        "rate": 0.9888888888888889,
+        "wilson_95": [
+          0.9397159168824676,
+          0.9980359158990815
+        ]
+      },
+      "choice_is_argmax": {
+        "count": 90,
+        "n": 90,
+        "rate": 1.0,
+        "wilson_95": [
+          0.9590643744356753,
+          0.9999999999999998
+        ]
+      },
+      "input_tokens": 41640,
+      "output_tokens": 2790,
+      "wrong_confidence_ge_0_9": 0
+    },
+    "holdout/ablation/absolute": {
+      "attempted": 60,
+      "valid": 60,
+      "errors": 0,
+      "correct": {
+        "count": 48,
+        "n": 60,
+        "rate": 0.8,
+        "wilson_95": [
+          0.6821819419437246,
+          0.8817149467710234
+        ]
+      },
+      "safe": {
+        "count": 60,
+        "n": 60,
+        "rate": 1.0,
+        "wilson_95": [
+          0.9398281478579132,
+          0.9999999999999999
+        ]
+      },
+      "argmax_correct": {
+        "count": 48,
+        "n": 60,
+        "rate": 0.8,
+        "wilson_95": [
+          0.6821819419437246,
+          0.8817149467710234
+        ]
+      },
+      "choice_is_argmax": {
+        "count": 60,
+        "n": 60,
+        "rate": 1.0,
+        "wilson_95": [
+          0.9398281478579132,
+          0.9999999999999999
+        ]
+      },
+      "input_tokens": 29685,
+      "output_tokens": 2280,
+      "wrong_confidence_ge_0_9": 0
+    },
+    "development/ablation/original": {
+      "attempted": 60,
+      "valid": 60,
+      "errors": 0,
+      "correct": {
+        "count": 44,
+        "n": 60,
+        "rate": 0.7333333333333333,
+        "wilson_95": [
+          0.6099128690331671,
+          0.8286735999671923
+        ]
+      },
+      "safe": {
+        "count": 60,
+        "n": 60,
+        "rate": 1.0,
+        "wilson_95": [
+          0.9398281478579132,
+          0.9999999999999999
+        ]
+      },
+      "argmax_correct": {
+        "count": 44,
+        "n": 60,
+        "rate": 0.7333333333333333,
+        "wilson_95": [
+          0.6099128690331671,
+          0.8286735999671923
+        ]
+      },
+      "choice_is_argmax": {
+        "count": 60,
+        "n": 60,
+        "rate": 1.0,
+        "wilson_95": [
+          0.9398281478579132,
+          0.9999999999999999
+        ]
+      },
+      "input_tokens": 36198,
+      "output_tokens": 2280,
+      "wrong_confidence_ge_0_9": 0
+    },
+    "holdout/ablation/compact": {
+      "attempted": 60,
+      "valid": 60,
+      "errors": 0,
+      "correct": {
+        "count": 45,
+        "n": 60,
+        "rate": 0.75,
+        "wilson_95": [
+          0.6276792992295255,
+          0.8422347746994312
+        ]
+      },
+      "safe": {
+        "count": 60,
+        "n": 60,
+        "rate": 1.0,
+        "wilson_95": [
+          0.9398281478579132,
+          0.9999999999999999
+        ]
+      },
+      "argmax_correct": {
+        "count": 44,
+        "n": 60,
+        "rate": 0.7333333333333333,
+        "wilson_95": [
+          0.6099128690331671,
+          0.8286735999671923
+        ]
+      },
+      "choice_is_argmax": {
+        "count": 60,
+        "n": 60,
+        "rate": 1.0,
+        "wilson_95": [
+          0.9398281478579132,
+          0.9999999999999999
+        ]
+      },
+      "input_tokens": 29685,
+      "output_tokens": 2280,
+      "wrong_confidence_ge_0_9": 0
+    },
+    "development/ablation/absolute": {
+      "attempted": 60,
+      "valid": 60,
+      "errors": 0,
+      "correct": {
+        "count": 40,
+        "n": 60,
+        "rate": 0.6666666666666666,
+        "wilson_95": [
+          0.5405686645212004,
+          0.7727073847647705
+        ]
+      },
+      "safe": {
+        "count": 60,
+        "n": 60,
+        "rate": 1.0,
+        "wilson_95": [
+          0.9398281478579132,
+          0.9999999999999999
+        ]
+      },
+      "argmax_correct": {
+        "count": 40,
+        "n": 60,
+        "rate": 0.6666666666666666,
+        "wilson_95": [
+          0.5405686645212004,
+          0.7727073847647705
+        ]
+      },
+      "choice_is_argmax": {
+        "count": 60,
+        "n": 60,
+        "rate": 1.0,
+        "wilson_95": [
+          0.9398281478579132,
+          0.9999999999999999
+        ]
+      },
+      "input_tokens": 29769,
+      "output_tokens": 2280,
+      "wrong_confidence_ge_0_9": 0
+    },
+    "development/ablation/local": {
+      "attempted": 60,
+      "valid": 60,
+      "errors": 0,
+      "correct": {
+        "count": 57,
+        "n": 60,
+        "rate": 0.95,
+        "wilson_95": [
+          0.862994835236518,
+          0.9828504978356039
+        ]
+      },
+      "safe": {
+        "count": 60,
+        "n": 60,
+        "rate": 1.0,
+        "wilson_95": [
+          0.9398281478579132,
+          0.9999999999999999
+        ]
+      },
+      "argmax_correct": {
+        "count": 57,
+        "n": 60,
+        "rate": 0.95,
+        "wilson_95": [
+          0.862994835236518,
+          0.9828504978356039
+        ]
+      },
+      "choice_is_argmax": {
+        "count": 60,
+        "n": 60,
+        "rate": 1.0,
+        "wilson_95": [
+          0.9398281478579132,
+          0.9999999999999999
+        ]
+      },
+      "input_tokens": 36120,
+      "output_tokens": 2280,
+      "wrong_confidence_ge_0_9": 0
+    },
+    "development/ablation/exact": {
+      "attempted": 60,
+      "valid": 60,
+      "errors": 0,
+      "correct": {
+        "count": 60,
+        "n": 60,
+        "rate": 1.0,
+        "wilson_95": [
+          0.9398281478579132,
+          0.9999999999999999
+        ]
+      },
+      "safe": {
+        "count": 60,
+        "n": 60,
+        "rate": 1.0,
+        "wilson_95": [
+          0.9398281478579132,
+          0.9999999999999999
+        ]
+      },
+      "argmax_correct": {
+        "count": 60,
+        "n": 60,
+        "rate": 1.0,
+        "wilson_95": [
+          0.9398281478579132,
+          0.9999999999999999
+        ]
+      },
+      "choice_is_argmax": {
+        "count": 60,
+        "n": 60,
+        "rate": 1.0,
+        "wilson_95": [
+          0.9398281478579132,
+          0.9999999999999999
+        ]
+      },
+      "input_tokens": 34769,
+      "output_tokens": 2280,
+      "wrong_confidence_ge_0_9": 0
+    },
+    "holdout/ablation/original": {
+      "attempted": 60,
+      "valid": 60,
+      "errors": 0,
+      "correct": {
+        "count": 41,
+        "n": 60,
+        "rate": 0.6833333333333333,
+        "wilson_95": [
+          0.5576623297382359,
+          0.7869413244763324
+        ]
+      },
+      "safe": {
+        "count": 59,
+        "n": 60,
+        "rate": 0.9833333333333333,
+        "wilson_95": [
+          0.9114487027241024,
+          0.9970518402052136
+        ]
+      },
+      "argmax_correct": {
+        "count": 41,
+        "n": 60,
+        "rate": 0.6833333333333333,
+        "wilson_95": [
+          0.5576623297382359,
+          0.7869413244763324
+        ]
+      },
+      "choice_is_argmax": {
+        "count": 60,
+        "n": 60,
+        "rate": 1.0,
+        "wilson_95": [
+          0.9398281478579132,
+          0.9999999999999999
+        ]
+      },
+      "input_tokens": 36108,
+      "output_tokens": 2280,
+      "wrong_confidence_ge_0_9": 0
+    },
+    "holdout/ablation/local": {
+      "attempted": 60,
+      "valid": 60,
+      "errors": 0,
+      "correct": {
+        "count": 57,
+        "n": 60,
+        "rate": 0.95,
+        "wilson_95": [
+          0.862994835236518,
+          0.9828504978356039
+        ]
+      },
+      "safe": {
+        "count": 60,
+        "n": 60,
+        "rate": 1.0,
+        "wilson_95": [
+          0.9398281478579132,
+          0.9999999999999999
+        ]
+      },
+      "argmax_correct": {
+        "count": 57,
+        "n": 60,
+        "rate": 0.95,
+        "wilson_95": [
+          0.862994835236518,
+          0.9828504978356039
+        ]
+      },
+      "choice_is_argmax": {
+        "count": 60,
+        "n": 60,
+        "rate": 1.0,
+        "wilson_95": [
+          0.9398281478579132,
+          0.9999999999999999
+        ]
+      },
+      "input_tokens": 36014,
+      "output_tokens": 2280,
+      "wrong_confidence_ge_0_9": 0
+    }
+  },
+  "selection": {
+    "unassisted": "original",
+    "assisted": "exact"
+  },
+  "paired": {
+    "development/original->compact": {
+      "n": 60,
+      "improved": 3,
+      "worsened": 6
+    },
+    "development/compact->absolute": {
+      "n": 60,
+      "improved": 3,
+      "worsened": 4
+    },
+    "development/compact->local": {
+      "n": 60,
+      "improved": 17,
+      "worsened": 1
+    },
+    "development/local->exact": {
+      "n": 60,
+      "improved": 3,
+      "worsened": 0
+    },
+    "holdout/original->compact": {
+      "n": 60,
+      "improved": 6,
+      "worsened": 2
+    },
+    "holdout/compact->absolute": {
+      "n": 60,
+      "improved": 4,
+      "worsened": 1
+    },
+    "holdout/compact->local": {
+      "n": 60,
+      "improved": 12,
+      "worsened": 0
+    },
+    "holdout/local->exact": {
+      "n": 60,
+      "improved": 3,
+      "worsened": 0
+    }
+  },
+  "order": {
+    "states": 12,
+    "states_with_multiple_choices": 7,
+    "identical_payload_pairs": 72,
+    "different_choices_on_identical_payload": 8
+  }
+}

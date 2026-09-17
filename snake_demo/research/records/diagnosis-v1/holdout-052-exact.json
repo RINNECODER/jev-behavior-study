@@ -1,0 +1,105 @@
+{
+  "job": {
+    "id": "holdout-052-exact",
+    "state_id": "holdout-052",
+    "kind": "ablation",
+    "variant": "exact",
+    "order": [
+      "straight",
+      "right",
+      "left"
+    ]
+  },
+  "mapping": {
+    "straight": "straight",
+    "right": "right",
+    "left": "left"
+  },
+  "call": {
+    "payload": {
+      "model": "jev-1.13.0",
+      "state": {
+        "board_size": 12,
+        "solid_edges": true,
+        "head": [
+          11,
+          4
+        ],
+        "body_head_to_tail": [
+          [
+            11,
+            4
+          ],
+          [
+            11,
+            3
+          ],
+          [
+            11,
+            2
+          ],
+          [
+            10,
+            2
+          ]
+        ],
+        "heading": "south",
+        "food": [
+          4,
+          3
+        ],
+        "coordinates": "x right, y down; origin top left; zero indexed",
+        "verified_routes": {
+          "straight": {
+            "status": "solved",
+            "total_moves_to_food": 10
+          },
+          "right": {
+            "status": "solved",
+            "total_moves_to_food": 8
+          },
+          "left": {
+            "status": "immediate_collision",
+            "total_moves_to_food": null
+          }
+        }
+      },
+      "questions": {
+        "move": {
+          "type": "choice",
+          "instructions": "Code has already computed the exact shortest legal route length starting with each action, including that first move. Choose an action with the SMALLEST non-null total_moves_to_food. Null is invalid or unreachable. Any tied minimum is correct. Do not prefer straight or any direction over a smaller number.",
+          "criteria": {
+            "straight": "Move south to (11, 5).",
+            "right": "Move west to (10, 4).",
+            "left": "Move east to (12, 4)."
+          }
+        }
+      }
+    },
+    "payload_sha256": "a88b5431e225f30bf4ed0c3d2f6e1784482f440d9630c30c46d19e6be8ea3428",
+    "started_at": "2026-09-17T02:23:36.627504+00:00",
+    "http_status": 200,
+    "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"right\",\"confidence\":0.98,\"probabilities\":{\"left\":0.0,\"straight\":0.01,\"right\":0.99}}},\"usage\":{\"input_tokens\":579,\"output_tokens\":38}}",
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "move": {
+          "type": "choice",
+          "choice": "right",
+          "confidence": 0.98,
+          "probabilities": {
+            "left": 0.0,
+            "straight": 0.01,
+            "right": 0.99
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 579,
+        "output_tokens": 38
+      }
+    },
+    "valid": true,
+    "latency_ms": 1618.8
+  }
+}

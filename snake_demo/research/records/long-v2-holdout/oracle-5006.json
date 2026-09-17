@@ -1,0 +1,167 @@
+{
+  "id": "oracle-5006",
+  "seed": 5006,
+  "initial": {
+    "level": "classic",
+    "seed": 5006,
+    "size": 12,
+    "wrap": false,
+    "snake": [
+      [
+        6,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        8
+      ]
+    ],
+    "obstacles": [],
+    "food": [
+      7,
+      3
+    ],
+    "heading": "north",
+    "score": 0,
+    "moves": 0,
+    "since_food": 0,
+    "status": "playing",
+    "max_steps": 600,
+    "target": 24,
+    "starvation": 50
+  },
+  "final": {
+    "level": "classic",
+    "seed": 5006,
+    "size": 12,
+    "wrap": false,
+    "snake": [
+      [
+        2,
+        11
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        5,
+        11
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        7,
+        4
+      ],
+      [
+        7,
+        3
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        4,
+        0
+      ]
+    ],
+    "obstacles": [],
+    "food": [
+      11,
+      11
+    ],
+    "heading": "west",
+    "score": 23,
+    "moves": 193,
+    "since_food": 0,
+    "status": "planner_unknown",
+    "max_steps": 600,
+    "target": 24,
+    "starvation": 50
+  },
+  "moves": 193,
+  "score": 23,
+  "outcome": "planner_unknown",
+  "model": false,
+  "decisions": 194
+}

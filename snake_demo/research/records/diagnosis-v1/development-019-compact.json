@@ -1,0 +1,95 @@
+{
+  "job": {
+    "id": "development-019-compact",
+    "state_id": "development-019",
+    "kind": "ablation",
+    "variant": "compact",
+    "order": [
+      "straight",
+      "right",
+      "left"
+    ]
+  },
+  "mapping": {
+    "straight": "straight",
+    "right": "right",
+    "left": "left"
+  },
+  "call": {
+    "payload": {
+      "model": "jev-1.13.0",
+      "state": {
+        "board_size": 12,
+        "solid_edges": true,
+        "head": [
+          7,
+          2
+        ],
+        "body_head_to_tail": [
+          [
+            7,
+            2
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "heading": "north",
+        "food": [
+          7,
+          1
+        ],
+        "coordinates": "x right, y down; origin top left; zero indexed"
+      },
+      "questions": {
+        "move": {
+          "type": "choice",
+          "instructions": "Choose the first move of a shortest LEGAL route to the current food. The head moves one cell. Do not hit solid edges or the body. No reverse turn. The tail vacates on non-food moves. Minimize steps to food; any equally shortest route is acceptable.",
+          "criteria": {
+            "straight": "Move north to (7, 1).",
+            "right": "Move east to (8, 2).",
+            "left": "Move west to (6, 2)."
+          }
+        }
+      }
+    },
+    "payload_sha256": "b64d484bf51f09e7aa601d43668f806a1f69d0f33b3149c295de554c5a174755",
+    "started_at": "2026-09-17T02:23:20.417019+00:00",
+    "http_status": 200,
+    "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"straight\",\"confidence\":0.71,\"probabilities\":{\"left\":0.19,\"straight\":0.8,\"right\":0.01}}},\"usage\":{\"input_tokens\":492,\"output_tokens\":38}}",
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "move": {
+          "type": "choice",
+          "choice": "straight",
+          "confidence": 0.71,
+          "probabilities": {
+            "left": 0.19,
+            "straight": 0.8,
+            "right": 0.01
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 492,
+        "output_tokens": 38
+      }
+    },
+    "valid": true,
+    "latency_ms": 318.21
+  }
+}

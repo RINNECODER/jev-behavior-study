@@ -1,0 +1,95 @@
+{
+  "job": {
+    "id": "holdout-030-absolute",
+    "state_id": "holdout-030",
+    "kind": "ablation",
+    "variant": "absolute",
+    "order": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "mapping": {
+    "west": "left",
+    "north": "straight",
+    "east": "right"
+  },
+  "call": {
+    "payload": {
+      "model": "jev-1.13.0",
+      "state": {
+        "board_size": 12,
+        "solid_edges": true,
+        "head": [
+          4,
+          3
+        ],
+        "body_head_to_tail": [
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "heading": "north",
+        "food": [
+          6,
+          1
+        ],
+        "coordinates": "x right, y down; origin top left; zero indexed"
+      },
+      "questions": {
+        "move": {
+          "type": "choice",
+          "instructions": "Choose the first move of a shortest LEGAL route to the current food. The head moves one cell. Do not hit solid edges or the body. No reverse turn. The tail vacates on non-food moves. Minimize steps to food; any equally shortest route is acceptable.",
+          "criteria": {
+            "west": "Move west to (3, 3).",
+            "north": "Move north to (4, 2).",
+            "east": "Move east to (5, 3)."
+          }
+        }
+      }
+    },
+    "payload_sha256": "74d7692d08f95a4d3f163f2fdc52bb3dff3d3114708a95159881c5c86fd60051",
+    "started_at": "2026-09-17T02:24:01.278534+00:00",
+    "http_status": 200,
+    "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"north\",\"confidence\":0.15,\"probabilities\":{\"east\":0.27,\"west\":0.29,\"north\":0.44}}},\"usage\":{\"input_tokens\":492,\"output_tokens\":38}}",
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "move": {
+          "type": "choice",
+          "choice": "north",
+          "confidence": 0.15,
+          "probabilities": {
+            "east": 0.27,
+            "west": 0.29,
+            "north": 0.44
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 492,
+        "output_tokens": 38
+      }
+    },
+    "valid": true,
+    "latency_ms": 307.26
+  }
+}
