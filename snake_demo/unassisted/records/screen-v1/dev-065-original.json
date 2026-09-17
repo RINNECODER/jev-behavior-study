@@ -1,0 +1,111 @@
+{
+  "job": {
+    "id": "dev-065-original",
+    "state_id": "dev-065",
+    "variant": "original",
+    "order": [
+      "right",
+      "left",
+      "straight"
+    ]
+  },
+  "decision": {
+    "calls": [
+      {
+        "stage": "proposal",
+        "record": {
+          "payload": {
+            "model": "jev-1.13.0",
+            "state": {
+              "level": "classic",
+              "seed": 1009,
+              "size": 12,
+              "wrap": false,
+              "snake": [
+                [
+                  11,
+                  8
+                ],
+                [
+                  11,
+                  7
+                ],
+                [
+                  11,
+                  6
+                ],
+                [
+                  11,
+                  5
+                ],
+                [
+                  11,
+                  4
+                ],
+                [
+                  11,
+                  3
+                ],
+                [
+                  11,
+                  2
+                ]
+              ],
+              "obstacles": [],
+              "food": [
+                8,
+                11
+              ],
+              "heading": "south",
+              "score": 4,
+              "moves": 75,
+              "since_food": 11,
+              "status": "playing",
+              "max_steps": 200,
+              "target": 8,
+              "starvation": 50
+            },
+            "questions": {
+              "move": {
+                "type": "choice",
+                "instructions": "Play Snake. Maximize food collected while staying alive. Select one relative turn and advance one cell. x increases rightward; y increases downward. The snake list starts with the head and ends with the tail. The tail vacates its cell on a move unless food is eaten. Reverse turns are not permitted. Avoid body, obstacles, and solid boundaries; wrap only when wrap is true. Choose a route toward food without trapping the snake. Use the supplied board state.",
+                "criteria": {
+                  "right": "Right relative to current heading: move west to x=10, y=8.",
+                  "left": "Left relative to current heading: move east to x=12, y=8.",
+                  "straight": "Straight relative to current heading: move south to x=11, y=9."
+                }
+              }
+            }
+          },
+          "payload_sha256": "ded8046ea0d0b36009bc1748196b417540a2f69a75b06a610ba3c077afef04cc",
+          "started_at": "2026-09-17T03:38:12.750208+00:00",
+          "http_status": 200,
+          "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"straight\",\"confidence\":0.31,\"probabilities\":{\"straight\":0.54,\"left\":0.19,\"right\":0.27}}},\"usage\":{\"input_tokens\":624,\"output_tokens\":38}}",
+          "response": {
+            "model": "jev-1.13.0",
+            "answers": {
+              "move": {
+                "type": "choice",
+                "choice": "straight",
+                "confidence": 0.31,
+                "probabilities": {
+                  "straight": 0.54,
+                  "left": 0.19,
+                  "right": 0.27
+                }
+              }
+            },
+            "usage": {
+              "input_tokens": 624,
+              "output_tokens": 38
+            }
+          },
+          "valid": true,
+          "latency_ms": 280.01
+        }
+      }
+    ],
+    "first_action": "straight",
+    "action": "straight"
+  }
+}

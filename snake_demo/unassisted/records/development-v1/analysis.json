@@ -2,6 +2,8 @@
   "metrics": {
     "egocentric": {
       "episodes": 4,
+      "completed_games": 4,
+      "api_interrupted_games": 0,
       "successes": 2,
       "success_wilson_95": [
         0.1500389891521544,
@@ -36,6 +38,8 @@
     },
     "absolute": {
       "episodes": 4,
+      "completed_games": 4,
+      "api_interrupted_games": 0,
       "successes": 3,
       "success_wilson_95": [
         0.30064184258241056,
@@ -70,6 +74,8 @@
     },
     "original": {
       "episodes": 4,
+      "completed_games": 4,
+      "api_interrupted_games": 0,
       "successes": 2,
       "success_wilson_95": [
         0.1500389891521544,
@@ -105,6 +111,8 @@
     },
     "narrative": {
       "episodes": 4,
+      "completed_games": 4,
+      "api_interrupted_games": 0,
       "successes": 4,
       "success_wilson_95": [
         0.5101091635454165,

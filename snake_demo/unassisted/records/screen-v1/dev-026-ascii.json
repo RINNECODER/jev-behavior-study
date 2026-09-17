@@ -1,0 +1,122 @@
+{
+  "job": {
+    "id": "dev-026-ascii",
+    "state_id": "dev-026",
+    "variant": "ascii",
+    "order": [
+      "right",
+      "left",
+      "straight"
+    ]
+  },
+  "decision": {
+    "calls": [
+      {
+        "stage": "proposal",
+        "record": {
+          "payload": {
+            "model": "jev-1.13.0",
+            "state": {
+              "board": {
+                "width": 12,
+                "height": 12,
+                "solid_edges": true,
+                "coordinates": "x increases right, y increases down; indices 0 through 11"
+              },
+              "snake_head_to_tail": [
+                [
+                  9,
+                  6
+                ],
+                [
+                  9,
+                  7
+                ],
+                [
+                  9,
+                  8
+                ],
+                [
+                  9,
+                  9
+                ],
+                [
+                  8,
+                  9
+                ],
+                [
+                  7,
+                  9
+                ],
+                [
+                  6,
+                  9
+                ]
+              ],
+              "heading": "north",
+              "food": [
+                9,
+                3
+              ],
+              "foods_eaten": 4,
+              "moves_without_food": 8,
+              "grid_legend": "Rows top to bottom (y=0..11), columns left to right (x=0..11). H head, B body, T tail, F food, . empty. Use ordered body list for tail movement.",
+              "grid_rows": [
+                "............",
+                "............",
+                "............",
+                ".........F..",
+                "............",
+                "............",
+                ".........H..",
+                ".........B..",
+                ".........B..",
+                "......TBBB..",
+                "............",
+                "............"
+              ]
+            },
+            "questions": {
+              "move": {
+                "type": "choice",
+                "instructions": "Choose the next Snake move. Your priorities are: (1) do not collide on this move; (2) reach the CURRENT food using as few moves as possible; (3) do not circle indefinitely. Food is eaten only when the head enters its cell. Each turn advances exactly one cell. Solid edges kill; touching body kills. The tail cell vacates unless this move eats food. No reverse turn. Infer safety and the route yourself from the observation. All three offered actions are possible commands, not necessarily safe commands.",
+                "criteria": {
+                  "right": "Turn right relative to heading; advance east to (10, 6).",
+                  "left": "Turn left relative to heading; advance west to (8, 6).",
+                  "straight": "Continue straight; advance north to (9, 5)."
+                }
+              }
+            }
+          },
+          "payload_sha256": "795477248cc312c4cf24fe8ba796f63013653d1136b61491654d131425dfa4c5",
+          "started_at": "2026-09-17T03:38:12.023227+00:00",
+          "http_status": 200,
+          "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"straight\",\"confidence\":0.5,\"probabilities\":{\"right\":0.02,\"straight\":0.66,\"left\":0.32}}},\"usage\":{\"input_tokens\":713,\"output_tokens\":38}}",
+          "response": {
+            "model": "jev-1.13.0",
+            "answers": {
+              "move": {
+                "type": "choice",
+                "choice": "straight",
+                "confidence": 0.5,
+                "probabilities": {
+                  "right": 0.02,
+                  "straight": 0.66,
+                  "left": 0.32
+                }
+              }
+            },
+            "usage": {
+              "input_tokens": 713,
+              "output_tokens": 38
+            }
+          },
+          "valid": true,
+          "latency_ms": 299.97
+        }
+      }
+    ],
+    "first_action": "straight",
+    "action": "straight"
+  }
+}

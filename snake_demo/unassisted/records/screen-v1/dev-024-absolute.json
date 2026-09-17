@@ -1,0 +1,95 @@
+{
+  "job": {
+    "id": "dev-024-absolute",
+    "state_id": "dev-024",
+    "variant": "absolute",
+    "order": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "decision": {
+    "calls": [
+      {
+        "stage": "proposal",
+        "record": {
+          "payload": {
+            "model": "jev-1.13.0",
+            "state": {
+              "board": {
+                "width": 12,
+                "height": 12,
+                "solid_edges": true,
+                "coordinates": "x increases right, y increases down; indices 0 through 11"
+              },
+              "snake_head_to_tail": [
+                [
+                  3,
+                  3
+                ],
+                [
+                  4,
+                  3
+                ],
+                [
+                  5,
+                  3
+                ],
+                [
+                  6,
+                  3
+                ]
+              ],
+              "heading": "west",
+              "food": [
+                0,
+                9
+              ],
+              "foods_eaten": 1,
+              "moves_without_food": 27
+            },
+            "questions": {
+              "move": {
+                "type": "choice",
+                "instructions": "Choose the next Snake move. Your priorities are: (1) do not collide on this move; (2) reach the CURRENT food using as few moves as possible; (3) do not circle indefinitely. Food is eaten only when the head enters its cell. Each turn advances exactly one cell. Solid edges kill; touching body kills. The tail cell vacates unless this move eats food. No reverse turn. Infer safety and the route yourself from the observation. All three offered actions are possible commands, not necessarily safe commands.",
+                "criteria": {
+                  "south": "Turn left relative to heading; advance south to (3, 4).",
+                  "west": "Continue straight; advance west to (2, 3).",
+                  "north": "Turn right relative to heading; advance north to (3, 2)."
+                }
+              }
+            }
+          },
+          "payload_sha256": "06385f7583f09c1f02e95b9273e16ad60b884cc6acec9d42b7839e6453fd13cf",
+          "started_at": "2026-09-17T03:38:18.767087+00:00",
+          "http_status": 200,
+          "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"west\",\"confidence\":0.48,\"probabilities\":{\"north\":0.08,\"west\":0.66,\"south\":0.26}}},\"usage\":{\"input_tokens\":573,\"output_tokens\":38}}",
+          "response": {
+            "model": "jev-1.13.0",
+            "answers": {
+              "move": {
+                "type": "choice",
+                "choice": "west",
+                "confidence": 0.48,
+                "probabilities": {
+                  "north": 0.08,
+                  "west": 0.66,
+                  "south": 0.26
+                }
+              }
+            },
+            "usage": {
+              "input_tokens": 573,
+              "output_tokens": 38
+            }
+          },
+          "valid": true,
+          "latency_ms": 476.49
+        }
+      }
+    ],
+    "first_action": "straight",
+    "action": "straight"
+  }
+}

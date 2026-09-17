@@ -1,0 +1,11 @@
+{
+  "valid_calls": 6394,
+  "failed_calls": 2,
+  "input_tokens": 3820948,
+  "output_tokens": 242972,
+  "heldout_episodes": 48,
+  "development_episodes": 16,
+  "screen_decisions": 640,
+  "default_selected_on_development": "narrative",
+  "best_observed_on_holdout": "narrative"
+}

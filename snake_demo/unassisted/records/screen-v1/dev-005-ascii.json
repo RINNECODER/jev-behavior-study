@@ -1,0 +1,118 @@
+{
+  "job": {
+    "id": "dev-005-ascii",
+    "state_id": "dev-005",
+    "variant": "ascii",
+    "order": [
+      "right",
+      "left",
+      "straight"
+    ]
+  },
+  "decision": {
+    "calls": [
+      {
+        "stage": "proposal",
+        "record": {
+          "payload": {
+            "model": "jev-1.13.0",
+            "state": {
+              "board": {
+                "width": 12,
+                "height": 12,
+                "solid_edges": true,
+                "coordinates": "x increases right, y increases down; indices 0 through 11"
+              },
+              "snake_head_to_tail": [
+                [
+                  2,
+                  1
+                ],
+                [
+                  3,
+                  1
+                ],
+                [
+                  4,
+                  1
+                ],
+                [
+                  5,
+                  1
+                ],
+                [
+                  6,
+                  1
+                ],
+                [
+                  7,
+                  1
+                ]
+              ],
+              "heading": "west",
+              "food": [
+                6,
+                8
+              ],
+              "foods_eaten": 3,
+              "moves_without_food": 9,
+              "grid_legend": "Rows top to bottom (y=0..11), columns left to right (x=0..11). H head, B body, T tail, F food, . empty. Use ordered body list for tail movement.",
+              "grid_rows": [
+                "............",
+                "..HBBBBT....",
+                "............",
+                "............",
+                "............",
+                "............",
+                "............",
+                "............",
+                "......F.....",
+                "............",
+                "............",
+                "............"
+              ]
+            },
+            "questions": {
+              "move": {
+                "type": "choice",
+                "instructions": "Choose the next Snake move. Your priorities are: (1) do not collide on this move; (2) reach the CURRENT food using as few moves as possible; (3) do not circle indefinitely. Food is eaten only when the head enters its cell. Each turn advances exactly one cell. Solid edges kill; touching body kills. The tail cell vacates unless this move eats food. No reverse turn. Infer safety and the route yourself from the observation. All three offered actions are possible commands, not necessarily safe commands.",
+                "criteria": {
+                  "right": "Turn right relative to heading; advance north to (2, 0).",
+                  "left": "Turn left relative to heading; advance south to (2, 2).",
+                  "straight": "Continue straight; advance west to (1, 1)."
+                }
+              }
+            }
+          },
+          "payload_sha256": "855002be55c7abec836335e0fcd84a79433ae4d72278ac8c9858fb3ecc813e1b",
+          "started_at": "2026-09-17T03:38:32.968724+00:00",
+          "http_status": 200,
+          "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"straight\",\"confidence\":0.38,\"probabilities\":{\"right\":0.06,\"straight\":0.59,\"left\":0.35}}},\"usage\":{\"input_tokens\":702,\"output_tokens\":38}}",
+          "response": {
+            "model": "jev-1.13.0",
+            "answers": {
+              "move": {
+                "type": "choice",
+                "choice": "straight",
+                "confidence": 0.38,
+                "probabilities": {
+                  "right": 0.06,
+                  "straight": 0.59,
+                  "left": 0.35
+                }
+              }
+            },
+            "usage": {
+              "input_tokens": 702,
+              "output_tokens": 38
+            }
+          },
+          "valid": true,
+          "latency_ms": 378.32
+        }
+      }
+    ],
+    "first_action": "straight",
+    "action": "straight"
+  }
+}

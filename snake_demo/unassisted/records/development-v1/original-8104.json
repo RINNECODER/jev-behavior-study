@@ -1,0 +1,108 @@
+{
+  "id": "original-8104",
+  "variant": "original",
+  "seed": 8104,
+  "initial": {
+    "level": "classic",
+    "seed": 8104,
+    "size": 12,
+    "wrap": false,
+    "snake": [
+      [
+        6,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        8
+      ]
+    ],
+    "obstacles": [],
+    "food": [
+      4,
+      5
+    ],
+    "heading": "north",
+    "score": 0,
+    "moves": 0,
+    "since_food": 0,
+    "status": "playing",
+    "max_steps": 200,
+    "target": 8,
+    "starvation": 50
+  },
+  "final": {
+    "level": "classic",
+    "seed": 8104,
+    "size": 12,
+    "wrap": false,
+    "snake": [
+      [
+        11,
+        11
+      ],
+      [
+        11,
+        10
+      ],
+      [
+        11,
+        9
+      ],
+      [
+        11,
+        8
+      ],
+      [
+        11,
+        7
+      ],
+      [
+        11,
+        6
+      ],
+      [
+        11,
+        5
+      ],
+      [
+        11,
+        4
+      ],
+      [
+        11,
+        3
+      ],
+      [
+        11,
+        2
+      ],
+      [
+        11,
+        1
+      ]
+    ],
+    "obstacles": [],
+    "food": [
+      7,
+      6
+    ],
+    "heading": "south",
+    "score": 8,
+    "moves": 124,
+    "since_food": 0,
+    "status": "target_reached",
+    "max_steps": 200,
+    "target": 8,
+    "starvation": 50
+  },
+  "food": 8,
+  "moves": 124,
+  "outcome": "target_reached",
+  "calls": 124,
+  "valid_calls": 124
+}

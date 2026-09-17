@@ -1,0 +1,107 @@
+{
+  "job": {
+    "id": "dev-051-absolute",
+    "state_id": "dev-051",
+    "variant": "absolute",
+    "order": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "decision": {
+    "calls": [
+      {
+        "stage": "proposal",
+        "record": {
+          "payload": {
+            "model": "jev-1.13.0",
+            "state": {
+              "board": {
+                "width": 12,
+                "height": 12,
+                "solid_edges": true,
+                "coordinates": "x increases right, y increases down; indices 0 through 11"
+              },
+              "snake_head_to_tail": [
+                [
+                  2,
+                  5
+                ],
+                [
+                  3,
+                  5
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  5,
+                  5
+                ],
+                [
+                  6,
+                  5
+                ],
+                [
+                  6,
+                  6
+                ],
+                [
+                  6,
+                  7
+                ]
+              ],
+              "heading": "west",
+              "food": [
+                8,
+                0
+              ],
+              "foods_eaten": 4,
+              "moves_without_food": 3
+            },
+            "questions": {
+              "move": {
+                "type": "choice",
+                "instructions": "Choose the next Snake move. Your priorities are: (1) do not collide on this move; (2) reach the CURRENT food using as few moves as possible; (3) do not circle indefinitely. Food is eaten only when the head enters its cell. Each turn advances exactly one cell. Solid edges kill; touching body kills. The tail cell vacates unless this move eats food. No reverse turn. Infer safety and the route yourself from the observation. All three offered actions are possible commands, not necessarily safe commands.",
+                "criteria": {
+                  "south": "Turn left relative to heading; advance south to (2, 6).",
+                  "west": "Continue straight; advance west to (1, 5).",
+                  "north": "Turn right relative to heading; advance north to (2, 4)."
+                }
+              }
+            }
+          },
+          "payload_sha256": "cd5f1c9d801ca990be5fa39825ecb32fc672bbe5fff08335cb18b8ca20c63136",
+          "started_at": "2026-09-17T03:38:32.666336+00:00",
+          "http_status": 200,
+          "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"west\",\"confidence\":0.35,\"probabilities\":{\"south\":0.08,\"north\":0.35,\"west\":0.57}}},\"usage\":{\"input_tokens\":590,\"output_tokens\":38}}",
+          "response": {
+            "model": "jev-1.13.0",
+            "answers": {
+              "move": {
+                "type": "choice",
+                "choice": "west",
+                "confidence": 0.35,
+                "probabilities": {
+                  "south": 0.08,
+                  "north": 0.35,
+                  "west": 0.57
+                }
+              }
+            },
+            "usage": {
+              "input_tokens": 590,
+              "output_tokens": 38
+            }
+          },
+          "valid": true,
+          "latency_ms": 301.99
+        }
+      }
+    ],
+    "first_action": "straight",
+    "action": "straight"
+  }
+}

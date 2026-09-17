@@ -1,0 +1,106 @@
+{
+  "job": {
+    "id": "dev-019-ascii",
+    "state_id": "dev-019",
+    "variant": "ascii",
+    "order": [
+      "straight",
+      "right",
+      "left"
+    ]
+  },
+  "decision": {
+    "calls": [
+      {
+        "stage": "proposal",
+        "record": {
+          "payload": {
+            "model": "jev-1.13.0",
+            "state": {
+              "board": {
+                "width": 12,
+                "height": 12,
+                "solid_edges": true,
+                "coordinates": "x increases right, y increases down; indices 0 through 11"
+              },
+              "snake_head_to_tail": [
+                [
+                  3,
+                  0
+                ],
+                [
+                  4,
+                  0
+                ],
+                [
+                  5,
+                  0
+                ]
+              ],
+              "heading": "west",
+              "food": [
+                3,
+                5
+              ],
+              "foods_eaten": 0,
+              "moves_without_food": 9,
+              "grid_legend": "Rows top to bottom (y=0..11), columns left to right (x=0..11). H head, B body, T tail, F food, . empty. Use ordered body list for tail movement.",
+              "grid_rows": [
+                "...HBT......",
+                "............",
+                "............",
+                "............",
+                "............",
+                "...F........",
+                "............",
+                "............",
+                "............",
+                "............",
+                "............",
+                "............"
+              ]
+            },
+            "questions": {
+              "move": {
+                "type": "choice",
+                "instructions": "Choose the next Snake move. Your priorities are: (1) do not collide on this move; (2) reach the CURRENT food using as few moves as possible; (3) do not circle indefinitely. Food is eaten only when the head enters its cell. Each turn advances exactly one cell. Solid edges kill; touching body kills. The tail cell vacates unless this move eats food. No reverse turn. Infer safety and the route yourself from the observation. All three offered actions are possible commands, not necessarily safe commands.",
+                "criteria": {
+                  "straight": "Continue straight; advance west to (2, 0).",
+                  "right": "Turn right relative to heading; advance north to (3, -1).",
+                  "left": "Turn left relative to heading; advance south to (3, 1)."
+                }
+              }
+            }
+          },
+          "payload_sha256": "1c8c7163a0fe342674e9a17b40bf8e92bb2d592285ee4e670a5538672e87d7a4",
+          "started_at": "2026-09-17T03:38:56.833721+00:00",
+          "http_status": 200,
+          "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"left\",\"confidence\":0.38,\"probabilities\":{\"left\":0.59,\"right\":0.02,\"straight\":0.39}}},\"usage\":{\"input_tokens\":682,\"output_tokens\":38}}",
+          "response": {
+            "model": "jev-1.13.0",
+            "answers": {
+              "move": {
+                "type": "choice",
+                "choice": "left",
+                "confidence": 0.38,
+                "probabilities": {
+                  "left": 0.59,
+                  "right": 0.02,
+                  "straight": 0.39
+                }
+              }
+            },
+            "usage": {
+              "input_tokens": 682,
+              "output_tokens": 38
+            }
+          },
+          "valid": true,
+          "latency_ms": 986.27
+        }
+      }
+    ],
+    "first_action": "left",
+    "action": "left"
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "job": {
+    "id": "dev-013-history",
+    "state_id": "dev-013",
+    "variant": "history",
+    "order": [
+      "straight",
+      "right",
+      "left"
+    ]
+  },
+  "decision": {
+    "calls": [
+      {
+        "stage": "proposal",
+        "record": {
+          "payload": {
+            "model": "jev-1.13.0",
+            "state": {
+              "board": {
+                "width": 12,
+                "height": 12,
+                "solid_edges": true,
+                "coordinates": "x increases right, y increases down; indices 0 through 11"
+              },
+              "snake_head_to_tail": [
+                [
+                  10,
+                  2
+                ],
+                [
+                  10,
+                  1
+                ],
+                [
+                  10,
+                  0
+                ],
+                [
+                  9,
+                  0
+                ],
+                [
+                  8,
+                  0
+                ]
+              ],
+              "heading": "south",
+              "food": [
+                10,
+                11
+              ],
+              "foods_eaten": 2,
+              "moves_without_food": 14,
+              "previous_observations_and_executed_moves": [
+                {
+                  "observation": {
+                    "board": {
+                      "width": 12,
+                      "height": 12,
+                      "solid_edges": true,
+                      "coordinates": "x increases right, y increases down; indices 0 through 11"
+                    },
+                    "snake_head_to_tail": [
+                      [
+                        8,
+                        0
+                      ],
+                      [
+                        7,
+                        0
+                      ],
+                      [
+                        6,
+                        0
+                      ],
+                      [
+                        6,
+                        1
+                      ],
+                      [
+                        6,
+                        2
+                      ]
+                    ],
+                    "heading": "east",
+                    "food": [
+                      10,
+                      11
+                    ],
+                    "foods_eaten": 2,
+                    "moves_without_food": 10
+                  },
+                  "action": "straight"
+                },
+                {
+                  "observation": {
+                    "board": {
+                      "width": 12,
+                      "height": 12,
+                      "solid_edges": true,
+                      "coordinates": "x increases right, y increases down; indices 0 through 11"
+                    },
+                    "snake_head_to_tail": [
+                      [
+                        9,
+                        0
+                      ],
+                      [
+                        8,
+                        0
+                      ],
+                      [
+                        7,
+                        0
+                      ],
+                      [
+                        6,
+                        0
+                      ],
+                      [
+                        6,
+                        1
+                      ]
+                    ],
+                    "heading": "east",
+                    "food": [
+                      10,
+                      11
+                    ],
+                    "foods_eaten": 2,
+                    "moves_without_food": 11
+                  },
+                  "action": "straight"
+                },
+                {
+                  "observation": {
+                    "board": {
+                      "width": 12,
+                      "height": 12,
+                      "solid_edges": true,
+                      "coordinates": "x increases right, y increases down; indices 0 through 11"
+                    },
+                    "snake_head_to_tail": [
+                      [
+                        10,
+                        0
+                      ],
+                      [
+                        9,
+                        0
+                      ],
+                      [
+                        8,
+                        0
+                      ],
+                      [
+                        7,
+                        0
+                      ],
+                      [
+                        6,
+                        0
+                      ]
+                    ],
+                    "heading": "east",
+                    "food": [
+                      10,
+                      11
+                    ],
+                    "foods_eaten": 2,
+                    "moves_without_food": 12
+                  },
+                  "action": "right"
+                },
+                {
+                  "observation": {
+                    "board": {
+                      "width": 12,
+                      "height": 12,
+                      "solid_edges": true,
+                      "coordinates": "x increases right, y increases down; indices 0 through 11"
+                    },
+                    "snake_head_to_tail": [
+                      [
+                        10,
+                        1
+                      ],
+                      [
+                        10,
+                        0
+                      ],
+                      [
+                        9,
+                        0
+                      ],
+                      [
+                        8,
+                        0
+                      ],
+                      [
+                        7,
+                        0
+                      ]
+                    ],
+                    "heading": "south",
+                    "food": [
+                      10,
+                      11
+                    ],
+                    "foods_eaten": 2,
+                    "moves_without_food": 13
+                  },
+                  "action": "straight"
+                }
+              ]
+            },
+            "questions": {
+              "move": {
+                "type": "choice",
+                "instructions": "Choose the next Snake move. Your priorities are: (1) do not collide on this move; (2) reach the CURRENT food using as few moves as possible; (3) do not circle indefinitely. Food is eaten only when the head enters its cell. Each turn advances exactly one cell. Solid edges kill; touching body kills. The tail cell vacates unless this move eats food. No reverse turn. Infer safety and the route yourself from the observation. All three offered actions are possible commands, not necessarily safe commands.",
+                "criteria": {
+                  "straight": "Continue straight; advance south to (10, 3).",
+                  "right": "Turn right relative to heading; advance west to (9, 2).",
+                  "left": "Turn left relative to heading; advance east to (11, 2)."
+                }
+              }
+            }
+          },
+          "payload_sha256": "eb7af01554e2c079b253c6a3ff8d1561e7a8d255b2031c8cf39f9ecec2ad1d33",
+          "started_at": "2026-09-17T03:37:58.055447+00:00",
+          "http_status": 200,
+          "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"straight\",\"confidence\":0.94,\"probabilities\":{\"left\":0.03,\"straight\":0.96,\"right\":0.01}}},\"usage\":{\"input_tokens\":1175,\"output_tokens\":38}}",
+          "response": {
+            "model": "jev-1.13.0",
+            "answers": {
+              "move": {
+                "type": "choice",
+                "choice": "straight",
+                "confidence": 0.94,
+                "probabilities": {
+                  "left": 0.03,
+                  "straight": 0.96,
+                  "right": 0.01
+                }
+              }
+            },
+            "usage": {
+              "input_tokens": 1175,
+              "output_tokens": 38
+            }
+          },
+          "valid": true,
+          "latency_ms": 449.41
+        }
+      }
+    ],
+    "first_action": "straight",
+    "action": "straight"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "job": {
+    "id": "dev-019-egocentric",
+    "state_id": "dev-019",
+    "variant": "egocentric",
+    "order": [
+      "straight",
+      "right",
+      "left"
+    ]
+  },
+  "decision": {
+    "calls": [
+      {
+        "stage": "proposal",
+        "record": {
+          "payload": {
+            "model": "jev-1.13.0",
+            "state": {
+              "coordinates": "Head is (0,0), facing positive y. Positive x is your right. Coordinates are cells, not distances or scores.",
+              "board_bounds_inclusive": {
+                "min_x": -11,
+                "max_x": 0,
+                "min_y": -8,
+                "max_y": 3
+              },
+              "solid_edges": true,
+              "snake_head_to_tail": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  -1
+                ],
+                [
+                  0,
+                  -2
+                ]
+              ],
+              "food": [
+                -5,
+                0
+              ],
+              "foods_eaten": 0,
+              "moves_without_food": 9
+            },
+            "questions": {
+              "move": {
+                "type": "choice",
+                "instructions": "Choose the next Snake move. Your priorities are: (1) do not collide on this move; (2) reach the CURRENT food using as few moves as possible; (3) do not circle indefinitely. Food is eaten only when the head enters its cell. Each turn advances exactly one cell. Solid edges kill; touching body kills. The tail cell vacates unless this move eats food. No reverse turn. Infer safety and the route yourself from the observation. All three offered actions are possible commands, not necessarily safe commands.",
+                "criteria": {
+                  "straight": "Advance one cell to (0, 1) in the supplied head-relative coordinates.",
+                  "right": "Advance one cell to (1, 0) in the supplied head-relative coordinates.",
+                  "left": "Advance one cell to (-1, 0) in the supplied head-relative coordinates."
+                }
+              }
+            }
+          },
+          "payload_sha256": "608cae77075ac9378a4be3571872c7589f10bc5a958cbcc48e166e6b1a184b62",
+          "started_at": "2026-09-17T03:38:49.748293+00:00",
+          "http_status": 200,
+          "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"left\",\"confidence\":0.9,\"probabilities\":{\"straight\":0.06,\"right\":0.01,\"left\":0.93}}},\"usage\":{\"input_tokens\":602,\"output_tokens\":38}}",
+          "response": {
+            "model": "jev-1.13.0",
+            "answers": {
+              "move": {
+                "type": "choice",
+                "choice": "left",
+                "confidence": 0.9,
+                "probabilities": {
+                  "straight": 0.06,
+                  "right": 0.01,
+                  "left": 0.93
+                }
+              }
+            },
+            "usage": {
+              "input_tokens": 602,
+              "output_tokens": 38
+            }
+          },
+          "valid": true,
+          "latency_ms": 367.92
+        }
+      }
+    ],
+    "first_action": "left",
+    "action": "left"
+  }
+}

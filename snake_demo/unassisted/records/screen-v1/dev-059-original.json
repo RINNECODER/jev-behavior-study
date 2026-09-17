@@ -1,0 +1,111 @@
+{
+  "job": {
+    "id": "dev-059-original",
+    "state_id": "dev-059",
+    "variant": "original",
+    "order": [
+      "right",
+      "left",
+      "straight"
+    ]
+  },
+  "decision": {
+    "calls": [
+      {
+        "stage": "proposal",
+        "record": {
+          "payload": {
+            "model": "jev-1.13.0",
+            "state": {
+              "level": "classic",
+              "seed": 1005,
+              "size": 12,
+              "wrap": false,
+              "snake": [
+                [
+                  5,
+                  6
+                ],
+                [
+                  6,
+                  6
+                ],
+                [
+                  6,
+                  5
+                ],
+                [
+                  6,
+                  4
+                ],
+                [
+                  6,
+                  3
+                ],
+                [
+                  6,
+                  2
+                ],
+                [
+                  6,
+                  1
+                ]
+              ],
+              "obstacles": [],
+              "food": [
+                4,
+                6
+              ],
+              "heading": "west",
+              "score": 4,
+              "moves": 139,
+              "since_food": 22,
+              "status": "playing",
+              "max_steps": 200,
+              "target": 8,
+              "starvation": 50
+            },
+            "questions": {
+              "move": {
+                "type": "choice",
+                "instructions": "Play Snake. Maximize food collected while staying alive. Select one relative turn and advance one cell. x increases rightward; y increases downward. The snake list starts with the head and ends with the tail. The tail vacates its cell on a move unless food is eaten. Reverse turns are not permitted. Avoid body, obstacles, and solid boundaries; wrap only when wrap is true. Choose a route toward food without trapping the snake. Use the supplied board state.",
+                "criteria": {
+                  "right": "Right relative to current heading: move north to x=5, y=5.",
+                  "left": "Left relative to current heading: move south to x=5, y=7.",
+                  "straight": "Straight relative to current heading: move west to x=4, y=6."
+                }
+              }
+            }
+          },
+          "payload_sha256": "a18868c6348739c820bad04370fbd007ed7f8e7b1ce21ece41507f9358ab241f",
+          "started_at": "2026-09-17T03:38:46.927810+00:00",
+          "http_status": 200,
+          "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"straight\",\"confidence\":0.68,\"probabilities\":{\"right\":0.15,\"left\":0.06,\"straight\":0.79}}},\"usage\":{\"input_tokens\":614,\"output_tokens\":38}}",
+          "response": {
+            "model": "jev-1.13.0",
+            "answers": {
+              "move": {
+                "type": "choice",
+                "choice": "straight",
+                "confidence": 0.68,
+                "probabilities": {
+                  "right": 0.15,
+                  "left": 0.06,
+                  "straight": 0.79
+                }
+              }
+            },
+            "usage": {
+              "input_tokens": 614,
+              "output_tokens": 38
+            }
+          },
+          "valid": true,
+          "latency_ms": 330.84
+        }
+      }
+    ],
+    "first_action": "straight",
+    "action": "straight"
+  }
+}

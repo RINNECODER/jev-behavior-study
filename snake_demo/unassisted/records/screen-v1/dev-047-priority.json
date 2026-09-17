@@ -1,0 +1,99 @@
+{
+  "job": {
+    "id": "dev-047-priority",
+    "state_id": "dev-047",
+    "variant": "priority",
+    "order": [
+      "right",
+      "left",
+      "straight"
+    ]
+  },
+  "decision": {
+    "calls": [
+      {
+        "stage": "proposal",
+        "record": {
+          "payload": {
+            "model": "jev-1.13.0",
+            "state": {
+              "board": {
+                "width": 12,
+                "height": 12,
+                "solid_edges": true,
+                "coordinates": "x increases right, y increases down; indices 0 through 11"
+              },
+              "snake_head_to_tail": [
+                [
+                  3,
+                  0
+                ],
+                [
+                  2,
+                  0
+                ],
+                [
+                  1,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1
+                ]
+              ],
+              "heading": "east",
+              "food": [
+                9,
+                10
+              ],
+              "foods_eaten": 2,
+              "moves_without_food": 0
+            },
+            "questions": {
+              "move": {
+                "type": "choice",
+                "instructions": "Choose the next Snake move. Your priorities are: (1) do not collide on this move; (2) reach the CURRENT food using as few moves as possible; (3) do not circle indefinitely. Food is eaten only when the head enters its cell. Each turn advances exactly one cell. Solid edges kill; touching body kills. The tail cell vacates unless this move eats food. No reverse turn. Infer safety and the route yourself from the observation. All three offered actions are possible commands, not necessarily safe commands.",
+                "criteria": {
+                  "right": "Turn right relative to heading; advance south to (3, 1).",
+                  "left": "Turn left relative to heading; advance north to (3, -1).",
+                  "straight": "Continue straight; advance east to (4, 0)."
+                }
+              }
+            }
+          },
+          "payload_sha256": "055e52c9c7603abfeb14f6ebeb4a64b23fa27a1c1a7f6998a5abd9791a34d0b8",
+          "started_at": "2026-09-17T03:38:11.967332+00:00",
+          "http_status": 200,
+          "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"straight\",\"confidence\":0.46,\"probabilities\":{\"straight\":0.64,\"right\":0.35,\"left\":0.01}}},\"usage\":{\"input_tokens\":579,\"output_tokens\":38}}",
+          "response": {
+            "model": "jev-1.13.0",
+            "answers": {
+              "move": {
+                "type": "choice",
+                "choice": "straight",
+                "confidence": 0.46,
+                "probabilities": {
+                  "straight": 0.64,
+                  "right": 0.35,
+                  "left": 0.01
+                }
+              }
+            },
+            "usage": {
+              "input_tokens": 579,
+              "output_tokens": 38
+            }
+          },
+          "valid": true,
+          "latency_ms": 332.01
+        }
+      }
+    ],
+    "first_action": "straight",
+    "action": "straight"
+  }
+}

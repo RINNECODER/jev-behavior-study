@@ -1,0 +1,118 @@
+{
+  "job": {
+    "id": "dev-078-ascii",
+    "state_id": "dev-078",
+    "variant": "ascii",
+    "order": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "decision": {
+    "calls": [
+      {
+        "stage": "proposal",
+        "record": {
+          "payload": {
+            "model": "jev-1.13.0",
+            "state": {
+              "board": {
+                "width": 12,
+                "height": 12,
+                "solid_edges": true,
+                "coordinates": "x increases right, y increases down; indices 0 through 11"
+              },
+              "snake_head_to_tail": [
+                [
+                  7,
+                  11
+                ],
+                [
+                  8,
+                  11
+                ],
+                [
+                  9,
+                  11
+                ],
+                [
+                  10,
+                  11
+                ],
+                [
+                  10,
+                  10
+                ],
+                [
+                  10,
+                  9
+                ]
+              ],
+              "heading": "west",
+              "food": [
+                0,
+                9
+              ],
+              "foods_eaten": 3,
+              "moves_without_food": 3,
+              "grid_legend": "Rows top to bottom (y=0..11), columns left to right (x=0..11). H head, B body, T tail, F food, . empty. Use ordered body list for tail movement.",
+              "grid_rows": [
+                "............",
+                "............",
+                "............",
+                "............",
+                "............",
+                "............",
+                "............",
+                "............",
+                "............",
+                "F.........T.",
+                "..........B.",
+                ".......HBBB."
+              ]
+            },
+            "questions": {
+              "move": {
+                "type": "choice",
+                "instructions": "Choose the next Snake move. Your priorities are: (1) do not collide on this move; (2) reach the CURRENT food using as few moves as possible; (3) do not circle indefinitely. Food is eaten only when the head enters its cell. Each turn advances exactly one cell. Solid edges kill; touching body kills. The tail cell vacates unless this move eats food. No reverse turn. Infer safety and the route yourself from the observation. All three offered actions are possible commands, not necessarily safe commands.",
+                "criteria": {
+                  "left": "Turn left relative to heading; advance south to (7, 12).",
+                  "straight": "Continue straight; advance west to (6, 11).",
+                  "right": "Turn right relative to heading; advance north to (7, 10)."
+                }
+              }
+            }
+          },
+          "payload_sha256": "3056bf6f0f70ef4e76ca8d60a2c2a5b363d04124340fe46924e66c7ac5b4998c",
+          "started_at": "2026-09-17T03:38:33.225552+00:00",
+          "http_status": 200,
+          "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"straight\",\"confidence\":0.52,\"probabilities\":{\"left\":0.03,\"straight\":0.68,\"right\":0.29}}},\"usage\":{\"input_tokens\":714,\"output_tokens\":38}}",
+          "response": {
+            "model": "jev-1.13.0",
+            "answers": {
+              "move": {
+                "type": "choice",
+                "choice": "straight",
+                "confidence": 0.52,
+                "probabilities": {
+                  "left": 0.03,
+                  "straight": 0.68,
+                  "right": 0.29
+                }
+              }
+            },
+            "usage": {
+              "input_tokens": 714,
+              "output_tokens": 38
+            }
+          },
+          "valid": true,
+          "latency_ms": 286.92
+        }
+      }
+    ],
+    "first_action": "straight",
+    "action": "straight"
+  }
+}

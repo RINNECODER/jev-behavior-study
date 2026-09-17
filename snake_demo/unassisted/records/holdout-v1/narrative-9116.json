@@ -1,0 +1,108 @@
+{
+  "id": "narrative-9116",
+  "variant": "narrative",
+  "seed": 9116,
+  "initial": {
+    "level": "classic",
+    "seed": 9116,
+    "size": 12,
+    "wrap": false,
+    "snake": [
+      [
+        6,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        8
+      ]
+    ],
+    "obstacles": [],
+    "food": [
+      1,
+      5
+    ],
+    "heading": "north",
+    "score": 0,
+    "moves": 0,
+    "since_food": 0,
+    "status": "playing",
+    "max_steps": 200,
+    "target": 8,
+    "starvation": 50
+  },
+  "final": {
+    "level": "classic",
+    "seed": 9116,
+    "size": 12,
+    "wrap": false,
+    "snake": [
+      [
+        10,
+        5
+      ],
+      [
+        9,
+        5
+      ],
+      [
+        9,
+        6
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        8,
+        7
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        7,
+        11
+      ],
+      [
+        6,
+        11
+      ]
+    ],
+    "obstacles": [],
+    "food": [
+      1,
+      7
+    ],
+    "heading": "east",
+    "score": 8,
+    "moves": 71,
+    "since_food": 0,
+    "status": "target_reached",
+    "max_steps": 200,
+    "target": 8,
+    "starvation": 50
+  },
+  "food": 8,
+  "moves": 71,
+  "outcome": "target_reached",
+  "calls": 71,
+  "valid_calls": 71
+}

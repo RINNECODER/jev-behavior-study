@@ -1,0 +1,111 @@
+{
+  "job": {
+    "id": "dev-008-priority",
+    "state_id": "dev-008",
+    "variant": "priority",
+    "order": [
+      "right",
+      "left",
+      "straight"
+    ]
+  },
+  "decision": {
+    "calls": [
+      {
+        "stage": "proposal",
+        "record": {
+          "payload": {
+            "model": "jev-1.13.0",
+            "state": {
+              "board": {
+                "width": 12,
+                "height": 12,
+                "solid_edges": true,
+                "coordinates": "x increases right, y increases down; indices 0 through 11"
+              },
+              "snake_head_to_tail": [
+                [
+                  10,
+                  4
+                ],
+                [
+                  9,
+                  4
+                ],
+                [
+                  8,
+                  4
+                ],
+                [
+                  7,
+                  4
+                ],
+                [
+                  6,
+                  4
+                ],
+                [
+                  5,
+                  4
+                ],
+                [
+                  4,
+                  4
+                ],
+                [
+                  3,
+                  4
+                ]
+              ],
+              "heading": "east",
+              "food": [
+                3,
+                8
+              ],
+              "foods_eaten": 5,
+              "moves_without_food": 14
+            },
+            "questions": {
+              "move": {
+                "type": "choice",
+                "instructions": "Choose the next Snake move. Your priorities are: (1) do not collide on this move; (2) reach the CURRENT food using as few moves as possible; (3) do not circle indefinitely. Food is eaten only when the head enters its cell. Each turn advances exactly one cell. Solid edges kill; touching body kills. The tail cell vacates unless this move eats food. No reverse turn. Infer safety and the route yourself from the observation. All three offered actions are possible commands, not necessarily safe commands.",
+                "criteria": {
+                  "right": "Turn right relative to heading; advance south to (10, 5).",
+                  "left": "Turn left relative to heading; advance north to (10, 3).",
+                  "straight": "Continue straight; advance east to (11, 4)."
+                }
+              }
+            }
+          },
+          "payload_sha256": "bb01dff6b05f1c924358641685bf169d5c9ebdf82fc76a4144bf1218eb1d8392",
+          "started_at": "2026-09-17T03:38:39.610170+00:00",
+          "http_status": 200,
+          "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"straight\",\"confidence\":0.21,\"probabilities\":{\"left\":0.23,\"straight\":0.47,\"right\":0.3}}},\"usage\":{\"input_tokens\":601,\"output_tokens\":38}}",
+          "response": {
+            "model": "jev-1.13.0",
+            "answers": {
+              "move": {
+                "type": "choice",
+                "choice": "straight",
+                "confidence": 0.21,
+                "probabilities": {
+                  "left": 0.23,
+                  "straight": 0.47,
+                  "right": 0.3
+                }
+              }
+            },
+            "usage": {
+              "input_tokens": 601,
+              "output_tokens": 38
+            }
+          },
+          "valid": true,
+          "latency_ms": 310.58
+        }
+      }
+    ],
+    "first_action": "straight",
+    "action": "straight"
+  }
+}

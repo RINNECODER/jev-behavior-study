@@ -1,0 +1,130 @@
+{
+  "job": {
+    "id": "dev-002-ascii",
+    "state_id": "dev-002",
+    "variant": "ascii",
+    "order": [
+      "right",
+      "left",
+      "straight"
+    ]
+  },
+  "decision": {
+    "calls": [
+      {
+        "stage": "proposal",
+        "record": {
+          "payload": {
+            "model": "jev-1.13.0",
+            "state": {
+              "board": {
+                "width": 12,
+                "height": 12,
+                "solid_edges": true,
+                "coordinates": "x increases right, y increases down; indices 0 through 11"
+              },
+              "snake_head_to_tail": [
+                [
+                  8,
+                  2
+                ],
+                [
+                  8,
+                  1
+                ],
+                [
+                  8,
+                  0
+                ],
+                [
+                  7,
+                  0
+                ],
+                [
+                  6,
+                  0
+                ],
+                [
+                  5,
+                  0
+                ],
+                [
+                  4,
+                  0
+                ],
+                [
+                  3,
+                  0
+                ],
+                [
+                  2,
+                  0
+                ]
+              ],
+              "heading": "south",
+              "food": [
+                0,
+                8
+              ],
+              "foods_eaten": 6,
+              "moves_without_food": 30,
+              "grid_legend": "Rows top to bottom (y=0..11), columns left to right (x=0..11). H head, B body, T tail, F food, . empty. Use ordered body list for tail movement.",
+              "grid_rows": [
+                "..TBBBBBB...",
+                "........B...",
+                "........H...",
+                "............",
+                "............",
+                "............",
+                "............",
+                "............",
+                "F...........",
+                "............",
+                "............",
+                "............"
+              ]
+            },
+            "questions": {
+              "move": {
+                "type": "choice",
+                "instructions": "Choose the next Snake move. Your priorities are: (1) do not collide on this move; (2) reach the CURRENT food using as few moves as possible; (3) do not circle indefinitely. Food is eaten only when the head enters its cell. Each turn advances exactly one cell. Solid edges kill; touching body kills. The tail cell vacates unless this move eats food. No reverse turn. Infer safety and the route yourself from the observation. All three offered actions are possible commands, not necessarily safe commands.",
+                "criteria": {
+                  "right": "Turn right relative to heading; advance west to (7, 2).",
+                  "left": "Turn left relative to heading; advance east to (9, 2).",
+                  "straight": "Continue straight; advance south to (8, 3)."
+                }
+              }
+            }
+          },
+          "payload_sha256": "a61da890e9b68bc9cbcfb2765cf98e3cbbb66c0503e8466b86226324f45e38d5",
+          "started_at": "2026-09-17T03:38:55.839879+00:00",
+          "http_status": 200,
+          "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"straight\",\"confidence\":0.66,\"probabilities\":{\"straight\":0.77,\"left\":0.14,\"right\":0.09}}},\"usage\":{\"input_tokens\":725,\"output_tokens\":38}}",
+          "response": {
+            "model": "jev-1.13.0",
+            "answers": {
+              "move": {
+                "type": "choice",
+                "choice": "straight",
+                "confidence": 0.66,
+                "probabilities": {
+                  "straight": 0.77,
+                  "left": 0.14,
+                  "right": 0.09
+                }
+              }
+            },
+            "usage": {
+              "input_tokens": 725,
+              "output_tokens": 38
+            }
+          },
+          "valid": true,
+          "latency_ms": 331.89
+        }
+      }
+    ],
+    "first_action": "straight",
+    "action": "straight"
+  }
+}

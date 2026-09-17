@@ -1,0 +1,92 @@
+{
+  "id": "absolute-8103",
+  "variant": "absolute",
+  "seed": 8103,
+  "initial": {
+    "level": "classic",
+    "seed": 8103,
+    "size": 12,
+    "wrap": false,
+    "snake": [
+      [
+        6,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        8
+      ]
+    ],
+    "obstacles": [],
+    "food": [
+      7,
+      10
+    ],
+    "heading": "north",
+    "score": 0,
+    "moves": 0,
+    "since_food": 0,
+    "status": "playing",
+    "max_steps": 200,
+    "target": 8,
+    "starvation": 50
+  },
+  "final": {
+    "level": "classic",
+    "seed": 8103,
+    "size": 12,
+    "wrap": false,
+    "snake": [
+      [
+        3,
+        11
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        4,
+        6
+      ]
+    ],
+    "obstacles": [],
+    "food": [
+      1,
+      6
+    ],
+    "heading": "west",
+    "score": 4,
+    "moves": 98,
+    "since_food": 50,
+    "status": "no_food_limit",
+    "max_steps": 200,
+    "target": 8,
+    "starvation": 50
+  },
+  "food": 4,
+  "moves": 98,
+  "outcome": "no_food_limit",
+  "calls": 98,
+  "valid_calls": 98
+}

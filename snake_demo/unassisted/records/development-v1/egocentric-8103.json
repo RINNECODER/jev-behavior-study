@@ -1,0 +1,96 @@
+{
+  "id": "egocentric-8103",
+  "variant": "egocentric",
+  "seed": 8103,
+  "initial": {
+    "level": "classic",
+    "seed": 8103,
+    "size": 12,
+    "wrap": false,
+    "snake": [
+      [
+        6,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        8
+      ]
+    ],
+    "obstacles": [],
+    "food": [
+      7,
+      10
+    ],
+    "heading": "north",
+    "score": 0,
+    "moves": 0,
+    "since_food": 0,
+    "status": "playing",
+    "max_steps": 200,
+    "target": 8,
+    "starvation": 50
+  },
+  "final": {
+    "level": "classic",
+    "seed": 8103,
+    "size": 12,
+    "wrap": false,
+    "snake": [
+      [
+        11,
+        5
+      ],
+      [
+        10,
+        5
+      ],
+      [
+        9,
+        5
+      ],
+      [
+        8,
+        5
+      ],
+      [
+        7,
+        5
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "obstacles": [],
+    "food": [
+      1,
+      5
+    ],
+    "heading": "east",
+    "score": 5,
+    "moves": 33,
+    "since_food": 0,
+    "status": "wall_collision",
+    "max_steps": 200,
+    "target": 8,
+    "starvation": 50
+  },
+  "food": 5,
+  "moves": 33,
+  "outcome": "wall_collision",
+  "calls": 33,
+  "valid_calls": 33
+}

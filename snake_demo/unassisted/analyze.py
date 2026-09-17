@@ -19,10 +19,12 @@ def check_decision(g,variant,history,order,d,ident,usage):
         assert i==0 or variant=='review';stage='proposal' if i==0 else 'review';assert entry['stage']==stage
         p,m=payload(g,variant,history,order,first if i else None);c=entry['record']
         assert c['payload']==p and hashlib.sha256(json.dumps(p).encode()).hexdigest()==c['payload_sha256']
-        record={'id':ident,'variant':variant,'stage':stage,'valid':c['valid'],'latency_ms':c['latency_ms'],'input_tokens':None,'output_tokens':None,'choice':None}
+        record={'id':ident,'variant':variant,'stage':stage,'valid':c['valid'],'latency_ms':c['latency_ms'],'input_tokens':None,'output_tokens':None,'choice':None,'http_status':c.get('http_status'),'error':c.get('error')}
         if c['valid']:
             r=json.loads(c['raw_response']);assert r==c['response'] and r['model']=='jev-1.13.0' and c['http_status']==200
-            a=r['answers']['move'];assert a['type']=='choice' and a['choice'] in m and set(a['probabilities'])==set(m)
+            assert set(r['answers'])=={'move'}
+            assert all(isinstance(r['usage'][k],int) and r['usage'][k]>=0 for k in ['input_tokens','output_tokens'])
+            a=r['answers']['move'];assert 0<=a['confidence']<=1;assert a['type']=='choice' and a['choice'] in m and set(a['probabilities'])==set(m)
             assert all(0<=x<=1 for x in a['probabilities'].values()) and abs(sum(a['probabilities'].values())-1)<.04
             last=m[a['choice']];record.update(r['usage']);record['choice']=last
             if i==0:first=last
@@ -98,7 +100,7 @@ def games(directory):
         totals=Counter()
         for e in episodes:totals.update(e['stats'])
         success=sum(e['outcome']=='target_reached' for e in episodes);segments=[s for e in episodes for s in e['segments']];eligible=[s for s in segments if s['minimum_at_start'] is not None]
-        metrics[v]={'episodes':len(episodes),'successes':success,'success_wilson_95':wilson(success,len(episodes)),'total_food':sum(e['food'] for e in episodes),'mean_food':sum(e['food'] for e in episodes)/len(episodes),'endings':dict(Counter(e['outcome'] for e in episodes)),'stats':dict(totals),'completed_food_segments':len(segments),'scored_food_segments':len(eligible),'shortest_food_segments':sum(s['moves']==s['minimum_at_start'] for s in eligible)}
+        metrics[v]={'episodes':len(episodes),'completed_games':sum(e['outcome']!='api_error' for e in episodes),'api_interrupted_games':sum(e['outcome']=='api_error' for e in episodes),'successes':success,'success_wilson_95':wilson(success,len(episodes)),'total_food':sum(e['food'] for e in episodes),'mean_food':sum(e['food'] for e in episodes)/len(episodes),'endings':dict(Counter(e['outcome'] for e in episodes)),'stats':dict(totals),'completed_food_segments':len(segments),'scored_food_segments':len(eligible),'shortest_food_segments':sum(s['moves']==s['minimum_at_start'] for s in eligible)}
     result={'metrics':metrics,'episodes':dict(groups)}
     if manifest['phase']=='development_games':
         candidates=[v for v in manifest['variants'] if v!='original']
@@ -108,6 +110,11 @@ def games(directory):
         for v,episodes in groups.items():
             if v=='original':continue
             result['paired_vs_original'][v]={'food_wins':sum(e['food']>control[e['seed']]['food'] for e in episodes),'food_ties':sum(e['food']==control[e['seed']]['food'] for e in episodes),'food_losses':sum(e['food']<control[e['seed']]['food'] for e in episodes),'completion_wins':sum(e['outcome']=='target_reached' and control[e['seed']]['outcome']!='target_reached' for e in episodes),'completion_losses':sum(e['outcome']!='target_reached' and control[e['seed']]['outcome']=='target_reached' for e in episodes)}
+    if manifest['phase']=='heldout_games':
+        for v,episodes in groups.items():
+            if v=='original':continue
+            comparable=[e for e in episodes if e['outcome']!='api_error' and control[e['seed']]['outcome']!='api_error']
+            result['paired_vs_original'][v]['both_completed']={'n':len(comparable),'food_wins':sum(e['food']>control[e['seed']]['food'] for e in comparable),'food_ties':sum(e['food']==control[e['seed']]['food'] for e in comparable),'food_losses':sum(e['food']<control[e['seed']]['food'] for e in comparable)}
     dump(directory/'analysis.json',result);dump(directory/'offline_labels.json',labels);dump(directory/'verified_replays.json',replays);write_usage(directory,usage);return result
 
 if __name__=='__main__':

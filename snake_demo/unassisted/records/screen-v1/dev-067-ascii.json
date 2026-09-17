@@ -1,0 +1,118 @@
+{
+  "job": {
+    "id": "dev-067-ascii",
+    "state_id": "dev-067",
+    "variant": "ascii",
+    "order": [
+      "straight",
+      "right",
+      "left"
+    ]
+  },
+  "decision": {
+    "calls": [
+      {
+        "stage": "proposal",
+        "record": {
+          "payload": {
+            "model": "jev-1.13.0",
+            "state": {
+              "board": {
+                "width": 12,
+                "height": 12,
+                "solid_edges": true,
+                "coordinates": "x increases right, y increases down; indices 0 through 11"
+              },
+              "snake_head_to_tail": [
+                [
+                  10,
+                  10
+                ],
+                [
+                  10,
+                  9
+                ],
+                [
+                  10,
+                  8
+                ],
+                [
+                  10,
+                  7
+                ],
+                [
+                  10,
+                  6
+                ],
+                [
+                  10,
+                  5
+                ]
+              ],
+              "heading": "south",
+              "food": [
+                4,
+                9
+              ],
+              "foods_eaten": 3,
+              "moves_without_food": 13,
+              "grid_legend": "Rows top to bottom (y=0..11), columns left to right (x=0..11). H head, B body, T tail, F food, . empty. Use ordered body list for tail movement.",
+              "grid_rows": [
+                "............",
+                "............",
+                "............",
+                "............",
+                "............",
+                "..........T.",
+                "..........B.",
+                "..........B.",
+                "..........B.",
+                "....F.....B.",
+                "..........H.",
+                "............"
+              ]
+            },
+            "questions": {
+              "move": {
+                "type": "choice",
+                "instructions": "Choose the next Snake move. Your priorities are: (1) do not collide on this move; (2) reach the CURRENT food using as few moves as possible; (3) do not circle indefinitely. Food is eaten only when the head enters its cell. Each turn advances exactly one cell. Solid edges kill; touching body kills. The tail cell vacates unless this move eats food. No reverse turn. Infer safety and the route yourself from the observation. All three offered actions are possible commands, not necessarily safe commands.",
+                "criteria": {
+                  "straight": "Continue straight; advance south to (10, 11).",
+                  "right": "Turn right relative to heading; advance west to (9, 10).",
+                  "left": "Turn left relative to heading; advance east to (11, 10)."
+                }
+              }
+            }
+          },
+          "payload_sha256": "9216cb8e9caa0295fe86645dd28106768a8e0b9ae2abbc1444c72744772bf678",
+          "started_at": "2026-09-17T03:38:43.167150+00:00",
+          "http_status": 200,
+          "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"straight\",\"confidence\":0.29,\"probabilities\":{\"left\":0.14,\"straight\":0.53,\"right\":0.33}}},\"usage\":{\"input_tokens\":722,\"output_tokens\":38}}",
+          "response": {
+            "model": "jev-1.13.0",
+            "answers": {
+              "move": {
+                "type": "choice",
+                "choice": "straight",
+                "confidence": 0.29,
+                "probabilities": {
+                  "left": 0.14,
+                  "straight": 0.53,
+                  "right": 0.33
+                }
+              }
+            },
+            "usage": {
+              "input_tokens": 722,
+              "output_tokens": 38
+            }
+          },
+          "valid": true,
+          "latency_ms": 423.84
+        }
+      }
+    ],
+    "first_action": "straight",
+    "action": "straight"
+  }
+}

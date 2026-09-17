@@ -3,9 +3,9 @@
 **A browsable field guide to Jev 1.13.0:** where explicit questions work, where
 small changes alter answers, and where harder tasks expose failures.
 
-**11,621 text-study requests** · **105 original Snake games + Classic follow-up** · **5 detailed reports**
+**11,621 text-study requests** · **3 Snake studies** · **6 detailed reports**
 
-Live API observations from September 16, 2026. Independent, AI-assisted research.
+Live API observations from September 16–17, 2026 (UTC). Independent, AI-assisted research.
 
 [Explore findings](#explore-the-findings) · [How to interact with Jev](#what-this-means-for-using-jev) · [Tokens per question](#tokens-per-question) · [Inspect the evidence](#inspect-the-evidence) · [Reproduce](#reproduce-the-study)
 
@@ -16,9 +16,31 @@ Live API observations from September 16, 2026. Independent, AI-assisted research
 > These are synthetic, task-specific results—not an official benchmark or an
 > overall model score. Repeated calls are not independent new problems.
 
-## Can better inputs fix Classic Snake?
+## Unassisted Snake: what actually improved?
 
-**New controlled study:** 4,561 model calls, 120 fixed states, 64 held-out games,
+**No supplied answers:** every model choice executes unchanged. Route scoring
+happens only afterward. Eight prompt/observation variants were screened, then
+finalists faced the original prompt on 16 fresh seeds each.
+
+| Held-out eight-food Classic task | Original | Prose description | Absolute directions |
+|---|---:|---:|---:|
+| Target reached | 1/16 | **14/16** | 12/16 |
+| Shortest moves | 66.9% | **90.0%** | 75.8% |
+| API-interrupted games | 1 | 1 | 0 |
+
+The best tested interface describes the board in plain language and gives
+explicit priorities. History, ASCII grids and a second self-review call did not
+establish a benefit in screening. Head-relative coordinates screened well but
+failed two of four development games. This is improvement, not perfect play.
+
+**[Watch the unassisted runs](https://rinnecoder.github.io/jev-behavior-study/snake_demo/web/unassisted.html)** ·
+[Full findings and exact prompts](snake_demo/unassisted/REPORT.md) ·
+[Play live](snake_demo/unassisted/README.md) ·
+[Tokens for every held-out question](snake_demo/unassisted/records/holdout-v1/per_question.csv)
+
+## Earlier assisted study: supplied route facts
+
+**Assisted controlled study:** 4,561 model calls, 120 fixed states, 64 held-out games,
 plus separately labeled code-only stress and longer-game tests.
 
 | Eight-food Classic task | Original Jev | Jev + exact route facts | Same + verifier |

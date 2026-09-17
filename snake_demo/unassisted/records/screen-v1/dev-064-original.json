@@ -1,0 +1,119 @@
+{
+  "job": {
+    "id": "dev-064-original",
+    "state_id": "dev-064",
+    "variant": "original",
+    "order": [
+      "straight",
+      "right",
+      "left"
+    ]
+  },
+  "decision": {
+    "calls": [
+      {
+        "stage": "proposal",
+        "record": {
+          "payload": {
+            "model": "jev-1.13.0",
+            "state": {
+              "level": "classic",
+              "seed": 1009,
+              "size": 12,
+              "wrap": false,
+              "snake": [
+                [
+                  5,
+                  6
+                ],
+                [
+                  5,
+                  7
+                ],
+                [
+                  5,
+                  8
+                ],
+                [
+                  5,
+                  9
+                ],
+                [
+                  5,
+                  10
+                ],
+                [
+                  5,
+                  11
+                ],
+                [
+                  6,
+                  11
+                ],
+                [
+                  7,
+                  11
+                ],
+                [
+                  8,
+                  11
+                ]
+              ],
+              "obstacles": [],
+              "food": [
+                6,
+                3
+              ],
+              "heading": "north",
+              "score": 6,
+              "moves": 89,
+              "since_food": 4,
+              "status": "playing",
+              "max_steps": 200,
+              "target": 8,
+              "starvation": 50
+            },
+            "questions": {
+              "move": {
+                "type": "choice",
+                "instructions": "Play Snake. Maximize food collected while staying alive. Select one relative turn and advance one cell. x increases rightward; y increases downward. The snake list starts with the head and ends with the tail. The tail vacates its cell on a move unless food is eaten. Reverse turns are not permitted. Avoid body, obstacles, and solid boundaries; wrap only when wrap is true. Choose a route toward food without trapping the snake. Use the supplied board state.",
+                "criteria": {
+                  "straight": "Straight relative to current heading: move north to x=5, y=5.",
+                  "right": "Right relative to current heading: move east to x=6, y=6.",
+                  "left": "Left relative to current heading: move west to x=4, y=6."
+                }
+              }
+            }
+          },
+          "payload_sha256": "6aba305b1cbfcb7b179cc899a2c185b42b8898a131cf07d25cee90b04faf6957",
+          "started_at": "2026-09-17T03:38:29.846455+00:00",
+          "http_status": 200,
+          "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"straight\",\"confidence\":0.17,\"probabilities\":{\"straight\":0.45,\"right\":0.24,\"left\":0.31}}},\"usage\":{\"input_tokens\":629,\"output_tokens\":38}}",
+          "response": {
+            "model": "jev-1.13.0",
+            "answers": {
+              "move": {
+                "type": "choice",
+                "choice": "straight",
+                "confidence": 0.17,
+                "probabilities": {
+                  "straight": 0.45,
+                  "right": 0.24,
+                  "left": 0.31
+                }
+              }
+            },
+            "usage": {
+              "input_tokens": 629,
+              "output_tokens": 38
+            }
+          },
+          "valid": true,
+          "latency_ms": 343.33
+        }
+      }
+    ],
+    "first_action": "straight",
+    "action": "straight"
+  }
+}

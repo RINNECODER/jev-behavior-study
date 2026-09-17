@@ -1,0 +1,3476 @@
+{
+  "dev-000": {
+    "distance": 4,
+    "optimal": [
+      "straight"
+    ],
+    "paths": {
+      "left": null,
+      "straight": [
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "right": null
+    },
+    "status": {
+      "left": "beyond_bound",
+      "straight": "solved",
+      "right": "beyond_bound"
+    },
+    "lower_bounds": {
+      "left": 5,
+      "straight": 4,
+      "right": 5
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 7,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-001": {
+    "distance": 5,
+    "optimal": [
+      "left",
+      "straight"
+    ],
+    "paths": {
+      "left": [
+        "left",
+        "straight",
+        "straight",
+        "right",
+        "straight"
+      ],
+      "straight": [
+        "straight",
+        "left",
+        "straight",
+        "straight",
+        "right"
+      ],
+      "right": null
+    },
+    "status": {
+      "left": "solved",
+      "straight": "solved",
+      "right": "beyond_bound"
+    },
+    "lower_bounds": {
+      "left": 5,
+      "straight": 5,
+      "right": 6
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 30,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-002": {
+    "distance": 14,
+    "optimal": [
+      "straight",
+      "right"
+    ],
+    "paths": {
+      "left": null,
+      "straight": [
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "right": [
+        "right",
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ]
+    },
+    "status": {
+      "left": "beyond_bound",
+      "straight": "solved",
+      "right": "solved"
+    },
+    "lower_bounds": {
+      "left": 15,
+      "straight": 14,
+      "right": 14
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 6778,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-003": {
+    "distance": 5,
+    "optimal": [
+      "right"
+    ],
+    "paths": {
+      "left": null,
+      "straight": null,
+      "right": [
+        "right",
+        "straight",
+        "right",
+        "straight",
+        "straight"
+      ]
+    },
+    "status": {
+      "left": "immediate_collision",
+      "straight": "beyond_bound",
+      "right": "solved"
+    },
+    "lower_bounds": {
+      "left": null,
+      "straight": 6,
+      "right": 5
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 15,
+    "legal": [
+      "straight",
+      "right"
+    ]
+  },
+  "dev-004": {
+    "distance": 8,
+    "optimal": [
+      "left"
+    ],
+    "paths": {
+      "left": [
+        "left",
+        "left",
+        "straight",
+        "straight",
+        "left",
+        "right",
+        "straight",
+        "straight"
+      ],
+      "straight": null,
+      "right": null
+    },
+    "status": {
+      "left": "solved",
+      "straight": "beyond_bound",
+      "right": "beyond_bound"
+    },
+    "lower_bounds": {
+      "left": 8,
+      "straight": 9,
+      "right": 9
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 27,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-005": {
+    "distance": 11,
+    "optimal": [
+      "left"
+    ],
+    "paths": {
+      "left": [
+        "left",
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "straight": null,
+      "right": null
+    },
+    "status": {
+      "left": "solved",
+      "straight": "beyond_bound",
+      "right": "beyond_bound"
+    },
+    "lower_bounds": {
+      "left": 11,
+      "straight": 12,
+      "right": 12
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 529,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-006": {
+    "distance": 2,
+    "optimal": [
+      "straight",
+      "right"
+    ],
+    "paths": {
+      "left": null,
+      "straight": [
+        "straight",
+        "right"
+      ],
+      "right": [
+        "right",
+        "left"
+      ]
+    },
+    "status": {
+      "left": "beyond_bound",
+      "straight": "solved",
+      "right": "solved"
+    },
+    "lower_bounds": {
+      "left": 3,
+      "straight": 2,
+      "right": 2
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 4,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-007": {
+    "distance": 16,
+    "optimal": [
+      "left",
+      "straight"
+    ],
+    "paths": {
+      "left": [
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "straight": [
+        "straight",
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "right": null
+    },
+    "status": {
+      "left": "solved",
+      "straight": "solved",
+      "right": "immediate_collision"
+    },
+    "lower_bounds": {
+      "left": 16,
+      "straight": 16,
+      "right": null
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 1792,
+    "legal": [
+      "left",
+      "straight"
+    ]
+  },
+  "dev-008": {
+    "distance": 11,
+    "optimal": [
+      "right"
+    ],
+    "paths": {
+      "left": null,
+      "straight": null,
+      "right": [
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ]
+    },
+    "status": {
+      "left": "beyond_bound",
+      "straight": "beyond_bound",
+      "right": "solved"
+    },
+    "lower_bounds": {
+      "left": 12,
+      "straight": 12,
+      "right": 11
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 511,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-009": {
+    "distance": 11,
+    "optimal": [
+      "left",
+      "straight"
+    ],
+    "paths": {
+      "left": [
+        "left",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "straight": [
+        "straight",
+        "left",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "right": null
+    },
+    "status": {
+      "left": "solved",
+      "straight": "solved",
+      "right": "beyond_bound"
+    },
+    "lower_bounds": {
+      "left": 11,
+      "straight": 11,
+      "right": 12
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 196,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-010": {
+    "distance": 10,
+    "optimal": [
+      "right"
+    ],
+    "paths": {
+      "left": null,
+      "straight": null,
+      "right": [
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight"
+      ]
+    },
+    "status": {
+      "left": "beyond_bound",
+      "straight": "beyond_bound",
+      "right": "solved"
+    },
+    "lower_bounds": {
+      "left": 11,
+      "straight": 11,
+      "right": 10
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 371,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-011": {
+    "distance": 10,
+    "optimal": [
+      "straight",
+      "right"
+    ],
+    "paths": {
+      "left": null,
+      "straight": [
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "right": [
+        "right",
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ]
+    },
+    "status": {
+      "left": "beyond_bound",
+      "straight": "solved",
+      "right": "solved"
+    },
+    "lower_bounds": {
+      "left": 11,
+      "straight": 10,
+      "right": 10
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 218,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-012": {
+    "distance": 8,
+    "optimal": [
+      "left",
+      "straight"
+    ],
+    "paths": {
+      "left": [
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right"
+      ],
+      "straight": [
+        "straight",
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "right": null
+    },
+    "status": {
+      "left": "solved",
+      "straight": "solved",
+      "right": "beyond_bound"
+    },
+    "lower_bounds": {
+      "left": 8,
+      "straight": 8,
+      "right": 9
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 49,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-013": {
+    "distance": 9,
+    "optimal": [
+      "straight"
+    ],
+    "paths": {
+      "left": null,
+      "straight": [
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "right": null
+    },
+    "status": {
+      "left": "beyond_bound",
+      "straight": "solved",
+      "right": "beyond_bound"
+    },
+    "lower_bounds": {
+      "left": 10,
+      "straight": 9,
+      "right": 10
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 17,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-014": {
+    "distance": 3,
+    "optimal": [
+      "left",
+      "straight"
+    ],
+    "paths": {
+      "left": [
+        "left",
+        "right",
+        "straight"
+      ],
+      "straight": [
+        "straight",
+        "left",
+        "right"
+      ],
+      "right": null
+    },
+    "status": {
+      "left": "solved",
+      "straight": "solved",
+      "right": "beyond_bound"
+    },
+    "lower_bounds": {
+      "left": 3,
+      "straight": 3,
+      "right": 4
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 8,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-015": {
+    "distance": 8,
+    "optimal": [
+      "right"
+    ],
+    "paths": {
+      "left": null,
+      "straight": null,
+      "right": [
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight"
+      ]
+    },
+    "status": {
+      "left": "immediate_collision",
+      "straight": "beyond_bound",
+      "right": "solved"
+    },
+    "lower_bounds": {
+      "left": null,
+      "straight": 9,
+      "right": 8
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 113,
+    "legal": [
+      "straight",
+      "right"
+    ]
+  },
+  "dev-016": {
+    "distance": 6,
+    "optimal": [
+      "straight",
+      "right"
+    ],
+    "paths": {
+      "left": null,
+      "straight": [
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "right": [
+        "right",
+        "left",
+        "right",
+        "straight",
+        "straight",
+        "straight"
+      ]
+    },
+    "status": {
+      "left": "beyond_bound",
+      "straight": "solved",
+      "right": "solved"
+    },
+    "lower_bounds": {
+      "left": 7,
+      "straight": 6,
+      "right": 6
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 32,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-017": {
+    "distance": 7,
+    "optimal": [
+      "left"
+    ],
+    "paths": {
+      "left": [
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "straight": null,
+      "right": null
+    },
+    "status": {
+      "left": "solved",
+      "straight": "beyond_bound",
+      "right": "beyond_bound"
+    },
+    "lower_bounds": {
+      "left": 7,
+      "straight": 8,
+      "right": 8
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 13,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-018": {
+    "distance": 7,
+    "optimal": [
+      "left",
+      "straight"
+    ],
+    "paths": {
+      "left": [
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight"
+      ],
+      "straight": [
+        "straight",
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right"
+      ],
+      "right": null
+    },
+    "status": {
+      "left": "solved",
+      "straight": "solved",
+      "right": "beyond_bound"
+    },
+    "lower_bounds": {
+      "left": 7,
+      "straight": 7,
+      "right": 8
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 80,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-019": {
+    "distance": 5,
+    "optimal": [
+      "left"
+    ],
+    "paths": {
+      "left": [
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "straight": null,
+      "right": null
+    },
+    "status": {
+      "left": "solved",
+      "straight": "beyond_bound",
+      "right": "immediate_collision"
+    },
+    "lower_bounds": {
+      "left": 5,
+      "straight": 6,
+      "right": null
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 9,
+    "legal": [
+      "left",
+      "straight"
+    ]
+  },
+  "dev-020": {
+    "distance": 9,
+    "optimal": [
+      "right"
+    ],
+    "paths": {
+      "left": null,
+      "straight": null,
+      "right": [
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ]
+    },
+    "status": {
+      "left": "beyond_bound",
+      "straight": "beyond_bound",
+      "right": "solved"
+    },
+    "lower_bounds": {
+      "left": 10,
+      "straight": 10,
+      "right": 9
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 17,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-021": {
+    "distance": 4,
+    "optimal": [
+      "straight"
+    ],
+    "paths": {
+      "left": null,
+      "straight": [
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "right": null
+    },
+    "status": {
+      "left": "beyond_bound",
+      "straight": "solved",
+      "right": "beyond_bound"
+    },
+    "lower_bounds": {
+      "left": 5,
+      "straight": 4,
+      "right": 5
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 7,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-022": {
+    "distance": 7,
+    "optimal": [
+      "left",
+      "straight"
+    ],
+    "paths": {
+      "left": [
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right"
+      ],
+      "straight": [
+        "straight",
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "right": null
+    },
+    "status": {
+      "left": "solved",
+      "straight": "solved",
+      "right": "beyond_bound"
+    },
+    "lower_bounds": {
+      "left": 7,
+      "straight": 7,
+      "right": 8
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 43,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-023": {
+    "distance": 11,
+    "optimal": [
+      "right"
+    ],
+    "paths": {
+      "left": null,
+      "straight": null,
+      "right": [
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ]
+    },
+    "status": {
+      "left": "immediate_collision",
+      "straight": "beyond_bound",
+      "right": "solved"
+    },
+    "lower_bounds": {
+      "left": null,
+      "straight": 12,
+      "right": 11
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 21,
+    "legal": [
+      "straight",
+      "right"
+    ]
+  },
+  "dev-024": {
+    "distance": 9,
+    "optimal": [
+      "left",
+      "straight"
+    ],
+    "paths": {
+      "left": [
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight"
+      ],
+      "straight": [
+        "straight",
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight"
+      ],
+      "right": null
+    },
+    "status": {
+      "left": "solved",
+      "straight": "solved",
+      "right": "beyond_bound"
+    },
+    "lower_bounds": {
+      "left": 9,
+      "straight": 9,
+      "right": 10
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 208,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-025": {
+    "distance": 11,
+    "optimal": [
+      "left"
+    ],
+    "paths": {
+      "left": [
+        "left",
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "straight": null,
+      "right": null
+    },
+    "status": {
+      "left": "solved",
+      "straight": "beyond_bound",
+      "right": "immediate_collision"
+    },
+    "lower_bounds": {
+      "left": 11,
+      "straight": 12,
+      "right": null
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 173,
+    "legal": [
+      "left",
+      "straight"
+    ]
+  },
+  "dev-026": {
+    "distance": 3,
+    "optimal": [
+      "straight"
+    ],
+    "paths": {
+      "left": null,
+      "straight": [
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "right": null
+    },
+    "status": {
+      "left": "beyond_bound",
+      "straight": "solved",
+      "right": "beyond_bound"
+    },
+    "lower_bounds": {
+      "left": 4,
+      "straight": 3,
+      "right": 4
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 5,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-027": {
+    "distance": 6,
+    "optimal": [
+      "left"
+    ],
+    "paths": {
+      "left": [
+        "left",
+        "left",
+        "straight",
+        "straight",
+        "right",
+        "straight"
+      ],
+      "straight": null,
+      "right": null
+    },
+    "status": {
+      "left": "solved",
+      "straight": "beyond_bound",
+      "right": "beyond_bound"
+    },
+    "lower_bounds": {
+      "left": 6,
+      "straight": 7,
+      "right": 7
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 31,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-028": {
+    "distance": 9,
+    "optimal": [
+      "straight"
+    ],
+    "paths": {
+      "left": null,
+      "straight": [
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "right": null
+    },
+    "status": {
+      "left": "beyond_bound",
+      "straight": "solved",
+      "right": "beyond_bound"
+    },
+    "lower_bounds": {
+      "left": 10,
+      "straight": 9,
+      "right": 10
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 17,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-029": {
+    "distance": 16,
+    "optimal": [
+      "left"
+    ],
+    "paths": {
+      "left": [
+        "left",
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "straight": null,
+      "right": null
+    },
+    "status": {
+      "left": "solved",
+      "straight": "beyond_bound",
+      "right": "beyond_bound"
+    },
+    "lower_bounds": {
+      "left": 16,
+      "straight": 17,
+      "right": 17
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 1185,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-030": {
+    "distance": 11,
+    "optimal": [
+      "left",
+      "straight"
+    ],
+    "paths": {
+      "left": [
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "straight": [
+        "straight",
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "right": null
+    },
+    "status": {
+      "left": "solved",
+      "straight": "solved",
+      "right": "beyond_bound"
+    },
+    "lower_bounds": {
+      "left": 11,
+      "straight": 11,
+      "right": 12
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 955,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-031": {
+    "distance": 14,
+    "optimal": [
+      "right"
+    ],
+    "paths": {
+      "left": null,
+      "straight": null,
+      "right": [
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ]
+    },
+    "status": {
+      "left": "immediate_collision",
+      "straight": "beyond_bound",
+      "right": "solved"
+    },
+    "lower_bounds": {
+      "left": null,
+      "straight": 15,
+      "right": 14
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 301,
+    "legal": [
+      "straight",
+      "right"
+    ]
+  },
+  "dev-032": {
+    "distance": 3,
+    "optimal": [
+      "left",
+      "straight"
+    ],
+    "paths": {
+      "left": [
+        "left",
+        "right",
+        "straight"
+      ],
+      "straight": [
+        "straight",
+        "left",
+        "right"
+      ],
+      "right": null
+    },
+    "status": {
+      "left": "solved",
+      "straight": "solved",
+      "right": "beyond_bound"
+    },
+    "lower_bounds": {
+      "left": 3,
+      "straight": 3,
+      "right": 4
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 8,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-033": {
+    "distance": 4,
+    "optimal": [
+      "right"
+    ],
+    "paths": {
+      "left": null,
+      "straight": null,
+      "right": [
+        "right",
+        "straight",
+        "right",
+        "straight"
+      ]
+    },
+    "status": {
+      "left": "immediate_collision",
+      "straight": "beyond_bound",
+      "right": "solved"
+    },
+    "lower_bounds": {
+      "left": null,
+      "straight": 5,
+      "right": 4
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 9,
+    "legal": [
+      "straight",
+      "right"
+    ]
+  },
+  "dev-034": {
+    "distance": 10,
+    "optimal": [
+      "straight",
+      "right"
+    ],
+    "paths": {
+      "left": null,
+      "straight": [
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "right": [
+        "right",
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight"
+      ]
+    },
+    "status": {
+      "left": "beyond_bound",
+      "straight": "solved",
+      "right": "solved"
+    },
+    "lower_bounds": {
+      "left": 11,
+      "straight": 10,
+      "right": 10
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 218,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-035": {
+    "distance": 7,
+    "optimal": [
+      "straight",
+      "right"
+    ],
+    "paths": {
+      "left": null,
+      "straight": [
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right"
+      ],
+      "right": [
+        "right",
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ]
+    },
+    "status": {
+      "left": "immediate_collision",
+      "straight": "solved",
+      "right": "solved"
+    },
+    "lower_bounds": {
+      "left": null,
+      "straight": 7,
+      "right": 7
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 44,
+    "legal": [
+      "straight",
+      "right"
+    ]
+  },
+  "dev-036": {
+    "distance": 10,
+    "optimal": [
+      "left",
+      "straight"
+    ],
+    "paths": {
+      "left": [
+        "left",
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "straight": [
+        "straight",
+        "left",
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "right": null
+    },
+    "status": {
+      "left": "solved",
+      "straight": "solved",
+      "right": "beyond_bound"
+    },
+    "lower_bounds": {
+      "left": 10,
+      "straight": 10,
+      "right": 11
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 83,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-037": {
+    "distance": 5,
+    "optimal": [
+      "left"
+    ],
+    "paths": {
+      "left": [
+        "left",
+        "left",
+        "straight",
+        "straight",
+        "right"
+      ],
+      "straight": null,
+      "right": null
+    },
+    "status": {
+      "left": "solved",
+      "straight": "beyond_bound",
+      "right": "immediate_collision"
+    },
+    "lower_bounds": {
+      "left": 5,
+      "straight": 6,
+      "right": null
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 15,
+    "legal": [
+      "left",
+      "straight"
+    ]
+  },
+  "dev-038": {
+    "distance": 8,
+    "optimal": [
+      "left",
+      "straight"
+    ],
+    "paths": {
+      "left": [
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight"
+      ],
+      "straight": [
+        "straight",
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right"
+      ],
+      "right": null
+    },
+    "status": {
+      "left": "solved",
+      "straight": "solved",
+      "right": "beyond_bound"
+    },
+    "lower_bounds": {
+      "left": 8,
+      "straight": 8,
+      "right": 9
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 128,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-039": {
+    "distance": 10,
+    "optimal": [
+      "left",
+      "straight"
+    ],
+    "paths": {
+      "left": [
+        "left",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "straight": [
+        "straight",
+        "left",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "right": null
+    },
+    "status": {
+      "left": "solved",
+      "straight": "solved",
+      "right": "beyond_bound"
+    },
+    "lower_bounds": {
+      "left": 10,
+      "straight": 10,
+      "right": 11
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 183,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-040": {
+    "distance": 9,
+    "optimal": [
+      "left",
+      "straight"
+    ],
+    "paths": {
+      "left": [
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right"
+      ],
+      "straight": [
+        "straight",
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "right": null
+    },
+    "status": {
+      "left": "solved",
+      "straight": "solved",
+      "right": "beyond_bound"
+    },
+    "lower_bounds": {
+      "left": 9,
+      "straight": 9,
+      "right": 10
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 58,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-041": {
+    "distance": 2,
+    "optimal": [
+      "straight"
+    ],
+    "paths": {
+      "left": null,
+      "straight": [
+        "straight",
+        "straight"
+      ],
+      "right": null
+    },
+    "status": {
+      "left": "beyond_bound",
+      "straight": "solved",
+      "right": "beyond_bound"
+    },
+    "lower_bounds": {
+      "left": 3,
+      "straight": 2,
+      "right": 3
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 3,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-042": {
+    "distance": 13,
+    "optimal": [
+      "left"
+    ],
+    "paths": {
+      "left": [
+        "left",
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight"
+      ],
+      "straight": null,
+      "right": null
+    },
+    "status": {
+      "left": "solved",
+      "straight": "beyond_bound",
+      "right": "beyond_bound"
+    },
+    "lower_bounds": {
+      "left": 13,
+      "straight": 14,
+      "right": 14
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 197,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-043": {
+    "distance": 13,
+    "optimal": [
+      "left",
+      "straight"
+    ],
+    "paths": {
+      "left": [
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "straight": [
+        "straight",
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "right": null
+    },
+    "status": {
+      "left": "solved",
+      "straight": "solved",
+      "right": "beyond_bound"
+    },
+    "lower_bounds": {
+      "left": 13,
+      "straight": 13,
+      "right": 14
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 398,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-044": {
+    "distance": 10,
+    "optimal": [
+      "left"
+    ],
+    "paths": {
+      "left": [
+        "left",
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right"
+      ],
+      "straight": null,
+      "right": null
+    },
+    "status": {
+      "left": "solved",
+      "straight": "beyond_bound",
+      "right": "beyond_bound"
+    },
+    "lower_bounds": {
+      "left": 10,
+      "straight": 11,
+      "right": 11
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 55,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-045": {
+    "distance": 8,
+    "optimal": [
+      "straight",
+      "right"
+    ],
+    "paths": {
+      "left": null,
+      "straight": [
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "right": [
+        "right",
+        "left",
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ]
+    },
+    "status": {
+      "left": "immediate_collision",
+      "straight": "solved",
+      "right": "solved"
+    },
+    "lower_bounds": {
+      "left": null,
+      "straight": 8,
+      "right": 8
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 58,
+    "legal": [
+      "straight",
+      "right"
+    ]
+  },
+  "dev-046": {
+    "distance": 6,
+    "optimal": [
+      "left",
+      "straight"
+    ],
+    "paths": {
+      "left": [
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight"
+      ],
+      "straight": [
+        "straight",
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "right"
+      ],
+      "right": null
+    },
+    "status": {
+      "left": "solved",
+      "straight": "solved",
+      "right": "beyond_bound"
+    },
+    "lower_bounds": {
+      "left": 6,
+      "straight": 6,
+      "right": 7
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 52,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-047": {
+    "distance": 16,
+    "optimal": [
+      "straight",
+      "right"
+    ],
+    "paths": {
+      "left": null,
+      "straight": [
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "right": [
+        "right",
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ]
+    },
+    "status": {
+      "left": "immediate_collision",
+      "straight": "solved",
+      "right": "solved"
+    },
+    "lower_bounds": {
+      "left": null,
+      "straight": 16,
+      "right": 16
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 1792,
+    "legal": [
+      "straight",
+      "right"
+    ]
+  },
+  "dev-048": {
+    "distance": 12,
+    "optimal": [
+      "straight",
+      "right"
+    ],
+    "paths": {
+      "left": null,
+      "straight": [
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "right": [
+        "right",
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ]
+    },
+    "status": {
+      "left": "beyond_bound",
+      "straight": "solved",
+      "right": "solved"
+    },
+    "lower_bounds": {
+      "left": 13,
+      "straight": 12,
+      "right": 12
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 354,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-049": {
+    "distance": 6,
+    "optimal": [
+      "straight"
+    ],
+    "paths": {
+      "left": null,
+      "straight": [
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "right": null
+    },
+    "status": {
+      "left": "beyond_bound",
+      "straight": "solved",
+      "right": "beyond_bound"
+    },
+    "lower_bounds": {
+      "left": 7,
+      "straight": 6,
+      "right": 7
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 11,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-050": {
+    "distance": 8,
+    "optimal": [
+      "straight",
+      "right"
+    ],
+    "paths": {
+      "left": null,
+      "straight": [
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight"
+      ],
+      "right": [
+        "right",
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight"
+      ]
+    },
+    "status": {
+      "left": "beyond_bound",
+      "straight": "solved",
+      "right": "solved"
+    },
+    "lower_bounds": {
+      "left": 9,
+      "straight": 8,
+      "right": 8
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 185,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-051": {
+    "distance": 11,
+    "optimal": [
+      "right"
+    ],
+    "paths": {
+      "left": null,
+      "straight": null,
+      "right": [
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ]
+    },
+    "status": {
+      "left": "beyond_bound",
+      "straight": "beyond_bound",
+      "right": "solved"
+    },
+    "lower_bounds": {
+      "left": 12,
+      "straight": 12,
+      "right": 11
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 663,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-052": {
+    "distance": 2,
+    "optimal": [
+      "straight"
+    ],
+    "paths": {
+      "left": null,
+      "straight": [
+        "straight",
+        "straight"
+      ],
+      "right": null
+    },
+    "status": {
+      "left": "beyond_bound",
+      "straight": "solved",
+      "right": "beyond_bound"
+    },
+    "lower_bounds": {
+      "left": 3,
+      "straight": 2,
+      "right": 3
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 3,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-053": {
+    "distance": 11,
+    "optimal": [
+      "straight",
+      "right"
+    ],
+    "paths": {
+      "left": null,
+      "straight": [
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "right": [
+        "right",
+        "left",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ]
+    },
+    "status": {
+      "left": "beyond_bound",
+      "straight": "solved",
+      "right": "solved"
+    },
+    "lower_bounds": {
+      "left": 12,
+      "straight": 11,
+      "right": 11
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 149,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-054": {
+    "distance": 6,
+    "optimal": [
+      "left",
+      "straight"
+    ],
+    "paths": {
+      "left": [
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right"
+      ],
+      "straight": [
+        "straight",
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "right": null
+    },
+    "status": {
+      "left": "solved",
+      "straight": "solved",
+      "right": "immediate_collision"
+    },
+    "lower_bounds": {
+      "left": 6,
+      "straight": 6,
+      "right": null
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 32,
+    "legal": [
+      "left",
+      "straight"
+    ]
+  },
+  "dev-055": {
+    "distance": 12,
+    "optimal": [
+      "straight",
+      "right"
+    ],
+    "paths": {
+      "left": null,
+      "straight": [
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "right": [
+        "right",
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ]
+    },
+    "status": {
+      "left": "beyond_bound",
+      "straight": "solved",
+      "right": "solved"
+    },
+    "lower_bounds": {
+      "left": 13,
+      "straight": 12,
+      "right": 12
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 713,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-056": {
+    "distance": 5,
+    "optimal": [
+      "left",
+      "straight"
+    ],
+    "paths": {
+      "left": [
+        "left",
+        "straight",
+        "straight",
+        "right",
+        "straight"
+      ],
+      "straight": [
+        "straight",
+        "left",
+        "straight",
+        "straight",
+        "right"
+      ],
+      "right": null
+    },
+    "status": {
+      "left": "solved",
+      "straight": "solved",
+      "right": "immediate_collision"
+    },
+    "lower_bounds": {
+      "left": 5,
+      "straight": 5,
+      "right": null
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 30,
+    "legal": [
+      "left",
+      "straight"
+    ]
+  },
+  "dev-057": {
+    "distance": 8,
+    "optimal": [
+      "left",
+      "straight"
+    ],
+    "paths": {
+      "left": [
+        "left",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "straight": [
+        "straight",
+        "left",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "right": null
+    },
+    "status": {
+      "left": "solved",
+      "straight": "solved",
+      "right": "beyond_bound"
+    },
+    "lower_bounds": {
+      "left": 8,
+      "straight": 8,
+      "right": 9
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 119,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-058": {
+    "distance": 7,
+    "optimal": [
+      "straight",
+      "right"
+    ],
+    "paths": {
+      "left": null,
+      "straight": [
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "right": [
+        "right",
+        "left",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight"
+      ]
+    },
+    "status": {
+      "left": "beyond_bound",
+      "straight": "solved",
+      "right": "solved"
+    },
+    "lower_bounds": {
+      "left": 8,
+      "straight": 7,
+      "right": 7
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 87,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-059": {
+    "distance": 1,
+    "optimal": [
+      "straight"
+    ],
+    "paths": {
+      "left": null,
+      "straight": [
+        "straight"
+      ],
+      "right": null
+    },
+    "status": {
+      "left": "beyond_bound",
+      "straight": "solved",
+      "right": "beyond_bound"
+    },
+    "lower_bounds": {
+      "left": 2,
+      "straight": 1,
+      "right": 2
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 1,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-060": {
+    "distance": 15,
+    "optimal": [
+      "straight",
+      "right"
+    ],
+    "paths": {
+      "left": null,
+      "straight": [
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "right": [
+        "right",
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ]
+    },
+    "status": {
+      "left": "beyond_bound",
+      "straight": "solved",
+      "right": "solved"
+    },
+    "lower_bounds": {
+      "left": 16,
+      "straight": 15,
+      "right": 15
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 582,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-061": {
+    "distance": 10,
+    "optimal": [
+      "right"
+    ],
+    "paths": {
+      "left": null,
+      "straight": null,
+      "right": [
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right"
+      ]
+    },
+    "status": {
+      "left": "beyond_bound",
+      "straight": "beyond_bound",
+      "right": "solved"
+    },
+    "lower_bounds": {
+      "left": 11,
+      "straight": 11,
+      "right": 10
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 73,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-062": {
+    "distance": 12,
+    "optimal": [
+      "right"
+    ],
+    "paths": {
+      "left": null,
+      "straight": null,
+      "right": [
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ]
+    },
+    "status": {
+      "left": "beyond_bound",
+      "straight": "beyond_bound",
+      "right": "solved"
+    },
+    "lower_bounds": {
+      "left": 13,
+      "straight": 13,
+      "right": 12
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 919,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-063": {
+    "distance": 5,
+    "optimal": [
+      "left",
+      "straight"
+    ],
+    "paths": {
+      "left": [
+        "left",
+        "right",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "straight": [
+        "straight",
+        "left",
+        "right",
+        "straight",
+        "straight"
+      ],
+      "right": null
+    },
+    "status": {
+      "left": "solved",
+      "straight": "solved",
+      "right": "beyond_bound"
+    },
+    "lower_bounds": {
+      "left": 5,
+      "straight": 5,
+      "right": 6
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 22,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-064": {
+    "distance": 4,
+    "optimal": [
+      "straight",
+      "right"
+    ],
+    "paths": {
+      "left": null,
+      "straight": [
+        "straight",
+        "straight",
+        "straight",
+        "right"
+      ],
+      "right": [
+        "right",
+        "left",
+        "straight",
+        "straight"
+      ]
+    },
+    "status": {
+      "left": "beyond_bound",
+      "straight": "solved",
+      "right": "solved"
+    },
+    "lower_bounds": {
+      "left": 5,
+      "straight": 4,
+      "right": 4
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 14,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-065": {
+    "distance": 6,
+    "optimal": [
+      "straight",
+      "right"
+    ],
+    "paths": {
+      "left": null,
+      "straight": [
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight"
+      ],
+      "right": [
+        "right",
+        "left",
+        "straight",
+        "straight",
+        "right",
+        "straight"
+      ]
+    },
+    "status": {
+      "left": "immediate_collision",
+      "straight": "solved",
+      "right": "solved"
+    },
+    "lower_bounds": {
+      "left": null,
+      "straight": 6,
+      "right": 6
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 60,
+    "legal": [
+      "straight",
+      "right"
+    ]
+  },
+  "dev-066": {
+    "distance": 5,
+    "optimal": [
+      "left",
+      "straight"
+    ],
+    "paths": {
+      "left": [
+        "left",
+        "right",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "straight": [
+        "straight",
+        "left",
+        "right",
+        "straight",
+        "straight"
+      ],
+      "right": null
+    },
+    "status": {
+      "left": "solved",
+      "straight": "solved",
+      "right": "beyond_bound"
+    },
+    "lower_bounds": {
+      "left": 5,
+      "straight": 5,
+      "right": 6
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 22,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-067": {
+    "distance": 7,
+    "optimal": [
+      "right"
+    ],
+    "paths": {
+      "left": null,
+      "straight": null,
+      "right": [
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right"
+      ]
+    },
+    "status": {
+      "left": "beyond_bound",
+      "straight": "beyond_bound",
+      "right": "solved"
+    },
+    "lower_bounds": {
+      "left": 8,
+      "straight": 8,
+      "right": 7
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 33,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-068": {
+    "distance": 10,
+    "optimal": [
+      "left",
+      "straight"
+    ],
+    "paths": {
+      "left": [
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight"
+      ],
+      "straight": [
+        "straight",
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right"
+      ],
+      "right": null
+    },
+    "status": {
+      "left": "solved",
+      "straight": "solved",
+      "right": "immediate_collision"
+    },
+    "lower_bounds": {
+      "left": 10,
+      "straight": 10,
+      "right": null
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 260,
+    "legal": [
+      "left",
+      "straight"
+    ]
+  },
+  "dev-069": {
+    "distance": 8,
+    "optimal": [
+      "right"
+    ],
+    "paths": {
+      "left": null,
+      "straight": null,
+      "right": [
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight"
+      ]
+    },
+    "status": {
+      "left": "beyond_bound",
+      "straight": "beyond_bound",
+      "right": "solved"
+    },
+    "lower_bounds": {
+      "left": 9,
+      "straight": 9,
+      "right": 8
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 85,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-070": {
+    "distance": 7,
+    "optimal": [
+      "left",
+      "straight"
+    ],
+    "paths": {
+      "left": [
+        "left",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "straight": [
+        "straight",
+        "left",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight"
+      ],
+      "right": null
+    },
+    "status": {
+      "left": "solved",
+      "straight": "solved",
+      "right": "beyond_bound"
+    },
+    "lower_bounds": {
+      "left": 7,
+      "straight": 7,
+      "right": 8
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 112,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-071": {
+    "distance": 7,
+    "optimal": [
+      "left"
+    ],
+    "paths": {
+      "left": [
+        "left",
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight"
+      ],
+      "straight": null,
+      "right": null
+    },
+    "status": {
+      "left": "solved",
+      "straight": "immediate_collision",
+      "right": "beyond_bound"
+    },
+    "lower_bounds": {
+      "left": 7,
+      "straight": null,
+      "right": 8
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 47,
+    "legal": [
+      "left",
+      "right"
+    ]
+  },
+  "dev-072": {
+    "distance": 4,
+    "optimal": [
+      "right"
+    ],
+    "paths": {
+      "left": null,
+      "straight": null,
+      "right": [
+        "right",
+        "straight",
+        "straight",
+        "right"
+      ]
+    },
+    "status": {
+      "left": "immediate_collision",
+      "straight": "beyond_bound",
+      "right": "solved"
+    },
+    "lower_bounds": {
+      "left": null,
+      "straight": 5,
+      "right": 4
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 9,
+    "legal": [
+      "straight",
+      "right"
+    ]
+  },
+  "dev-073": {
+    "distance": 9,
+    "optimal": [
+      "left",
+      "straight"
+    ],
+    "paths": {
+      "left": [
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "straight": [
+        "straight",
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "right": null
+    },
+    "status": {
+      "left": "solved",
+      "straight": "solved",
+      "right": "beyond_bound"
+    },
+    "lower_bounds": {
+      "left": 9,
+      "straight": 9,
+      "right": 10
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 174,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-074": {
+    "distance": 12,
+    "optimal": [
+      "right"
+    ],
+    "paths": {
+      "left": null,
+      "straight": null,
+      "right": [
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ]
+    },
+    "status": {
+      "left": "immediate_collision",
+      "straight": "beyond_bound",
+      "right": "solved"
+    },
+    "lower_bounds": {
+      "left": null,
+      "straight": 13,
+      "right": 12
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 259,
+    "legal": [
+      "straight",
+      "right"
+    ]
+  },
+  "dev-075": {
+    "distance": 5,
+    "optimal": [
+      "left"
+    ],
+    "paths": {
+      "left": [
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "straight": null,
+      "right": null
+    },
+    "status": {
+      "left": "solved",
+      "straight": "beyond_bound",
+      "right": "beyond_bound"
+    },
+    "lower_bounds": {
+      "left": 5,
+      "straight": 6,
+      "right": 6
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 9,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "dev-076": {
+    "distance": 5,
+    "optimal": [
+      "right"
+    ],
+    "paths": {
+      "left": null,
+      "straight": null,
+      "right": [
+        "right",
+        "right",
+        "straight",
+        "straight",
+        "right"
+      ]
+    },
+    "status": {
+      "left": "beyond_bound",
+      "straight": "immediate_collision",
+      "right": "solved"
+    },
+    "lower_bounds": {
+      "left": 6,
+      "straight": null,
+      "right": 5
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 11,
+    "legal": [
+      "left",
+      "right"
+    ]
+  },
+  "dev-077": {
+    "distance": 14,
+    "optimal": [
+      "straight",
+      "right"
+    ],
+    "paths": {
+      "left": null,
+      "straight": [
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "right": [
+        "right",
+        "left",
+        "straight",
+        "straight",
+        "right",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ]
+    },
+    "status": {
+      "left": "immediate_collision",
+      "straight": "solved",
+      "right": "solved"
+    },
+    "lower_bounds": {
+      "left": null,
+      "straight": 14,
+      "right": 14
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 468,
+    "legal": [
+      "straight",
+      "right"
+    ]
+  },
+  "dev-078": {
+    "distance": 9,
+    "optimal": [
+      "straight",
+      "right"
+    ],
+    "paths": {
+      "left": null,
+      "straight": [
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right",
+        "straight"
+      ],
+      "right": [
+        "right",
+        "left",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "right"
+      ]
+    },
+    "status": {
+      "left": "immediate_collision",
+      "straight": "solved",
+      "right": "solved"
+    },
+    "lower_bounds": {
+      "left": null,
+      "straight": 9,
+      "right": 9
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 180,
+    "legal": [
+      "straight",
+      "right"
+    ]
+  },
+  "dev-079": {
+    "distance": 3,
+    "optimal": [
+      "straight"
+    ],
+    "paths": {
+      "left": null,
+      "straight": [
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "right": null
+    },
+    "status": {
+      "left": "beyond_bound",
+      "straight": "solved",
+      "right": "beyond_bound"
+    },
+    "lower_bounds": {
+      "left": 4,
+      "straight": 3,
+      "right": 4
+    },
+    "resolved": true,
+    "root_status": "solved",
+    "expanded": 5,
+    "legal": [
+      "left",
+      "straight",
+      "right"
+    ]
+  }
+}

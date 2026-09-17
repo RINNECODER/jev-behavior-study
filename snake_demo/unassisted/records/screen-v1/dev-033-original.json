@@ -1,0 +1,107 @@
+{
+  "job": {
+    "id": "dev-033-original",
+    "state_id": "dev-033",
+    "variant": "original",
+    "order": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "decision": {
+    "calls": [
+      {
+        "stage": "proposal",
+        "record": {
+          "payload": {
+            "model": "jev-1.13.0",
+            "state": {
+              "level": "classic",
+              "seed": 1011,
+              "size": 12,
+              "wrap": false,
+              "snake": [
+                [
+                  2,
+                  11
+                ],
+                [
+                  3,
+                  11
+                ],
+                [
+                  4,
+                  11
+                ],
+                [
+                  5,
+                  11
+                ],
+                [
+                  6,
+                  11
+                ],
+                [
+                  7,
+                  11
+                ]
+              ],
+              "obstacles": [],
+              "food": [
+                4,
+                9
+              ],
+              "heading": "west",
+              "score": 3,
+              "moves": 81,
+              "since_food": 22,
+              "status": "playing",
+              "max_steps": 200,
+              "target": 8,
+              "starvation": 50
+            },
+            "questions": {
+              "move": {
+                "type": "choice",
+                "instructions": "Play Snake. Maximize food collected while staying alive. Select one relative turn and advance one cell. x increases rightward; y increases downward. The snake list starts with the head and ends with the tail. The tail vacates its cell on a move unless food is eaten. Reverse turns are not permitted. Avoid body, obstacles, and solid boundaries; wrap only when wrap is true. Choose a route toward food without trapping the snake. Use the supplied board state.",
+                "criteria": {
+                  "left": "Left relative to current heading: move south to x=2, y=12.",
+                  "straight": "Straight relative to current heading: move west to x=1, y=11.",
+                  "right": "Right relative to current heading: move north to x=2, y=10."
+                }
+              }
+            }
+          },
+          "payload_sha256": "7320b2c4561cd314ebd789020b91f8fcee694b6df796c0b8f14b94545aa33c43",
+          "started_at": "2026-09-17T03:38:34.154782+00:00",
+          "http_status": 200,
+          "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"straight\",\"confidence\":0.43,\"probabilities\":{\"straight\":0.62,\"right\":0.29,\"left\":0.09}}},\"usage\":{\"input_tokens\":616,\"output_tokens\":38}}",
+          "response": {
+            "model": "jev-1.13.0",
+            "answers": {
+              "move": {
+                "type": "choice",
+                "choice": "straight",
+                "confidence": 0.43,
+                "probabilities": {
+                  "straight": 0.62,
+                  "right": 0.29,
+                  "left": 0.09
+                }
+              }
+            },
+            "usage": {
+              "input_tokens": 616,
+              "output_tokens": 38
+            }
+          },
+          "valid": true,
+          "latency_ms": 349.59
+        }
+      }
+    ],
+    "first_action": "straight",
+    "action": "straight"
+  }
+}

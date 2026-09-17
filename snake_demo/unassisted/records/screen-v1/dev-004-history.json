@@ -1,0 +1,321 @@
+{
+  "job": {
+    "id": "dev-004-history",
+    "state_id": "dev-004",
+    "variant": "history",
+    "order": [
+      "straight",
+      "right",
+      "left"
+    ]
+  },
+  "decision": {
+    "calls": [
+      {
+        "stage": "proposal",
+        "record": {
+          "payload": {
+            "model": "jev-1.13.0",
+            "state": {
+              "board": {
+                "width": 12,
+                "height": 12,
+                "solid_edges": true,
+                "coordinates": "x increases right, y increases down; indices 0 through 11"
+              },
+              "snake_head_to_tail": [
+                [
+                  1,
+                  4
+                ],
+                [
+                  1,
+                  5
+                ],
+                [
+                  1,
+                  6
+                ],
+                [
+                  2,
+                  6
+                ],
+                [
+                  3,
+                  6
+                ],
+                [
+                  4,
+                  6
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  6,
+                  6
+                ]
+              ],
+              "heading": "north",
+              "food": [
+                1,
+                10
+              ],
+              "foods_eaten": 5,
+              "moves_without_food": 13,
+              "previous_observations_and_executed_moves": [
+                {
+                  "observation": {
+                    "board": {
+                      "width": 12,
+                      "height": 12,
+                      "solid_edges": true,
+                      "coordinates": "x increases right, y increases down; indices 0 through 11"
+                    },
+                    "snake_head_to_tail": [
+                      [
+                        3,
+                        6
+                      ],
+                      [
+                        4,
+                        6
+                      ],
+                      [
+                        5,
+                        6
+                      ],
+                      [
+                        6,
+                        6
+                      ],
+                      [
+                        7,
+                        6
+                      ],
+                      [
+                        8,
+                        6
+                      ],
+                      [
+                        9,
+                        6
+                      ],
+                      [
+                        9,
+                        5
+                      ]
+                    ],
+                    "heading": "west",
+                    "food": [
+                      1,
+                      10
+                    ],
+                    "foods_eaten": 5,
+                    "moves_without_food": 9
+                  },
+                  "action": "straight"
+                },
+                {
+                  "observation": {
+                    "board": {
+                      "width": 12,
+                      "height": 12,
+                      "solid_edges": true,
+                      "coordinates": "x increases right, y increases down; indices 0 through 11"
+                    },
+                    "snake_head_to_tail": [
+                      [
+                        2,
+                        6
+                      ],
+                      [
+                        3,
+                        6
+                      ],
+                      [
+                        4,
+                        6
+                      ],
+                      [
+                        5,
+                        6
+                      ],
+                      [
+                        6,
+                        6
+                      ],
+                      [
+                        7,
+                        6
+                      ],
+                      [
+                        8,
+                        6
+                      ],
+                      [
+                        9,
+                        6
+                      ]
+                    ],
+                    "heading": "west",
+                    "food": [
+                      1,
+                      10
+                    ],
+                    "foods_eaten": 5,
+                    "moves_without_food": 10
+                  },
+                  "action": "straight"
+                },
+                {
+                  "observation": {
+                    "board": {
+                      "width": 12,
+                      "height": 12,
+                      "solid_edges": true,
+                      "coordinates": "x increases right, y increases down; indices 0 through 11"
+                    },
+                    "snake_head_to_tail": [
+                      [
+                        1,
+                        6
+                      ],
+                      [
+                        2,
+                        6
+                      ],
+                      [
+                        3,
+                        6
+                      ],
+                      [
+                        4,
+                        6
+                      ],
+                      [
+                        5,
+                        6
+                      ],
+                      [
+                        6,
+                        6
+                      ],
+                      [
+                        7,
+                        6
+                      ],
+                      [
+                        8,
+                        6
+                      ]
+                    ],
+                    "heading": "west",
+                    "food": [
+                      1,
+                      10
+                    ],
+                    "foods_eaten": 5,
+                    "moves_without_food": 11
+                  },
+                  "action": "right"
+                },
+                {
+                  "observation": {
+                    "board": {
+                      "width": 12,
+                      "height": 12,
+                      "solid_edges": true,
+                      "coordinates": "x increases right, y increases down; indices 0 through 11"
+                    },
+                    "snake_head_to_tail": [
+                      [
+                        1,
+                        5
+                      ],
+                      [
+                        1,
+                        6
+                      ],
+                      [
+                        2,
+                        6
+                      ],
+                      [
+                        3,
+                        6
+                      ],
+                      [
+                        4,
+                        6
+                      ],
+                      [
+                        5,
+                        6
+                      ],
+                      [
+                        6,
+                        6
+                      ],
+                      [
+                        7,
+                        6
+                      ]
+                    ],
+                    "heading": "north",
+                    "food": [
+                      1,
+                      10
+                    ],
+                    "foods_eaten": 5,
+                    "moves_without_food": 12
+                  },
+                  "action": "straight"
+                }
+              ]
+            },
+            "questions": {
+              "move": {
+                "type": "choice",
+                "instructions": "Choose the next Snake move. Your priorities are: (1) do not collide on this move; (2) reach the CURRENT food using as few moves as possible; (3) do not circle indefinitely. Food is eaten only when the head enters its cell. Each turn advances exactly one cell. Solid edges kill; touching body kills. The tail cell vacates unless this move eats food. No reverse turn. Infer safety and the route yourself from the observation. All three offered actions are possible commands, not necessarily safe commands.",
+                "criteria": {
+                  "straight": "Continue straight; advance north to (1, 3).",
+                  "right": "Turn right relative to heading; advance east to (2, 4).",
+                  "left": "Turn left relative to heading; advance west to (0, 4)."
+                }
+              }
+            }
+          },
+          "payload_sha256": "4f913adaebd2afebf9777ec3cab3d893f1c1fd28d139f804df092430c7c5342f",
+          "started_at": "2026-09-17T03:38:07.022909+00:00",
+          "http_status": 200,
+          "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"straight\",\"confidence\":0.76,\"probabilities\":{\"left\":0.02,\"straight\":0.84,\"right\":0.14}}},\"usage\":{\"input_tokens\":1251,\"output_tokens\":38}}",
+          "response": {
+            "model": "jev-1.13.0",
+            "answers": {
+              "move": {
+                "type": "choice",
+                "choice": "straight",
+                "confidence": 0.76,
+                "probabilities": {
+                  "left": 0.02,
+                  "straight": 0.84,
+                  "right": 0.14
+                }
+              }
+            },
+            "usage": {
+              "input_tokens": 1251,
+              "output_tokens": 38
+            }
+          },
+          "valid": true,
+          "latency_ms": 393.16
+        }
+      }
+    ],
+    "first_action": "straight",
+    "action": "straight"
+  }
+}

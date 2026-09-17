@@ -1,0 +1,108 @@
+{
+  "job": {
+    "id": "dev-051-egocentric",
+    "state_id": "dev-051",
+    "variant": "egocentric",
+    "order": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "decision": {
+    "calls": [
+      {
+        "stage": "proposal",
+        "record": {
+          "payload": {
+            "model": "jev-1.13.0",
+            "state": {
+              "coordinates": "Head is (0,0), facing positive y. Positive x is your right. Coordinates are cells, not distances or scores.",
+              "board_bounds_inclusive": {
+                "min_x": -6,
+                "max_x": 5,
+                "min_y": -9,
+                "max_y": 2
+              },
+              "solid_edges": true,
+              "snake_head_to_tail": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  -1
+                ],
+                [
+                  0,
+                  -2
+                ],
+                [
+                  0,
+                  -3
+                ],
+                [
+                  0,
+                  -4
+                ],
+                [
+                  -1,
+                  -4
+                ],
+                [
+                  -2,
+                  -4
+                ]
+              ],
+              "food": [
+                5,
+                -6
+              ],
+              "foods_eaten": 4,
+              "moves_without_food": 3
+            },
+            "questions": {
+              "move": {
+                "type": "choice",
+                "instructions": "Choose the next Snake move. Your priorities are: (1) do not collide on this move; (2) reach the CURRENT food using as few moves as possible; (3) do not circle indefinitely. Food is eaten only when the head enters its cell. Each turn advances exactly one cell. Solid edges kill; touching body kills. The tail cell vacates unless this move eats food. No reverse turn. Infer safety and the route yourself from the observation. All three offered actions are possible commands, not necessarily safe commands.",
+                "criteria": {
+                  "left": "Advance one cell to (-1, 0) in the supplied head-relative coordinates.",
+                  "straight": "Advance one cell to (0, 1) in the supplied head-relative coordinates.",
+                  "right": "Advance one cell to (1, 0) in the supplied head-relative coordinates."
+                }
+              }
+            }
+          },
+          "payload_sha256": "c64b521a68a64da71af110fa5c39643357bcd15f66f2f6fca1e9f536eceb6cc9",
+          "started_at": "2026-09-17T03:38:55.179522+00:00",
+          "http_status": 200,
+          "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"right\",\"confidence\":0.28,\"probabilities\":{\"straight\":0.39,\"right\":0.53,\"left\":0.08}}},\"usage\":{\"input_tokens\":631,\"output_tokens\":38}}",
+          "response": {
+            "model": "jev-1.13.0",
+            "answers": {
+              "move": {
+                "type": "choice",
+                "choice": "right",
+                "confidence": 0.28,
+                "probabilities": {
+                  "straight": 0.39,
+                  "right": 0.53,
+                  "left": 0.08
+                }
+              }
+            },
+            "usage": {
+              "input_tokens": 631,
+              "output_tokens": 38
+            }
+          },
+          "valid": true,
+          "latency_ms": 265.2
+        }
+      }
+    ],
+    "first_action": "right",
+    "action": "right"
+  }
+}

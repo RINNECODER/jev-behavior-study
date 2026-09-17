@@ -1,0 +1,63 @@
+{
+  "job": {
+    "id": "dev-033-narrative",
+    "state_id": "dev-033",
+    "variant": "narrative",
+    "order": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "decision": {
+    "calls": [
+      {
+        "stage": "proposal",
+        "record": {
+          "payload": {
+            "model": "jev-1.13.0",
+            "state": "The board is 12 by 12, coordinates 0..11. x increases right and y down. Edges are solid. The snake faces west. Its cells in order from head to tail are: (2,11), (3,11), (4,11), (5,11), (6,11), (7,11). Food is at (4,9). Foods eaten: 3. Moves without food: 22.",
+            "questions": {
+              "move": {
+                "type": "choice",
+                "instructions": "Choose the next Snake move. Your priorities are: (1) do not collide on this move; (2) reach the CURRENT food using as few moves as possible; (3) do not circle indefinitely. Food is eaten only when the head enters its cell. Each turn advances exactly one cell. Solid edges kill; touching body kills. The tail cell vacates unless this move eats food. No reverse turn. Infer safety and the route yourself from the observation. All three offered actions are possible commands, not necessarily safe commands.",
+                "criteria": {
+                  "left": "Turn left relative to heading; advance south to (2, 12).",
+                  "straight": "Continue straight; advance west to (1, 11).",
+                  "right": "Turn right relative to heading; advance north to (2, 10)."
+                }
+              }
+            }
+          },
+          "payload_sha256": "5bf95a467a51b508781c10ade783d1543765d4a7641af5499ddcbd1c04e9dafa",
+          "started_at": "2026-09-17T03:38:22.618178+00:00",
+          "http_status": 200,
+          "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"right\",\"confidence\":0.6,\"probabilities\":{\"left\":0.06,\"straight\":0.2,\"right\":0.74}}},\"usage\":{\"input_tokens\":563,\"output_tokens\":38}}",
+          "response": {
+            "model": "jev-1.13.0",
+            "answers": {
+              "move": {
+                "type": "choice",
+                "choice": "right",
+                "confidence": 0.6,
+                "probabilities": {
+                  "left": 0.06,
+                  "straight": 0.2,
+                  "right": 0.74
+                }
+              }
+            },
+            "usage": {
+              "input_tokens": 563,
+              "output_tokens": 38
+            }
+          },
+          "valid": true,
+          "latency_ms": 306.2
+        }
+      }
+    ],
+    "first_action": "right",
+    "action": "right"
+  }
+}

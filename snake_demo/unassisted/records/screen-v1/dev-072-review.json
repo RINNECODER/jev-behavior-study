@@ -1,0 +1,181 @@
+{
+  "job": {
+    "id": "dev-072-review",
+    "state_id": "dev-072",
+    "variant": "review",
+    "order": [
+      "left",
+      "straight",
+      "right"
+    ]
+  },
+  "decision": {
+    "calls": [
+      {
+        "stage": "proposal",
+        "record": {
+          "payload": {
+            "model": "jev-1.13.0",
+            "state": {
+              "board": {
+                "width": 12,
+                "height": 12,
+                "solid_edges": true,
+                "coordinates": "x increases right, y increases down; indices 0 through 11"
+              },
+              "snake_head_to_tail": [
+                [
+                  1,
+                  4
+                ],
+                [
+                  0,
+                  4
+                ],
+                [
+                  0,
+                  3
+                ],
+                [
+                  1,
+                  3
+                ],
+                [
+                  2,
+                  3
+                ]
+              ],
+              "heading": "east",
+              "food": [
+                0,
+                7
+              ],
+              "foods_eaten": 2,
+              "moves_without_food": 1
+            },
+            "questions": {
+              "move": {
+                "type": "choice",
+                "instructions": "Choose the next Snake move. Your priorities are: (1) do not collide on this move; (2) reach the CURRENT food using as few moves as possible; (3) do not circle indefinitely. Food is eaten only when the head enters its cell. Each turn advances exactly one cell. Solid edges kill; touching body kills. The tail cell vacates unless this move eats food. No reverse turn. Infer safety and the route yourself from the observation. All three offered actions are possible commands, not necessarily safe commands.",
+                "criteria": {
+                  "left": "Turn left relative to heading; advance north to (1, 3).",
+                  "straight": "Continue straight; advance east to (2, 4).",
+                  "right": "Turn right relative to heading; advance south to (1, 5)."
+                }
+              }
+            }
+          },
+          "payload_sha256": "92c2ac23835ea17bec256be52b1d0930d6dd63252d7b64c8dd50ec4e60363af9",
+          "started_at": "2026-09-17T03:37:55.588328+00:00",
+          "http_status": 200,
+          "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"straight\",\"confidence\":0.52,\"probabilities\":{\"straight\":0.68,\"right\":0.27,\"left\":0.05}}},\"usage\":{\"input_tokens\":578,\"output_tokens\":38}}",
+          "response": {
+            "model": "jev-1.13.0",
+            "answers": {
+              "move": {
+                "type": "choice",
+                "choice": "straight",
+                "confidence": 0.52,
+                "probabilities": {
+                  "straight": 0.68,
+                  "right": 0.27,
+                  "left": 0.05
+                }
+              }
+            },
+            "usage": {
+              "input_tokens": 578,
+              "output_tokens": 38
+            }
+          },
+          "valid": true,
+          "latency_ms": 292.39
+        }
+      },
+      {
+        "stage": "review",
+        "record": {
+          "payload": {
+            "model": "jev-1.13.0",
+            "state": {
+              "board": {
+                "width": 12,
+                "height": 12,
+                "solid_edges": true,
+                "coordinates": "x increases right, y increases down; indices 0 through 11"
+              },
+              "snake_head_to_tail": [
+                [
+                  1,
+                  4
+                ],
+                [
+                  0,
+                  4
+                ],
+                [
+                  0,
+                  3
+                ],
+                [
+                  1,
+                  3
+                ],
+                [
+                  2,
+                  3
+                ]
+              ],
+              "heading": "east",
+              "food": [
+                0,
+                7
+              ],
+              "foods_eaten": 2,
+              "moves_without_food": 1,
+              "your_previous_proposal": "straight"
+            },
+            "questions": {
+              "move": {
+                "type": "choice",
+                "instructions": "Choose the next Snake move. Your priorities are: (1) do not collide on this move; (2) reach the CURRENT food using as few moves as possible; (3) do not circle indefinitely. Food is eaten only when the head enters its cell. Each turn advances exactly one cell. Solid edges kill; touching body kills. The tail cell vacates unless this move eats food. No reverse turn. Infer safety and the route yourself from the observation. All three offered actions are possible commands, not necessarily safe commands. A previous independent call proposed the supplied move. It may be wrong. Re-evaluate against the same board and rules; choose your final action. Keep it only if you judge it best. No external correctness feedback is available.",
+                "criteria": {
+                  "left": "Turn left relative to heading; advance north to (1, 3).",
+                  "straight": "Continue straight; advance east to (2, 4).",
+                  "right": "Turn right relative to heading; advance south to (1, 5)."
+                }
+              }
+            }
+          },
+          "payload_sha256": "8a78fd3b78953ffe311ea07bf6f2924a81b061770c110833a73d378a1c3861fc",
+          "started_at": "2026-09-17T03:37:55.880773+00:00",
+          "http_status": 200,
+          "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"straight\",\"confidence\":0.55,\"probabilities\":{\"right\":0.26,\"left\":0.04,\"straight\":0.7}}},\"usage\":{\"input_tokens\":635,\"output_tokens\":38}}",
+          "response": {
+            "model": "jev-1.13.0",
+            "answers": {
+              "move": {
+                "type": "choice",
+                "choice": "straight",
+                "confidence": 0.55,
+                "probabilities": {
+                  "right": 0.26,
+                  "left": 0.04,
+                  "straight": 0.7
+                }
+              }
+            },
+            "usage": {
+              "input_tokens": 635,
+              "output_tokens": 38
+            }
+          },
+          "valid": true,
+          "latency_ms": 315.45
+        }
+      }
+    ],
+    "first_action": "straight",
+    "action": "straight"
+  }
+}

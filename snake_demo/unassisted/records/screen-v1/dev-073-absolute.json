@@ -1,0 +1,91 @@
+{
+  "job": {
+    "id": "dev-073-absolute",
+    "state_id": "dev-073",
+    "variant": "absolute",
+    "order": [
+      "straight",
+      "right",
+      "left"
+    ]
+  },
+  "decision": {
+    "calls": [
+      {
+        "stage": "proposal",
+        "record": {
+          "payload": {
+            "model": "jev-1.13.0",
+            "state": {
+              "board": {
+                "width": 12,
+                "height": 12,
+                "solid_edges": true,
+                "coordinates": "x increases right, y increases down; indices 0 through 11"
+              },
+              "snake_head_to_tail": [
+                [
+                  8,
+                  3
+                ],
+                [
+                  9,
+                  3
+                ],
+                [
+                  9,
+                  2
+                ]
+              ],
+              "heading": "west",
+              "food": [
+                3,
+                7
+              ],
+              "foods_eaten": 0,
+              "moves_without_food": 13
+            },
+            "questions": {
+              "move": {
+                "type": "choice",
+                "instructions": "Choose the next Snake move. Your priorities are: (1) do not collide on this move; (2) reach the CURRENT food using as few moves as possible; (3) do not circle indefinitely. Food is eaten only when the head enters its cell. Each turn advances exactly one cell. Solid edges kill; touching body kills. The tail cell vacates unless this move eats food. No reverse turn. Infer safety and the route yourself from the observation. All three offered actions are possible commands, not necessarily safe commands.",
+                "criteria": {
+                  "west": "Continue straight; advance west to (7, 3).",
+                  "north": "Turn right relative to heading; advance north to (8, 2).",
+                  "south": "Turn left relative to heading; advance south to (8, 4)."
+                }
+              }
+            }
+          },
+          "payload_sha256": "c4b6354474f1310907f4530a26af327638134f1d2c566dc7c5becf7c6ec8b6f1",
+          "started_at": "2026-09-17T03:38:16.670667+00:00",
+          "http_status": 200,
+          "raw_response": "{\"model\":\"jev-1.13.0\",\"answers\":{\"move\":{\"type\":\"choice\",\"choice\":\"west\",\"confidence\":0.32,\"probabilities\":{\"north\":0.14,\"west\":0.55,\"south\":0.31}}},\"usage\":{\"input_tokens\":567,\"output_tokens\":38}}",
+          "response": {
+            "model": "jev-1.13.0",
+            "answers": {
+              "move": {
+                "type": "choice",
+                "choice": "west",
+                "confidence": 0.32,
+                "probabilities": {
+                  "north": 0.14,
+                  "west": 0.55,
+                  "south": 0.31
+                }
+              }
+            },
+            "usage": {
+              "input_tokens": 567,
+              "output_tokens": 38
+            }
+          },
+          "valid": true,
+          "latency_ms": 306.05
+        }
+      }
+    ],
+    "first_action": "straight",
+    "action": "straight"
+  }
+}
