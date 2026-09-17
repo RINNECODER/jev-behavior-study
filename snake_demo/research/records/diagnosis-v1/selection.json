@@ -1,0 +1,8 @@
+{
+  "selected_from": "development only",
+  "variants": {
+    "unassisted": "original",
+    "assisted": "exact"
+  },
+  "rule": "shortest-action count/attempts, legal count/attempts, frozen listed order"
+}
