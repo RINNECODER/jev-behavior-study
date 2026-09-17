@@ -8,3 +8,4 @@ __pycache__/
 behavior-report-app/
 study_snapshot.json
 *.log
+snake_demo/records/live-*/
