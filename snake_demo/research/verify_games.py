@@ -70,7 +70,7 @@ def verify(directory):
     dump(directory/'analysis.json',result)
     if usage:
         with (directory/'per_question.csv').open('w') as f:
-            w=csv.DictWriter(f,fieldnames=list(usage[0]));w.writeheader();w.writerows(usage)
+            w=csv.DictWriter(f,fieldnames=list(usage[0]),lineterminator="\n");w.writeheader();w.writerows(usage)
     dump(directory/'verified_replays.json',replays)
     return result
 

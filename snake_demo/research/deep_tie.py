@@ -27,4 +27,3 @@ def shortest_deep(body,heading,food,size=12,blocked=frozenset(),max_nodes=100000
             if nc<best.get(key,10**9):
                 best[key]=nc;heappush(queue,(nc+h(nb),-nc,next(serial),nb,nd,np))
     return {'distance':None,'path':None,'status':'unreachable','expanded':expanded}
-

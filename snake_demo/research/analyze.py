@@ -76,7 +76,7 @@ def analyze(directory):
     dump(directory/'analysis.json',summary);dump(directory/'selection.json',{'selected_from':'development only','variants':selection,'rule':'shortest-action count/attempts, legal count/attempts, frozen listed order'})
     fields=sorted(set().union(*(r.keys() for r in rows)))
     with (directory/'per_question.csv').open('w') as f:
-        w=csv.DictWriter(f,fieldnames=fields);w.writeheader();w.writerows(rows)
+        w=csv.DictWriter(f,fieldnames=fields,lineterminator="\n");w.writeheader();w.writerows(rows)
     return summary
 
 
