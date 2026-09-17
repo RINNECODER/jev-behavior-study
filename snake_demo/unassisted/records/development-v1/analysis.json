@@ -1,0 +1,998 @@
+{
+  "metrics": {
+    "egocentric": {
+      "episodes": 4,
+      "successes": 2,
+      "success_wilson_95": [
+        0.1500389891521544,
+        0.8499610108478456
+      ],
+      "total_food": 22,
+      "mean_food": 5.5,
+      "endings": {
+        "target_reached": 2,
+        "wall_collision": 2
+      },
+      "stats": {
+        "attempts": 203,
+        "valid_decisions": 203,
+        "legal": 201,
+        "oracle_resolved": 203,
+        "oracle_unknown": 0,
+        "shortest": 197,
+        "first_shortest": 197,
+        "revisions": 0,
+        "review_improved": 0,
+        "review_worsened": 0,
+        "repeated_states": 0,
+        "calls": 203,
+        "valid_calls": 203,
+        "input_tokens": 127303,
+        "output_tokens": 7714
+      },
+      "completed_food_segments": 22,
+      "scored_food_segments": 22,
+      "shortest_food_segments": 21
+    },
+    "absolute": {
+      "episodes": 4,
+      "successes": 3,
+      "success_wilson_95": [
+        0.30064184258241056,
+        0.9544127391902976
+      ],
+      "total_food": 28,
+      "mean_food": 7.0,
+      "endings": {
+        "target_reached": 3,
+        "no_food_limit": 1
+      },
+      "stats": {
+        "attempts": 536,
+        "valid_decisions": 536,
+        "legal": 536,
+        "oracle_resolved": 536,
+        "oracle_unknown": 0,
+        "shortest": 402,
+        "first_shortest": 402,
+        "revisions": 0,
+        "review_improved": 0,
+        "review_worsened": 0,
+        "repeated_states": 26,
+        "calls": 536,
+        "valid_calls": 536,
+        "input_tokens": 316945,
+        "output_tokens": 20368
+      },
+      "completed_food_segments": 28,
+      "scored_food_segments": 28,
+      "shortest_food_segments": 10
+    },
+    "original": {
+      "episodes": 4,
+      "successes": 2,
+      "success_wilson_95": [
+        0.1500389891521544,
+        0.8499610108478456
+      ],
+      "total_food": 25,
+      "mean_food": 6.25,
+      "endings": {
+        "no_food_limit": 1,
+        "target_reached": 2,
+        "body_collision": 1
+      },
+      "stats": {
+        "attempts": 503,
+        "valid_decisions": 503,
+        "legal": 502,
+        "oracle_resolved": 503,
+        "oracle_unknown": 0,
+        "shortest": 362,
+        "first_shortest": 362,
+        "revisions": 0,
+        "review_improved": 0,
+        "review_worsened": 0,
+        "repeated_states": 0,
+        "calls": 503,
+        "valid_calls": 503,
+        "input_tokens": 306775,
+        "output_tokens": 19114
+      },
+      "completed_food_segments": 25,
+      "scored_food_segments": 25,
+      "shortest_food_segments": 11
+    },
+    "narrative": {
+      "episodes": 4,
+      "successes": 4,
+      "success_wilson_95": [
+        0.5101091635454165,
+        1.0
+      ],
+      "total_food": 32,
+      "mean_food": 8.0,
+      "endings": {
+        "target_reached": 4
+      },
+      "stats": {
+        "attempts": 330,
+        "valid_decisions": 330,
+        "legal": 330,
+        "oracle_resolved": 330,
+        "oracle_unknown": 0,
+        "shortest": 300,
+        "first_shortest": 300,
+        "revisions": 0,
+        "review_improved": 0,
+        "review_worsened": 0,
+        "repeated_states": 0,
+        "calls": 330,
+        "valid_calls": 330,
+        "input_tokens": 185079,
+        "output_tokens": 12540
+      },
+      "completed_food_segments": 32,
+      "scored_food_segments": 32,
+      "shortest_food_segments": 22
+    }
+  },
+  "episodes": {
+    "egocentric": [
+      {
+        "id": "egocentric-8101",
+        "seed": 8101,
+        "food": 8,
+        "moves": 80,
+        "outcome": "target_reached",
+        "stats": {
+          "attempts": 80,
+          "valid_decisions": 80,
+          "legal": 80,
+          "oracle_resolved": 80,
+          "oracle_unknown": 0,
+          "shortest": 80,
+          "first_shortest": 80,
+          "revisions": 0,
+          "review_improved": 0,
+          "review_worsened": 0,
+          "repeated_states": 0,
+          "calls": 80,
+          "valid_calls": 80,
+          "input_tokens": 50534,
+          "output_tokens": 3040
+        },
+        "segments": [
+          {
+            "moves": 4,
+            "minimum_at_start": 4
+          },
+          {
+            "moves": 6,
+            "minimum_at_start": 6
+          },
+          {
+            "moves": 5,
+            "minimum_at_start": 5
+          },
+          {
+            "moves": 11,
+            "minimum_at_start": 11
+          },
+          {
+            "moves": 10,
+            "minimum_at_start": 10
+          },
+          {
+            "moves": 21,
+            "minimum_at_start": 21
+          },
+          {
+            "moves": 15,
+            "minimum_at_start": 15
+          },
+          {
+            "moves": 8,
+            "minimum_at_start": 8
+          }
+        ]
+      },
+      {
+        "id": "egocentric-8104",
+        "seed": 8104,
+        "food": 8,
+        "moves": 78,
+        "outcome": "target_reached",
+        "stats": {
+          "attempts": 78,
+          "valid_decisions": 78,
+          "legal": 78,
+          "oracle_resolved": 78,
+          "oracle_unknown": 0,
+          "shortest": 76,
+          "first_shortest": 76,
+          "revisions": 0,
+          "review_improved": 0,
+          "review_worsened": 0,
+          "repeated_states": 0,
+          "calls": 78,
+          "valid_calls": 78,
+          "input_tokens": 49053,
+          "output_tokens": 2964
+        },
+        "segments": [
+          {
+            "moves": 3,
+            "minimum_at_start": 3
+          },
+          {
+            "moves": 4,
+            "minimum_at_start": 4
+          },
+          {
+            "moves": 20,
+            "minimum_at_start": 16
+          },
+          {
+            "moves": 12,
+            "minimum_at_start": 12
+          },
+          {
+            "moves": 8,
+            "minimum_at_start": 8
+          },
+          {
+            "moves": 4,
+            "minimum_at_start": 4
+          },
+          {
+            "moves": 15,
+            "minimum_at_start": 15
+          },
+          {
+            "moves": 12,
+            "minimum_at_start": 12
+          }
+        ]
+      },
+      {
+        "id": "egocentric-8103",
+        "seed": 8103,
+        "food": 5,
+        "moves": 33,
+        "outcome": "wall_collision",
+        "stats": {
+          "attempts": 33,
+          "valid_decisions": 33,
+          "legal": 32,
+          "oracle_resolved": 33,
+          "oracle_unknown": 0,
+          "shortest": 32,
+          "first_shortest": 32,
+          "revisions": 0,
+          "review_improved": 0,
+          "review_worsened": 0,
+          "repeated_states": 0,
+          "calls": 33,
+          "valid_calls": 33,
+          "input_tokens": 20481,
+          "output_tokens": 1254
+        },
+        "segments": [
+          {
+            "moves": 5,
+            "minimum_at_start": 5
+          },
+          {
+            "moves": 1,
+            "minimum_at_start": 1
+          },
+          {
+            "moves": 6,
+            "minimum_at_start": 6
+          },
+          {
+            "moves": 8,
+            "minimum_at_start": 8
+          },
+          {
+            "moves": 12,
+            "minimum_at_start": 12
+          }
+        ]
+      },
+      {
+        "id": "egocentric-8102",
+        "seed": 8102,
+        "food": 1,
+        "moves": 12,
+        "outcome": "wall_collision",
+        "stats": {
+          "attempts": 12,
+          "valid_decisions": 12,
+          "legal": 11,
+          "oracle_resolved": 12,
+          "oracle_unknown": 0,
+          "shortest": 9,
+          "first_shortest": 9,
+          "revisions": 0,
+          "review_improved": 0,
+          "review_worsened": 0,
+          "repeated_states": 0,
+          "calls": 12,
+          "valid_calls": 12,
+          "input_tokens": 7235,
+          "output_tokens": 456
+        },
+        "segments": [
+          {
+            "moves": 9,
+            "minimum_at_start": 9
+          }
+        ]
+      }
+    ],
+    "absolute": [
+      {
+        "id": "absolute-8102",
+        "seed": 8102,
+        "food": 8,
+        "moves": 154,
+        "outcome": "target_reached",
+        "stats": {
+          "attempts": 154,
+          "valid_decisions": 154,
+          "legal": 154,
+          "oracle_resolved": 154,
+          "oracle_unknown": 0,
+          "shortest": 119,
+          "first_shortest": 119,
+          "revisions": 0,
+          "review_improved": 0,
+          "review_worsened": 0,
+          "repeated_states": 0,
+          "calls": 154,
+          "valid_calls": 154,
+          "input_tokens": 91084,
+          "output_tokens": 5852
+        },
+        "segments": [
+          {
+            "moves": 21,
+            "minimum_at_start": 9
+          },
+          {
+            "moves": 13,
+            "minimum_at_start": 11
+          },
+          {
+            "moves": 25,
+            "minimum_at_start": 19
+          },
+          {
+            "moves": 26,
+            "minimum_at_start": 12
+          },
+          {
+            "moves": 15,
+            "minimum_at_start": 7
+          },
+          {
+            "moves": 9,
+            "minimum_at_start": 5
+          },
+          {
+            "moves": 30,
+            "minimum_at_start": 10
+          },
+          {
+            "moves": 15,
+            "minimum_at_start": 11
+          }
+        ]
+      },
+      {
+        "id": "absolute-8104",
+        "seed": 8104,
+        "food": 8,
+        "moves": 152,
+        "outcome": "target_reached",
+        "stats": {
+          "attempts": 152,
+          "valid_decisions": 152,
+          "legal": 152,
+          "oracle_resolved": 152,
+          "oracle_unknown": 0,
+          "shortest": 116,
+          "first_shortest": 116,
+          "revisions": 0,
+          "review_improved": 0,
+          "review_worsened": 0,
+          "repeated_states": 0,
+          "calls": 152,
+          "valid_calls": 152,
+          "input_tokens": 90296,
+          "output_tokens": 5776
+        },
+        "segments": [
+          {
+            "moves": 3,
+            "minimum_at_start": 3
+          },
+          {
+            "moves": 4,
+            "minimum_at_start": 4
+          },
+          {
+            "moves": 24,
+            "minimum_at_start": 16
+          },
+          {
+            "moves": 50,
+            "minimum_at_start": 12
+          },
+          {
+            "moves": 18,
+            "minimum_at_start": 6
+          },
+          {
+            "moves": 19,
+            "minimum_at_start": 7
+          },
+          {
+            "moves": 11,
+            "minimum_at_start": 11
+          },
+          {
+            "moves": 23,
+            "minimum_at_start": 21
+          }
+        ]
+      },
+      {
+        "id": "absolute-8103",
+        "seed": 8103,
+        "food": 4,
+        "moves": 98,
+        "outcome": "no_food_limit",
+        "stats": {
+          "attempts": 98,
+          "valid_decisions": 98,
+          "legal": 98,
+          "oracle_resolved": 98,
+          "oracle_unknown": 0,
+          "shortest": 60,
+          "first_shortest": 60,
+          "revisions": 0,
+          "review_improved": 0,
+          "review_worsened": 0,
+          "repeated_states": 26,
+          "calls": 98,
+          "valid_calls": 98,
+          "input_tokens": 57698,
+          "output_tokens": 3724
+        },
+        "segments": [
+          {
+            "moves": 11,
+            "minimum_at_start": 5
+          },
+          {
+            "moves": 2,
+            "minimum_at_start": 2
+          },
+          {
+            "moves": 7,
+            "minimum_at_start": 7
+          },
+          {
+            "moves": 28,
+            "minimum_at_start": 8
+          }
+        ]
+      },
+      {
+        "id": "absolute-8101",
+        "seed": 8101,
+        "food": 8,
+        "moves": 132,
+        "outcome": "target_reached",
+        "stats": {
+          "attempts": 132,
+          "valid_decisions": 132,
+          "legal": 132,
+          "oracle_resolved": 132,
+          "oracle_unknown": 0,
+          "shortest": 107,
+          "first_shortest": 107,
+          "revisions": 0,
+          "review_improved": 0,
+          "review_worsened": 0,
+          "repeated_states": 0,
+          "calls": 132,
+          "valid_calls": 132,
+          "input_tokens": 77867,
+          "output_tokens": 5016
+        },
+        "segments": [
+          {
+            "moves": 20,
+            "minimum_at_start": 4
+          },
+          {
+            "moves": 6,
+            "minimum_at_start": 6
+          },
+          {
+            "moves": 21,
+            "minimum_at_start": 9
+          },
+          {
+            "moves": 9,
+            "minimum_at_start": 9
+          },
+          {
+            "moves": 32,
+            "minimum_at_start": 10
+          },
+          {
+            "moves": 21,
+            "minimum_at_start": 21
+          },
+          {
+            "moves": 15,
+            "minimum_at_start": 15
+          },
+          {
+            "moves": 8,
+            "minimum_at_start": 8
+          }
+        ]
+      }
+    ],
+    "original": [
+      {
+        "id": "original-8101",
+        "seed": 8101,
+        "food": 4,
+        "moves": 150,
+        "outcome": "no_food_limit",
+        "stats": {
+          "attempts": 150,
+          "valid_decisions": 150,
+          "legal": 150,
+          "oracle_resolved": 150,
+          "oracle_unknown": 0,
+          "shortest": 95,
+          "first_shortest": 95,
+          "revisions": 0,
+          "review_improved": 0,
+          "review_worsened": 0,
+          "repeated_states": 0,
+          "calls": 150,
+          "valid_calls": 150,
+          "input_tokens": 90594,
+          "output_tokens": 5700
+        },
+        "segments": [
+          {
+            "moves": 38,
+            "minimum_at_start": 4
+          },
+          {
+            "moves": 46,
+            "minimum_at_start": 6
+          },
+          {
+            "moves": 5,
+            "minimum_at_start": 5
+          },
+          {
+            "moves": 11,
+            "minimum_at_start": 11
+          }
+        ]
+      },
+      {
+        "id": "original-8102",
+        "seed": 8102,
+        "food": 8,
+        "moves": 136,
+        "outcome": "target_reached",
+        "stats": {
+          "attempts": 136,
+          "valid_decisions": 136,
+          "legal": 136,
+          "oracle_resolved": 136,
+          "oracle_unknown": 0,
+          "shortest": 104,
+          "first_shortest": 104,
+          "revisions": 0,
+          "review_improved": 0,
+          "review_worsened": 0,
+          "repeated_states": 0,
+          "calls": 136,
+          "valid_calls": 136,
+          "input_tokens": 83431,
+          "output_tokens": 5168
+        },
+        "segments": [
+          {
+            "moves": 31,
+            "minimum_at_start": 9
+          },
+          {
+            "moves": 17,
+            "minimum_at_start": 11
+          },
+          {
+            "moves": 19,
+            "minimum_at_start": 19
+          },
+          {
+            "moves": 8,
+            "minimum_at_start": 8
+          },
+          {
+            "moves": 3,
+            "minimum_at_start": 3
+          },
+          {
+            "moves": 16,
+            "minimum_at_start": 8
+          },
+          {
+            "moves": 24,
+            "minimum_at_start": 6
+          },
+          {
+            "moves": 18,
+            "minimum_at_start": 8
+          }
+        ]
+      },
+      {
+        "id": "original-8104",
+        "seed": 8104,
+        "food": 8,
+        "moves": 124,
+        "outcome": "target_reached",
+        "stats": {
+          "attempts": 124,
+          "valid_decisions": 124,
+          "legal": 124,
+          "oracle_resolved": 124,
+          "oracle_unknown": 0,
+          "shortest": 98,
+          "first_shortest": 98,
+          "revisions": 0,
+          "review_improved": 0,
+          "review_worsened": 0,
+          "repeated_states": 0,
+          "calls": 124,
+          "valid_calls": 124,
+          "input_tokens": 75835,
+          "output_tokens": 4712
+        },
+        "segments": [
+          {
+            "moves": 13,
+            "minimum_at_start": 3
+          },
+          {
+            "moves": 16,
+            "minimum_at_start": 4
+          },
+          {
+            "moves": 28,
+            "minimum_at_start": 16
+          },
+          {
+            "moves": 30,
+            "minimum_at_start": 12
+          },
+          {
+            "moves": 2,
+            "minimum_at_start": 2
+          },
+          {
+            "moves": 8,
+            "minimum_at_start": 8
+          },
+          {
+            "moves": 15,
+            "minimum_at_start": 15
+          },
+          {
+            "moves": 12,
+            "minimum_at_start": 12
+          }
+        ]
+      },
+      {
+        "id": "original-8103",
+        "seed": 8103,
+        "food": 5,
+        "moves": 93,
+        "outcome": "body_collision",
+        "stats": {
+          "attempts": 93,
+          "valid_decisions": 93,
+          "legal": 92,
+          "oracle_resolved": 93,
+          "oracle_unknown": 0,
+          "shortest": 65,
+          "first_shortest": 65,
+          "revisions": 0,
+          "review_improved": 0,
+          "review_worsened": 0,
+          "repeated_states": 0,
+          "calls": 93,
+          "valid_calls": 93,
+          "input_tokens": 56915,
+          "output_tokens": 3534
+        },
+        "segments": [
+          {
+            "moves": 15,
+            "minimum_at_start": 5
+          },
+          {
+            "moves": 1,
+            "minimum_at_start": 1
+          },
+          {
+            "moves": 16,
+            "minimum_at_start": 6
+          },
+          {
+            "moves": 32,
+            "minimum_at_start": 8
+          },
+          {
+            "moves": 12,
+            "minimum_at_start": 12
+          }
+        ]
+      }
+    ],
+    "narrative": [
+      {
+        "id": "narrative-8102",
+        "seed": 8102,
+        "food": 8,
+        "moves": 94,
+        "outcome": "target_reached",
+        "stats": {
+          "attempts": 94,
+          "valid_decisions": 94,
+          "legal": 94,
+          "oracle_resolved": 94,
+          "oracle_unknown": 0,
+          "shortest": 82,
+          "first_shortest": 82,
+          "revisions": 0,
+          "review_improved": 0,
+          "review_worsened": 0,
+          "repeated_states": 0,
+          "calls": 94,
+          "valid_calls": 94,
+          "input_tokens": 52515,
+          "output_tokens": 3572
+        },
+        "segments": [
+          {
+            "moves": 21,
+            "minimum_at_start": 9
+          },
+          {
+            "moves": 9,
+            "minimum_at_start": 9
+          },
+          {
+            "moves": 19,
+            "minimum_at_start": 19
+          },
+          {
+            "moves": 8,
+            "minimum_at_start": 8
+          },
+          {
+            "moves": 3,
+            "minimum_at_start": 3
+          },
+          {
+            "moves": 16,
+            "minimum_at_start": 8
+          },
+          {
+            "moves": 5,
+            "minimum_at_start": 5
+          },
+          {
+            "moves": 13,
+            "minimum_at_start": 9
+          }
+        ]
+      },
+      {
+        "id": "narrative-8104",
+        "seed": 8104,
+        "food": 8,
+        "moves": 104,
+        "outcome": "target_reached",
+        "stats": {
+          "attempts": 104,
+          "valid_decisions": 104,
+          "legal": 104,
+          "oracle_resolved": 104,
+          "oracle_unknown": 0,
+          "shortest": 89,
+          "first_shortest": 89,
+          "revisions": 0,
+          "review_improved": 0,
+          "review_worsened": 0,
+          "repeated_states": 0,
+          "calls": 104,
+          "valid_calls": 104,
+          "input_tokens": 58266,
+          "output_tokens": 3952
+        },
+        "segments": [
+          {
+            "moves": 3,
+            "minimum_at_start": 3
+          },
+          {
+            "moves": 16,
+            "minimum_at_start": 4
+          },
+          {
+            "moves": 20,
+            "minimum_at_start": 16
+          },
+          {
+            "moves": 12,
+            "minimum_at_start": 12
+          },
+          {
+            "moves": 17,
+            "minimum_at_start": 7
+          },
+          {
+            "moves": 14,
+            "minimum_at_start": 8
+          },
+          {
+            "moves": 10,
+            "minimum_at_start": 10
+          },
+          {
+            "moves": 12,
+            "minimum_at_start": 12
+          }
+        ]
+      },
+      {
+        "id": "narrative-8103",
+        "seed": 8103,
+        "food": 8,
+        "moves": 62,
+        "outcome": "target_reached",
+        "stats": {
+          "attempts": 62,
+          "valid_decisions": 62,
+          "legal": 62,
+          "oracle_resolved": 62,
+          "oracle_unknown": 0,
+          "shortest": 59,
+          "first_shortest": 59,
+          "revisions": 0,
+          "review_improved": 0,
+          "review_worsened": 0,
+          "repeated_states": 0,
+          "calls": 62,
+          "valid_calls": 62,
+          "input_tokens": 34895,
+          "output_tokens": 2356
+        },
+        "segments": [
+          {
+            "moves": 7,
+            "minimum_at_start": 5
+          },
+          {
+            "moves": 2,
+            "minimum_at_start": 2
+          },
+          {
+            "moves": 7,
+            "minimum_at_start": 7
+          },
+          {
+            "moves": 8,
+            "minimum_at_start": 8
+          },
+          {
+            "moves": 12,
+            "minimum_at_start": 12
+          },
+          {
+            "moves": 10,
+            "minimum_at_start": 10
+          },
+          {
+            "moves": 8,
+            "minimum_at_start": 6
+          },
+          {
+            "moves": 8,
+            "minimum_at_start": 6
+          }
+        ]
+      },
+      {
+        "id": "narrative-8101",
+        "seed": 8101,
+        "food": 8,
+        "moves": 70,
+        "outcome": "target_reached",
+        "stats": {
+          "attempts": 70,
+          "valid_decisions": 70,
+          "legal": 70,
+          "oracle_resolved": 70,
+          "oracle_unknown": 0,
+          "shortest": 70,
+          "first_shortest": 70,
+          "revisions": 0,
+          "review_improved": 0,
+          "review_worsened": 0,
+          "repeated_states": 0,
+          "calls": 70,
+          "valid_calls": 70,
+          "input_tokens": 39403,
+          "output_tokens": 2660
+        },
+        "segments": [
+          {
+            "moves": 4,
+            "minimum_at_start": 4
+          },
+          {
+            "moves": 6,
+            "minimum_at_start": 6
+          },
+          {
+            "moves": 5,
+            "minimum_at_start": 5
+          },
+          {
+            "moves": 11,
+            "minimum_at_start": 11
+          },
+          {
+            "moves": 10,
+            "minimum_at_start": 10
+          },
+          {
+            "moves": 21,
+            "minimum_at_start": 21
+          },
+          {
+            "moves": 8,
+            "minimum_at_start": 8
+          },
+          {
+            "moves": 5,
+            "minimum_at_start": 5
+          }
+        ]
+      }
+    ]
+  },
+  "selected": [
+    "narrative",
+    "absolute"
+  ]
+}
