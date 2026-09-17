@@ -26,3 +26,24 @@ selection tests minimum-number compliance, not route computation. Exact
 verification runs may have zero actual overrides while still relying on code
 assistance on every move. Baseline and model ties can choose different shortest
 paths and consequently receive different future food positions.
+
+## 2026-09-17: bounded route certificates, declared before v2 tests
+
+Long-game seed 4001 stopped at food 15 because the original per-action exact
+solver exhausted its node budget on left, despite finding a six-move right
+route. This is a search-budget failure, not evidence of an unavoidable collision.
+
+Implement a separate v2 planner: solve for the optimum D once, then exhaust only
+paths of length <=D for each candidate first move. A candidate with no such path
+gets a certified lower bound D+1, NOT a claim of unreachability. Root search and
+bounded searches retain the 100,000-node limit and explicit unknown status.
+Compare its optimal-action sets with v1 on the frozen 120-state corpus. Re-test
+code-only on all 16 previously selected long-game seeds as DEVELOPMENT, retaining
+v1 failures. Test code-only on fresh long-game seeds 5001–5016. These are tests
+of code, not Jev. If any remain unresolved or fail, retain them as limits.
+
+Only if the 16 fresh code-only long games pass will this extension run a fresh
+16-seed Jev selection test with the new certified lower-bound facts, using seeds
+6001–6016, 24-food target, 600 moves, 50 without food. No verifier replacement
+will be used in those model games. Report this conditional design and assistance;
+a supplied lower bound is a planner result, not Jev computing a route.
