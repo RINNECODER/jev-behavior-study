@@ -1,0 +1,98 @@
+[
+  {
+    "path": "records/pilot-v2/destination-direct-paused.json",
+    "label": "pilot-v2 \u00b7 destination-direct-paused \u00b7 collision"
+  },
+  {
+    "path": "records/pilot-v2/destination-direct-realtime.json",
+    "label": "pilot-v2 \u00b7 destination-direct-realtime \u00b7 collision"
+  },
+  {
+    "path": "records/pilot-v2/destination-maneuver-paused.json",
+    "label": "pilot-v2 \u00b7 destination-maneuver-paused \u00b7 collision"
+  },
+  {
+    "path": "records/pilot-v2/destination-maneuver-realtime.json",
+    "label": "pilot-v2 \u00b7 destination-maneuver-realtime \u00b7 collision"
+  },
+  {
+    "path": "records/pilot-v2/explore-direct-paused.json",
+    "label": "pilot-v2 \u00b7 explore-direct-paused \u00b7 collision"
+  },
+  {
+    "path": "records/pilot-v2/explore-direct-realtime.json",
+    "label": "pilot-v2 \u00b7 explore-direct-realtime \u00b7 collision"
+  },
+  {
+    "path": "records/pilot-v2/explore-maneuver-paused.json",
+    "label": "pilot-v2 \u00b7 explore-maneuver-paused \u00b7 collision"
+  },
+  {
+    "path": "records/pilot-v2/explore-maneuver-realtime.json",
+    "label": "pilot-v2 \u00b7 explore-maneuver-realtime \u00b7 collision"
+  },
+  {
+    "path": "records/pilot-v2/delivery-direct-paused.json",
+    "label": "pilot-v2 \u00b7 delivery-direct-paused \u00b7 collision"
+  },
+  {
+    "path": "records/pilot-v2/delivery-direct-realtime.json",
+    "label": "pilot-v2 \u00b7 delivery-direct-realtime \u00b7 collision"
+  },
+  {
+    "path": "records/pilot-v2/delivery-maneuver-paused.json",
+    "label": "pilot-v2 \u00b7 delivery-maneuver-paused \u00b7 time_limit"
+  },
+  {
+    "path": "records/pilot-v2/delivery-maneuver-realtime.json",
+    "label": "pilot-v2 \u00b7 delivery-maneuver-realtime \u00b7 time_limit"
+  },
+  {
+    "path": "records/pilot-v1/destination-direct-paused.json",
+    "label": "pilot-v1 \u00b7 destination-direct-paused \u00b7 collision"
+  },
+  {
+    "path": "records/pilot-v1/destination-direct-realtime.json",
+    "label": "pilot-v1 \u00b7 destination-direct-realtime \u00b7 collision"
+  },
+  {
+    "path": "records/pilot-v1/destination-maneuver-paused.json",
+    "label": "pilot-v1 \u00b7 destination-maneuver-paused \u00b7 collision"
+  },
+  {
+    "path": "records/pilot-v1/destination-maneuver-realtime.json",
+    "label": "pilot-v1 \u00b7 destination-maneuver-realtime \u00b7 collision"
+  },
+  {
+    "path": "records/pilot-v1/explore-direct-paused.json",
+    "label": "pilot-v1 \u00b7 explore-direct-paused \u00b7 collision"
+  },
+  {
+    "path": "records/pilot-v1/explore-direct-realtime.json",
+    "label": "pilot-v1 \u00b7 explore-direct-realtime \u00b7 collision"
+  },
+  {
+    "path": "records/pilot-v1/explore-maneuver-paused.json",
+    "label": "pilot-v1 \u00b7 explore-maneuver-paused \u00b7 collision"
+  },
+  {
+    "path": "records/pilot-v1/explore-maneuver-realtime.json",
+    "label": "pilot-v1 \u00b7 explore-maneuver-realtime \u00b7 collision"
+  },
+  {
+    "path": "records/pilot-v1/delivery-direct-paused.json",
+    "label": "pilot-v1 \u00b7 delivery-direct-paused \u00b7 collision"
+  },
+  {
+    "path": "records/pilot-v1/delivery-direct-realtime.json",
+    "label": "pilot-v1 \u00b7 delivery-direct-realtime \u00b7 collision"
+  },
+  {
+    "path": "records/pilot-v1/delivery-maneuver-paused.json",
+    "label": "pilot-v1 \u00b7 delivery-maneuver-paused \u00b7 collision"
+  },
+  {
+    "path": "records/pilot-v1/delivery-maneuver-realtime.json",
+    "label": "pilot-v1 \u00b7 delivery-maneuver-realtime \u00b7 collision"
+  }
+]

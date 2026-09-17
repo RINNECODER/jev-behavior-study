@@ -1,0 +1,2 @@
+# Preserve the vendored upstream file byte-for-byte, including its indentation.
+vendor/three.module.js -whitespace

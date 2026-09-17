@@ -1,0 +1,96 @@
+{
+  "started": "2026-09-17T04:38:10.598Z",
+  "seed": 42,
+  "hashes": {
+    "engine.mjs": "079c382063ebc04418ce593d063164fa13c59c74671a8dfe66b435ceb3657ea3",
+    "runner.mjs": "54f5c1eda016a5ea3016e63df2c0ff9307b1d0173c526d3a9c5bbe5a8f9b8604",
+    "PROTOCOL.md": "f644c0bc5da6c86842d3f36e89456f0a59cf7e10ce78aa5f21fc86258cb7b251",
+    "server.py": "46c3504eb2c0bc9b127e7f24c93ee98d69a7524ccf93a6095cd1ccdd89653345"
+  },
+  "episodes": [
+    {
+      "seed": 42,
+      "challenge": "destination",
+      "driver": "direct",
+      "timing": "paused",
+      "maxDecisions": 160
+    },
+    {
+      "seed": 42,
+      "challenge": "destination",
+      "driver": "direct",
+      "timing": "realtime",
+      "maxDecisions": 160
+    },
+    {
+      "seed": 42,
+      "challenge": "destination",
+      "driver": "maneuver",
+      "timing": "paused",
+      "maxDecisions": 160
+    },
+    {
+      "seed": 42,
+      "challenge": "destination",
+      "driver": "maneuver",
+      "timing": "realtime",
+      "maxDecisions": 160
+    },
+    {
+      "seed": 42,
+      "challenge": "explore",
+      "driver": "direct",
+      "timing": "paused",
+      "maxDecisions": 160
+    },
+    {
+      "seed": 42,
+      "challenge": "explore",
+      "driver": "direct",
+      "timing": "realtime",
+      "maxDecisions": 160
+    },
+    {
+      "seed": 42,
+      "challenge": "explore",
+      "driver": "maneuver",
+      "timing": "paused",
+      "maxDecisions": 160
+    },
+    {
+      "seed": 42,
+      "challenge": "explore",
+      "driver": "maneuver",
+      "timing": "realtime",
+      "maxDecisions": 160
+    },
+    {
+      "seed": 42,
+      "challenge": "delivery",
+      "driver": "direct",
+      "timing": "paused",
+      "maxDecisions": 160
+    },
+    {
+      "seed": 42,
+      "challenge": "delivery",
+      "driver": "direct",
+      "timing": "realtime",
+      "maxDecisions": 160
+    },
+    {
+      "seed": 42,
+      "challenge": "delivery",
+      "driver": "maneuver",
+      "timing": "paused",
+      "maxDecisions": 160
+    },
+    {
+      "seed": 42,
+      "challenge": "delivery",
+      "driver": "maneuver",
+      "timing": "realtime",
+      "maxDecisions": 160
+    }
+  ]
+}

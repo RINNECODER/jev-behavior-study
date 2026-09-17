@@ -3,7 +3,7 @@
 **A browsable field guide to Jev 1.13.0:** where explicit questions work, where
 small changes alter answers, and where harder tasks expose failures.
 
-**11,621 text-study requests** · **3 Snake studies** · **6 detailed reports**
+**11,621 text-study requests** · **3 Snake studies** · **3D City lab** · **7 detailed reports**
 
 Live API observations from September 16–17, 2026 (UTC). Independent, AI-assisted research.
 
@@ -15,6 +15,24 @@ Live API observations from September 16–17, 2026 (UTC). Independent, AI-assist
 >
 > These are synthetic, task-specific results—not an official benchmark or an
 > overall model score. Repeated calls are not independent new problems.
+
+## Watch Jev drive a 3D city
+
+Compare **real time versus paused decisions**, direct steering/pedals versus
+explicitly assisted maneuvers, and destination, exploration and delivery tasks.
+The viewer includes all **24 recorded pilot episodes**, live local driving,
+camera controls, replay scrubbing and exact **tokens per question**.
+
+The corrected pilot completed **0/12 full tasks**. Direct control chose straight
+in all **522 steering calls**. An initial traffic-following flaw was corrected;
+its original traces remain published separately. One seed and one episode per
+condition do not establish a general driving score. Native image driving is
+marked unavailable pending a verified image interface.
+
+**[Open City lab](https://rinnecoder.github.io/jev-behavior-study/city_demo/)** ·
+[Full findings and limitations](city_demo/REPORT.md) ·
+[Run live locally](city_demo/README.md) ·
+[Every question’s token usage](city_demo/records/pilot-v2/per-question.csv)
 
 ## Unassisted Snake: what actually improved?
 
