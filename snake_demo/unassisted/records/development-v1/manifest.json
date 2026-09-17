@@ -1,0 +1,94 @@
+{
+  "jobs": [
+    [
+      "egocentric",
+      8101
+    ],
+    [
+      "absolute",
+      8102
+    ],
+    [
+      "original",
+      8101
+    ],
+    [
+      "absolute",
+      8104
+    ],
+    [
+      "narrative",
+      8102
+    ],
+    [
+      "egocentric",
+      8104
+    ],
+    [
+      "absolute",
+      8103
+    ],
+    [
+      "narrative",
+      8104
+    ],
+    [
+      "absolute",
+      8101
+    ],
+    [
+      "original",
+      8102
+    ],
+    [
+      "narrative",
+      8103
+    ],
+    [
+      "original",
+      8104
+    ],
+    [
+      "egocentric",
+      8103
+    ],
+    [
+      "original",
+      8103
+    ],
+    [
+      "narrative",
+      8101
+    ],
+    [
+      "egocentric",
+      8102
+    ]
+  ],
+  "phase": "development_games",
+  "selection": {
+    "source": "screen-v1",
+    "selected": [
+      "egocentric",
+      "narrative",
+      "absolute"
+    ]
+  },
+  "variants": [
+    "original",
+    "egocentric",
+    "narrative",
+    "absolute"
+  ],
+  "seeds": [
+    8101,
+    8102,
+    8103,
+    8104
+  ],
+  "target": 8,
+  "max_steps": 200,
+  "starvation": 50,
+  "workers": 4,
+  "prepared_at": "2026-09-17T03:40:15.258319+00:00"
+}
